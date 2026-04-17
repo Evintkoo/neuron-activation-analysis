@@ -39,6 +39,10 @@ impl StimulusSet {
     pub fn len(&self) -> usize {
         self.stimuli.len()
     }
+
+    pub fn is_empty(&self) -> bool {
+        self.stimuli.is_empty()
+    }
 }
 
 #[cfg(test)]
