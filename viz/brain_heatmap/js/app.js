@@ -11,5 +11,6 @@ fetch('data/viz_data.json')
         initOverlay(data);
     })
     .catch(err => {
+        console.error('Failed to load viz data:', err);
         document.getElementById('status').textContent = 'Error: ' + err.message;
     });

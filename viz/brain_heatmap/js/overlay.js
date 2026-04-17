@@ -6,6 +6,7 @@ export function initOverlay(vizData) {
 }
 
 function renderPanel(vizData) {
+    if (!vizData?.theory_fit) return;
     const { dct_score, gwt_score, fep_score, iit_score } = vizData.theory_fit;
     const scores = { DCT: dct_score, GWT: gwt_score, FEP: fep_score, IIT: iit_score };
     const winner = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
