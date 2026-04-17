@@ -12,3 +12,6 @@ pub use bootstrap::bootstrap_ci;
 
 pub mod bonferroni;
 pub use bonferroni::bonferroni_correct;
+
+pub mod report;
+pub use report::{ExperimentReport, SuccessCriteria};
