@@ -18,6 +18,10 @@ function renderTheoryChart(fit) {
     const { dct_score, gwt_score, fep_score, iit_score } = fit;
     const labels = ['DCT', 'GWT', 'FEP', 'IIT'];
     const scores = [dct_score, gwt_score, fep_score, iit_score];
+    if (scores.some(s => typeof s !== 'number' || isNaN(s))) {
+        console.error('Invalid theory_fit data: non-numeric scores');
+        return;
+    }
     const maxIdx = scores.indexOf(Math.max(...scores));
     const bgColors = scores.map((_, i) =>
         i === maxIdx ? 'rgba(240,192,64,0.85)' : 'rgba(124,156,191,0.6)'
@@ -42,6 +46,10 @@ function renderStats(data) {
     if (!data?.theory_fit) return;
     const { dct_score, gwt_score, fep_score, iit_score } = data.theory_fit;
     const allScores = [dct_score, gwt_score, fep_score, iit_score];
+    if (allScores.some(s => typeof s !== 'number' || isNaN(s))) {
+        console.error('Invalid theory_fit data in renderStats');
+        return;
+    }
     const sorted = [...allScores].sort((a, b) => b - a);
     const margin = sorted[0] - sorted[1];
     const winnerName = ['DCT', 'GWT', 'FEP', 'IIT'][allScores.indexOf(sorted[0])];
@@ -88,7 +96,8 @@ function renderContrastiveDelta(deltas) {
     function render(idx) {
         const delta = layers[idx];
         if (!delta) return;
-        label.textContent = layerNames[idx] + ' delta — L2: ' + entry.l2_norm.toFixed(4);
+        const l2 = typeof entry.l2_norm === 'number' ? entry.l2_norm.toFixed(4) : 'N/A';
+        label.textContent = layerNames[idx] + ' delta — L2: ' + l2;
         const shown = delta.slice(0, 32);
         const maxAbs = Math.max(...shown.map(Math.abs), 1e-10);
         const spans = shown.map((v, i) => {
