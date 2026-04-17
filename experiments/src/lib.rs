@@ -1,6 +1,10 @@
 pub mod content_type;
 pub mod stimulus;
 pub mod synthetic;
+pub mod model;
+pub mod mock_model;
 pub use content_type::ContentType;
 pub use stimulus::{Stimulus, StimulusSet};
 pub use synthetic::SyntheticGenerator;
+pub use model::{ActivationProbes, TribeModel};
+pub use mock_model::MockTribeModel;
