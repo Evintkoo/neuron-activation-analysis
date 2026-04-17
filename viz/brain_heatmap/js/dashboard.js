@@ -120,5 +120,52 @@ function renderContrastiveDelta(deltas) {
 }
 
 function initExplorer() {
-    // Stub — stimulus explorer wired in Task 10
+    const btn = document.getElementById('explorer-btn');
+    const input = document.getElementById('explorer-input');
+    if (!btn || !input) return;
+
+    btn.addEventListener('click', () => runExplorer(input.value.trim()));
+    input.addEventListener('keydown', e => {
+        if (e.key === 'Enter') runExplorer(input.value.trim());
+    });
+}
+
+function runExplorer(text) {
+    if (!text) return;
+    const label = document.getElementById('explorer-label');
+    const display = document.getElementById('explorer-display');
+    if (!label || !display) return;
+    label.textContent = 'Running...';
+    display.replaceChildren();
+
+    fetch('/api/explore', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text }),
+    })
+    .then(r => r.json())
+    .then(result => {
+        if (!result.mid || !Array.isArray(result.mid)) {
+            label.textContent = 'Invalid response from server';
+            return;
+        }
+        const layerData = result.mid;
+        const maxVal = Math.max(...layerData.map(Math.abs), 1e-10);
+        label.textContent = 'Mid-layer activation for: "' + result.input_text + '"';
+        const spans = layerData.slice(0, 32).map((v, i) => {
+            const t = (v / maxVal + 1) / 2;
+            const [r, g, b] = coolwarmRgb(t);
+            const span = document.createElement('span');
+            span.style.background =
+                'rgb(' + [r, g, b].map(x => Math.round(x * 255)).join(',') + ')';
+            span.style.color = (t > 0.35 && t < 0.65) ? '#333' : '#fff';
+            span.textContent = 'N' + i + ': ' + v.toFixed(3);
+            return span;
+        });
+        display.replaceChildren(...spans);
+    })
+    .catch(err => {
+        console.error('Explorer error:', err);
+        if (label) label.textContent = 'Error: ' + err.message;
+    });
 }

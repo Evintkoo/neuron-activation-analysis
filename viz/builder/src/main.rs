@@ -3,6 +3,20 @@ mod export;
 
 use std::{fs, io::Read, path::{Path, PathBuf}};
 use tiny_http::{Header, Response, Server};
+use experiments::{MockTribeModel, TribeModel};
+
+fn text_to_input_vec(text: &str) -> Vec<f64> {
+    let bytes = text.as_bytes();
+    (0..64).map(|i: usize| {
+        let mut h: u64 = 0xcbf29ce484222325u64.wrapping_add(i as u64 * 0x100000001b3);
+        for (j, &b) in bytes.iter().enumerate() {
+            h ^= b as u64;
+            h = h.wrapping_mul(0x100000001b3);
+            h ^= (j as u64).wrapping_mul(0x9e3779b97f4a7c15);
+        }
+        (h as i64 as f64) / (i64::MAX as f64)
+    }).collect()
+}
 
 fn main() {
     let viz_dir = Path::new("viz/brain_heatmap");
@@ -41,7 +55,33 @@ fn main() {
     println!("\nServing at http://{}", addr);
     println!("Open http://{}/index.html in your browser\nPress Ctrl+C to stop.\n", addr);
 
-    for request in server.incoming_requests() {
+    for mut request in server.incoming_requests() {
+        // POST /api/explore — live stimulus fingerprint
+        if request.method() == &tiny_http::Method::Post
+            && request.url().starts_with("/api/explore")
+        {
+            let mut body = String::new();
+            request.as_reader().read_to_string(&mut body).unwrap_or(0);
+            let text = serde_json::from_str::<serde_json::Value>(&body)
+                .ok()
+                .and_then(|v| v["text"].as_str().map(|s| s.to_string()))
+                .unwrap_or_default();
+            let input = text_to_input_vec(&text);
+            let model = MockTribeModel::new(128, 64);
+            let probes = model.forward(&input);
+            let result = serde_json::json!({
+                "early": probes.early,
+                "mid": probes.mid,
+                "late": probes.late,
+                "input_text": text,
+            });
+            let json = result.to_string();
+            let header = Header::from_bytes(&b"Content-Type"[..], b"application/json")
+                .expect("invalid header");
+            let _ = request.respond(Response::from_string(json).with_header(header));
+            continue;
+        }
+
         let url = request.url().to_string();
         let rel = url.trim_start_matches('/');
         let rel = if rel.is_empty() { "index.html" } else { rel };
@@ -123,5 +163,26 @@ mod tests {
         let p = PathBuf::from("../../secret.txt");
         let has_parent = p.components().any(|c| matches!(c, std::path::Component::ParentDir));
         assert!(has_parent, ".. components should be detected");
+    }
+
+    #[test]
+    fn text_to_vec_produces_64_floats_in_range() {
+        let v = text_to_input_vec("hello world");
+        assert_eq!(v.len(), 64);
+        assert!(v.iter().all(|&x| x >= -1.0 && x <= 1.0));
+    }
+
+    #[test]
+    fn same_text_produces_same_vec() {
+        let a = text_to_input_vec("test input");
+        let b = text_to_input_vec("test input");
+        assert_eq!(a, b);
+    }
+
+    #[test]
+    fn different_text_produces_different_vec() {
+        let a = text_to_input_vec("hello");
+        let b = text_to_input_vec("world");
+        assert_ne!(a, b);
     }
 }

@@ -55,6 +55,25 @@
         <div id="delta-display"></div>
     </div>
 
+    <h2>Stimulus Explorer</h2>
+    <div class="card">
+        <label for="explorer-input">Enter any text (hashed into 64-dim input via mock model)</label>
+        <div style="display:flex;gap:8px;margin:8px 0;">
+            <input type="text" id="explorer-input"
+                   placeholder="Type something..."
+                   style="flex:1;background:#252545;border:1px solid #333;
+                          color:#e0e0e0;padding:8px;border-radius:4px;">
+            <button id="explorer-btn"
+                    style="background:#7c9cbf;color:#0d0d0d;border:none;
+                           padding:8px 16px;border-radius:4px;cursor:pointer;">
+                Run
+            </button>
+        </div>
+        <div id="explorer-label" style="font-size:12px;color:#7c9cbf;margin-bottom:6px;"></div>
+        <div id="explorer-display" style="display:flex;flex-wrap:wrap;gap:2px;
+             font-size:11px;font-family:monospace;margin-top:4px;"></div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script type="module" src="js/dashboard.js"></script>
 </body>
