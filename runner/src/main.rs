@@ -5,7 +5,7 @@ use experiments::{
     TheoryFitReport,
 };
 use analysis::{
-    bootstrap_ci, bonferroni_correct, one_way_anova, permutation_test,
+    bootstrap_ci, bonferroni_correct, one_way_anova,
     ContrastiveDelta, ExperimentReport,
 };
 
@@ -67,19 +67,34 @@ fn main() {
     let anova = one_way_anova(&groups);
     println!("    ANOVA: F={:.3}, p={:.6}", anova.f_stat, anova.p_value);
 
-    let image_records: Vec<_> = records.iter().filter(|r| r.content_type == ContentType::ImageVisual).collect();
-    let emotional_records: Vec<_> = records.iter().filter(|r| r.content_type == ContentType::Emotional).collect();
-    let contrastive_delta = ContrastiveDelta::compute(image_records[0], emotional_records[0]);
+    // B3 ThreatSafety vs B4 Novelty: canonical contrastive pair from spec
+    // generate_all(50) guarantees 50 records per type, so [0] is safe
+    let threat_records: Vec<_> = records.iter().filter(|r| r.content_type == ContentType::ThreatSafety).collect();
+    let novelty_records: Vec<_> = records.iter().filter(|r| r.content_type == ContentType::Novelty).collect();
+    assert!(!threat_records.is_empty() && !novelty_records.is_empty(), "missing records for contrastive pair");
+    let contrastive_delta = ContrastiveDelta::compute(threat_records[0], novelty_records[0]);
+    println!("    Contrastive delta (Threat vs Novelty) L2: {:.4}", contrastive_delta.l2_norm());
 
-    let silhouette_samples = vec![cluster_result.silhouette_score; 100];
+    // Bootstrap CI: run k-means multiple times with different seeds to get real variance
+    let silhouette_samples: Vec<f64> = (0u64..20)
+        .map(|i| KMeansClusterer::run(&reduced, 13, 42 + i).silhouette_score)
+        .collect();
     let (ci_lo, ci_hi) = bootstrap_ci(&silhouette_samples, 1000, 0.95, 42);
     println!("    Silhouette 95% CI: [{:.4}, {:.4}]", ci_lo, ci_hi);
 
-    let p_values = vec![anova.p_value; 13];
+    // Bonferroni: per-group ANOVA p-values (each group vs overall mean, approximated as one-way with 2 groups)
+    let p_values: Vec<f64> = ContentType::all().iter().map(|&ct| {
+        let group: Vec<f64> = records.iter()
+            .filter(|r| r.content_type == ct)
+            .map(|r| r.early.iter().map(|v| v.abs()).sum::<f64>() / r.early.len() as f64)
+            .collect();
+        let rest: Vec<f64> = records.iter()
+            .filter(|r| r.content_type != ct)
+            .map(|r| r.early.iter().map(|v| v.abs()).sum::<f64>() / r.early.len() as f64)
+            .collect();
+        one_way_anova(&[group, rest]).p_value
+    }).collect();
     let bonferroni = bonferroni_correct(&p_values, 0.05);
-
-    // suppress unused import warning for permutation_test
-    let _ = permutation_test;
 
     let report = ExperimentReport {
         theory_fit,
@@ -90,7 +105,7 @@ fn main() {
         bonferroni_significant: bonferroni,
     };
 
-    std::fs::create_dir_all("results").ok();
+    std::fs::create_dir_all("results").expect("failed to create results directory");
     report.write_to_file("results/experiment_results.json").expect("failed to write results");
     println!("\nResults written to results/experiment_results.json");
 
