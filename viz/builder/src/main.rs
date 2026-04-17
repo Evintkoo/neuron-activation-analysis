@@ -45,7 +45,13 @@ fn main() {
         let url = request.url().to_string();
         let rel = url.trim_start_matches('/');
         let rel = if rel.is_empty() { "index.html" } else { rel };
-        let file_path: PathBuf = viz_dir.join(rel);
+        // Reject paths containing .. to prevent directory traversal
+        let rel_path = PathBuf::from(rel);
+        if rel_path.components().any(|c| matches!(c, std::path::Component::ParentDir)) {
+            let _ = request.respond(Response::from_string("403 Forbidden").with_status_code(403));
+            continue;
+        }
+        let file_path: PathBuf = viz_dir.join(rel_path);
 
         let response = if file_path.is_file() {
             match fs::read(&file_path) {
@@ -109,5 +115,13 @@ mod tests {
     #[test]
     fn mime_type_unknown_defaults_to_octet() {
         assert_eq!(mime_for_ext("xyz"), "application/octet-stream");
+    }
+
+    #[test]
+    fn path_with_parent_dir_components_is_rejected() {
+        use std::path::PathBuf;
+        let p = PathBuf::from("../../secret.txt");
+        let has_parent = p.components().any(|c| matches!(c, std::path::Component::ParentDir));
+        assert!(has_parent, ".. components should be detected");
     }
 }
