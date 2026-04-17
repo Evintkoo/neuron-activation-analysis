@@ -1,3 +1,5 @@
+pub mod pca;
+pub use pca::PcaReducer;
 pub mod content_type;
 pub mod stimulus;
 pub mod synthetic;
