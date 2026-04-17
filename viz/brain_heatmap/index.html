@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activation Cartography — Brain Viewer</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: #0d0d0d; color: #e0e0e0;
+               font-family: system-ui, sans-serif;
+               display: flex; height: 100vh; overflow: hidden; }
+        #sidebar { width: 280px; min-width: 280px; padding: 20px;
+                   background: #1a1a2e; overflow-y: auto;
+                   display: flex; flex-direction: column; gap: 16px; }
+        #canvas-container { flex: 1; position: relative; }
+        canvas { width: 100% !important; height: 100% !important; display: block; }
+        h1 { font-size: 14px; color: #7c9cbf; letter-spacing: 1px;
+             text-transform: uppercase; }
+        h2 { font-size: 12px; color: #5a7a9a; text-transform: uppercase;
+             letter-spacing: 0.5px; margin-bottom: 6px; }
+        label { font-size: 13px; color: #aaa; display: block; margin-bottom: 4px; }
+        select, input[type=range] { width: 100%; background: #252545;
+            border: 1px solid #333; color: #e0e0e0;
+            padding: 6px; border-radius: 4px; }
+        .section { border-top: 1px solid #2a2a4a; padding-top: 14px; }
+        #theory-panel { font-size: 12px; }
+        .theory-row { display: flex; justify-content: space-between;
+                      padding: 3px 0; border-bottom: 1px solid #1e1e3a; }
+        .theory-name { color: #7c9cbf; }
+        .theory-score { font-family: monospace; }
+        .theory-winner { color: #f0c040; font-weight: bold; }
+        #legend { display: flex; align-items: center; gap: 8px; font-size: 11px; }
+        #legend-bar { height: 12px; flex: 1; border-radius: 3px;
+            background: linear-gradient(to right,
+                #054f8f, #74add1, #dcdcdc, #d9340d, #680016); }
+        #status { font-size: 11px; color: #5a5a8a; margin-top: auto; }
+        a { color: #7c9cbf; font-size: 12px; text-decoration: none; }
+        a:hover { color: #9abcdf; }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h1>Activation Cartography</h1>
+        <div class="section">
+            <h2>Content Type</h2>
+            <label for="type-select">Select type</label>
+            <select id="type-select"></select>
+        </div>
+        <div class="section">
+            <h2>Processing Layer</h2>
+            <label for="layer-slider" id="layer-label">Mid (layer 1)</label>
+            <input type="range" id="layer-slider" min="0" max="2" value="1" step="1">
+        </div>
+        <div class="section">
+            <h2>Theory Overlay</h2>
+            <label>
+                <input type="checkbox" id="overlay-toggle"> Show theory scores
+            </label>
+            <div id="theory-panel"></div>
+        </div>
+        <div class="section">
+            <h2>Color Scale</h2>
+            <div id="legend">
+                <span>Low</span>
+                <div id="legend-bar"></div>
+                <span>High</span>
+            </div>
+        </div>
+        <div id="status">Loading data...</div>
+        <a href="dashboard.html">Analysis Dashboard</a>
+    </div>
+    <div id="canvas-container">
+        <canvas id="three-canvas"></canvas>
+    </div>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.158.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activation Cartography — Dashboard</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: #0d0d0d; color: #e0e0e0;
+               font-family: system-ui, sans-serif;
+               padding: 32px; max-width: 960px; margin: 0 auto; }
+        h1 { font-size: 18px; color: #7c9cbf; margin-bottom: 24px;
+             text-transform: uppercase; letter-spacing: 1px; }
+        h2 { font-size: 13px; color: #5a7a9a; text-transform: uppercase;
+             letter-spacing: 0.5px; margin-bottom: 12px; margin-top: 32px; }
+        .card { background: #1a1a2e; border-radius: 8px;
+                padding: 20px; margin-bottom: 20px; }
+        .chart-wrap { position: relative; height: 280px; }
+        .stat-row { display: flex; justify-content: space-between;
+                    padding: 6px 0; border-bottom: 1px solid #1e1e3a;
+                    font-size: 13px; }
+        .stat-label { color: #aaa; }
+        .stat-value { font-family: monospace; color: #e0e0e0; }
+        .pass { color: #4caf50; }
+        .fail { color: #ef5350; }
+        #delta-label { font-size: 12px; color: #7c9cbf;
+                       text-align: center; margin-top: 8px; }
+        #delta-slider { width: 100%; margin: 8px 0; }
+        #delta-display { display: flex; flex-wrap: wrap; gap: 2px;
+                         font-size: 11px; font-family: monospace;
+                         margin-top: 8px; }
+        #delta-display span { padding: 2px 4px; border-radius: 2px; }
+        a { color: #7c9cbf; font-size: 12px; text-decoration: none; }
+        a:hover { color: #9abcdf; }
+    </style>
+</head>
+<body>
+    <h1>Activation Cartography — Dashboard</h1>
+    <a href="index.html">Brain Viewer</a>
+
+    <h2>Theory Fit Scores</h2>
+    <div class="card">
+        <div class="chart-wrap">
+            <canvas id="theory-chart"></canvas>
+        </div>
+    </div>
+
+    <h2>Statistical Summary</h2>
+    <div class="card" id="stats-panel"></div>
+
+    <h2>Contrastive Delta: ThreatSafety vs Novelty</h2>
+    <div class="card">
+        <label for="delta-slider">Layer</label>
+        <input type="range" id="delta-slider" min="0" max="2" value="0" step="1">
+        <div id="delta-label">Early layer delta</div>
+        <div id="delta-display"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>
