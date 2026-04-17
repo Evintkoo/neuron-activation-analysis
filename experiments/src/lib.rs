@@ -1,3 +1,5 @@
+pub mod clustering;
+pub use clustering::{ClusterResult, KMeansClusterer};
 pub mod pca;
 pub use pca::PcaReducer;
 pub mod content_type;
