@@ -1,0 +1,12 @@
+[package]
+name = "runner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+experiments = { path = "../experiments" }
+analysis = { path = "../analysis" }
+
+[[bin]]
+name = "run_experiment"
+path = "src/main.rs"
