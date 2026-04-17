@@ -93,6 +93,7 @@ function applyColors() {
     const entry = vizData.activation_maps[currentType];
     if (!entry) return;
     const layerData = entry[currentLayer];
+    if (!layerData || layerData.length === 0) return;
     const nNeurons = layerData.length;
     const positions = brainMesh.geometry.attributes.position;
     const nVerts = positions.count;
