@@ -1,7 +1,158 @@
+use std::collections::HashMap;
+use ndarray::Array2;
+use experiments::{
+    ActivationExtractor, ActivationFingerprint, ContentType,
+    DctScorer, FepScorer, GwtScorer, IitScorer, KMeansClusterer,
+    MockTribeModel, PcaReducer, SyntheticGenerator, TheoryFitReport,
+};
+use analysis::{one_way_anova, ContrastiveDelta};
+use serde::{Deserialize, Serialize};
+
+#[derive(Serialize, Deserialize)]
+pub struct LayerVec {
+    pub early: Vec<f64>,
+    pub mid: Vec<f64>,
+    pub late: Vec<f64>,
+}
+
+#[derive(Serialize, Deserialize)]
+pub struct ContrastiveEntry {
+    pub pair: String,
+    pub l2_norm: f64,
+    pub early_delta: Vec<f64>,
+    pub mid_delta: Vec<f64>,
+    pub late_delta: Vec<f64>,
+}
+
+#[derive(Serialize, Deserialize)]
+pub struct VizData {
+    pub activation_maps: HashMap<String, LayerVec>,
+    pub theory_fit: TheoryFitReport,
+    pub contrastive_deltas: Vec<ContrastiveEntry>,
+    pub anova_p_value: f64,
+    pub silhouette_score: f64,
+    pub n_neurons: usize,
+}
+
+pub fn build_viz_data() -> VizData {
+    let generator = SyntheticGenerator::new(42, 64);
+    let stimuli = generator.generate_all(50);
+    let model = MockTribeModel::new(128, 64);
+    let extractor = ActivationExtractor::new(model);
+    let records = extractor.extract_batch(&stimuli);
+    let n_neurons = records[0].early.len();
+
+    // per-type mean activation, normalized to [0,1] per layer
+    let mut activation_maps = HashMap::new();
+    for &ct in ContentType::all().iter() {
+        let ct_records: Vec<_> = records.iter().filter(|r| r.content_type == ct).collect();
+        let n = ct_records.len() as f64;
+        let mut early = vec![0.0f64; n_neurons];
+        let mut mid = vec![0.0f64; n_neurons];
+        let mut late = vec![0.0f64; n_neurons];
+        for rec in &ct_records {
+            for i in 0..n_neurons {
+                early[i] += rec.early[i].abs();
+                mid[i] += rec.mid[i].abs();
+                late[i] += rec.late[i].abs();
+            }
+        }
+        for i in 0..n_neurons {
+            early[i] /= n;
+            mid[i] /= n;
+            late[i] /= n;
+        }
+        normalize(&mut early);
+        normalize(&mut mid);
+        normalize(&mut late);
+        activation_maps.insert(ct.label().to_string(), LayerVec { early, mid, late });
+    }
+
+    // theory fit via mid-layer PCA + k-means fingerprints
+    let n_stimuli = records.len();
+    let mut mid_mat = Array2::<f64>::zeros((n_stimuli, n_neurons));
+    for (i, rec) in records.iter().enumerate() {
+        for j in 0..n_neurons {
+            mid_mat[[i, j]] = rec.mid[j];
+        }
+    }
+    let reducer = PcaReducer::fit(&mid_mat, 8);
+    let reduced = reducer.transform(&mid_mat);
+    let cluster = KMeansClusterer::run(&reduced, 13, 42);
+    let fingerprints = ActivationFingerprint::from_clusters(
+        &reduced, &cluster.labels, &ContentType::all(),
+    );
+    let theory_fit = TheoryFitReport {
+        dct_score: DctScorer::score(&fingerprints),
+        gwt_score: GwtScorer::score(&records, 0.5, 3),
+        fep_score: FepScorer::score(&records),
+        iit_score: IitScorer::score(&records),
+    };
+
+    // B3 ThreatSafety vs B4 Novelty contrastive delta
+    let threat: Vec<_> = records.iter()
+        .filter(|r| r.content_type == ContentType::ThreatSafety).collect();
+    let novelty: Vec<_> = records.iter()
+        .filter(|r| r.content_type == ContentType::Novelty).collect();
+    let delta = ContrastiveDelta::compute(threat[0], novelty[0]);
+    let contrastive_deltas = vec![ContrastiveEntry {
+        pair: "ThreatSafety vs Novelty".to_string(),
+        l2_norm: delta.l2_norm(),
+        early_delta: delta.early_delta,
+        mid_delta: delta.mid_delta,
+        late_delta: delta.late_delta,
+    }];
+
+    // ANOVA across content type groups
+    let groups: Vec<Vec<f64>> = ContentType::all().iter().map(|&ct| {
+        records.iter()
+            .filter(|r| r.content_type == ct)
+            .map(|r| r.early.iter().map(|v| v.abs()).sum::<f64>() / n_neurons as f64)
+            .collect()
+    }).collect();
+    let anova_p_value = one_way_anova(&groups).p_value;
+
+    VizData { activation_maps, theory_fit, contrastive_deltas, anova_p_value,
+              silhouette_score: cluster.silhouette_score, n_neurons }
+}
+
+fn normalize(v: &mut Vec<f64>) {
+    let max = v.iter().cloned().fold(f64::NEG_INFINITY, f64::max);
+    let min = v.iter().cloned().fold(f64::INFINITY, f64::min);
+    let range = (max - min).max(1e-10);
+    for x in v.iter_mut() {
+        *x = (*x - min) / range;
+    }
+}
+
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
-    fn placeholder_compiles() {
-        assert!(true);
+    fn build_viz_data_returns_all_13_types() {
+        let data = build_viz_data();
+        assert_eq!(data.activation_maps.len(), 13);
+    }
+
+    #[test]
+    fn activation_values_are_normalized() {
+        let data = build_viz_data();
+        for (_, entry) in &data.activation_maps {
+            for v in entry.early.iter().chain(entry.mid.iter()).chain(entry.late.iter()) {
+                assert!(*v >= 0.0 && *v <= 1.0 + 1e-9, "value out of [0,1]: {}", v);
+            }
+        }
+    }
+
+    #[test]
+    fn serializes_to_valid_json() {
+        let data = build_viz_data();
+        let json = serde_json::to_string(&data).unwrap();
+        let parsed: serde_json::Value = serde_json::from_str(&json).unwrap();
+        assert!(parsed["activation_maps"].is_object());
+        assert!(parsed["theory_fit"].is_object());
+        assert!(parsed["n_neurons"].is_number());
+        assert!(parsed["silhouette_score"].is_number());
     }
 }
