@@ -41,6 +41,23 @@ fn parse_predict_resp(json: &str) -> Result<PredictResp, serde_json::Error> {
     serde_json::from_str(json)
 }
 
+fn check_health(base_url: &str) -> bool {
+    ureq::get(&format!("{base_url}/health"))
+        .call()
+        .map(|r| r.status() == 200)
+        .unwrap_or(false)
+}
+
+fn predict_one(base_url: &str, text: &str) -> Result<PredictResp, String> {
+    let body = serde_json::json!({ "text": text, "seq_len": 16 });
+    let raw = ureq::post(&format!("{base_url}/api/predict"))
+        .send_json(&body)
+        .map_err(|e| e.to_string())?
+        .into_string()
+        .map_err(|e| e.to_string())?;
+    parse_predict_resp(&raw).map_err(|e| e.to_string())
+}
+
 fn main() {}
 
 #[cfg(test)]
@@ -81,5 +98,17 @@ mod tests {
         assert!((resp.region_stats["language"].rel_activation - 1.2).abs() < 1e-5);
         assert_eq!(resp.demo_mode, false);
         assert_eq!(resp.vertex_acts.len(), 3);
+    }
+
+    #[test]
+    fn check_health_returns_false_when_server_not_running() {
+        // port 19991 is virtually guaranteed to be unused
+        assert!(!check_health("http://localhost:19991"));
+    }
+
+    #[test]
+    fn predict_one_returns_err_when_server_not_running() {
+        let result = predict_one("http://localhost:19991", "hello world");
+        assert!(result.is_err());
     }
 }
