@@ -1,0 +1,2 @@
+# sweep_results.json is large (~12MB) — regenerate with: cargo run -p sweep
+sweep_results.json
