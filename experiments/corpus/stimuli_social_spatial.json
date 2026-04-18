@@ -1,0 +1,2221 @@
+[
+  {
+    "id": "so_b1_00000",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Father. I'm Veda. I'm new to the area and was curious about your church. Could you tell me a little bit about it? | Of course, Veda. Our church is based on the teachings of Jesus Christ. We believe in loving our neighbor and treating others as we would want to be treated. We strive to live according to Christ's example and teachings. | That sounds like a really great way to live. I can see why so many people are drawn to this religion. What do you think makes Christianity different from other religions? | Well, there are a lot of different interpretations of Christianity, but for us, it's all about following Jesus Christ's example. He was a man who loved unconditionally and forgave easily. He preached compassion and understanding, even for those who disagreed with him or did not follow"
+  },
+  {
+    "id": "so_b1_00001",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Shavon, what's up? You seem troubled. | Yeah, I am. I'm just having a hard time and needed someone to talk to. | Of course, man. I'm always here for you. What's going on? | It's just everything. Work is stressing me out, my relationship is falling apart, and I feel like I'm losing touch with my friends. I don't know what to do."
+  },
+  {
+    "id": "so_b1_00002",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi there! Are you looking for someone to take care of your pet while you're out of town? | Yes, I am. I'm going on vacation for a week and I need someone to watch my cat. | That's no problem at all! I love taking care of animals, and I have experience with cats. I'll be happy to take care of your cat while you're gone. | That sounds great. How much do you charge?"
+  },
+  {
+    "id": "so_b1_00003",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Mattea. What's up? | Not much, what's up with you? | Just hanging out, same old same old. So, what's new with you? | Well, I've been thinking about what you said the other day."
+  },
+  {
+    "id": "so_b1_00004",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I know what you're thinking, Dontrell. I can sense your feelings and know exactly what you're going to say or do next. You're thinking about how much you miss your family, and how you wish you could see them again. You're wondering if there's anything you can do to make that happen. And you're also feeling a little guilty, because you know that if you could see them again, it would only be for a short while before they died. | Cornell, how can you possibly know all that? It's like you can read my mind! | I told you, I can sense your feelings. It's like I have a connection to your thoughts and emotions. I'm not sure why or how it works, but ever since we met, I've been able to understand what you're thinking and feeling pretty easily. | Wow...that's amazing! And a little bit scary too. But "
+  },
+  {
+    "id": "so_b1_00005",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, God. I'm feeling a little anxious about my math test tomorrow. I'm just not sure if I'm going to be able to do it. Can you give me some guidance? | Of course, Bram. I will always be here for you. Just remember that I am with you and that I will help you through anything. You can do this, Bram. Just have faith and believe in yourself. | Thank you, God. Just knowing that you're with me makes me feel a lot better. I'll try my best and I know that with your help, I can do it. | That's the spirit, Bram! I know you can do it."
+  },
+  {
+    "id": "so_b1_00006",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "You're asking for a lot, Tinsley. We've been partners for a long time and I think you know that we're not in a position to give you what you're asking for. | What exactly are you asking for? | I want a larger percentage of the profits and a say in how the product is marketed. | Why do you think you deserve that?"
+  },
+  {
+    "id": "so_b1_00007",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm so glad you're home! I have a surprise for you. | What is it? | Come inside and see! | Okay!"
+  },
+  {
+    "id": "so_b1_00008",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Pietro. How are you doing today? | I'm doing well, Aariz. Thanks for speaking with me. | Of course! So, what's been going on? | Well, I've just been really busy lately. Work has been keeping me busy and I haven't had much time for anything else."
+  },
+  {
+    "id": "so_b1_00009",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, can you tell me a little bit about the job? | Well, it's a customer service position. You'll be working with our clients, helping them with whatever they need. | I see. And what are the qualifications for this job? | Well, we're looking for someone who is friendly and helpful, and who has experience dealing with customers."
+  },
+  {
+    "id": "so_b1_00010",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I find it amusing that the events of the world are so far removed from my own life. | What do you mean? | Well, take this news story for example. It's about a conflict in some country that I've never even heard of. What does it have to do with me? | I'm not sure. What do you think it has to do with you?"
+  },
+  {
+    "id": "so_b1_00011",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, thanks for taking my motorcycle off my hands. I really appreciate it. | No problem, man. It's a nice bike. I'm sure I'll enjoy riding it. | I'm just glad to be rid of it, to be honest. It was costing me a lot in repairs and maintenance. | Yeah, motorcycles can be pretty expensive to keep up. But they're also a lot of fun to ride. So it's worth it, in my opinion."
+  },
+  {
+    "id": "so_b1_00012",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "\"I'm really glad I could help you out, Avarie. I know how much your grandmother means to you.\" | \"Yeah, she's been sick for a while now and I've been meaning to visit her. But with work and everything else, it's been hard to find the time.\" | \"I know how that is. It can be tough to balance everything.\" | \"Yeah. But I'm glad I was finally able to make the trip. And thank you again for driving me to the airport and helping me with everything.\""
+  },
+  {
+    "id": "so_b1_00013",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm sorry, Daddy. | Why did you let the dog go? | He was whimpering and I felt bad. | Now we'll never find him."
+  },
+  {
+    "id": "so_b1_00014",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, can I ask you a question? | Of course! What would you like to know? | How long does it usually take for someone to become fluent in a new language? | Well, that really depends on the person. Some people pick up new languages very quickly, while others take a bit longer. There are a lot of factors that can affect how fast someone learns a new language, such as motivation, intelligence, and prior knowledge."
+  },
+  {
+    "id": "so_b1_00015",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for all your help in selling my house. I really appreciate it. | You're welcome, Deandra. It was my pleasure to help you out. I'm just glad that everything went smoothly and that the house sold quickly. | Yeah, me too. I'm really excited about the move, but it's a bit bittersweet leaving this place behind. It's been my home for so long. | I know how you feel. It can be tough to let go of a place that holds so many memories. But sometimes change can be a good thing, and it sounds like this new opportunity is going to be great for you. Plus, you never know - maybe you'll end up coming back to this city someday and buying another house here! Stranger things have happened. ;)"
+  },
+  {
+    "id": "so_b1_00016",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Sarah, I love the outdoors! I love hiking and camping, and spending time in nature. It's just so beautiful and peaceful out there. | Yeah, I know what you mean. There's just something about being in nature that feels so good for the soul. | I know! I feel so connected to the world when I'm outdoors. It's like everything just makes sense. | Yeah, it's like you can finally breathe and relax."
+  },
+  {
+    "id": "so_b1_00017",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, I'm Tyrique. | Hi, I'm Lily. Are you flying to London today? | Yes, I am. I'm excited to be visiting the city for the first time. | It's a great city. I'm sure you'll love it. Have you been before?"
+  },
+  {
+    "id": "so_b1_00018",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Mr. Saunders. I was just wondering if I could ask you a question. | Sure, Curtis. What's on your mind? | I was just wondering... do you have any plans to retire soon? Or sell the bakery? | Oh, I hadn't really thought about it. To be honest, I'm not sure what I would do without this place. It's been my life for so long."
+  },
+  {
+    "id": "so_b1_00019",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm not going back to that school. I hate it. | Why do you keep getting kicked out? | I don't know. I just don't like it there, that's all. And all the kids are phony. | What's a phony?"
+  },
+  {
+    "id": "so_b1_00020",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm telling you, man, she is just too good for me. I don't deserve her. | Dude, stop being so negative. You're a great guy and she clearly loves you. | I don't know...I just feel like I'm not good enough for her. She's so amazing and I'm just...I don't know. | Sade, you are an amazing guy and she loves you. Just relax and enjoy it."
+  },
+  {
+    "id": "so_b1_00021",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe it's still raining. | I know, dear. It's been raining for days now. | Yeah, I know. I just wish it would stop already. | Well, I don't think it will be stopping anytime soon."
+  },
+  {
+    "id": "so_b1_00022",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe I agreed to do this. I'm already so behind on everything else. | What's wrong? You seem really stressed out. | I am. I feel like I can never catch up. Every time I turn around, there's something else that needs to be done. And it's all because I keep taking on too much. | Why do you keep doing that?"
+  },
+  {
+    "id": "so_b1_00023",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, I was just checking my account balance and it's missing $200. Can you tell me what happened? | Let me take a look. When did you last check your balance? | Yesterday. | And how much was in your account then?"
+  },
+  {
+    "id": "so_b1_00024",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Maria, I'm feeling really sick. I have a high fever and a rash all over my body. I'm so weak and tired, all I want to do is just rest. | Oh no, Emmaleigh! You have the measles! You need to go to the doctor right away! | I don't think that's necessary. I'll just drink lots of fluids and rest, and I'll be fine in no time. | Emmaleigh, you could get very sick from the measles. It's best to err on the side of caution and see a doctor just to be sure. Plus, they can give you medication to help make you more comfortable."
+  },
+  {
+    "id": "so_b1_00025",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey True, how are you today? | I'm doing well, Rahim. How about you? | I'm good. So, what have you been up to lately? | Not much. Just hanging out with friends and family. You know, the usual stuff."
+  },
+  {
+    "id": "so_b1_00026",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm really glad you gave me the opportunity to lead the team in your absence. It's something I've been wanting to do for a while now. | Well, you certainly proved yourself today. You did a great job leading the team and handling everything that came up. I'm impressed. | Thank you, I appreciate that. I really wanted to show you that I'm capable of leading and managing the team effectively. | You definitely did that today. You showed excellent leadership skills and made sure everything ran smoothly. I'll be happy to recommend you for future leadership opportunities."
+  },
+  {
+    "id": "so_b1_00027",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I just feel so trapped, man. I can't even begin to tell you how unhappy I am right now. | Yeah, I can imagine. It's been tough for you lately. | It feels like everything is just falling apart and there's nothing I can do about it. I'm just stuck here, living off my parents and barely scraping by. | Have you looked into getting a job?"
+  },
+  {
+    "id": "so_b1_00028",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Wow, I can't believe I built this all by myself! It looks amazing. | You did a great job, Mahnoor. This building is really impressive. | Thanks, Sarah. I'm pretty proud of it. It took a lot of hard work, but it was worth it. | I can imagine. How long did it take you to build it?"
+  },
+  {
+    "id": "so_b1_00029",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I just feel so stuck in my job. I've been doing the same thing for years and I just can't seem to move up or get out. | Yeah, I can definitely understand how you feel. It's tough when it feels like you're stuck in a rut. But sometimes, it can be helpful to look at your situation from a different perspective. Maybe there are things you could be doing differently in your job that would help you to move up or get out? | I don't know, I've tried everything I can think of. And even if there were things I could be doing differently, I don't know if it would make any difference. It just feels like no matter what I do, I'm not going to get anywhere. | Well, it's worth considering anyway. And even if it doesn't work out the way you want it to, at least you tried something different and made an effo"
+  },
+  {
+    "id": "so_b1_00030",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. What's up? | Hey! Not much, what about you? | Same here. Just getting ready for school. I don't really like having to think about what to wear every day, so I just stick to the same outfit. | Yeah, I can understand that. I'm always trying to find new outfits and it's just a lot of work. Plus, it's hard to find something that looks good and is also comfortable."
+  },
+  {
+    "id": "so_b1_00031",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sasha. How are you doing? | I'm doing alright. Just been a little stressed lately. School is just really tough right now. | Yeah, I can imagine. But you're so smart, I'm sure you'll get through it no problem. You always seem to find a way to succeed no matter what the challenge is. | Thanks, Anastazia. That means a lot coming from you. You're just always so confident and everything seems to come so easily to you. I wish I could be more like that."
+  },
+  {
+    "id": "so_b1_00032",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe I lost the winning ticket. I'm so angry right now. | I'm sorry to hear that, Mariely. What can I do to help you? | There is nothing you can do. I had the winning ticket and now it's gone. | Well, let's see if we can retrace your steps and see if we can find it. When did you last have it?"
+  },
+  {
+    "id": "so_b1_00033",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Pedro. What's up? | Not much. Just working on some new invention ideas. What are you up to? | I'm working on a new invention too. I'm trying to create a device that would allow people to communicate with each other without speaking. | That sounds really interesting! I'd love to hear more about it."
+  },
+  {
+    "id": "so_b1_00034",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm almost done. I just have to dry the dishes and put them away. | Okay, sounds good. Let me know when you're finished so I can check everything over. | Will do! | Hey mom, I'm finished with the dishes."
+  },
+  {
+    "id": "so_b1_00035",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Mom, I know my clothes are muddy, but I had so much fun! Playing in the mud is just so much fun. | Asante, you're going to have to change out of those clothes before you come back inside. You're just going to make a mess if you come inside like that. | | No, Asante, your whole outfit is muddy. You need to take everything off and put on something clean."
+  },
+  {
+    "id": "so_b1_00036",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe I've been waiting in this line for so long. It feels like forever. | It's only been five minutes. Relax, it'll be your turn soon. | Yeah, I know. But it feels like forever. | I understand how you feel. Time can seem to move very slowly when we're waiting for something, especially if we're not sure how long it's going to take."
+  },
+  {
+    "id": "so_b1_00037",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Why are you crying? What's wrong? | I'm just really upset right now. I can't believe you would yell at me over something so small. | I'm sorry, I didn't mean to make you cry. I was just really angry in the moment. But I shouldn't have taken it out on you like that. Can we please talk about this calmly? | I don't know, Casper. I just feel really hurt right now."
+  },
+  {
+    "id": "so_b1_00038",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, thanks for the ride. | No problem. I'm just glad I could help out. | Yeah, I'm sure your parents would be happy to know you're helping me out. | They're always happy when I help people out. It makes them feel good knowing that I'm a good person."
+  },
+  {
+    "id": "so_b1_00039",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Rose. I was thinking about changing my hair back to its original color. | Really? Why? | I don't know. I just feel like people are making fun of me and I don't like it. | Who's making fun of you?"
+  },
+  {
+    "id": "so_b1_00040",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi there! How are you today? | I'm doing well, thank you. How are you? | I'm doing great, thanks for asking. So what brings you in today? | I need some new tires for my car."
+  },
+  {
+    "id": "so_b1_00041",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe you're the best basketball player in our class. | Yeah, I guess I am. | I've been practicing so hard to be the best, and you just beat me out of nowhere. | Sorry, Gabi. I didn't mean to make you feel bad."
+  },
+  {
+    "id": "so_b1_00042",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Wow, Laisha. You look absolutely stunning. I can't help but admire your beautiful body. | Thank you, Agatha. I must say, you look pretty good yourself. | I can't help but notice how firm and perky your breasts are. They look absolutely amazing. | Thank you! I've been working hard to keep them looking their best."
+  },
+  {
+    "id": "so_b1_00043",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah! I'm so glad you're here. I've been dying to show you my new dance routine. | That sounds great! I can't wait to see it. | Okay, let me just go change into my dancing clothes. I'll be right back! | Sure, no problem."
+  },
+  {
+    "id": "so_b1_00044",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I just feel like I'm not good enough, you know? No matter what I do, it's never enough. | It sounds like you have some pretty negative thoughts about yourself. Can you tell me more about that? | Yeah. I guess I just feel like I'm always falling short, no matter what. Like, I'll work really hard at something and then it turns out bad or someone else does it better than me and it just feels awful. | That doesn't sound like a very positive way to view yourself or your accomplishments. What do you think might be causing these negative thoughts?"
+  },
+  {
+    "id": "so_b1_00045",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Man, I'm starving. | Yeah, me too. There's nothing to eat around here. | I found a half-eaten sandwich in one of the trashcans. | That's gross! You're not going to eat that, are you?"
+  },
+  {
+    "id": "so_b1_00046",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Alayla, what's up? | Not much, what's up with you? | I'm just feeling really frustrated with how things are going on the soccer team. I feel like I'm not being used to my full potential and it's really frustrating me. | Yeah, I can understand that. It's tough when you feel like you're not being given a chance to show what you can do. But you have to remember that the coach is making the decisions about who plays and who doesn't based on what he thinks is best for the team. Sometimes that means leaving players on the bench who deserve to be playing. It's not personal, it's just business."
+  },
+  {
+    "id": "so_b1_00047",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm really glad to be out of the hospital and back home. It was tough being in there, but I'm feeling a lot better now. | I'm glad to hear that Charla. How are you doing with your medication? Are you still taking it as prescribed? | Yes, I am. And I'm feeling a lot better because of it. My moods are more stable and I'm not having any hallucinations or anything like that anymore. So I guess the medication is working well for me. | That's great to hear! It sounds like you're really making progress with your treatment. But we need to keep an eye on things and make sure that you continue taking your medication as prescribed and attending therapy sessions regularly. If you start to feel like your symptoms are coming back or worsening, please don't hesitate to reach out to us so we can adjust yo"
+  },
+  {
+    "id": "so_b1_00048",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. | Hey, Justina. What's up? | Not much. Just hanging out with friends. | Yeah, same here. I'm glad we get to spend some time together. We've been so busy lately."
+  },
+  {
+    "id": "so_b1_00049",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, coach. Great game today. | You played well out there, Delilah. You were really hustling. | Yeah, I wanted to make sure we got the win. | That's the attitude I like to see. You're a leader out there on the court. Keep it up and you'll go far in this game."
+  },
+  {
+    "id": "so_b1_00050",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for having me here today. I'm really excited to be part of this exhibit. | We're very grateful to have you here, Andriana. Your help is invaluable in making this exhibit a success. Can you tell me a little bit about your experience with art? | I've been interested in art for as long as I can remember. I used to spend hours drawing and painting when I was younger, and I eventually studied art in college. After graduation, I worked as an artist's assistant for a while before deciding to become a full-time artist myself. So, I've been involved in the art world in one way or another for most of my life. | That's fantastic. We're really lucky to have someone with your expertise on board. Can you tell me a little bit about the piece you're working on for the exhibit?"
+  },
+  {
+    "id": "so_b1_00051",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi Mom. | Hi, Sabria. What are you doing? | I'm making a salad for lunch. Do you want some? | That sounds great, thank you. I'll just have a small portion though."
+  },
+  {
+    "id": "so_b1_00052",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, I'm looking for some new lingerie. Do you have any recommendations? | Of course! We have a lot of great options here. What kind of style are you looking for? | I want something that's sexy but also comfortable. | We have a lot of great choices that fit that description. Let me show you some of our more popular styles."
+  },
+  {
+    "id": "so_b1_00053",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I remember when you were small. You used to play outside all the time and I loved it. Now I wish I could go back to those days. | Really? Why? | Well, things were just simpler then. We didn't have any responsibilities or worries. We would just run around and play all day long. And it was so much fun watching you grow up and explore the world. | That does sound nice. But don't you think you're being a little nostalgic? Things are different now, but that doesn't mean they're bad."
+  },
+  {
+    "id": "so_b1_00054",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "It's been a long time since I've written anything like this, but I think my book will be able to help people understand what it was like for me as a child soldier. | That's very admirable of you, Claira. Can you tell me a little bit more about the book? What made you want to write it? | Well, I feel like there aren't many stories out there about child soldiers and I wanted to share my own experience. I hope that by reading my story, people will be able to gain a better understanding of what we go through. | I think that's an important perspective to share. How did you come up with the title?"
+  },
+  {
+    "id": "so_b1_00055",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Officer. I was just in a hit-and-run accident. A car rear-ended me at a stop light and then sped away. I'm feeling really scared and alone right now. | I'm sorry to hear that, Kaelyn. Do you have any idea who might have done this? | No, I don't. It all happened so fast. | Okay. Well, we'll do our best to find the person who did this. In the meantime, try not to worry too much. These things happen sometimes, unfortunately."
+  },
+  {
+    "id": "so_b1_00056",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Abrianna. I was wondering if I could ask you for some advice on gardening. | Of course, Ricco. What would you like to know? | Well, I've never done it before and I was wondering where to start. | The first thing you need to do is prepare the soil. You can do this by tilling the ground and adding some compost or manure to help the plants grow. Once the soil is ready, you can plant the seeds. Make sure to water them regularly and give them plenty of sunlight so they can thrive."
+  },
+  {
+    "id": "so_b1_00057",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "That was a great show! I'm so glad we decided to come out tonight. | I know, right? I was a little hesitant at first, but it turned out to be really funny. | Yeah, I'm glad we did it too. It's been a while since we've had a night out like this. | Yeah, I know. We've been so busy lately. It's nice to just relax and laugh for a while."
+  },
+  {
+    "id": "so_b1_00058",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm really proud of you, Augusto. Your hard work is finally paying off. | Thank you, Darrius. It's been a long journey, but I'm finally starting to see some results. | You deserve it. You've worked so hard for this. I can't imagine how difficult it must have been, but you never gave up. | It wasn't easy, that's for sure. But your support meant a lot to me. Knowing that you believed in me even when I didn't believe in myself helped me keep going."
+  },
+  {
+    "id": "so_b1_00059",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, coach. How're things going? | Hey, Meryl. Things are going good. How about you? | I'm doing great. Just wanted to let you know that I've been training really hard and I'm determined to become a world champion wrestler. | That's great to hear, Meryl. I can tell you've put in the work and you have the talent to make it to the top. Just keep focused and don't let anything get in your way."
+  },
+  {
+    "id": "so_b1_00060",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Bella. You doing alright? | Yeah, I'm fine. Just a little tired. | You sure? You look kind of down. | It's just been a long day, that's all."
+  },
+  {
+    "id": "so_b1_00061",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, thanks for taking the time to talk with me. I really appreciate it. | Of course, no problem. What can I do for you? | Well, like I said, I want to help out with your organisation. I know what it's like to be homeless and I want to help others who are in that situation. | That's great! We always need more volunteers. Are you interested in doing any particular tasks? Cooking, cleaning, interacting with the guests? Let me know and we'll see what we can do."
+  },
+  {
+    "id": "so_b1_00062",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, boss. What's up? | Not much. Just trying to get some work done. | Yeah, same here. I just wanted to say that I really appreciate everything you've done for me. You've given me a lot of opportunities and I really appreciate it. | Thank you, Chesney. I'm glad you're enjoying your job here."
+  },
+  {
+    "id": "so_b1_00063",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Kaitlyn. How's it going? | Good, good. Just getting ready for my day. What about you? | I'm doing well too. I've just been thinking a lot lately about what I want to do with my life and what kind of person I want to be. | What do you mean?"
+  },
+  {
+    "id": "so_b1_00064",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi there! Are you lost? I'm happy to help you out. | Oh, thank you! I'm new to the area and I'm looking for the library. | The library is just a few blocks away. Let me walk with you and show you the way. | Thank you, that would be great!"
+  },
+  {
+    "id": "so_b1_00065",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Jazlene, what's the news? | I'm pregnant. | Oh my gosh! That's amazing! When are you due? | October."
+  },
+  {
+    "id": "so_b1_00066",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I don't understand why our school has a dress code. It's not fair. | What do you mean, it's not fair? What specifically are you upset about? | Well, for one thing, it's sexist. Boys can wear whatever they want but girls have to dress a certain way. It's not right. | I see your point. But the school is just trying to maintain a certain level of decorum and professionalism. They don't want students wearing clothes that are too revealing or inappropriate."
+  },
+  {
+    "id": "so_b1_00067",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, I'm calling to cancel my cell phone contract. | I'm sorry to hear that. May I ask why you're canceling your contract? | I'm not happy with the service I've been receiving. The coverage is bad and I've been dropped calls. | I'm sorry to hear that. We can certainly try to help you with that. Are you sure you want to cancel your contract?"
+  },
+  {
+    "id": "so_b1_00068",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Doctor, I'm finally feeling better and I really want to be able to move again. I've been bedridden for weeks and I'm extremely weak, but I'm determined to get better. Can you tell me what my prognosis is? | Well, Conner, with time and rehabilitation, you should be able to regain most of your mobility. However, it's important to realistic about your expectations. You may not ever be able to return to your previous level of activity. But if you're willing to put in the work, you can make significant progress. | I'm willing to do whatever it takes. I just want to be able to move again. | Well, then let's get started on your road to recovery."
+  },
+  {
+    "id": "so_b1_00069",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Father, I want to thank you for giving me the opportunity to lead the congregation in prayer this morning. It is an honor and a privilege to be able to serve you in this way. I pray that my words will be a blessing to those who hear them, and that they will be an encouragement in their faith. Amen. | That was a beautiful prayer, Selin. You did a great job. I'm very proud of you. | Thank you, Father. I just wanted to do my best to honor God. | You certainly did that. I could tell that you were praying with all of your heart. It was very moving."
+  },
+  {
+    "id": "so_b1_00070",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Brad. I'm just going to head to my room, okay? | What's your problem? | I don't want to fight with you, so I'm just going to go to my room. | We're not fighting. I just want to talk to you."
+  },
+  {
+    "id": "so_b1_00071",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Harry. What's up? | Not much. Just hanging out. What about you? | I'm just trying to get better. You know, perfect myself. | Yeah, I hear you. But don't you think you're being a little too hard on yourself? I mean, you're already pretty good."
+  },
+  {
+    "id": "so_b1_00072",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Wow, the kitchen looks fantastic! I'm so glad we decided to go ahead and paint it before our party. It really makes a difference. | I know, right? It's amazing what a little bit of paint can do. We should have done this sooner. | Definitely. I'm just glad we were able to get it done in time. Thanks for helping me out with it. | No problem, I was happy to help."
+  },
+  {
+    "id": "so_b1_00073",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi Taylin. It's nice to see you on the train today. | Yeah, I was just thinking the same thing about you. It's been a while since we've seen each other. How have you been? | I've been good. I just moved back to the city recently and I'm still getting used to taking the train every day. | Oh, yeah? I actually just moved here too. I'm still getting used to it as well. But it's been really great so far. I love exploring the city and there's always something new to do."
+  },
+  {
+    "id": "so_b1_00074",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, boss. Thank you so much for coming to town. I know you're really busy, so I wanted to make sure that everything was taken care of for you. | Thank you, Lupita. You've been a big help. I appreciate everything you've done to make my visit go smoothly. | It's my pleasure. I want to make sure that you have everything you need while you're here. Let me know if there's anything else I can do for you. | Actually, there is one thing..."
+  },
+  {
+    "id": "so_b1_00075",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. I'm sorry to bother you, but I was wondering if you could help me find my keys. I can't remember where I left them and I'm starting to get really frustrated. | Of course, Sandi. Where did you last see them? | The last place I remember having them was in my car, but I could have left them anywhere since then. I just don't know where to start looking. | Well, let's start with your car then. Maybe they're just hidden somewhere and you haven't noticed them yet."
+  },
+  {
+    "id": "so_b1_00076",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm thinking about moving to New York City. | Why do you want to move there? | I don't know. I just feel like I need a change. | Have you ever been there before?"
+  },
+  {
+    "id": "so_b1_00077",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. I made pasta for dinner tonight and it turned out really well! I was following a recipe to the letter and it paid off. | That's great to hear, Analyse! What kind of pasta dish did you make? | I made a simple spaghetti with tomato sauce. It was really good, and I'm so happy that it turned out well. | That sounds delicious! I'm glad to hear that your cooking experiment was a success."
+  },
+  {
+    "id": "so_b1_00078",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Jeannie, how's it going? | Hey Jeremey! I'm doing good, just struggling a little bit with this math homework. | Sure, I can help you with that. Let me take a look. | Thanks so much, Jeremey! I really appreciate it."
+  },
+  {
+    "id": "so_b1_00079",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Mom. | Hey, baby. How are you feeling? | I'm feeling a little bit excited and nervous. But I know that I am brave and can handle whatever comes my way. | That's great, sweetheart! I'm proud of you for being so positive. School is a big adventure, but you're going to do just fine. You're a smart and strong young man. Just remember to be yourself and have fun!"
+  },
+  {
+    "id": "so_b1_00080",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm sorry, Mom. I know I messed up. I was wrong and I want to make things right. | Hannah, I love you no matter what you do but sometimes your choices hurt me. You're not the only one who's hurting here. Your sister is too. | I know, Mom. And I'm sorry. It wasn't just about me. It was about her too and how much she means to me. | What did you do?"
+  },
+  {
+    "id": "so_b1_00081",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Uncle Joe. | Hey there, Brittaney! How are you doing today? | I'm doing alright. Just trying to stay positive like you always say. | That's the right attitude! You'll get through whatever challenges come your way if you keep that outlook."
+  },
+  {
+    "id": "so_b1_00082",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "You're really upset about this, aren't you? | Yes, I am. I can't believe you would just do something like that without even apologizing. It was really hurtful. | I'm sorry if I hurt you, but I don't feel like apologizing is necessary. I didn't do anything wrong and I don't see why saying sorry would be helpful. | Well, it would show that you're willing to take responsibility for your actions and that you care about my feelings. Otherwise, it just feels like you don't care about me or our relationship."
+  },
+  {
+    "id": "so_b1_00083",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Landyn. Are you okay? | No, I'm not okay. Those kids just beat me up for no reason. | Why would they do that? Do you know them? | No, I don't know them. They were just bullying me because they could."
+  },
+  {
+    "id": "so_b1_00084",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, I've been pretty busy lately. I've been cooking and cleaning my apartment, running errands around town, and studying for my upcoming exams. It's been a lot, but I'm feeling pretty good about everything. How have you been? | I've been good! A little busy with work, but nothing too crazy. I did want to ask you about your exams though. Are you feeling prepared? | Yeah, I think so. I've been studying a lot and I feel like I have a good handle on the material. I'm just hoping that everything goes well on test day. | I'm sure you'll do great! You're always so prepared for everything. Let me know if you need any help with studying though, I'd be happy to help out."
+  },
+  {
+    "id": "so_b1_00085",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Juan, I don't know how much longer I can keep this up. I'm always working, and I never have any time for myself. I feel like a machine. | I know you're always busy, mi amor, but you're doing an amazing job. We appreciate everything you do for us. | I appreciate your words, Juan, but they don't change the fact that I'm exhausted. I never have a moment to just relax and recharge. I feel like I'm running on empty all the time. | Maybe we can talk about this more and see if there's anything we can do to help lighten your load. You deserve to have some time for yourself too, Jaycee."
+  },
+  {
+    "id": "so_b1_00086",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, stop it! Leave him alone! | Thank you. I appreciate it. | No problem. I can't stand to see anyone getting picked on like that. It's just not right. | Yeah, I know how you feel. I've been bullied myself before."
+  },
+  {
+    "id": "so_b1_00087",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Addy! Check out my new outfit! | Wow, you look great! Where did you find it? | I just went to the mall and picked it up. I'm so happy I was able to find something I love and that you approve of. | Well, of course I approve! You have great taste."
+  },
+  {
+    "id": "so_b1_00088",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm not sure what to do with the rest of my money. I was thinking about investing it, but I'm not sure if that's the right decision. | There are a few things you could do with the money. You could invest it and try to grow your wealth, or you could use it to pay off debts or expenses. It really depends on your financial goals and what you want to achieve with the money. | I'm not sure what my goals are. I just want to make sure that I'm doing the right thing with my money. | It sounds like you want to grow your wealth, but you're not sure how to go about it. Investing is a good way to grow your wealth, but there are other options as well. You could use the money to pay off debts or expenses, or you could save it for a future goal. It really depends on what you want to achieve with the mone"
+  },
+  {
+    "id": "so_b1_00089",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So my best friend died in a car accident about six months ago. It was really sudden and unexpected, and I still haven't been able to process it or move on. I just feel so stuck. Do you think seeing a therapist could help me feel better? | Absolutely. Grief can be extremely overwhelming and difficult to cope with, especially when it's sudden and unexpected. Seeing a therapist can help you work through your grief in a healthy way, and hopefully start to move on. | Yeah, I really hope so. I just feel like I'm stuck in this dark place and I can't get out. | That sounds very difficult. Can you tell me more about how you've been feeling since your friend's death?"
+  },
+  {
+    "id": "so_b1_00090",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Harmoni, what's up? | Not much, just hanging out. What about you? | Same here. Just chilling. | So what's new?"
+  },
+  {
+    "id": "so_b1_00091",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Sarah, I've been thinking about moving to a new city. I'm not sure where yet, but I'm just feeling really restless and like I need a change. What do you think? | Wow, that's a big decision! Have you given any thought to where you might want to go or what kind of job you would get there? | I haven't really thought too much about it yet, to be honest. I just know that I'm ready for something different. I'm tired of my current job and the same old routine day after day. Plus, all my friends are getting married and having kids, so it feels like everyone's moving on with their lives while I'm stuck in the same place. | I can understand that. It can be really tough feeling like you're the only one not moving forward in life. But changing everything all at once can be pretty overwhelming, so mayb"
+  },
+  {
+    "id": "so_b1_00092",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Why did you feel embarrassed and scared when you had to wear your mother's old clothes to school? | I felt embarrassed because I knew that the other kids would make fun of me for wearing old clothes. And I was scared because I didn't want to stand out from the rest of the kids. | It must have been hard for you to go through that. | It was really tough. I felt like I didn't belong anywhere. But my mom always told me that I was just as good as anyone else, no matter what I was wearing."
+  },
+  {
+    "id": "so_b1_00093",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, friend. I'm sorry if I seem a bit off today, I've just been carrying around a lot of heavy emotions and needed to talk to someone about it. | Of course, Eliab. What's going on? You can tell me anything. | Well, where do I even start...I guess it all began when my mom died a few years ago. It was sudden and unexpected, and it hit me really hard. I felt like I had no one to turn to for support or comfort. My dad was struggling with his own grief and wasn't able to be there for me the way I needed him to be. So, I ended up bottling everything up inside and didn't really deal with my pain in a healthy way. | That sounds really tough, Eliab. I'm so sorry you had to go through that alone. No one should have to deal with something like that by themselves. Did you ever talk to anyone else abou"
+  },
+  {
+    "id": "so_b1_00094",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Jesse. I found this notepad in the woods and I was thinking about using it to write down some ideas for a new story. | That sounds like a great idea! What kind of story are you thinking about? | Well, I was thinking about a story where a group of friends go on an adventure together. | That sounds like a lot of fun! What kind of adventure are they going on?"
+  },
+  {
+    "id": "so_b1_00095",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "What the hell is going on around here? I thought I told you to get this place in order! | I'm sorry, boss. We've been having some trouble with the employees lately. They just don't seem to be following orders like they used to. | Well, you need to get them in line or I'll find someone who will! This place is a mess and it's all your fault! | Yes, boss. I'll take care of it right away."
+  },
+  {
+    "id": "so_b1_00096",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I made 150 copies today. | You made 150 copies today? | Yes, I did. I used the copy machine in my office to make them. | Why did you make so many copies?"
+  },
+  {
+    "id": "so_b1_00097",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. How was church today? | It was good. I'm really enjoying it. | Yeah, me too. I'm glad we decided to start going together. | Yeah, me too."
+  },
+  {
+    "id": "so_b1_00098",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, thanks for coming by. I really appreciate it. | No problem, I'm happy to help out. So show me around, what do you have for sale? | Well, we've got a lot of great stuff here. Let me show you some of our best items. | Wow, this is all really great stuff! You have a great eye for picking out quality items. How much did you say this piece was again?"
+  },
+  {
+    "id": "so_b1_00099",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thanks for being here, Gail. It really means a lot to me. | Of course, Madalynn. I'm always here for you. You know that. | I know. But it's just been really tough lately. I feel like I'm fighting a losing battle sometimes. | I know you are, but you're not alone in this fight. We're all here for you and we believe in you. You can beat this, Madalynn. I know you can."
+  },
+  {
+    "id": "so_b1_00100",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Father, I want to be baptized. | Why do you want to be baptized, Kortez? | I feel like it's time for me to make a commitment to my faith. I want to start fresh and have a new beginning. Plus, all of my friends are getting baptized and I don't want to be left out. (laughs) |"
+  },
+  {
+    "id": "so_b1_00101",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I just feel so ugly in these sweatpants. Like, everyone can see how flawed I am. | Fay, you're not ugly. You're beautiful, inside and out. | But these sweatpants make me look so frumpy. | Well, maybe you should try wearing something else then. Something that makes you feel more confident."
+  },
+  {
+    "id": "so_b1_00102",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm sorry, but I can't answer that right now. I'm trying to stay focused on my work. | That's perfectly understandable. We all need to stay focused on our work if we want to be productive. | Exactly. So if you don't mind, I'm going to get back to what I was doing. | Of course, go ahead. Let me know if you need anything."
+  },
+  {
+    "id": "so_b1_00103",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Wow, that was amazing! I can't believe I was swimming with sharks! | I know, isn't it incredible? Sharks are such amazing creatures. | Yeah, they are. I've always been fascinated by them. Do you think they're dangerous? | Well, they can be. But most of the time, they're not interested in humans. They usually only attack people if they feel threatened or if they're trying to eat something else that's in the water with them."
+  },
+  {
+    "id": "so_b1_00104",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, have you seen my mom anywhere? I've been looking for her all day and I can't seem to find her. | I'm sorry, but no, I haven't seen her. Have you tried asking around other people? | Yeah, I've asked everyone I could find, but no one has seen her. I don't know what to do. | Well, maybe she's just in a different part of town and you haven't looked there yet."
+  },
+  {
+    "id": "so_b1_00105",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Mom. | Hey, what's up? | Just hanging out. What are you up to? | Not much. I was just about to make dinner. Do you want to help me?"
+  },
+  {
+    "id": "so_b1_00106",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Mom. How are you doing today? | Oh, I'm doing well, thank you. I'm just happy to spend time with my family. | Yeah, me too. I love spending time with you guys. | So, what have you been up to lately? Paisley tells his mother about his recent experiences and what he has been learning in school. They discuss various topics and enjoy each other's company."
+  },
+  {
+    "id": "so_b1_00107",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Mallory, you're so cool. I wish I could be like you. | What do you mean? I'm just being myself. | I know, but you always seem to know what to say and how to act around people. I'm not as confident as you are, and it's something I really admire about you. | Well, thank you. I think confidence is something that can be learned though. Maybe we can work on that together?"
+  },
+  {
+    "id": "so_b1_00108",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I was wondering if I could donate this money to Sarah's medical fund. | I know it's not much, but maybe it can help a little bit. | Yoseph, that is so sweet of you. | But, before you say yes, I just want you to know that I don't have enough to cover all of the expenses."
+  },
+  {
+    "id": "so_b1_00109",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Dad. How are you doing? | I'm doing well, son. How are you? | I'm good. Hey, I wanted to talk to you about something that's been on my mind. | Sure, what's up?"
+  },
+  {
+    "id": "so_b1_00110",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah! I'm so glad to see you again. How have you been? | I've been good, thanks. How about you? What have you been up to lately? | I've been busy visiting different parts of Florida. I just got back from a trip to the Keys and I loved it there. The weather was perfect and the beaches were beautiful. I'm definitely planning on going back soon. | That sounds like a great time. I'd love to visit the Keys someday too. From what you're saying, it seems like you really enjoyed yourself."
+  },
+  {
+    "id": "so_b1_00111",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Italia. I'm so glad to see you. | Hi, Rena! I'm doing really well in school thanks to you. My multiplication tables are perfect now! | Oh, I'm glad to hear that, Italia. You were a quick learner. Do you remember all the lessons I taught you? | Yes, I do. They've been really helpful. Thank you so much for teaching me."
+  },
+  {
+    "id": "so_b1_00112",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, what's up? | Not much. Just hanging out. What about you? | I'm just chillin'. I don't really have anything going on right now. | That's cool. So what do you want to do?"
+  },
+  {
+    "id": "so_b1_00113",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Hurley. What's up? | Not much. You? | Just chillin'. What's going on with you? | Oh, you know, just the same old stuff. Trying to figure out what we're going to do next and where we're going to go. You know, the usual."
+  },
+  {
+    "id": "so_b1_00114",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Dad. I found this old diary in the attic. It looks like it was written by my great-grandmother. | That's amazing! Let me take a look. | Sure. She wrote about her life as a child during the Great Depression. Can you believe that? | I certainly can. The Great Depression was a tough time for everyone, especially families with children. Your great-grandmother must have been quite a strong person to get through all of that."
+  },
+  {
+    "id": "so_b1_00115",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. Thanks for coming to hang out with me today. I know it can be tough making new friends in a new place. | Don't worry about it, Cash. I know how you feel. I moved here from Ohio a few months ago and I was really homesick at first too. But I eventually started to make some friends and now I love living here. | Yeah, I'm starting to like it here too. It's just been tough getting used to being away from all my old friends back home. But it's nice having someone to talk to who understands what I'm going through. | Of course, Cash. We can definitely be friends. So what do you like to do for fun?"
+  },
+  {
+    "id": "so_b1_00116",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Ugh, that dog has been barking all night. I can't believe it! I'm so tired and I have to be up early for work in the morning. | I know, honey. It's really frustrating. But try not to let it bother you too much. There's nothing we can do about it. | I know there's nothing we can do, but it's really annoying. Why can't they just keep their dog quiet? | Maybe they're not home and the dog is just left alone? Dogs bark when they're bored or lonely. Maybe we should feel sorry for the dog instead of getting angry at it."
+  },
+  {
+    "id": "so_b1_00117",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Look, I don't want to talk to you, okay? You're just going to make me angry and I really don't want to argue with you right now. So please, just leave me alone. | I don't want to argue with you either, I just want to talk. | Well, I don't want to talk to you. So please, just go away and leave me alone. | But why? What's wrong?"
+  },
+  {
+    "id": "so_b1_00118",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Dad, I'm really glad we're having this talk. It feels like we've been avoiding it for a long time. | I know. I guess I've just been putting it off because I wasn't sure how to approach the subject with you. | I appreciate that. And I understand why you might have felt that way. But I'm an adult now, and I think it's time we had an honest discussion about what happened between Mom and me all those years ago. | Alright. I'm listening."
+  },
+  {
+    "id": "so_b1_00119",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Makaya. I heard that you got a C on your math test. | Yeah, so? It's not a big deal. | Oh, come on. It is a big deal. You're always trying to be the best in our grade and you can't even get a good grade on a math test? | I'm still the best in our grade. And I didn't study for that math test because I knew I could still get a C and still be ahead of you."
+  },
+  {
+    "id": "so_b1_00120",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Karla, I really think you'll like this place. The food is great, and I'm sure you'll find something you like. | I don't know, Baron. I'm not familiar with the cuisine here, and I don't want to end up not liking it. | trust me, the food is delicious. There's no way you won't enjoy it. Why don't we start with something simple? Maybe an appetizer? | Alright, that sounds good. Let's try it out then."
+  },
+  {
+    "id": "so_b1_00121",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Maddox, I know you would never do anything to hurt anyone. You're innocent. I want to make sure that you're not wrongfully accused of anything. | Jackeline, thank you for believing in me. I appreciate it. I would never do anything to hurt anyone either. | I just want to make sure that you're not accused of something you didn't do. That's all. | Jackeline, thank you for your support. I know I would never do anything to hurt anyone on purpose."
+  },
+  {
+    "id": "so_b1_00122",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I swear, those neighbors of ours are the worst. They're always making noise and their yard is a mess. It's so annoying, I can't even enjoy my own home in peace. | Yeah, I know it can be tough living next to them. But try to be patient, okay? Maybe they'll clean up their act eventually. | I don't know...I've been waiting for years and it doesn't seem like they're ever going to change. Sometimes I just feel so frustrated living next to them. | Well, why don't you talk to them about it? Maybe if you let them know how you feel, they'll be more considerate of your needs."
+  },
+  {
+    "id": "so_b1_00123",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Misty! I'm so happy to see you. What's up? | Not much, just getting ready for our date tonight. I can't wait to try the new restaurant you wanted to take me to. | Yeah, I've been wanting to check it out for a while now. I'm sure you're going to love it. The food is amazing there. | I can't wait! So, tell me more about this place. What kind of food do they serve?"
+  },
+  {
+    "id": "so_b1_00124",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, what's been going on? | Just the usual. You know, work and school and trying to keep up with everything. It's just been really tough lately. | I can imagine. It sounds like you've been under a lot of stress. | Yeah, I have. I'm just trying to find a way to balance everything and not let it get to me too much."
+  },
+  {
+    "id": "so_b1_00125",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Dad. | Hey there, Skyla. What's up? | Not much. Just happy to be able to do what I want. | That's good. You should always be happy with what you're doing. As long as you're doing what you love, that's all that matters."
+  },
+  {
+    "id": "so_b1_00126",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Cleveland! Fancy seeing you here! | Hey, Cheri! I didn't expect to see you here either. What's up? | Just getting some fresh air and enjoying a little picnic lunch. Care to join me? | Sounds great! I'm actually feeling a little hungry myself. Let me just finish this last bite of my apple and we can get started."
+  },
+  {
+    "id": "so_b1_00127",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I feel like my apartment was in dire need of a makeover. I painted the walls a light blue, hung some new curtains, and bought some plants to put around the place. Now I feel like my apartment is finally somewhere I can relax and be comfortable. | It looks great! I love the light blue color on the walls. And the plants are a nice touch too. | Thank you! I'm really happy with how it turned out. | I can tell. You seem so much more relaxed and happy in here."
+  },
+  {
+    "id": "so_b1_00128",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "You're really good with dogs. | Thanks, I love them. I've been around dogs my whole life. | It shows. You have a way with them. | Thank you. I'm just glad I can help out here at the park. There are so many great dogs that come through here and it's nice to be able to help them socialize and get some exercise."
+  },
+  {
+    "id": "so_b1_00129",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "| | Case, what are you thinking about? | I was just thinking about how lucky I am to be with you. You're so beautiful and loving, and you always make sure that I feel comfortable and happy."
+  },
+  {
+    "id": "so_b1_00130",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I have something to tell you, and I'm a little worried about how you'll react. | What is it? You can trust me, I won't tell anyone. | Okay, here goes. I've been keeping a secret from you. | What is it?"
+  },
+  {
+    "id": "so_b1_00131",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, what's up? | Hey! Not much, what's up with you? | I'm good. I just bought myself some new clothes. | That's cool. Where'd you get them?"
+  },
+  {
+    "id": "so_b1_00132",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I know that things have been tough between us lately, and I just wanted to talk to you about it. I feel like we've been growing apart, and I don't want that. I want us to be close again. | It's been hard for me too. I feel like you're always criticizing me and you're never happy with anything I do. It feels like you're always waiting for me to screw up so you can jump on me about it. | I'm sorry that's how you feel. I don't mean to be critical, it's just that lately it seems like everything is a struggle between us. And communication has been really bad too. I feel like we're not really talking anymore. | Yeah, I know what you mean. We used to be so close and now it feels like we're miles apart. Maybe we just need to work on communicating better with each other. Really listen to what the o"
+  },
+  {
+    "id": "so_b1_00133",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, do you remember what happened last night? | Yeah, you got really drunk and hit on some girl at the bar. | Oh shit, I'm sorry. I don't remember anything past a certain point. | Well, you were pretty out of it. I had to help you home."
+  },
+  {
+    "id": "so_b1_00134",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Sarah, did you hear that? There was a huge crash. I think a tree just fell through our roof. | Yes, I heard it. It's quite a mess. We'll need to get someone to come and clean it up. | I can't believe this happened. This is going to be expensive to fix. | Yes, it will be expensive, but we have insurance so we shouldn't have to pay for everything ourselves. Hopefully the damage isn't too bad and we can just repair the roof instead of having to replace it entirely."
+  },
+  {
+    "id": "so_b1_00135",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, do you want to go to Australia with me? I've always wanted to see the Great Barrier Reef. | Oh, man, that sounds amazing! I would love to go with you! Let me check my schedule and see if I can make it work. | Alright, sounds good to me. So, have you ever been to Australia before? | No, I haven't had the chance yet. But I've always wanted to go! It looks like such a beautiful country."
+  },
+  {
+    "id": "so_b1_00136",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, babe. You're up early. | Hey! I didn't want to wake you, but I'm glad you're up. How'd you sleep? | I slept great, actually. I had this really nice dream about running through a field of wildflowers. | That sounds really beautiful."
+  },
+  {
+    "id": "so_b1_00137",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "This place is so peaceful. | It's beautiful. | I can't believe we've been dating for two years now. | Time flies when you're having fun, right?"
+  },
+  {
+    "id": "so_b1_00138",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe we finally get to sit down. I'm so exhausted. | Yeah, me too. It was a long day. | Tell me about it. My feet are killing me. | I know how you feel. I thought I was going to collapse by the end of the night."
+  },
+  {
+    "id": "so_b1_00139",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. I'm glad you're here. I've been wanting to talk to you about something. | What is it? You look like you're dressed for a costume party or something. | Yeah, I am. I'm going as an electrician. But that's not important right now. What I wanted to talk to you about is how I'm feeling lately. | What do you mean? Is everything okay? You seem kind of down lately."
+  },
+  {
+    "id": "so_b1_00140",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey there, beautiful. Thanks for coming to my party. | Thanks for having me. It looks like you're really enjoying yourself. | I am! I love throwing parties and getting everyone together. It's just my thing, you know? Plus, it's always a good excuse to drink and dance the night away. | Yeah, I can definitely see that. You seem like you're in your element when you're surrounded by people and the energy is high."
+  },
+  {
+    "id": "so_b1_00141",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, I wanted to talk to you about something. | What's up? | I've been thinking a lot lately about how I can give back to the community. And I've decided that I want to start a charity. | That's great! What kind of charity are you thinking of starting?"
+  },
+  {
+    "id": "so_b1_00142",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, doctor. I wanted to talk to you about how I've been feeling lately. | Sure, what's going on? | Well, I feel like I'm finally getting enough sleep at night. For a long time, I was only getting a few hours of sleep and it was really affecting my energy levels during the day. But now that I'm going to bed around 10 PM and waking up at 6 AM, I feel much better rested and have more energy during the day. | That's great to hear! Getting enough sleep is really important for our overall health and well-being. How do you think this change has been able to help you feel more energetic during the day?"
+  },
+  {
+    "id": "so_b1_00143",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Doctor. I've been waiting for a long time. | I'm sorry about the wait, Ramsey. How can I help you today? | Well, I've been feeling really tired lately and my energy levels are really low. And I've been having a lot of trouble concentrating at work. | Okay. Have you been under a lot of stress recently?"
+  },
+  {
+    "id": "so_b1_00144",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, thank you. I saw this shirt and wanted to try it on. | Sure, go ahead. | It fits well. I'll take it. | Great! The color looks great on you too."
+  },
+  {
+    "id": "so_b1_00145",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I really admire how you handle difficult situations, boss. You always make everyone feel valued and respected. I've learned a lot from you. | Thank you, Anahi. I'm glad you feel that way. I try to treat everyone fairly and with respect. It's important to me that everyone feels like they're part of the team and that their voices are heard. | I know it can't be easy, especially with such a large team, but you always seem to make it work somehow. I don't know how you do it! | Well, it takes a lot of hard work and dedication, but it's worth it when I see the results in my team's performance. Plus, I couldn't do it without the support of my amazing assistant!"
+  },
+  {
+    "id": "so_b1_00146",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe how long it's been since we last saw each other! | I know, it feels like forever ago. But it's so good to see you again! How have you been? | I've been good. I just graduated from college and I'm starting my career. It's been a lot of work, but it's all been worth it. | That sounds amazing! I'm so proud of you. I wish I could say the same for myself. After high school, I didn't really know what I wanted to do with my life, so I took a few odd jobs here and there. But nothing ever really stuck."
+  },
+  {
+    "id": "so_b1_00147",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for everything. This was such a difficult time, and you made it all bearable. | Of course, it's our job to help people through these tough times. I'm just glad we could be here for you. | Yeah. I just wish I could have been there for him more. | From what you've said, it sounds like you did everything you could."
+  },
+  {
+    "id": "so_b1_00148",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for coming over, Zakai. It's really nice to meet you. Would you like something to drink? I have water, juice, and soda. | Thank you, Marcelo. I would love some water, please. | Sure thing! Here you go. So, what brings you to my neck of the woods? | I'm actually just passing through. I'm on a road trip and thought I'd explore the area."
+  },
+  {
+    "id": "so_b1_00149",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, what do you think of Bach's cello suites? | I love them! They're so beautiful and peaceful. | Yeah, I know. I've been trying to learn them on my violin, but they're really hard. | They are tough, but the rewards are worth it. Just listening to them makes me feel so calm."
+  },
+  {
+    "id": "so_b1_00150",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Bob. What's going on? | Not much, Malina. Just hanging out. What about you? | I'm doing alright. I was just thinking about how we can make a difference in the world. | Yeah, I've been thinking about that too. There are a lot of people out there who are struggling and need help."
+  },
+  {
+    "id": "so_b1_00151",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm so stuffed from my healthy meal, I don't think I can move. | What did you have? | Chicken, broccoli, and sweet potatoes. | That sounds delicious! I need to start eating healthier, too. Junk food is starting to make me feel sluggish."
+  },
+  {
+    "id": "so_b1_00152",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey! I'm so excited to see you. | Hey, I'm glad you could make it. Come on in. | Thanks. Your house is really nice. | Thanks, I like it. It's a little small, but it works for me. Have a seat and I'll get us something to drink."
+  },
+  {
+    "id": "so_b1_00153",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I wanted to show the people that I am their new leader, and that they should follow my lead. | Why? | Because I want to make sure that they are safe, and that they have someone to look up to. | And you think that you're the best person for the job?"
+  },
+  {
+    "id": "so_b1_00154",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I was just reading the rule book for this game, and I wanted to make sure I understood everything correctly. | So, I need to move my piece around the board, and I can only move it one space at a time, right? | Yes, that's correct. | And I have to roll the dice in order to advance my piece, right?"
+  },
+  {
+    "id": "so_b1_00155",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey coach, can I ask you something? | Sure thing, what's up? | I was just wondering, what do you think it takes to be a successful boxer? | Well Cristhian, there's a lot of things that go into it. First and foremost, you need to have the desire to succeed. You need to be willing to put in the hard work and dedication required to become a great boxer. You also need to have natural ability and talent. But most importantly, you need heart. If you don't have heart, then none of the other stuff matters. Heart is what separates the good boxers from the great ones."
+  },
+  {
+    "id": "so_b1_00156",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for taking the time to talk with me, sensei. I really appreciate it. | It's my pleasure, Florentino. What would you like to know about kendo? | Well, I guess I'd like to know everything! But specifically, I'm interested in learning about the history and philosophy behind the sport. | Kendo has a long and rich history that dates back centuries in Japan. It was originally developed as a way for samurai to train for battle, and over time it has evolved into the modern sport that we know today. The philosophy of kendo is based on Bushido, the code of honor that samurai lived by. It stresses principles such as respect, self-control, courage, and honesty. These are all qualities that are essential for a successful kendoka, or swordsman."
+  },
+  {
+    "id": "so_b1_00157",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm sorry, I didn't mean to be late on the report. | Well you were late and it's not acceptable. You need to be more organized and on top of things. | I understand. I'll try to do better in the future. | You'd better try harder, because if you're late again, there will be consequences. Do you understand?"
+  },
+  {
+    "id": "so_b1_00158",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, John, I really need to talk to someone about what happened with the contract. I'm feeling really upset and cheated. | Of course, Maira. What happened? | Well, you remember that big contract we were vying for? The one with Bob's company? | Yeah, I remember. What about it?"
+  },
+  {
+    "id": "so_b1_00159",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey there, cutie. It's sure cold out, isn't it? But I bet you don't mind too much, do you? | What do you mean? Of course I mind, it's freezing! | Oh, I didn't mean that you minded the cold itself. I meant that you must not mind being out in it because you're so cute. But if you're cold, I can always make it snow to warm you up. Watch! *makes it snow* See? Isn't that better? | Wow, that's amazing! How did you do that?"
+  },
+  {
+    "id": "so_b1_00160",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, do you need help with anything? | Oh, thank you dear. I'm just struggling to reach this can of soup on the top shelf. | Let me help you with that. | Thank you so much. You're very kind."
+  },
+  {
+    "id": "so_b1_00161",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe he's gone. | I know. It's hard to accept. | I keep thinking I'll wake up and this will all be a dream. | I wish that were true."
+  },
+  {
+    "id": "so_b1_00162",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm not sure who I am anymore. I feel like I'm losing my mind. | What do you mean? What's going on? | I don't know. I just feel really confused all the time. It's like I can't think straight or remember things. And sometimes I see things that aren't really there. | That sounds serious. Have you seen a doctor? Maybe you should talk to someone about this."
+  },
+  {
+    "id": "so_b1_00163",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So I'm thinking of moving on from this town. | Really? Where to? | I don't know yet. But I've been feeling really restless lately and I think it's time for a change. | Yeah, I can understand that. But are you sure you're ready for such a big change?"
+  },
+  {
+    "id": "so_b1_00164",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, are you okay? You look like you're in pain. | Yeah, I sprained my ankle really badly. I was just about to go home when I fell. | Do you live nearby? I can help you home if you'd like. | Oh, that would be amazing! Thank you so much. I live just a few blocks away."
+  },
+  {
+    "id": "so_b1_00165",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'll make sure your children are always safe, Romello. I promise you that. | Thank you, Caidyn. I know I can trust you with them. | It's my pleasure, really. They're great kids. | They are, but they can be a handful sometimes."
+  },
+  {
+    "id": "so_b1_00166",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for giving me the opportunity to race today. It was an incredible experience and I'm so happy to have won. | Congratulations, Yuna! You were by far the quickest racer out there today. Your speed and stamina are impressive. How do you think you were able to pull ahead of the pack like that? | Honestly, I just tried to keep my focus on the finish line and not worry about anyone else around me. I knew that if I could just stay in front, I would win the race. | That's definitely the right mindset to have! Good job sticking with it and coming out on top."
+  },
+  {
+    "id": "so_b1_00167",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "What are you doing today, Sarah? | I'm going to the library. I need to return some books and then do some research for my paper. | The library? That's so boring. Don't you have anything else to do? | No, I don't. What are you doing today?"
+  },
+  {
+    "id": "so_b1_00168",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "| Hey, Elden. I just wanted to talk to you about your dishwashing duties. | Okay, sure. What do you need to know? | Well, I've noticed that you're very careful with the dishes and make sure they're clean before you put them away."
+  },
+  {
+    "id": "so_b1_00169",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, I made a new ringtone for my phone. Wanna hear it? | Sure! Let me hear it. | Um... wow. That's... unique. What inspired you to make that particular sound? |"
+  },
+  {
+    "id": "so_b1_00170",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Sarah, I've been working on this new algorithm and I think it's going to be a game changer. It's going to make organizing data much more efficient. | That sounds amazing! How does it work? | Well, the current method of organization is really inefficient. It takes a lot of time to find specific information. With my new algorithm, you'll be able to find what you're looking for much faster. | That sounds incredible! I can't wait to see it in action."
+  },
+  {
+    "id": "so_b1_00171",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I love volunteering at the food bank. It feels really good to help people who are struggling. | Yeah, I can imagine. It must be really fulfilling. | It is. I feel like I'm actually making a difference in my community. And that's important to me. | Why do you think it's so important to make a difference in your community?"
+  },
+  {
+    "id": "so_b1_00172",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe you're leaving. I'm going to miss you so much. | I'm going to miss you too, Gabby. But I promise to keep in touch. | It's just not the same though. You were the only person who really understood me. | What do you mean?"
+  },
+  {
+    "id": "so_b1_00173",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Carmen. How are you doing? | I'm doing well, thanks. How about you? | Not too bad. I've just been really busy lately. | What's been keeping you so busy?"
+  },
+  {
+    "id": "so_b1_00174",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I had a really great time at the park today, Mom. | That's great, dear. What did you do there? | I watched people playing games and laughing. It made me feel accepted. | That's terrific! It sounds like you made some great connections with people there."
+  },
+  {
+    "id": "so_b1_00175",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Tyanna. How are you doing today? | I'm doing okay, Kit. Thanks for asking. | You look like you've been crying. What's wrong? | My mom and dad got into a big fight last night and they're getting a divorce. I'm really upset about it."
+  },
+  {
+    "id": "so_b1_00176",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much, Mrs. Jones, for giving me the opportunity to present my project today. I really appreciate it. | Of course, Alyshia. You did a great job - you should be very proud of yourself. Your hard work certainly paid off. | I put a lot of effort into this project and I'm glad it showed. I was up late every night for a week doing research and planning every detail. Sleep was definitely sacrificed in the name of perfection! (laughs) | Well, it was worth it - you gave a fantastic presentation. Your passion for your topic really came through."
+  },
+  {
+    "id": "so_b1_00177",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, I'm looking for a new pair of headphones. | What type of headphones are you looking for? | I'm not really sure. I've been doing some research online and I think I want something that's noise-cancelling and has great sound quality. | We have a few different models of noise-cancelling headphones in our store. Let me show you some of our top sellers."
+  },
+  {
+    "id": "so_b1_00178",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Amberlynn, I just can't stop thinking about you. You're always on my mind and I can't help but to constantly daydream about what it would be like to be in a relationship with you. I know this might sound crazy, but I think I'm in love with you. | Avamarie, I had no idea you felt this way! I thought we were just friends. To be honest, I've been having similar thoughts and feelings towards you too. I'm not sure if it's love yet, but I know that I definitely have strong feelings for you. | Really? Amberlynn, this is amazing! I feel like we really connect on so many levels and we just seem to understand each other so well. Being with you just feels right somehow. | Yes, Avamarie, I feel the same way!"
+  },
+  {
+    "id": "so_b1_00179",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey September, what's up? | Not much, just feeling a bit down today. | Why's that? | I don't know, just everything seems to be going wrong lately."
+  },
+  {
+    "id": "so_b1_00180",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Shekinah. How are you doing today? | I'm doing okay, thanks. How are you? | I'm doing well, thanks. So, what do you think of the progress so far? | It looks great! You're really good at this."
+  },
+  {
+    "id": "so_b1_00181",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Aarya, I know you didn't do it. | What? How could you possibly know that? | I just know, okay? I know you better than anyone else, and I know that you would never do something like that. | But everyone else thinks I did it. Why do you believe me?"
+  },
+  {
+    "id": "so_b1_00182",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi! I'm looking for a new car. | Absolutely! What kind of car are you looking for? | A reliable one. My old car was always breaking down and it was really frustrating. | We have a lot of great options here. Let me show you some of our most popular models."
+  },
+  {
+    "id": "so_b1_00183",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Mom, I've made my decision. I'm going to the university. | Jena, are you sure? It's a lot of work and it's very competitive. You're not sure if you're ready for that. | Mom, I'm ready. I've been thinking about this for a long time and I'm excited to start my college career. I'm going to work hard and get good grades. | Well, if you're sure that's what you want to do, then I support your decision. Just remember that we're here for you if you need anything. We love you no matter what happens."
+  },
+  {
+    "id": "so_b1_00184",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Mom. | Hey, Emelia. How was your day? | It was okay. I got teased a little bit by some of the other kids, but I tried not to let it bother me too much. | Oh, Emelia. I'm sorry to hear that. I know how much it hurts to be teased and called names. I went through the same thing when I was your age."
+  },
+  {
+    "id": "so_b1_00185",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Sarah! What's up? I feel like I haven't seen you in forever. | I know, I've been so busy lately. But it's good to see you! How have you been? | Good, good. Just keeping busy as usual. You know how it is. | Yeah, I do. So what have you been up to lately? Anything new and exciting?"
+  },
+  {
+    "id": "so_b1_00186",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm sorry, Major. I didn't mean to lose your bracelet. | It's not your fault. I shouldn't have been playing with it in the first place. | I know you're upset, but try to think positive. Maybe someone will find it and return it to you. | That's not going to happen."
+  },
+  {
+    "id": "so_b1_00187",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey mom. | Hey Arielle, what's up? | Not much, just hanging out in my room. | That's good. I'm glad you're taking some time to relax. But I need to talk to you about something."
+  },
+  {
+    "id": "so_b1_00188",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for meeting with me today, it's really appreciated. | Of course, no problem at all. So, Makiya, why don't you tell me a little bit about yourself? | Well, I recently graduated from college with a degree in marketing and I've always been interested in fashion. I love tying different looks together and I think that working in fashion would be a dream come true. | That sounds great! We're always looking for people with an eye for style. What do you think makes you stand out from other candidates?"
+  },
+  {
+    "id": "so_b1_00189",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Why do you always have to start arguments with me? I can't believe I let myself get pulled into another one of your pointless arguments. | I don't always start arguments with you. You're the one who's always looking for a fight. | That's not true. I just can't stand it when you try to control every conversation. | I don't try to control every conversation. I just want to be able to talk about things without you getting all worked up."
+  },
+  {
+    "id": "so_b1_00190",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "What do you mean? | I mean that people are often not what they seem on the surface. It's important to get to know them before making assumptions. | But how can you tell if someone is being honest with you? | You can't always tell, but there are usually signs that someone is hiding something. If they're always vague about themselves or their past, if they avoid eye contact, or if they get defensive when you ask them questions, those are all red flags."
+  },
+  {
+    "id": "so_b1_00191",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Sarah, I'm in a bit of pain. It feels like it's coming from my stomach. | Let me take a look. Does it hurt anywhere else? | No, just my stomach. It feels really tight and uncomfortable. | Well, let's see if we can figure out what's going on. Do you think you could be constipated? Have you been having a hard time going to the bathroom lately?"
+  },
+  {
+    "id": "so_b1_00192",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, I've been doing a lot of research on X lately. And I have to say, I'm really starting to understand it a lot better. But there's still a lot that I don't know. Do you mind if we talk about it for a bit so that I can try and learn more? | Sure, no problem. What would you like to know? | Well, first of all, what do you think X is? What's your definition of it? | Hmm. Well, I guess I would define X as...[insert definition here]."
+  },
+  {
+    "id": "so_b1_00193",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, I'm looking for a book on car maintenance. | Let me see if we have anything in the automotive section. [The librarian goes to the automotive section and searches for a while before coming back to Elon.] I'm sorry, but we don't seem to have anything that specific. Do you have any other ideas? | Well, I guess I could try looking online. | That's a good idea. Let me know if you need any help with that."
+  },
+  {
+    "id": "so_b1_00194",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Collier. Thank you so much for agreeing to talk with me about your art. | No problem, Jayon. I'm happy to do it. | So, how did you first get into art? Was there someone or something that influenced you early on? | My mom was an artist and she used to take me to her studio when I was a kid. I would watch her paint and draw and I was just fascinated by it. She would let me experiment with different mediums and techniques and I just fell in love with it. It was a way for me to express myself and connect with the world around me in a very special way."
+  },
+  {
+    "id": "so_b1_00195",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for speaking with me. It's really lovely to be here. | You're very welcome. So, tell me, what is it like to be one of the most popular actresses in the world? | It's amazing, I never thought I would be in this position. It's surreal and very exciting. I feel incredibly lucky. | You've been in some very successful films. Do you have a favorite?"
+  },
+  {
+    "id": "so_b1_00196",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey man, I'm really stoked to wear my new coat out tonight. It's got this sick fur collar that's just great. | Yeah, it looks really good on you. You always have such good style. | Thanks, man. I appreciate it. I just wish it was a bit warmer out so I could really show it off. | Yeah, definitely. It's too bad it's so cold out tonight."
+  },
+  {
+    "id": "so_b1_00197",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, are you interested in buying my car? It's in great condition and I'm looking to start a new life, so I'm selling everything I own. | Why do you want to start a new life? | I just do. I need a change and I want to start fresh. | Okay, well I'm interested in your car. How much are you selling it for?"
+  },
+  {
+    "id": "so_b1_00198",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, I had a really productive day today. I managed to count a lot of things. | That's great! What did you manage to count? | Well, I started by counting the number of steps it took me to get to the bathroom. Then I counted the number of brushstrokes it took me to brush my teeth. After that, I counted how many times I blinked while I was getting dressed. By the end of the day, I felt like I'd accomplished a lot. | That sounds like a lot of fun. Did you enjoy it?"
+  },
+  {
+    "id": "so_b1_00199",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Cats are the best pets because they're so independent. They don't need to be walked, they don't need to be played with all the time, and they can stay home alone for hours without getting bored. | I agree! I think cats are much more low-maintenance than dogs. Dogs need a lot of attention and exercise, but cats are content to just lounge around and sleep all day. | Exactly! And if you're not in the mood to play with your cat, they won't get offended. They'll just go off and do their own thing. Whereas dogs will just sit there and stare at you sadly if you don't want to play fetch with them. | Haha, that's true! I've never had a dog, but from what I've heard, they're a lot of work. Cats are much easier to care for in my opinion."
+  },
+  {
+    "id": "so_b1_00200",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Mom, I'm so excited to get a new puppy! Can you tell me what kind of puppy it is? | Well, we don't know yet. Your father and I have been looking at a few different options. We're not sure which one would be the best fit for our family. | That's so exciting! I can't wait to meet my new furry friend. Do you think we can go pick him or her up today? | Let's see how your father feels about that. He might want to do some more research before we make a decision. But, we can definitely go visit the puppies sometime soon so you can meet them all and help us choose which one comes home with us."
+  },
+  {
+    "id": "so_b1_00201",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe you're not letting me on the train! I paid for my ticket, what more do you want from me? | I'm sorry ma'am, but without a ticket you cannot board this train. | This is ridiculous! I already paid for my ticket, why can't I just get on the train? | I'm sorry ma'am, but our policy is that everyone must have a valid ticket in order to board the train. If you don't have a ticket, I'm afraid you'll have to wait for the next one."
+  },
+  {
+    "id": "so_b1_00202",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. What're you up to? | Just hanging out. You? | I'm doing some research. | On what?"
+  },
+  {
+    "id": "so_b1_00203",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "This looks amazing! I'm so happy with how it turned out. | It looks great! I love the color. | Yeah, I'm really happy with it too. It was a lot of work, but it was worth it. | I can imagine. It looks like you put a lot of thought into it."
+  },
+  {
+    "id": "so_b1_00204",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Dad, I've been doing a lot of thinking lately, and I've come to some conclusions that I wanted to talk to you about. | What kind of conclusions? | About life, and what it means to be alive. | Okay, shoot."
+  },
+  {
+    "id": "so_b1_00205",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey. What's up? | Not much, just hanging out. What are you up to? | Just chilling. | What are you thinking about?"
+  },
+  {
+    "id": "so_b1_00206",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Wow, thank you so much for cooking dinner, Abhay. You're really incredible. | You're welcome, Wendell. I love to cook and I'm glad you appreciate it. What are you up to tonight? | Just hanging out, watching some TV. You? | Not much, just relaxing. I'm really tired from work today."
+  },
+  {
+    "id": "so_b1_00207",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "| \"Jayde, can you answer the question?\" | \"I'm sorry, I don't know.\" | \"Are you sure? Let's try this again. What is the capital of France?\""
+  },
+  {
+    "id": "so_b1_00208",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Oh, John. I'm so sorry. I know how much you wanted kids. | It's okay, Mckinley. I know you did everything you could. | I just wish there was more I could have done. | You did everything you could. Please don't blame yourself."
+  },
+  {
+    "id": "so_b1_00209",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Sarah, how's it going? I haven't seen you in a while. | I'm doing well, thanks. I've been busy with work and haven't had much time for anything else. | I can imagine. Work can be pretty demanding sometimes. But it's important to make time for things that make us happy, right? | Absolutely. I try to do that as much as possible. So, what have you been up to lately? Anything new and exciting?"
+  },
+  {
+    "id": "so_b1_00210",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I don't believe you. I think you're up to something. | I'm not up to anything. | You've been acting suspicious lately. What are you planning? | I'm not planning anything."
+  },
+  {
+    "id": "so_b1_00211",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "That's a four-leaf clover! | Yeah, I found it in my backyard. | That's lucky! | You think so?"
+  },
+  {
+    "id": "so_b1_00212",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm just really worried about money right now. I have a lot of bills to pay and I don't know how I'm going to make ends meet. | It's okay, we'll figure it out. Do you want to talk about what's going on? | I just feel like I'm never going to get ahead. Every time I think I've saved up enough money, something comes up and I have to spend it all. It's so frustrating. | Yeah, I know it can be tough sometimes. But we'll work through it together. Let me see if I can help you with some of the bills this month."
+  },
+  {
+    "id": "so_b1_00213",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi! How are you today? | I'm doing well, thank you. How are you? | I'm good, thanks. Just wanted to grab a bouquet of daisies real quick. | That'll be $12.99 please."
+  },
+  {
+    "id": "so_b1_00214",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, you made it! I was worried you might not be able to find the spot. | Yeah, no problem. Your directions were great. So this is it? The famous rock? | Yep! The one and only. Isn't it incredible? | It's definitely unique. I've never seen anything like it before."
+  },
+  {
+    "id": "so_b1_00215",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. How's it going? | Good, Ebony. I'm just hanging out at home today. What about you? | I'm doing alright. I went to the store earlier and got some things for dinner tonight. I'm just relaxing at home now. | That sounds nice. I wish I could do that more often, but it seems like there's always something that needs to be done around here. Maybe one day I'll have my own place and can relax more often too."
+  },
+  {
+    "id": "so_b1_00216",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, gorgeous. You look absolutely stunning tonight. | Oh, thank you. You don't look so bad yourself. | Thanks. I always try to look my best when I'm with you. You're worth it. | Aww, that's sweet of you to say. But seriously, you do look great tonight. That suit really brings out your eyes."
+  },
+  {
+    "id": "so_b1_00217",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Mom. | Hey, baby girl. What's going on? | Just feeling a little down, I guess. | Well, let's talk about it. What's been going on?"
+  },
+  {
+    "id": "so_b1_00218",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I feel really uncomfortable. I feel itchy all over my body and my skin is starting to swell up. I think I'm going to vomit and I can't breathe very well. | What's wrong? | I think I was bitten by a bug. | Let me see."
+  },
+  {
+    "id": "so_b1_00219",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Sarah, I'm so glad you're here. I've been wanting to talk to you about the peace movement and what we can do to make a difference. | Of course, Vada. I'm always happy to talk about ways to make the world a better place. What did you have in mind? | Well, first of all, I think it's important that we continue to spread awareness about the importance of peace. Too many people are still living in ignorance and violence, and we need to show them that there is another way. We need to be the example for them. | Absolutely. I couldn't agree more. Awareness is key. But what else do you think we can do?"
+  },
+  {
+    "id": "so_b1_00220",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "| Oh wow, congratulations! Which band is it? | It's a band called \"The Raging republic.\" They're a pretty big name in the rock world. I'm really excited to see them live. | That sounds amazing! I'm sure you'll have a great time. Let me know how it goes afterwards, okay?"
+  },
+  {
+    "id": "so_b1_00221",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Mom, why did you tell me that I'm not as pretty as my sister? I thought you loved me. | Chaya, of course I love you. You're my daughter. But you're not as pretty as your sister. It's just a fact. Your sister is more conventionally attractive than you are. | But that doesn't mean I'm not beautiful in my own way, does it? | No, it doesn't mean that. You're both beautiful girls. But your sister is more traditionally beautiful than you are. And that's okay, because beauty comes in all different forms."
+  },
+  {
+    "id": "so_b1_00222",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, I'm here to get my fingerprints taken. | Okay, no problem. Let me just grab the ink pad and the cards. | Thanks. | So, do you have any idea why you need to get your fingerprints taken?"
+  },
+  {
+    "id": "so_b1_00223",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Emily, I was born on a cold winter day in New Jersey. | Oh, really? What was it like? | It was freezing! I grew up running around the forests of Pennsylvania. Now I live surrounded by palm trees and the sun in Florida. | That's so cool! I've always wanted to live in a warm climate. What's it like down there?"
+  },
+  {
+    "id": "so_b1_00224",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Kasha. I've been thinking about what you said, and I want to talk to you about it. | What is there to talk about? I was clear about how I feel, and you didn't seem to care. | That's not true! I do care about you, Kasha. I just don't understand why you feel like this all of a sudden. | It's not sudden. I've been feeling this way for a while, Seirra. And you just haven't noticed because you're always too busy with work or your friends."
+  },
+  {
+    "id": "so_b1_00225",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Wow, that sunset is so beautiful! Can you take a picture of me? | Sure! I'd love to. Let me get my camera. | Thank you so much! I just love sunsets. They always make me feel so peaceful and happy. | I know what you mean. There's just something about them that's so special."
+  },
+  {
+    "id": "so_b1_00226",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, when do your doors open? | We open in ten minutes. | Great, I'll just wait over here then. | Is there something specific you're looking for?"
+  },
+  {
+    "id": "so_b1_00227",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, coach. I'm really sorry about the race today. I just couldn't keep up with the others. | Javier, it's okay. You did your best. There's always next time. | Yeah, but I don't know if I can do this. It was so hard. | Javier, listen to me. You can do this. I know you can. You've been training for months and you're one of the strongest runners I know."
+  },
+  {
+    "id": "so_b1_00228",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Wow, what a night. I had a great time with you, Willian. | I had a great time with you too, Katelynn. That was a really fun date. | Yeah, it was. I'm really glad we went out. I feel like we connected on a lot of levels. | I feel the same way. I'm really looking forward to getting to know you better."
+  },
+  {
+    "id": "so_b1_00229",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Mom. I was just thinking about something. | What is it, Brandt? | Do you think that people can change? | I don't know. What do you mean by change?"
+  },
+  {
+    "id": "so_b1_00230",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm so sorry you didn't like the movie. I had no idea you would hate it. | It's not your fault. I should have known better than to pick something that's so different from what I usually watch. | But I wanted you to pick something! I didn't want to seem rude by suggesting something else. | Don't worry about it. It was my decision, and I don't blame you for anything."
+  },
+  {
+    "id": "so_b1_00231",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I want to get married. | What? Are you serious? | Yeah, I'm dead serious. I love you and I want to spend the rest of my life with you. | Oh Heba, I love you too. But are you sure? We don't have to get married just because everyone else is doing it."
+  },
+  {
+    "id": "so_b1_00232",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Harbor, I can't stop thinking about you. I want to be with you all the time. | I feel the same way, Jeffery. You're always on my mind. | I wish we could be together all the time. Just the two of us. | I know, me too. But we'll have to make do with what we have for now."
+  },
+  {
+    "id": "so_b1_00233",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, what's going on? | Just watching TV. What's up with you? | I'm just feeling a little down lately. | Why, what's wrong?"
+  },
+  {
+    "id": "so_b1_00234",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Zeke, I just want to make sure that your film is perfect. I know you're passionate about it and I don't want anything to go wrong. | Don't worry, Jaedyn. I appreciate your concern, but I know what I'm doing. This film is going to be great. | I hope so. We've put a lot of work into it and I don't want anything to ruin it. Let me know if you need any help with anything, okay? | Of course, thank you."
+  },
+  {
+    "id": "so_b1_00235",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Are you sure you're okay? You look like you've been through a lot. | Yeah, I'm fine. Thanks for the offer of a ride, though. I appreciate it. | No problem. Where are you headed? | I'm not really sure. I was just going to start walking and see where I ended up."
+  },
+  {
+    "id": "so_b1_00236",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm sorry, that was really rude of me. | It's okay, I know you didn't mean it. | Yeah, I was just really hungry and lost track of what I was doing. | It happens to the best of us. So, what are you up to today?"
+  },
+  {
+    "id": "so_b1_00237",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Jeremiah, I saw that you gave a lecture on climate change and its effects on the environment. I thought it was really informative and I enjoyed learning more about the issue. | Thank you, Fidel. I'm glad you found it interesting. Climate change is a huge problem that we need to start paying attention to. It's already starting to impact our environment in negative ways and the effects are only going to get worse unless we do something about it. | That's true. I never really thought about how climate change could affect our environment. It makes sense that it would though. warmer temperatures could lead to more extreme weather conditions like hurricanes and floods, which can damage homes and infrastructure. | Exactly. And those are just some of the direct impacts of climate change on our"
+  },
+  {
+    "id": "so_b1_00238",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Delicia, how's it going? | Hey Williams, I'm doing alright. How are you? | I'm good, thanks for asking. So, why are you cutting in line? | Well, I was hoping I could talk to you for a minute."
+  },
+  {
+    "id": "so_b1_00239",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I love music! It's such a big part of my life and it always makes me feel so good. | I know, me too! It's just so amazing how something can be so powerful and moving, you know? | Exactly! It's like, no matter what mood I'm in, music can always make me feel better. | Totally. And it's also great for when you want to get pumped up or motivated for something."
+  },
+  {
+    "id": "so_b1_00240",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Mom. I'm just finishing up my homework and then I'll be able to help you with dinner. | That would be great, thank you. Do you know what we're having tonight? | No, I don't. What are we having? | We're having chicken parmesan."
+  },
+  {
+    "id": "so_b1_00241",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, how are you doing? | Hey, I'm good. How are you? | Good. I was just thinking about how selfish I am. | Why do you say that?"
+  },
+  {
+    "id": "so_b1_00242",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Bibiana, I wanted to talk to you about something important. I've been thinking a lot lately about quitting smoking, and I've even made a list of all the reasons why I want to do it. | Wow, that's amazing! I'm so proud of you for taking this step. Quitting smoking is definitely not easy, but it's definitely worth it. So what made you finally decide to quit? | I guess I just realized how much damage smoking was doing to my health, both physically and mentally. And the more I thought about it, the more I realized that there are so many other things in life that are more important to me than smoking. So I decided it was time to make a change. | That sounds like a really great decision. Do you mind if I ask what's on your list of reasons for quitting?"
+  },
+  {
+    "id": "so_b1_00243",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Merry Christmas! What are you doing today? | Just hanging out with family. You? | Same here. I'm spending time with my wife and kids. We're making some tamales and then we're going to open presents. | That sounds like a lot of fun. I'm sure your kids are excited for Christmas."
+  },
+  {
+    "id": "so_b1_00244",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I wanted to talk to you about what you said earlier. I don't think it's fair that you accused me of not being a good friend. | What are you talking about? I didn't say anything like that. | You said that I never listen to you and that I don't care about your problems. That sounds like an accusation to me. | Well, it's not really an accusation. It's just how I feel sometimes. You're always busy with your own things and it feels like you don't have time for me anymore."
+  },
+  {
+    "id": "so_b1_00245",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Zahira, I'm glad to see that you're making progress on your project. It's important to have a clear plan and goals in mind when undertaking something like this. Can you tell me more about your plans? What are your specific goals? | Well, I'm still working on nailing down all the details, but my general plan is to create a series of educational videos on YouTube. My goal is to provide valuable information that will help people learn new skills or knowledge. | That sounds like a great plan! I'm sure your videos will be very helpful to many people. Do you have any ideas for what topics you'll cover in your videos? | Yes, I have a few ideas already. I want to cover topics that are popular searches on YouTube, but also ones that aren't being adequately covered by other channels. For example, I "
+  },
+  {
+    "id": "so_b1_00246",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, can I get two tickets for whatever's playing next? | Sure, what movie would you like to see? | I don't know, what do you recommend? | Well, what kind of movies do you like?"
+  },
+  {
+    "id": "so_b1_00247",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. What's up? | Not much. Just hanging out at home. | That sounds boring. | It is kind of boring. I wish I had something to do."
+  },
+  {
+    "id": "so_b1_00248",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm so sick of the city. I've been living here for a few years and I feel like I've done everything there is to do. | What are you talking about? The city is huge! There's always something new to do. | Yeah, I know. But it just feels like I've seen everything it has to offer. And to be honest, I'm kind of homesick. | Oh, I get it. You miss your family and friends back home, huh?"
+  },
+  {
+    "id": "so_b1_00249",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, hun. I'm so happy with our new house. It's perfect for us. | I know, me too. It's got everything we wanted. | The white picket fence was a must-have for me. It just feels so homey and inviting. | I agree. Plus, it'll be great for when the kids come along someday. They can play in the front yard without us having to worry about them running into the street."
+  },
+  {
+    "id": "so_b1_00250",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I wanted to help you out, so I bought you a newspaper. | Thanks, Hosanna. That was really thoughtful of you. | You're welcome. How are things going? | Not too bad. I've been having trouble sleeping lately, but other than that things are okay."
+  },
+  {
+    "id": "so_b1_00251",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi there. Are you okay? | No, I'm not. My car broke down a few miles back and I've been walking since then, but I can't seem to find anyone who can help me. | That's terrible. Let me see if I can help you. Do you have a phone? Maybe we can call a tow truck or something. | Thank you, that would be great. I left my phone in the car, so I couldn't call for help even if I wanted to."
+  },
+  {
+    "id": "so_b1_00252",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Nuri. I noticed that you always seem to know what's going on. Can you tell me how you always seem to be in the know? | I just have a knack for it, I guess. people tend to tell me things. | Huh. Well, I did some digging, and it turns out that you've been spying on me. How do you explain that? | Busted! Yeah, I've been spying on you. But it's not like it's a big deal or anything. Everyone does it."
+  },
+  {
+    "id": "so_b1_00253",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, personA. It sounds like you're really upset about what happened. Can you tell me more about what happened? | Well, I was at work and my boss was being really unfair. He's been picking on me a lot lately and today he just went too far. I tried to talk to him about it, but he just blew me off and told me to do my job. I'm just so sick of this treatment, you know? It's like he doesn't even see me as a human being, just some cog in the machine that he can use however he wants. | That does sound really tough. It sounds like you feel like your boss is taking advantage of you and not respecting you. Have you talked to anyone else about this? How do they feel? | Yeah, I've talked to my friends and family about it and they all say the same thing. They think I should just quit or find a new job,"
+  },
+  {
+    "id": "so_b1_00254",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Wow, this lamp is really pretty. It looks so warm and inviting. | Yes, it does. It's one of my favorite lamps in the house. | I can see why. There's just something about the light that makes me feel happy. | I know what you mean. There's something very comforting about looking at a light in the dark."
+  },
+  {
+    "id": "so_b1_00255",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Edan, how's it going? | Hey Cassandra. I'm doing alright, thanks. How are you? | I'm good. I just wanted to say that I really like your work. You're really talented. | Thanks, Cassandra. That means a lot coming from you."
+  },
+  {
+    "id": "so_b1_00256",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Julia. I'm finally finished with that big case I was working on. | That's great! Now you can finally take that vacation you've been wanting to go on. | Yeah, I'm planning to spend two weeks in the Bahamas. I'm really looking forward to relaxing on the beach. | That sounds like a great idea. I'm sure you need a break after working so hard on that case."
+  },
+  {
+    "id": "so_b1_00257",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, thanks for coming over to help me with my bike. I really appreciate it. | No problem. I was happy to help. | I've been having some trouble with it lately and I'm glad you were able to take a look at it. | Yeah, no problem. It looked like the chain was loose, so I tightened it up for you."
+  },
+  {
+    "id": "so_b1_00258",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I feel really good about the play. I think we're all doing a great job and I'm really enjoying it. It's just a lot of fun. | Yeah, I can tell. You seem to be really into it. | Yeah, I am. It's just a lot of fun and I'm really enjoying it. I think we're all doing a great job. | That's great! I'm really happy for you. You deserve it."
+  },
+  {
+    "id": "so_b1_00259",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe she left me. I thought we were happy. | I'm so sorry, man. What happened? | I don't really know. She just packed her bags and took the dog with her. She didn't even leave a note. | That's rough. Have you talked to her since she left?"
+  },
+  {
+    "id": "so_b1_00260",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "\"Hey, Sarah! Come over here and check this out!\" | \"What is it?\" | \"It's a fossilized bone! I found it while I was digging around here.\" | \"That's really cool! Can I see it?\""
+  },
+  {
+    "id": "so_b1_00261",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, mom. I'm over here. | Ivanka, what are you doing in the bushes? | I was just playing around. | You know you're not supposed to play with my things."
+  },
+  {
+    "id": "so_b1_00262",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Excuse me, I think I left my wallet at home. Can I go and get it and come back to pay? | Sure, no problem. Just be quick so we can keep the line moving. | Thank you so much. I'll be right back. | I'm so sorry about this. I can't believe I left my wallet at home."
+  },
+  {
+    "id": "so_b1_00263",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. How's it going? | Not too bad. Just studying for my upcoming biology test. You know how it is. | Yeah, I definitely do. I've been studying for my own tests lately too. It's tough, but I know we can both do it! | I hope so. I don't want to fail this test, or any other for that matter."
+  },
+  {
+    "id": "so_b1_00264",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, I've been meaning to ask you, how do you get around town? Do you take the bus or the train? | Oh, I don't really use public transportation. I just walk everywhere. | Really? That's so interesting! I would love to be able to do that, but unfortunately my job is at the other end of town and it would be too time-consuming to walk there every day. Plus, in this heat it would be pretty unbearable. Do you ever take the bus or train when it's hot out? | No, I actually try to avoid public transportation as much as possible. It's just so crowded and unpleasant during summer. Besides, walking is really good for you and it's a great way to see the city."
+  },
+  {
+    "id": "so_b1_00265",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "| Hey, Mr. K. Do you have a minute? | Of course, Clara. What's up? | I just wanted to show you this painting I did and get your opinion on it."
+  },
+  {
+    "id": "so_b1_00266",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. How's life been treating you? | It's been good. I've been really busy with work lately, but I can't complain. How about you? How's your job going? | It's going well. I'm starting to get more responsibilities and my boss is happy with my work. I'm just happy that I have a stable job that I enjoy. | That's great! You deserve it after all the hard work you've put in. So, what else is new with you? Anything exciting happening in your life?"
+  },
+  {
+    "id": "so_b1_00267",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I don't want to stop kissing you. You taste so sweet. | I don't want to stop either. But we have to go our separate ways soon. | I know, but it's so hard. Especially since we just started dating and I already feel so strongly for you. | I feel the same way. But distance can be tough, especially when we're still getting to know each other. Who knows, maybe this long-distance thing will make our relationship even stronger in the end?"
+  },
+  {
+    "id": "so_b1_00268",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you, Chet. I really appreciate your support. | It's true, you know. You have a real talent for art and I think you'll go far with it. | That means a lot coming from you. You're one of the most talented artists I know. | Oh, stop it! You'll make me blush. But seriously, Keoni, I think you have a lot of potential and I'm sure you'll do great things in the art world."
+  },
+  {
+    "id": "so_b1_00269",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm so happy I could pay your salary this week, Om. It feels good to know that I can keep my business running smoothly and pay all of my employees. | Thank you, Tehila. I appreciate your help. | You're welcome. I know you've been working hard and I'm glad I could help you out. | Thank you, Tehila. I really appreciate it."
+  },
+  {
+    "id": "so_b1_00270",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "The teacher's voice was loud and clear, and it sounded like she was saying something interesting. Sherwin felt interested, so he decided to listen to what she was saying. The following is a long in-depth conversation happening in the scene between Sherwin and the teacher. | What are you talking about? It sounds interesting. | We're discussing the history of ancient Greece today. Specifically, we're talking about Athens and Sparta. Do you know anything about them? | Not much. I know they were two of the biggest city-states back then, and they were always fighting each other."
+  },
+  {
+    "id": "so_b1_00271",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Luigi. Isn't it a great day? | Yeah, it sure is. The sun is shining and the birds are singing. It's days like this that make me thankful for what we have. | I know what you mean. Just breathing in this fresh air feels wonderful. Sometimes I take my ability to breathe for granted, but not today. Today I'm grateful for every breath I take. | That's a really good way to look at it. I'm grateful for my health too. We're both lucky to be in good health."
+  },
+  {
+    "id": "so_b1_00272",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm sorry, Tavian. | It's okay, I understand. | I know you do, and that's why I had to tell you the truth. | What is it?"
+  },
+  {
+    "id": "so_b1_00273",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm so annoyed. I was hoping to get a discount on my purchase, but the store wouldn't give me one. | I'm sorry to hear that. Did you ask for a specific discount? | Yeah, I asked if they could give me 10% off since I'm a loyal customer, but they said no. | That's too bad. It sounds like they didn't want to give you a discount because they don't value your loyalty as a customer."
+  },
+  {
+    "id": "so_b1_00274",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm feeling much better now, thank you. | I'm glad to hear it. You had me worried for a while there. | Yes, I suppose I did. But I'm feeling much better now. The cough is gone and my energy is starting to come back. | That's great news! I'm so relieved."
+  },
+  {
+    "id": "so_b1_00275",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So you're really serious about looking for a new job? | Absolutely. I've been unhappy at my current job for a while now and I need a change. | I completely understand. It can be really tough when you're not happy with your work situation. Have you been looking around at any other places? | Yeah, I've been doing some research and there are definitely some places that I'm interested in working. But it's hard to know if they would be the right fit without actually applying and interviewing."
+  },
+  {
+    "id": "so_b1_00276",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "\"So, Ryanne, how's your day going?\" | \"It's going good. I'm just happy to be here with you.\" | \"I'm happy to be here with you too. I feel like we've been talking a lot lately and I really enjoy it.\" | \"I enjoy it too. I feel like I can really talk to you about anything.\""
+  },
+  {
+    "id": "so_b1_00277",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey Josalyn! I haven't seen you in a while. How are you doing? | I'm doing alright, thanks for asking. I've been pretty busy lately. | I can imagine. What have you been up to? | Well, I just started a new job and I've been spending a lot of time getting settled in. It's been keeping me pretty busy."
+  },
+  {
+    "id": "so_b1_00278",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, you're really mad about your phone, huh? | You have no idea. I just got that thing and it was already so expensive and now it's broken. | Well, maybe you should have been more careful with it. | I was being careful! I didn't do anything to deserve this."
+  },
+  {
+    "id": "so_b1_00279",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, dad. Do you have a minute? | Of course, son. What's up? | I wanted to talk to you about basketball. I feel like I'm not progressing as quickly as I want to and I was wondering if you had any advice. | Well, first of all, don't get discouraged. It takes a lot of time and hard work to become great at anything. And secondly, make sure you're learning from the best sources. There's a lot of bad information out there and if you're not careful, you can end up wasting a lot of time going down the wrong path."
+  },
+  {
+    "id": "so_b1_00280",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey! I'm so glad you came. | I wouldn't have missed it for the world. Your performance was incredible. | Thanks so much. I'm really glad you liked it. | I did, but I think you were even more amazing off the stage."
+  },
+  {
+    "id": "so_b1_00281",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thank you so much for teaching me how to play the piano, it's always been a dream of mine to be a professional musician. | You're very welcome, Selena. You have a lot of talent and I could tell from the beginning that you were going to be a great pianist. | I just love the piano so much, it's such a beautiful instrument. I'm so glad I was able to learn how to play it. | It's definitely one of the most rewarding instruments to learn how to play. There's just something about the piano that can touch people's hearts and souls."
+  },
+  {
+    "id": "so_b1_00282",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, man. How are you doing? | Not too bad. Just trying to stay busy and stay sober. It's tough sometimes, but I'm managing. | I can imagine. It's got to be really hard to kick a drug habit. But you're doing it, and that's what counts. | Yeah, I guess so. It's just hard sometimes, y'know? I miss using sometimes. But I know it's not good for me, so I try not to think about it too much. Just gotta take it one day at a time, I guess."
+  },
+  {
+    "id": "so_b1_00283",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Bashir, I want to talk to you about something important. | Sure, what is it? | I'm getting old, Bashir. And I know that I won't be around forever. | What are you talking about? You're not old, Travion. You're in great shape for your age."
+  },
+  {
+    "id": "so_b1_00284",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Officer, I just drove by the scene of the crime and saw the police tape. What happened? | Well, we're still trying to piece everything together, but it looks like a murder took place. We're not sure who did it or why yet, but we're working on it. | Oh my gosh, that's horrible. Do you have any leads? | Not at the moment, but we're hoping someone saw something that can help us solve this case."
+  },
+  {
+    "id": "so_b1_00285",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Niki. I'm Avraham. | Hi, Avraham! It's nice to meet you. What brings you here today? | Well, actually, I was hoping to talk to you about something. You see, I've been having some trouble lately and I was wondering if maybe you could help me out. | Of course! I'll do whatever I can. What's wrong?"
+  },
+  {
+    "id": "so_b1_00286",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Anakaren. | Hey, Charli. You look beautiful today. | Thank you. I love your suit. | Thanks. I just got it yesterday. It's my favorite so far."
+  },
+  {
+    "id": "so_b1_00287",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, I'm Jun. What's your name? | My name is Christoper. | Nice to meet you, Christoper. What can I do for you? | I need some help with a legal issue."
+  },
+  {
+    "id": "so_b1_00288",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm so grateful to have you in my life, Andreana. You understand me better than anyone else. | I feel the same way about you, Araceli. You're an amazing person and I'm glad we can be together. | It means a lot to me that you see me that way. I've never felt so appreciated before. | You deserve all the love and appreciation in the world, Araceli. You're an amazing person and I'm glad I can be a part of your life."
+  },
+  {
+    "id": "so_b1_00289",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, I saw your dog running around the neighborhood and I thought I should return him to you. | Thank you so much! I was just about to go look for him. Where did you find him? | He was over by my house. | Oh, thank you so much for bringing him back to me!"
+  },
+  {
+    "id": "so_b1_00290",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Sarah, it's so good to see you! How are you doing? | I'm doing well, thanks for asking. How about you? | I'm doing great. I just got back from my yoga class and I'm feeling really relaxed. | That sounds amazing. I wish I had time to do yoga, but with my job and taking care of my kids, it's just hard to find the time."
+  },
+  {
+    "id": "so_b1_00291",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi! I'm Presley. | Hi, I'm Nichelle. Nice to meet you. | Yes, nice to meet you too. So what brings you here today? | Oh, just getting my usual coffee before work. I work at the nearby bookstore. And you?"
+  },
+  {
+    "id": "so_b1_00292",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Leandra. | Hey, Gretta. How are you? | I'm doing well. How are you? | I'm good. Just thinking about stuff."
+  },
+  {
+    "id": "so_b1_00293",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm so frustrated right now. I left my laptop at home and I really need it to finish my essay. | That's a bummer. What are you going to do? | Well, I emailed myself a copy of the essay, so hopefully I can just finish it up on one of the library computers. But it's just so annoying that I have to do this in the first place. If only I had remembered to bring my laptop with me... |"
+  },
+  {
+    "id": "so_b1_00294",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I can't believe school is almost over. It feels like it just started. | I know, time flies when you're having fun. But don't be too sad, you'll see your friends again soon enough. And think of all the fun things you'll get to do with your newfound free time. | I guess you're right. I'm just going to miss everyone so much. Especially Lily, she's my best friend. | Aww, I'm sure you'll stay in touch. And who knows, maybe you'll even make some new friends next year. Just think of all the possibilities!"
+  },
+  {
+    "id": "so_b1_00295",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I was just reading this section on emotional language in persuasion, and it really spoke to me. I feel like I could definitely use some work in that area. | Yeah, I can see that. Your writing is usually pretty dry and factual. | Exactly! But if I want to be more persuasive, I need to find a way to connect with my audience on an emotional level. | Well, it makes sense. People are more likely to be persuaded by something that appeals to their emotions."
+  },
+  {
+    "id": "so_b1_00296",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Daddy, I know that you're upset about what happened at the store today, but I really don't think it's fair for you to take it out on me. I didn't do anything wrong. | Breann, you were the one who spoke up and caused all that commotion. I told you to be quiet and mind your own business, but you just wouldn't listen. Do you have any idea how embarrassing it was for me? | Daddy, I'm sorry if I embarrassed you, but I just couldn't let that woman get away with what she was doing. It wasn't right. | I don't care if it wasn't right. You should have kept your mouth shut. Now come upstairs and apologize to your mother for causing such a scene."
+  },
+  {
+    "id": "so_b1_00297",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I want to make a difference in my community. | That's commendable, Penny. What do you think you can do to make a difference? | I think that by writing articles and raising awareness, I can help make a difference in the world. | Why do you feel that way?"
+  },
+  {
+    "id": "so_b1_00298",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, what did you think of the movie? | It was interesting. I liked it. | Yeah, me too. I thought it was well-made. | Yeah, the acting was great and the story was good."
+  },
+  {
+    "id": "so_b1_00299",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Iris! What are your plans for the weekend? | Not much, just hanging out with friends and family. You? | Oh, I'm going to a party on Saturday night. It should be really fun! | That sounds great! Who's throwing the party?"
+  },
+  {
+    "id": "wk_s5_00300",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "In geography, latitude is a geographic coordinate that specifies the north-south position of a point on the surface of the Earth or another celestial body. Latitude is given as an angle that ranges from −90° at the south pole to 90° at the north pole, with 0° at the Equator. Lines of constant latitude, or parallels, run east-west as circles parallel to the equator."
+  },
+  {
+    "id": "wk_s5_00301",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "Longitude is a geographic coordinate that specifies the east-west position of a point on the surface of the Earth, or another celestial body. It is an angular measurement, usually expressed in degrees and denoted by the Greek letter lambda (λ). Meridians are imaginary semicircular lines running from pole to pole that connect points with the same longitude."
+  },
+  {
+    "id": "wk_s5_00302",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A geographic coordinate system (GCS) is a spherical or geodetic coordinate system for measuring and communicating positions directly on Earth as latitude and longitude. It is the simplest, oldest, and most widely used type of the various spatial reference systems that are in use, and forms the basis for most others. Although latitude and longitude form a coordinate tuple like a Cartesian coordinate system, geographic coordinate systems are not Cartesian because the measurements are angles and are not on a planar surface."
+  },
+  {
+    "id": "wk_s5_00303",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "In cartography, a map projection is any of a broad set of transformations employed to represent the curved two-dimensional surface of a globe on a plane. In a map projection, coordinates, often expressed as latitude and longitude, of locations from the surface of the globe are transformed to coordinates on a plane. Projection is a necessary step in creating a two-dimensional map and is one of the essential elements of cartography."
+  },
+  {
+    "id": "wk_s5_00304",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "In architecture and building engineering, a floor plan is a technical or diagrammatic drawing that illustrates the horizontal relationships of interior spaces or features to one another at one level of a structure. They are typically drawn to-scale and in orthographic projection to represent relationships without distortion. They are usually drawn approximately 4 ft (1.2 m) above the finished floor and indicate the direction of north."
+  },
+  {
+    "id": "wk_s5_00305",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "The four cardinal directions or cardinal points are the four main compass directions: north (N), east (E), south (S), and west (W). The corresponding azimuths are 0°, 90°, 180°, and 270°."
+  },
+  {
+    "id": "wk_s5_00306",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "In navigation, dead reckoning is the process of calculating the current position of a moving object by using a previously determined position, or fix, and incorporating estimates of speed, heading, and elapsed time. The corresponding term in biology, to describe the processes by which animals update their estimates of position or heading, is path integration."
+  },
+  {
+    "id": "wk_s5_00307",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A continental divide is a drainage divide on a continent such that the drainage basin on one side of the divide feeds into one ocean or sea, and the basin on the other side either feeds into a different ocean or sea, or else is endorheic, not connected to the open sea. Every continent on Earth except Antarctica has at least one continental drainage divide; islands, even small ones like Killiniq Island on the Labrador Sea in Canada, may also host part of a continental divide or have their own island-spanning divide. The endpoints of a continental divide may be coastlines of gulfs, seas or oceans, the boundary of an endorheic basin, or another continental divide."
+  },
+  {
+    "id": "wk_s5_00308",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A river delta is a landform, typically triangular, created by the deposition of the sediments that are carried by the waters of a river, where the river merges with a body of slow-moving water or with a body of stagnant water. The creation of a river delta occurs at the river mouth, where the river merges into an ocean, a sea, or an estuary, into a lake, a reservoir, or into another river that cannot carry away the sediment supplied by the feeding river. Etymologically, the term river delta derives from the triangular shape (Δ) of the uppercase Greek letter delta."
+  },
+  {
+    "id": "wk_s5_00309",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A floodplain or flood plain or bottomlands is an area of land adjacent to a river. Floodplains stretch from the banks of a river channel to the base of the enclosing valley, and experience flooding during periods of high discharge. The soils usually consist of clays, silts, sands, and gravels deposited during floods."
+  },
+  {
+    "id": "wk_s5_00310",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A valley is an elongated low area often running between hills or mountains and typically containing a river or stream running from one end to the other. Most valleys are formed by erosion of the land surface by rivers or streams over a very long period. Some valleys are formed through erosion by glacial ice."
+  },
+  {
+    "id": "wk_s5_00311",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A canyon, gorge or chasm, is a deep cleft between escarpments or cliffs resulting from weathering and the erosive activity of a river over geologic time scales. Rivers have a natural tendency to cut through underlying surfaces, eventually wearing away rock layers as sediments are removed downstream. A river bed will gradually reach a baseline elevation, which is the same elevation as the body of water into which the river drains."
+  },
+  {
+    "id": "wk_s5_00312",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "An estuary is a partially enclosed coastal body of brackish water where freshwater from rivers or streams meets and mixes with saltwater from the open sea. Estuaries form transition zones between riverine and marine environments and are classified as ecotones, areas where different ecosystems overlap. They are influenced by both marine processes and fluvial processes."
+  },
+  {
+    "id": "wk_s5_00313",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "In geology and physical geography, a plateau, also called a high plain or a tableland, is an area of highland consisting of flat terrain that is raised sharply above the surrounding area on at least one side. Often one or more sides have deep escarpments or hills. Plateaus can be formed by a number of processes, including upwelling of volcanic magma, extrusion of lava, and erosion by water and glaciers."
+  },
+  {
+    "id": "wk_s5_00314",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "In geomorphology, a butte is an isolated hill with steep, often vertical sides and a small, relatively flat top; buttes are smaller landforms than mesas, plateaus, and tablelands. The word butte comes from the French word butte, meaning 'knoll' ; its use is prevalent in the Western United States, including the Southwest, where mesa is used for the larger landform."
+  },
+  {
+    "id": "wk_s5_00315",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A mesa is an isolated, flat-topped elevation, ridge, or hill, bounded from all sides by steep escarpments and standing distinctly above a surrounding plain. Mesas consist of flat-lying soft sedimentary rocks, such as shales, capped by a resistant layer of harder rock, like sandstone or limestone, forming a caprock that protects the flat summit. The caprock may also include dissected lava flows or eroded duricrust."
+  },
+  {
+    "id": "wk_s5_00316",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A canyon, gorge or chasm, is a deep cleft between escarpments or cliffs resulting from weathering and the erosive activity of a river over geologic time scales. Rivers have a natural tendency to cut through underlying surfaces, eventually wearing away rock layers as sediments are removed downstream. A river bed will gradually reach a baseline elevation, which is the same elevation as the body of water into which the river drains."
+  }
+]

@@ -174,7 +174,7 @@ fn write_heatmap_json(heatmap: &HeatmapData, path: &str) {
 
 fn main() {
     let base_url = "http://localhost:8081";
-    let corpus_path = "experiments/corpus/stimuli_combined.json";
+    let corpus_path = "experiments/corpus/stimuli_master.json";
     let results_dir = "results";
 
     fs::create_dir_all(results_dir)
