@@ -83,6 +83,20 @@ struct HeatmapData {
     matrix: Vec<Vec<f32>>,
 }
 
+const REGIONS: &[&str] = &["visual", "auditory", "language", "prefrontal", "motor", "parietal"];
+
+fn region_value(r: &SweepRecord, name: &str) -> f32 {
+    match name {
+        "visual"     => r.visual_rel,
+        "auditory"   => r.auditory_rel,
+        "language"   => r.language_rel,
+        "prefrontal" => r.prefrontal_rel,
+        "motor"      => r.motor_rel,
+        "parietal"   => r.parietal_rel,
+        _            => 0.0,
+    }
+}
+
 fn make_record(stimulus: &Stimulus, resp: &PredictResp) -> SweepRecord {
     let region = |name: &str| -> f32 {
         resp.region_stats.get(name).map(|r| r.rel_activation).unwrap_or(0.0)
@@ -112,7 +126,6 @@ fn rank_results(records: &[SweepRecord]) -> Vec<SweepRecord> {
 }
 
 fn build_heatmap(records: &[SweepRecord]) -> HeatmapData {
-    let regions = ["visual", "auditory", "language", "prefrontal", "motor", "parietal"];
     let mut types: Vec<String> = records.iter().map(|r| r.content_type.clone()).collect();
     types.sort();
     types.dedup();
@@ -120,23 +133,15 @@ fn build_heatmap(records: &[SweepRecord]) -> HeatmapData {
     let matrix = types.iter().map(|ct| {
         let group: Vec<&SweepRecord> = records.iter().filter(|r| &r.content_type == ct).collect();
         let n = group.len() as f32;
-        regions.iter().map(|region| {
-            let sum: f32 = group.iter().map(|r| match *region {
-                "visual"     => r.visual_rel,
-                "auditory"   => r.auditory_rel,
-                "language"   => r.language_rel,
-                "prefrontal" => r.prefrontal_rel,
-                "motor"      => r.motor_rel,
-                "parietal"   => r.parietal_rel,
-                _            => 0.0,
-            }).sum();
+        REGIONS.iter().map(|region| {
+            let sum: f32 = group.iter().map(|r| region_value(r, region)).sum();
             if n > 0.0 { sum / n } else { 0.0 }
         }).collect()
     }).collect();
 
     HeatmapData {
         content_types: types,
-        regions: regions.iter().map(|s| s.to_string()).collect(),
+        regions: REGIONS.iter().map(|s| s.to_string()).collect(),
         matrix,
     }
 }
@@ -280,5 +285,34 @@ mod tests {
         let content = std::fs::read_to_string(path).unwrap();
         assert!(content.starts_with("rank,id,content_type,source_type,language_structure,demo_mode,global_mean,global_max,visual_rel,auditory_rel,language_rel,prefrontal_rel,motor_rel,parietal_rel"));
         assert!(content.contains("1,x1,Factual"));
+    }
+
+    #[test]
+    fn make_record_maps_fields_correctly() {
+        use std::collections::HashMap;
+        let stimulus = Stimulus {
+            id: "test_id".to_string(),
+            content_type: "ThreatSafety".to_string(),
+            source_type: "breaking_news".to_string(),
+            language_structure: "short_declarative".to_string(),
+            text: "some text".to_string(),
+        };
+        let mut region_stats = HashMap::new();
+        region_stats.insert("language".to_string(), RegionStat { mean: 0.5, rel_activation: 1.5 });
+        region_stats.insert("visual".to_string(), RegionStat { mean: 0.2, rel_activation: 0.3 });
+        let resp = PredictResp {
+            region_stats,
+            global_stats: GlobalStat { global_mean: 0.4, global_max: 0.9 },
+            vertex_acts: vec![0.1, 0.2],
+            demo_mode: true,
+        };
+        let rec = make_record(&stimulus, &resp);
+        assert_eq!(rec.id, "test_id");
+        assert_eq!(rec.content_type, "ThreatSafety");
+        assert!((rec.language_rel - 1.5).abs() < 1e-5);
+        assert!((rec.visual_rel - 0.3).abs() < 1e-5);
+        assert!((rec.prefrontal_rel - 0.0).abs() < 1e-5); // missing region defaults to 0
+        assert_eq!(rec.demo_mode, true);
+        assert_eq!(rec.vertex_acts, vec![0.1f32, 0.2f32]);
     }
 }
