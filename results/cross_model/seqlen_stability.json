@@ -1,0 +1,116 @@
+{
+  "means_by_seqlen": {
+    "4": {
+      "Abstract": -0.007013225823333334,
+      "AudioText": -0.003957805133333333,
+      "Emotional": -0.004368231499333334,
+      "Factual": -0.004921915719999999,
+      "ImageVisual": -0.0046221392333333335,
+      "Multimodal": -0.0049076765690000005,
+      "Narrative": -0.00473601624,
+      "Novelty": -0.006392683379666667,
+      "Reward": -0.005941079573333332,
+      "Social": -0.00667506707,
+      "Spatial": -0.00658518163,
+      "TextVerbal": -0.004998379966666667,
+      "ThreatSafety": -0.005490409893333332
+    },
+    "8": {
+      "Abstract": -0.006429601309,
+      "AudioText": -0.0037493895600000005,
+      "Emotional": -0.004234749423333333,
+      "Factual": -0.0047255216066666664,
+      "ImageVisual": -0.004120696689333333,
+      "Multimodal": -0.004309014326,
+      "Narrative": -0.004609003256666667,
+      "Novelty": -0.0058309042766666675,
+      "Reward": -0.0056100817733333325,
+      "Social": -0.006541296086666665,
+      "Spatial": -0.0062900371233333315,
+      "TextVerbal": -0.004713382475,
+      "ThreatSafety": -0.005109498821666667
+    },
+    "16": {
+      "Abstract": -0.006797488716666665,
+      "AudioText": -0.003916825776666666,
+      "Emotional": -0.004476074735666667,
+      "Factual": -0.00496246131,
+      "ImageVisual": -0.004475724190999999,
+      "Multimodal": -0.004657040730666667,
+      "Narrative": -0.00509712106,
+      "Novelty": -0.006212188006666665,
+      "Reward": -0.005913329236666667,
+      "Social": -0.006817918353333335,
+      "Spatial": -0.006528197643333333,
+      "TextVerbal": -0.005053193272333333,
+      "ThreatSafety": -0.005247438139
+    }
+  },
+  "rankings": {
+    "4": [
+      "Abstract",
+      "Social",
+      "Spatial",
+      "Novelty",
+      "Reward",
+      "ThreatSafety",
+      "TextVerbal",
+      "Factual",
+      "Multimodal",
+      "Narrative",
+      "ImageVisual",
+      "Emotional",
+      "AudioText"
+    ],
+    "8": [
+      "Social",
+      "Abstract",
+      "Spatial",
+      "Novelty",
+      "Reward",
+      "ThreatSafety",
+      "Factual",
+      "TextVerbal",
+      "Narrative",
+      "Multimodal",
+      "Emotional",
+      "ImageVisual",
+      "AudioText"
+    ],
+    "16": [
+      "Social",
+      "Abstract",
+      "Spatial",
+      "Novelty",
+      "Reward",
+      "ThreatSafety",
+      "Narrative",
+      "TextVerbal",
+      "Factual",
+      "Multimodal",
+      "Emotional",
+      "ImageVisual",
+      "AudioText"
+    ]
+  },
+  "pairwise_corrs": {
+    "sl4_vs_sl8": {
+      "pearson_r": 0.9842036830131417,
+      "spearman_rho": 0.9780219780219779,
+      "pearson_p": 1.2764623291495888e-09,
+      "spearman_p": 7.757814031393615e-09
+    },
+    "sl4_vs_sl16": {
+      "pearson_r": 0.9837894502648111,
+      "spearman_rho": 0.9560439560439561,
+      "pearson_p": 1.4705975363921805e-09,
+      "spearman_p": 3.365097276351456e-07
+    },
+    "sl8_vs_sl16": {
+      "pearson_r": 0.9950868099489538,
+      "spearman_rho": 0.9780219780219779,
+      "pearson_p": 2.115851530677172e-12,
+      "spearman_p": 7.757814031393615e-09
+    }
+  }
+}
