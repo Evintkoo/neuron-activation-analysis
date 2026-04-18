@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Fig 14: hash vs semantic LLaMA encoding comparison (preliminary)."""
+"""Generate Fig 14: hash vs semantic LLaMA encoding comparison (full N=30/CT)."""
 import json
 from pathlib import Path
 import numpy as np
@@ -15,10 +15,11 @@ plt.rcParams.update({"font.family":"serif","font.size":10,"savefig.dpi":200,
                      "savefig.bbox":"tight","savefig.facecolor":"white",
                      "axes.spines.top":False,"axes.spines.right":False})
 
+# Sorted by full semantic mean (most activated first) for final figure
 CT_ORDER = [
-    "ThreatSafety","AudioText","TextVerbal","Social","Novelty",
-    "ImageVisual","Factual","Emotional","Abstract","Reward",
-    "Spatial","Multimodal","Narrative",
+    "Social","Abstract","Spatial","Novelty","Reward",
+    "ThreatSafety","Factual","TextVerbal","Narrative","Multimodal",
+    "Emotional","ImageVisual","AudioText",
 ]
 
 # Load hash-mode 3008-stim sweep
@@ -54,7 +55,7 @@ ax1.barh(y - bw/2, h_vals, bw, color="#9EC5E8", edgecolor="white",
          label=f"Hash encoding (N={sum(hash_ns.values())} total, ~{int(np.mean(list(hash_ns.values())))}/CT)",
          xerr=h_sds, error_kw=dict(ecolor="#555", capsize=2, alpha=0.6))
 ax1.barh(y + bw/2, s_vals, bw, color="#D6604D", edgecolor="white",
-         label=f"LLaMA-3.2-3B semantic (N={sum(sem_ns.values())} total, 2/CT — preliminary)",
+         label=f"LLaMA-3.2-3B semantic (N={sum(sem_ns.values())} total, 30/CT — full sweep)",
          xerr=s_sds, error_kw=dict(ecolor="#555", capsize=2, alpha=0.6))
 ax1.axvline(0, color="black", lw=0.5, alpha=0.4)
 ax1.set_yticks(y); ax1.set_yticklabels(cts, fontsize=9)
@@ -69,7 +70,7 @@ hash_spread = max(h_vals) - min(h_vals)
 sem_spread  = max(s_vals) - min(s_vals)
 ratio = sem_spread / hash_spread
 
-ax2.bar(["Hash\n(demo)", "LLaMA\n(semantic)"],
+ax2.bar(["Hash\n(hash)", "LLaMA\n(semantic)"],
         [hash_spread, sem_spread],
         color=["#9EC5E8", "#D6604D"], edgecolor="white", width=0.55)
 for i, v in enumerate([hash_spread, sem_spread]):
@@ -79,8 +80,8 @@ ax2.set_title(f"(b) Activation spread\n(semantic/hash ratio = {ratio:.1f}×)",
               fontsize=10, loc="left")
 ax2.grid(axis="y", alpha=0.3, linestyle="--")
 
-fig.suptitle("Figure 14. Hash-Encoding vs. LLaMA-3.2-3B Semantic Encoding (Preliminary)\n"
-             "Semantic encoding produces a ~%.0fx wider activation spread; relative ordering is partially preserved." % ratio,
+fig.suptitle("Figure 14. Hash-Encoding vs. LLaMA-3.2-3B Semantic Encoding (Full N=30/CT)\n"
+             "Semantic encoding produces a ~%.0fx wider activation spread; rank-ordering partially shifts." % ratio,
              fontsize=10, y=1.02)
 plt.tight_layout()
 fig.savefig(FIG / "fig14_hash_vs_semantic.png")

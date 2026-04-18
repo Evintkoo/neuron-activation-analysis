@@ -652,34 +652,34 @@ To begin testing whether the content-type effects are language-invariant, we exe
 
 A one-way ANOVA across the seven languages on global predicted activation was non-significant ($F(6,7) = 0.726$, $p = 0.644$). Six of seven languages produced means within $-0.0072$ to $-0.0049$; German and Mandarin were outliers, each driven by a single positive sample. We resist any cross-linguistic claim from $N=2$/language. The relevant inference is procedural: the multilingual harness is correct, semantic LLaMA encoding works for non-English Wikipedia text, and the cross-language predicted-activation distribution is not visibly bimodal or pathological — but a definitive test requires at least an order of magnitude more samples per language and is now bottlenecked solely by inference throughput.
 
-\subsection{Semantic Encoding Replication (Preliminary, $N=26$)}\label{sec:semantic}
+\subsection{Semantic Encoding Replication (Full, $N=390$)}\label{sec:semantic}
 
-The most consequential limitation of the principal results in Sections~5--7 is the use of hash-based (non-semantic) text encoding (Limitation~1, Section~9.1). To begin remediating this, we ran a small stratified semantic sweep ($N = 2$ stimuli per content type, $N = 26$ total) using the full LLaMA-3.2-3B encoder, on the same set of 13 content categories. Results are summarised in Table~\ref{tab:semantic} and visualised in Figure~\ref{fig:semantic}.
+The most consequential limitation of the principal results in Sections~5--7 is the use of hash-based (non-semantic) text encoding (Limitation~1, Section~9.1). To remediate this, we ran a full stratified semantic sweep ($N = 30$ stimuli per content type, $N = 390$ total) using the LLaMA-3.2-3B encoder, covering all 13 content categories. This directly realises the ``immediate'' extension pre-registered in the original Future Work section. Results are summarised in Table~\ref{tab:semantic} and visualised in Figure~\ref{fig:semantic}.
 
 \begin{table}[ht]
 \centering
 \small
-\caption{\textbf{Per-category predicted global activation: hash vs.\ LLaMA-3.2-3B semantic encoding.} Hash means are from the full 3{,}008-stimulus sweep ($N$ per row); semantic means are from the preliminary $N = 2$/CT replication. Sorted by semantic mean (most-negative first). The top three under semantic encoding (Multimodal, Novelty, Social) overlap only partially with the hash top three (Narrative, Multimodal, Spatial); see text and Figure~\ref{fig:semantic}.}
+\caption{\textbf{Per-category predicted global activation: hash vs.\ LLaMA-3.2-3B semantic encoding (full sweep).} Hash means are from the full 3{,}008-stimulus sweep; semantic means are from $N=30$/CT ($N=390$ total). Sorted by semantic mean (most-negative first, i.e.\ highest predicted activation). The top three under semantic encoding (Social, Abstract, Spatial) share only one category with the hash top three (Narrative, Multimodal, Spatial); see text and Figure~\ref{fig:semantic}.}
 \label{tab:semantic}
 \begin{tabularx}{\linewidth}{Xrrrrr}
 \toprule
 \textbf{Content type} & \textbf{Hash $N$} & \textbf{Hash mean} & \textbf{Sem.\ mean} & \textbf{Sem.\ rank} & \textbf{Hash rank} \\
 \midrule
-Multimodal     & 189 & $-0.00277$ & $-0.00968$ & 1 & 2 \\
-Novelty        & 257 & $-0.00238$ & $-0.00944$ & 2 & 9 \\
-Social         & 300 & $-0.00234$ & $-0.00901$ & 3 & 10 \\
-ThreatSafety   & 225 & $-0.00220$ & $-0.00835$ & 4 & 13 \\
-Factual        & 300 & $-0.00245$ & $-0.00805$ & 5 & 7 \\
-Narrative      & 300 & $-0.00290$ & $-0.00755$ & 6 & 1 \\
-Abstract       & 300 & $-0.00253$ & $-0.00637$ & 7 & 5 \\
-Reward         & 212 & $-0.00260$ & $-0.00585$ & 8 & 4 \\
-TextVerbal     & 138 & $-0.00226$ & $-0.00544$ & 9 & 11 \\
-Spatial        &  88 & $-0.00275$ & $-0.00438$ & 10 & 3 \\
-ImageVisual    & 263 & $-0.00242$ & $-0.00396$ & 11 & 8 \\
-AudioText      & 224 & $-0.00222$ & $-0.00215$ & 12 & 12 \\
-Emotional      & 212 & $-0.00251$ & $+0.00068$ & 13 & 6 \\
+Social         & 300 & $-0.00234$ & $-0.00654$ &  1 & 10 \\
+Abstract       & 300 & $-0.00253$ & $-0.00643$ &  2 &  5 \\
+Spatial        &  88 & $-0.00275$ & $-0.00629$ &  3 &  3 \\
+Novelty        & 257 & $-0.00238$ & $-0.00583$ &  4 &  9 \\
+Reward         & 212 & $-0.00260$ & $-0.00561$ &  5 &  4 \\
+ThreatSafety   & 225 & $-0.00220$ & $-0.00511$ &  6 & 13 \\
+Factual        & 300 & $-0.00245$ & $-0.00473$ &  7 &  7 \\
+TextVerbal     & 138 & $-0.00226$ & $-0.00471$ &  8 & 11 \\
+Narrative      & 300 & $-0.00290$ & $-0.00461$ &  9 &  1 \\
+Multimodal     & 189 & $-0.00277$ & $-0.00431$ & 10 &  2 \\
+Emotional      & 212 & $-0.00251$ & $-0.00423$ & 11 &  6 \\
+ImageVisual    & 263 & $-0.00242$ & $-0.00412$ & 12 &  8 \\
+AudioText      & 224 & $-0.00222$ & $-0.00375$ & 13 & 12 \\
 \midrule
-\textbf{Spread (max $-$ min)} & & $0.00070$ & $0.01036$ & & \\
+\textbf{Spread (max $-$ min)} & & $0.00070$ & $0.00279$ & & \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -687,23 +687,23 @@ Emotional      & 212 & $-0.00251$ & $+0.00068$ & 13 & 6 \\
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{figures/fig14_hash_vs_semantic.png}
-\caption{\textbf{Hash vs.\ semantic encoding.} (a) Per-CT global activation under hash encoding ($N{=}88$--$300$/CT, blue) and LLaMA-3.2-3B semantic encoding ($N=2$/CT, red); error bars are $\pm 1$~SE. (b) Activation spread across the 13 categories: semantic encoding produces a 14.7$\times$ wider spread than hash encoding, indicating a substantially stronger discriminative signal. The rank-correlation between the two orderings is essentially zero (Pearson $r = 0.11$, $p = 0.73$; Spearman $\rho = 0.07$, $p = 0.83$).}
+\caption{\textbf{Hash vs.\ semantic encoding (full sweep, $N=30$/CT).} (a) Per-CT global activation under hash encoding ($N{=}88$--$300$/CT, blue) and LLaMA-3.2-3B semantic encoding ($N=30$/CT, red); error bars are $\pm 1$~SE. Categories ordered by semantic mean. (b) Activation spread across the 13 categories: semantic encoding produces a 4.0$\times$ wider spread than hash encoding. The rank-correlation between the two orderings is essentially zero (Pearson $r = 0.09$, $p = 0.78$; Spearman $\rho = 0.06$, $p = 0.86$).}
 \label{fig:semantic}
 \end{figure}
 
-Three observations stand out. First, semantic encoding produces a 14.7$\times$ wider activation spread across categories (range $0.01036$ vs.\ $0.00070$ in hash mode), reflecting a much stronger discriminative signal --- precisely as predicted in Section~7.1 (the hash-encoding caveat). The category-level one-way ANOVA at $N=26$ does not reach significance ($F(12,13) = 0.997$, $p = 0.499$), but this is an under-power, not a null effect: with the order-of-magnitude larger spread observed at $N=2$/CT, even modest per-category $N$ scaling should easily clear significance.
+Three observations stand out. First, the content-type one-way ANOVA under semantic encoding does not reach significance at $N=30$/CT ($F(12, 377) = 1.549$, $p = 0.104$). The activation spread across categories is $0.00279$, which is $4.0\times$ wider than the hash-mode spread ($0.00070$), confirming the qualitative prediction from Section~7.1 that semantic encoding would increase the discriminative signal. However, the effect is not yet strong enough to clear the conventional significance threshold; this is consistent with the hash-mode result requiring $\sim\!100\times$ more data per category ($N \approx 231$/CT average) to reach the observed $\eta^2 = 0.051$.
 
-Second, the rank-ordering does \textit{not} carry over from hash to semantic encoding (Pearson $r = 0.11$, $p = 0.73$; Spearman $\rho = 0.07$, $p = 0.83$). The most consequential reordering: \textbf{ThreatSafety moves from last (rank 13) under hash encoding to fourth (rank 4) under semantic encoding}, while \textbf{Multimodal, Novelty, and Social occupy the top three slots} of the semantic-mode ranking. This is a substantive correction, not a minor refinement: it means the headline finding in Section~7.3 (``ThreatSafety as the most brain-activating internet content'') was driven by hash-encoding artefact in the precise direction Section~7.1 anticipated --- ThreatSafety is in fact a high-activation category under semantic encoding, but it is not the singular maximum, and the original ranking should be regarded as superseded by the semantic results to the extent the latter generalise to larger $N$.
+Second, the rank-ordering does \textit{not} carry over from hash to semantic encoding (Pearson $r = 0.09$, $p = 0.78$; Spearman $\rho = 0.06$, $p = 0.86$). The most consequential reorderings are: \textbf{Narrative drops from rank~1 (hash) to rank~9 (semantic)}, consistent with the hypothesis that its high hash-mode activation was an encoding artefact; \textbf{Social rises from rank~10 to rank~1}, and \textbf{Abstract from rank~5 to rank~2}. \textbf{ThreatSafety moves from rank~13 (hash, lowest) to rank~6 (semantic, mid-tier)} --- a large upward shift, though it does not replicate as the singular maximum claimed in Section~7.3. \textbf{Spatial is the one category that ranks stably} (rank~3 under both encodings), suggesting its activation is genuinely driven by stimulus content rather than encoding artefact.
 
-Third, one category --- Emotional --- flips sign entirely under semantic encoding (mean $+0.00068$ vs.\ $-0.00251$ in hash mode), making it the lowest-activation category in semantic mode. This may reflect either a genuine encoder property (semantic mode interprets emotional content as suppressive on average global activation) or noise at $N=2$; we cannot distinguish these without a larger sweep.
+Third, no category flips sign at $N=30$: all 13 content types show negative (suppressive) mean activation under semantic encoding, in contrast to the preliminary $N=2$/CT result where Emotional showed a spurious positive mean ($+0.00068$). This is consistent with the sign-flip in the preliminary being a noise artefact.
 
-The takeaway is direct. The hash-mode results in Sections~5--7 should now be read as a methodologically conservative baseline that establishes \textit{that} content-category effects exist, while the semantic-mode preliminary results in this subsection establish that the \textit{specific identity} of the most-activating categories will need to be re-determined under semantic encoding before any policy or design recommendations from Section~7.4 can be considered final.
+The takeaway is nuanced. The hash-mode results establish \textit{that} content-category effects exist in the brain encoder's output space. The full semantic sweep confirms that (a) the discriminative signal is real and $4\times$ larger under proper encoding, (b) the specific category-level ranking changes substantially, and (c) the current $N=30$/CT remains under-powered for a definitive ANOVA. The next methodological priority is cross-model triangulation (Section~\ref{sec:futurework}) to determine whether the semantic-mode ordering is a TRIBE v2 property or a brain property.
 
 \subsection{Summary of Extension Findings}
 
-The five extensions paint a coherent picture. (i) Vertex-level analysis (Section~\ref{sec:vertex}) shows the discriminative effect is whole-cortex and roughly five times stronger at vertex resolution than the six-region aggregate. (ii) Cross-source ICC (Section~\ref{sec:robust}) shows the content-category effects reproduce cleanly across independent data sources for 11 of 12 testable categories, with Narrative the lone exception. (iii) The full $13\times13$ Cohen's~$d$ matrix (Section~\ref{sec:cohens}) shows a smooth activation continuum with largest contrasts at the extremes of the ranking. (iv) Multilingual results (Section~\ref{sec:multi}, $N=14$) are preliminarily consistent with cross-language stability of activation magnitudes but are critically under-powered. (v) \textbf{Semantic encoding results (Section~\ref{sec:semantic}, $N=26$) materially update the headline ranking}: the activation spread under LLaMA-3.2-3B encoding is 14.7$\times$ wider than under hash encoding, the hash-mode and semantic-mode orderings are essentially uncorrelated ($r = 0.11$), and Multimodal/Novelty/Social --- not Narrative or ThreatSafety --- occupy the top three slots under semantic encoding.
+The five extensions paint a coherent picture. (i) Vertex-level analysis (Section~\ref{sec:vertex}) shows the discriminative effect is whole-cortex and roughly five times stronger at vertex resolution than the six-region aggregate. (ii) Cross-source ICC (Section~\ref{sec:robust}) shows the content-category effects reproduce cleanly across independent data sources for 11 of 12 testable categories, with Narrative the lone exception. (iii) The full $13\times13$ Cohen's~$d$ matrix (Section~\ref{sec:cohens}) shows a smooth activation continuum with largest contrasts at the extremes of the ranking. (iv) Multilingual results (Section~\ref{sec:multi}, $N=14$) are preliminarily consistent with cross-language stability of activation magnitudes but are critically under-powered. (v) \textbf{Semantic encoding full sweep (Section~\ref{sec:semantic}, $N=390$, 30/CT) confirms a 4.0$\times$ wider activation spread under proper encoding}, though the ANOVA does not yet reach significance at this sample size ($F(12,377)=1.549$, $p=0.104$); the hash-mode and semantic-mode category rankings are essentially uncorrelated ($r=0.09$), with Social, Abstract, and Spatial (not ThreatSafety or Narrative) occupying the top three semantic-mode slots.
 
-The first three findings reinforce rather than overturn the original analysis. The fifth supersedes part of it, in exactly the direction the original hash-encoding caveat (Section~\ref{sec:caveat}) anticipated. We have updated the conclusion (Section~10) to reflect this.
+The first three findings reinforce rather than overturn the original analysis. The fifth updates the specific category-level claims in exactly the direction the hash-encoding caveat (Section~\ref{sec:caveat}) anticipated, while demonstrating that a definitive ANOVA will require substantially larger per-category $N$ under semantic encoding than the 30/CT achieved here. We have updated the conclusion (Section~10) to reflect this.
 
 \section{Limitations and Future Work}
 
@@ -711,7 +711,7 @@ We document the principal limitations of this study explicitly and propose corre
 
 \subsection{Methodological Limitations}
 
-\paragraph{1. Hash-based text encoding (primary).} As discussed in Section~\ref{sec:caveat}, all results were obtained with TRIBE v2's demo text encoder rather than the full LLaMA-3.2-3B encoder. The pre-registered semantic replication (Appendix~C) is the necessary next step before any conclusions about specific content effects can be considered definitive.
+\paragraph{1. Hash-based text encoding (addressed).} As discussed in Section~\ref{sec:caveat}, the principal results (Sections~5--7) were obtained with TRIBE v2's hash encoder rather than the full LLaMA-3.2-3B encoder. The full semantic replication (Section~\ref{sec:semantic}, $N=390$) has now been completed: the discriminative spread is $4\times$ wider under semantic encoding, but the per-CT ANOVA does not yet reach significance at $N=30$/CT. The specific category-level ranking under semantic encoding (Social, Abstract, Spatial as top-3) should be treated as a provisional update pending higher-$N$ replication.
 
 \paragraph{2. Single-model dependence.} All cortical predictions derive from a single encoder (TRIBE v2). Different brain encoders --- e.g., the BrainBERT family (Wang et al., 2023), MindEye2 visual decoders (Scotti et al., 2024), or hand-engineered semantic models (Huth et al., 2016) --- might produce different rankings. Cross-model replication is required to establish that observed patterns are properties of the brain (as approximated by encoder ensembles) rather than artefacts of a specific model architecture.
 
@@ -734,14 +734,14 @@ We document the principal limitations of this study explicitly and propose corre
 The five extensions originally proposed have made differential progress in this revision; we restate them with current status.
 
 \begin{enumerate}[leftmargin=1.4em,itemsep=3pt,topsep=2pt]
-\item \textbf{Semantic replication} (\textit{partially completed --- material reordering observed}): A preliminary stratified sweep ($N=2$/CT, $N=26$ total) under LLaMA-3.2-3B encoding is reported in Section~\ref{sec:semantic}. The activation spread across categories is 14.7$\times$ wider under semantic encoding, and the rank-correlation with the hash-mode ranking is essentially zero. The single most important next step for this entire research programme is therefore to scale the semantic sweep to at least $N=30$/CT (estimated 16 inference-hours on Apple-silicon CPU at current throughput), which would enable a definitive content-type ANOVA under semantic encoding and the corresponding update of Sections~5--7.
+\item \textbf{Semantic replication} (\textit{completed --- full $N=30$/CT sweep, ANOVA $p=0.104$}): The full stratified sweep ($N=30$/CT, $N=390$ total) under LLaMA-3.2-3B encoding is reported in Section~\ref{sec:semantic}. The activation spread is $4.0\times$ wider than hash mode; the ANOVA does not reach significance at this sample size, and the hash-mode and semantic-mode rankings are essentially uncorrelated. The most pressing remaining task is cross-model triangulation to determine whether the semantic-mode ordering (Social $>$ Abstract $>$ Spatial) is a TRIBE v2 property or a brain property.
 \item \textbf{Cross-model triangulation} (\textit{pending}): Application of the same corpus to alternative cortical encoders (BrainBERT family; semantic atlases of Huth et al., 2016) remains the strongest single robustness test and is pre-registered for the next iteration. With the semantic-mode reordering of Section~\ref{sec:semantic} now on the table, cross-model triangulation is no longer optional but necessary to determine whether the semantic ranking is itself a TRIBE-v2-specific artefact or a property of the brain.
 \item \textbf{Vertex-level analysis} (\textit{completed}): Reported in Section~\ref{sec:vertex}. The six-region aggregation was found to underestimate discriminative power by $\sim 5\times$, and the top-100 most discriminating vertices distribute across all six anatomical regions.
 \item \textbf{Temporal dynamics} (\textit{harness ready, sweep deferred}): The sweep harness has been extended to capture TRIBE v2's full 16-timestep output, and the analysis pipeline is in place. We deferred the temporal sweep to the same revision as the full semantic sweep so that both can be run with semantic LLaMA encoding in a single batch — running it now under hash encoding would risk contamination from the same artefact identified in Section~\ref{sec:semantic}.
 \item \textbf{Cross-cultural and multilingual replication} (\textit{partially completed}): A small semantic-encoded multilingual sweep is reported in Section~\ref{sec:multi} ($N=14$ across seven languages); the cross-language ANOVA was preliminarily non-significant. The full 138-stimulus corpus is released with the project (\texttt{results/extended/multilingual\_corpus.json}); completing it requires the same throughput scaling as the semantic sweep above.
 \end{enumerate}
 
-In addition, this revision introduced two new robustness analyses --- cross-source ICC (Section~\ref{sec:robust}) and the full $13\times13$ Cohen's~$d$ matrix (Section~\ref{sec:cohens}) --- both of which support rather than undermine the hash-mode principal findings, even though those findings are themselves now superseded in their specific category-level claims by the semantic-mode preliminary results.
+In addition, this revision introduced two new robustness analyses --- cross-source ICC (Section~\ref{sec:robust}) and the full $13\times13$ Cohen's~$d$ matrix (Section~\ref{sec:cohens}) --- both of which support rather than undermine the hash-mode principal findings, and completed the full semantic sweep (Section~\ref{sec:semantic}), which confirms a wider discriminative signal under proper encoding while showing the specific category rankings shift substantially from the hash-mode baseline.
 
 % ═══════════════════════════════════════════════════════════════════════════
 % CONCLUSION
@@ -753,7 +753,7 @@ We present the first large-scale computational comparison of predicted cortical 
 Under \emph{hash-mode} encoding, \textbf{ThreatSafety content} consistently produced the highest predicted cortical activation and \textbf{Narrative content} the lowest. \textbf{Multimodal} and \textbf{AudioText} content showed the highest relative language-region activation, while \textbf{Emotional} content showed the highest relative prefrontal engagement. A dominant cortical gradient (PC1, 96.9\% variance) contrasting sensory-language activation against executive-motor activation provides a principled axis for situating content types in neural space.
 
 \begin{quotebox}
-\textbf{Material update from semantic-mode replication.} A preliminary $N=26$ stratified replication using the full LLaMA-3.2-3B semantic encoder (Section~\ref{sec:semantic}) shows a 14.7$\times$ wider activation spread across categories and a rank-correlation with the hash-mode ranking that is essentially zero ($r=0.11$, $p=0.73$). Under semantic encoding the top-three most-activating categories are \textbf{Multimodal}, \textbf{Novelty}, and \textbf{Social}, with \textbf{ThreatSafety} ranked fourth. We treat the hash-mode results as a methodological baseline that establishes \textit{that} content-category effects exist; the specific identity of the most-activating categories should be re-determined under semantic encoding at scale before any policy or design recommendations are taken as final. Scaling the semantic sweep to $N \geq 30$/CT is now the critical next step.
+\textbf{Update from full semantic-mode replication ($N=390$, 30/CT).} The complete LLaMA-3.2-3B sweep (Section~\ref{sec:semantic}) shows a 4.0$\times$ wider activation spread under semantic encoding and a rank-correlation with the hash-mode ordering that is essentially zero ($r=0.09$, $p=0.78$). Under semantic encoding the top-three most-activating categories are \textbf{Social}, \textbf{Abstract}, and \textbf{Spatial}; \textbf{ThreatSafety} ranks sixth and \textbf{Narrative} ninth. The content-type ANOVA does not reach significance at $N=30$/CT ($F(12,377)=1.549$, $p=0.104$), indicating that a definitive test under semantic encoding requires substantially larger per-category samples. We treat the hash-mode results as a methodological baseline establishing \textit{that} category effects exist; the specific identity of the most-activating categories remains to be pinned down with higher-powered semantic-mode replication and cross-model triangulation.
 \end{quotebox}
 
 The broader implication is this: \textbf{the internet is not a neutral delivery mechanism}. Different content formats engage different cortical circuits with different intensities. Understanding this differential engagement --- at the level of predictive neural models rather than self-report --- is a precondition for evidence-based digital content policy, platform design, and public health interventions around media consumption.
