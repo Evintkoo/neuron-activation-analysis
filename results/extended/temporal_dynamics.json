@@ -1,0 +1,14 @@
+{
+  "T": 0,
+  "content_types": [],
+  "regions": [
+    "visual",
+    "auditory",
+    "language",
+    "prefrontal",
+    "motor",
+    "parietal"
+  ],
+  "summary": {},
+  "mean_trajectories": {}
+}

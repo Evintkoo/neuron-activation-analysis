@@ -1,0 +1,2732 @@
+[
+  {
+    "id": "tq_s4_00127",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "In New Zealand, of what are Kowhai and Titoki native species? TREES."
+  },
+  {
+    "id": "osm_s5_0037",
+    "content_type": "Spatial",
+    "source_type": "openstreetmap_nominatim",
+    "language_structure": "positional_relational",
+    "text": "Niagara Falls is located at Niagara Falls, City of Niagara Falls, Niagara County, New York, United States. Coordinates: 43.0848°N, 79.0702°W. Country: United States."
+  },
+  {
+    "id": "wt_m1_s_00303",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "The production selected two adjacent properties on the Warner backlot 's \" Blondie Street \" for the Burnham and Fitts ' homes ."
+  },
+  {
+    "id": "rss_b3_0041",
+    "content_type": "ThreatSafety",
+    "source_type": "nyt_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Trump Frames Iran War as All but Over in Optimistic Social Media Flurry. Iranian officials did not confirm most of Mr. Trump’s claims and disputed several of them."
+  },
+  {
+    "id": "osm_s5_0036",
+    "content_type": "Spatial",
+    "source_type": "openstreetmap_nominatim",
+    "language_structure": "positional_relational",
+    "text": "Great Wall of China is located at 长城, 赤城县, 张家口市, 河北省, 中国. Coordinates: 41.2351°N, 115.8946°E. Country: 中国."
+  },
+  {
+    "id": "sc_s2_00388",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Primates are generally divided into prosimian and non-prosimian primates."
+  },
+  {
+    "id": "wk_s5_00303",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "In cartography, a map projection is any of a broad set of transformations employed to represent the curved two-dimensional surface of a globe on a plane. In a map projection, coordinates, often expressed as latitude and longitude, of locations from the surface of the globe are transformed to coordinates on a plane. Projection is a necessary step in creating a two-dimensional map and is one of the essential elements of cartography."
+  },
+  {
+    "id": "rss_b3_0033",
+    "content_type": "ThreatSafety",
+    "source_type": "nyt_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "The 27-Year-Old Diplomat Waging Trump’s Cultural War With Europe. Five years out of college, Samuel Samson has driven the Trump administration’s push to upend America’s postwar relationship with Europe."
+  },
+  {
+    "id": "vt_m4_00019",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a doctor wearing green scrubs and a stethoscope around his neck is followed by a medical student in a white lab coat"
+  },
+  {
+    "id": "rss_b3_0042",
+    "content_type": "ThreatSafety",
+    "source_type": "nyt_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "An Explosion Rattles a Toronto Neighborhood. A Drake Video Was to Blame.. A blast on Thursday night turned out to be for a video shoot, but it unnerved residents who had lived through a propane plant explosion in 2008."
+  },
+  {
+    "id": "s3_006",
+    "content_type": "Emotional",
+    "source_type": "twitter",
+    "language_structure": "first_person_negative",
+    "text": "Some nights I open my phone 30 times and close it without doing anything, just to have something to hold."
+  },
+  {
+    "id": "s5_006",
+    "content_type": "Spatial",
+    "source_type": "landscape_description",
+    "language_structure": "positional_relational",
+    "text": "From the summit, the valley spreads out to the north. The river enters from the east, curves through the center, and exits at the western edge near the old mill."
+  },
+  {
+    "id": "fl_m2_00081",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A young girl and boy in swimsuits happily play in the sand on a beach.' 'Two children are on the beach and are playing in the wet sand.' 'Little boy and little girl having fun with sand on the beach.' 'A boy and girl make sand sculptures at the beach.' 'Two kids having fun burning dad in the sand.']"
+  },
+  {
+    "id": "sc_s4_00229",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "What property of fluids causes something to stay on or near the surface of water? buoyancy."
+  },
+  {
+    "id": "sc_s4_00005",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "What combines sets of genes from two different parents leading to genetically diverse offspring? sexual reproduction."
+  },
+  {
+    "id": "ge_s3_00107",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "this is a fun and cute presentation etc WAAAAAAAH"
+  },
+  {
+    "id": "fl_m2_00122",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A woman cooks on the stove in her kitchen as her dog begs below.' 'A woman touching a pot on a stove while a dog looks up at her.' 'Dog waits for food as an elder woman is cooking on the stove.' 'A middle-aged woman cooking while her dog watches.' 'A middle-aged woman cooking in her home.']"
+  },
+  {
+    "id": "wk_m1_0011",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia_long_form",
+    "language_structure": "neutral_declarative_512tok",
+    "text": "CRISPR is a family of DNA sequences found in the genomes of prokaryotic organisms such as bacteria and archaea. Each sequence within an individual prokaryotic CRISPR is derived from a DNA fragment of a bacteriophage that had previously infected the prokaryote or one of its ancestors. These sequences are used to detect and destroy DNA from similar bacteriophages during subsequent infections. Hence these sequences play a key role in the antiviral defense system of prokaryotes and provide a form of heritable, acquired immunity. CRISPR is found in approximately 50% of sequenced bacterial genomes and nearly 90% of sequenced archaea."
+  },
+  {
+    "id": "ge_s3_00008",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "This is the single most wholesome thing I've seen on reddit. Proud."
+  },
+  {
+    "id": "so_b1_00283",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Bashir, I want to talk to you about something important. | Sure, what is it? | I'm getting old, Bashir. And I know that I won't be around forever. | What are you talking about? You're not old, Travion. You're in great shape for your age."
+  },
+  {
+    "id": "tq_s4_00116",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "Which late American musician, who pioneered the styles of rock and roll and rockabilly, was born Vincent Eugene Craddock in 1935? Gene Vincent."
+  },
+  {
+    "id": "ge_s3_00137",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "She might just be insecure. You do have a bit of an age difference, so she might feel like she doesn’t match up to you."
+  },
+  {
+    "id": "sc_s2_00334",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "The branch of biology that studies animal behavior is called ethology. Ethologists usually study how animals behave in their natural environment. They try to determine the cause of behaviors, how behaviors develop, and how and why behaviors evolve."
+  },
+  {
+    "id": "hs_s1_00125",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Cleaning shoes] This girl is doing a video of how to make your white shoes become sparkly clean. you"
+  },
+  {
+    "id": "ge_s3_00119",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "I was gonna report for hate but then I realized..."
+  },
+  {
+    "id": "pm_b4_0111",
+    "content_type": "Novelty",
+    "source_type": "pubmed_abstract",
+    "language_structure": "academic_breakthrough",
+    "text": "Systemic treatment for resectable early-stage non-small cell lung cancer (NSCLC) has historically consisted of chemotherapy, with limited efficacy and substantial toxicity. Immune checkpoint inhibitors (ICI) have found increasing use in neoadjuvant, adjuvant, and perioperative settings. In this review, we summarize major clinical trials using ICI in the adjuvant, neoadjuvant, and perioperative settings. We further discuss novel biomarkers, including pathologic response, ctDNA, genomic and protein expression patterns, and machine learning approaches such as radiomics and digital pathology. Finally, we discuss recent and ongoing trials of different escalation approaches."
+  },
+  {
+    "id": "s3_007",
+    "content_type": "Emotional",
+    "source_type": "reddit_personal",
+    "language_structure": "mixed_valence",
+    "text": "Today was my last day at the company I spent 14 years building. They held a goodbye party. I laughed at the speeches and cried on the drive home."
+  },
+  {
+    "id": "ac_m3_00171",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "0,Loud buzzing followed by rustling and a toilet flushing"
+  },
+  {
+    "id": "ts_s1_00259",
+    "content_type": "Narrative",
+    "source_type": "tinystories",
+    "language_structure": "chronological_causal",
+    "text": "Once upon a time there was a brave warrior who lived far away in the forest. One day the warrior sailed away to explore the world on a small boat. They sailed around for hours and hours, eventually coming to a new land. The warrior was curious so they jumped off the boat and started to explore. But it was uncomfortable, so the warrior decided to go back to the boat. In their hurry to get back, the warrior called out, â€œQuick! Quick!â€. It was then that a friendly bird flew over. The warrior smiled and asked the bird, â€œDo you know a faster way to sail?â€ The bird replied, â€œOf course! Follow me, I'll show you!â€ The warrior quickly hopped on the boat and followed the bird. The bird showed"
+  },
+  {
+    "id": "tq_s4_00065",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "\"Who wrote the novel \"\"Hawksmoor\"\"?\" PETER ACKROYD."
+  },
+  {
+    "id": "wt_m1_s_00514",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "The Triassic @-@ Jurassic extinction event around 199 @.@ 6 Mya led to the extinction of most Mesozoic temnospondyls ."
+  },
+  {
+    "id": "vt_m4_00132",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "bacon is placed into the oven and then a man licks butter before greasing a pan"
+  },
+  {
+    "id": "vt_m4_00038",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "there is a girl sitting and smiling in the bed"
+  },
+  {
+    "id": "tq_s4_00162",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "\"Who (although he claims that the author was an entity named Aiwass, his personal Holy Guardian Angel or \"\"Higher Self\"\") is credited with writing \"\"Liber AL vel Legis\"\", the central sacred text of Thelema, commonly referred to as The Book of the Law, in 1904?\" Aleister Crowley."
+  },
+  {
+    "id": "vt_m4_00031",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a baseball player celebrates with his team"
+  },
+  {
+    "id": "so_b1_00187",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey mom. | Hey Arielle, what's up? | Not much, just hanging out in my room. | That's good. I'm glad you're taking some time to relax. But I need to talk to you about something."
+  },
+  {
+    "id": "sc_s2_00312",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Bases are ionic compounds that produce negative hydroxide ions (OH - ) when dissolved in water. An ionic compound contains positive metal ions and negative nonmetal ions held together by ionic bonds. (Ions are atoms that have become charged particles because they have either lost or gained electrons. ) An example of a base is sodium hydroxide (NaOH). When it dissolves in water, it produces negative hydroxide ions and positive sodium ions (Na + ). This can be represented by the equation:."
+  },
+  {
+    "id": "mn_s2_00160",
+    "content_type": "Abstract",
+    "source_type": "multinli_government",
+    "language_structure": "conditional_argument",
+    "text": "The Women's Haven, which provides shelter and outreach to domestic-violence victims, already has a full-time attorney."
+  },
+  {
+    "id": "sc_s2_00326",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Wind-blown pollen might land anywhere and be wasted. Another adaptation solved this problem. Plants evolved traits that attract specific animal pollinators. Like the bee in Figure below , a pollinator picks up pollen on its body and carries it directly to another plant of the same species. This greatly increases the chance that fertilization will occur."
+  },
+  {
+    "id": "ag_b4_00130",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Shaving Time From The Virus Race IronPort Systems has launched the latest version of its IronPort C-Series E-mail Security Appliance, adding Virus Outbreak Filters that the company said could respond to new virus outbreaks within minutes."
+  },
+  {
+    "id": "vt_m4_00115",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a man is sitting back in a cycle and riding into the house"
+  },
+  {
+    "id": "ag_b4_00120",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "REVIEW: New IMac G5 Short on Extras (AP) AP - For six years, iMacs have set the standard for the PC industry with eye-popping designs, clever utilization of space and leaps forward in usability. Lately, though, Apple Computer Inc. seems to be making more waves with iPod music players than its venerable consumer PCs."
+  },
+  {
+    "id": "rss_b4_0084",
+    "content_type": "Novelty",
+    "source_type": "nyt_science",
+    "language_structure": "surprise_framing",
+    "text": "New Treatment Lets 3 Transplant Patients Halt Anti-Rejection Drugs. Researchers at the University of Pittsburgh gave transplant recipients certain immune cells from their organ donors. It didn’t always work."
+  },
+  {
+    "id": "tq_s4_00079",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "What serial killer, arrested on Aug 10, 1977, dubbed himself the \"Son of Sam\"? David Berkowitz."
+  },
+  {
+    "id": "vt_m4_00058",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a middle-aged bald man speaks english with a foreign accent"
+  },
+  {
+    "id": "ag_b4_00061",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Scientists to Study Dairy Going Organic (AP) AP - Cornell researchers will watch five upstate New York dairy herds to learn about the problems and challenges of converting from conventional to organic farming."
+  },
+  {
+    "id": "so_b1_00098",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, thanks for coming by. I really appreciate it. | No problem, I'm happy to help out. So show me around, what do you have for sale? | Well, we've got a lot of great stuff here. Let me show you some of our best items. | Wow, this is all really great stuff! You have a great eye for picking out quality items. How much did you say this piece was again?"
+  },
+  {
+    "id": "ge_s3_00047",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "If I died I've always wondered who will be at my funeral. I imagine only my mom. Maybe one of these days I'll find out."
+  },
+  {
+    "id": "ac_m3_00168",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "20,Vibrations and rattling with people speaking in the distance"
+  },
+  {
+    "id": "so_b1_00008",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Pietro. How are you doing today? | I'm doing well, Aariz. Thanks for speaking with me. | Of course! So, what's been going on? | Well, I've just been really busy lately. Work has been keeping me busy and I haven't had much time for anything else."
+  },
+  {
+    "id": "fl_m2_00100",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A thin man wearing khakis is sitting in front of a dark wood door in a building with the walls painted blue.' 'A man with a black mustache sits outside in front of a large brown door on a white chair.' 'A man wearing a blue shirt and white pants sitting on a chair in front of a building' 'A man is sitting on a white lawn chair in front of a blue building.' 'A man is sitting on a white chair in front of a blue building.']"
+  },
+  {
+    "id": "ac_m3_00196",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "160,Two men speaking followed by plastic clacking then a power tool drilling"
+  },
+  {
+    "id": "so_b1_00267",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I don't want to stop kissing you. You taste so sweet. | I don't want to stop either. But we have to go our separate ways soon. | I know, but it's so hard. Especially since we just started dating and I already feel so strongly for you. | I feel the same way. But distance can be tough, especially when we're still getting to know each other. Who knows, maybe this long-distance thing will make our relationship even stronger in the end?"
+  },
+  {
+    "id": "ts_s1_00303",
+    "content_type": "Narrative",
+    "source_type": "tinystories",
+    "language_structure": "chronological_causal",
+    "text": "One day, a little girl named Lily found a needle in her room. She knew it was difficult to play with it because it was sharp. Lily wanted to share the needle with her mom, so she could sew a button on her shirt. Lily went to her mom and said, \"Mom, I found this needle. Can you share it with me and sew my shirt?\" Her mom smiled and said, \"Yes, Lily, we can share the needle and fix your shirt.\" Together, they shared the needle and sewed the button on Lily's shirt. It was not difficult for them because they were sharing and helping each other. After they finished, Lily thanked her mom for sharing the needle and fixing her shirt. They both felt happy because they had shared and worked together."
+  },
+  {
+    "id": "s3_001",
+    "content_type": "Emotional",
+    "source_type": "reddit_personal",
+    "language_structure": "first_person_positive",
+    "text": "My daughter called today just to say she loves me. Not for any reason. Just because. I have been smiling for six hours straight."
+  },
+  {
+    "id": "osm_s5_0027",
+    "content_type": "Spatial",
+    "source_type": "openstreetmap_nominatim",
+    "language_structure": "positional_relational",
+    "text": "Amazon rainforest is located at Concesión para Conservación Amazon Rainforest, Requena, Loreto, Perú. Coordinates: 5.4517°S, 74.3154°W. Country: Perú."
+  },
+  {
+    "id": "hn_b4_0030",
+    "content_type": "Novelty",
+    "source_type": "hackernews_announcement",
+    "language_structure": "surprise_framing",
+    "text": "NeoGeo AES+: SNK announces reissue of retro console without emulation"
+  },
+  {
+    "id": "tq_s4_00015",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "After he left Barcelona, football manager Pep Guardiola went on to manage which European club in 2013? Bayern Munich."
+  },
+  {
+    "id": "fl_m2_00092",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "[\"Young protesters standing on a street corner standing against exploitation of young people's rights.\" 'Three young men and 1 young lady are protesting about the exploitation of young workers.' 'Four people are holding signs of protest while cars pass behind them.' 'Four people are protesting the treatment of young workers by Equinox.' 'Four young Protesters, different colored signs, out Protesting.']"
+  },
+  {
+    "id": "wk_s5_00009",
+    "content_type": "Spatial",
+    "source_type": "wiki_orientation_(geometry)",
+    "language_structure": "positional_relational",
+    "text": "A bearing compass, is a nautical instrument used to determine the bearing of observed objects.. Used in navigation to determine the angle between the direction of an object and the magnetic north or, indirectly relative to another reference point. Provides the absolute bearing, which is the clockwise angle between magnetic north or true north and the object."
+  },
+  {
+    "id": "mn_s2_00089",
+    "content_type": "Abstract",
+    "source_type": "multinli_travel",
+    "language_structure": "dense_nominal_nested",
+    "text": "Enter the realm of shopping malls, where everything you're looking for is available without moving your car."
+  },
+  {
+    "id": "wt_m1_s_00418",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "On 4 July 1943 , a Liberator bomber from RAF Transport Command took off from Gibraltar for England ."
+  },
+  {
+    "id": "so_b1_00014",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, can I ask you a question? | Of course! What would you like to know? | How long does it usually take for someone to become fluent in a new language? | Well, that really depends on the person. Some people pick up new languages very quickly, while others take a bit longer. There are a lot of factors that can affect how fast someone learns a new language, such as motivation, intelligence, and prior knowledge."
+  },
+  {
+    "id": "sc_s2_00292",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Observations can happen on many scales. You can use a microscope to observe tiny things. You can use a telescope to observe distant things in space. To learn about the effects of climate change, you could observe Earth's surface. How would you make observations of Earth's surface? You could do this from the land surface or from space. Many important observations are made by orbiting satellites. These satellites have a bird's eye view of how the planet is changing ( Figure below )."
+  },
+  {
+    "id": "vt_m4_00005",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a commercial about joint and muscle pain"
+  },
+  {
+    "id": "hs_s1_00018",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Painting] She starts with a one inch flat brush and yellow and white acrylic paint. She makes x patterns across the canvas with the yellow color. she"
+  },
+  {
+    "id": "wk_s5_0014",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography_anatomy",
+    "language_structure": "positional_relational",
+    "text": "The thyroid, or thyroid gland, is an endocrine gland in vertebrates. In humans, it is a butterfly-shaped or H-shaped gland located in the neck below the Adam's apple."
+  },
+  {
+    "id": "m1_128_003",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia",
+    "language_structure": "neutral_declarative_128tok",
+    "text": "Supply chain management is the coordination of all activities involved in sourcing, procuring, producing, and delivering products or services to end consumers. Effective supply chain management requires balancing cost efficiency with resilience, particularly in the face of disruptions such as natural disasters, geopolitical instability, or pandemic-related shutdowns. Modern supply chains rely heavily on data analytics, real-time tracking, and automation to optimize inventory levels, reduce lead times, and forecast demand. The COVID-19 pandemic exposed significant vulnerabilities in global supply chains reliant on single-source suppliers."
+  },
+  {
+    "id": "wt_m1_s_00346",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "The demise of Tetrarch was prevented by a decision made by the War Office in mid @-@ 1941 , as it was considering the equipment to be used by Britain 's fledgling airborne forces , formed in June 1940"
+  },
+  {
+    "id": "vt_m4_00118",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a snippet of western world s accomplishments and power"
+  },
+  {
+    "id": "sc_s2_00351",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Scientists study meteorites to learn about Earth’s interior. Meteorites formed in the early solar system. These objects represent early solar system materials. Some meteorites are made of iron and nickel. They are thought to be very similar to Earth's core ( Figure below ). An iron meteorite is the closest thing to a sample of the core that scientists can hold in their hands!."
+  },
+  {
+    "id": "ag_b3_00030",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Congo Ex-Rebel Group Pulls Out of Government (Reuters) Reuters - The former main rebel group during\\Congo's civil war pulled out of a power-sharing transitional\\government on Monday, dealing a major blow to the country's\\already fragile peace process."
+  },
+  {
+    "id": "wc_m2_0033",
+    "content_type": "ImageVisual",
+    "source_type": "wikimedia_commons",
+    "language_structure": "sensory_descriptive",
+    "text": "A photograph: Leaf venation of Dorstenia."
+  },
+  {
+    "id": "ag_b3_00077",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "British couple shot dead in Thailand A Thai policeman was today being hunted after being accused of killing a British couple near a popular tourist destination last night."
+  },
+  {
+    "id": "mn_s2_00072",
+    "content_type": "Abstract",
+    "source_type": "multinli_slate",
+    "language_structure": "dense_nominal_nested",
+    "text": "In a further role reversal, Gingrich may have positioned himself to fill it."
+  },
+  {
+    "id": "ag_b3_00017",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Putin faults Georgia on #39;90s tactics in 2 regions TBILISI, Georgia The separatist conflicts in Georgia resulted from the quot;foolish quot; move by Georgia to strip South Ossetia and Abkhazia of their autonomous status during the Soviet collapse, President Vladimir Putin of Russia was quoted as saying on ..."
+  },
+  {
+    "id": "vt_m4_00090",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "there is a boy watching someone in a port"
+  },
+  {
+    "id": "tq_s4_00048",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "What kind of flowers was the gunman holding when he shot Dirty Den in Eastenders Daffodils."
+  },
+  {
+    "id": "gt_s1_0019",
+    "content_type": "Narrative",
+    "source_type": "gutenberg_a_tale_of_two_cities",
+    "language_structure": "chronological_causal",
+    "text": "matter,” he answered, a little coldly as to them, though very warmly as to the Doctor. “Miss Manette--” “Is well,” said the Doctor, as he stopped short, “and your return will delight us all. She has gone out on some household matters, but will soon be home.” “Doctor Manette, I knew she was from home. I took the opportunity of her being from home, to beg to speak to you.” There was a blank silence. “Yes?” said the Doctor, with evident constraint. “Bring your chair here, and speak on.” He complied as to the chair, but appeared to find the speaking on less easy. “I have had the happiness, Doctor Manette, of being so intimate here,” so he at length began, “for some year and a half, that I hope"
+  },
+  {
+    "id": "s5_007",
+    "content_type": "Spatial",
+    "source_type": "architectural_description",
+    "language_structure": "positional_relational",
+    "text": "The table is positioned against the north wall. The window is to the east, approximately one meter above the floor. The door is in the southwest corner, hinged on the right side."
+  },
+  {
+    "id": "hs_s1_00200",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Wakeboarding] A man on the dock hands a rope to a water skier. A person water skis and does jumps over ramps in the water of a lake. the water skier"
+  },
+  {
+    "id": "b2_008",
+    "content_type": "Reward",
+    "source_type": "workplace_praise",
+    "language_structure": "second_person_praise",
+    "text": "Your code review comment saved us from a production incident that would have cost the company $200,000. You are a hero and I am telling everyone."
+  },
+  {
+    "id": "yl_b2_00028",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I cannot articulate how much I loved this musical!!\\n\\nWe bought tickets at the last minute (only an hour and a half before show time) because we didn't know it was still in it's preview stage. We assumed we would have quite a few days to see it, however most of the days listed during our visit were closed performances to preview the show to selected audiences.\\n\\nThe theatre is a good size. We were in almost the last row (due to purchasing tickets so late) and I don't think we missed out on anything. The theatre is small enough there isn't a bad seat in the house. \\n\\nNow -- to the musical it"
+  },
+  {
+    "id": "vt_m4_00170",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a man drive a stick-shift car talking to his passenger"
+  },
+  {
+    "id": "yl_b2_00044",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "It was my first time there. I chose this place for my birthday dinner organized for 10 people and their service did well in setting us up on the upper level and gave us the best view by the window. Jamie, the hostess, was very friendly and assuring. It's indeed a beautifully decorated place and it definitely made me feel like a princess. The food was just icing on the top! All the guests' food came together, earlier than expected as it was a Saturday night and it was completely packed! I had ordered chicken kabob (boneless marinated pieces of chicken with seasoned rice) that melted in my mouth"
+  },
+  {
+    "id": "ge_s3_00171",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "I haven't seen safes but I have seen arks with a lock and key setup."
+  },
+  {
+    "id": "ag_b3_00039",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Hurricane Watch Issued for Gaston Off S.C. COLUMBIA, S.C. - A hurricane watch was issued for the South Carolina coast Saturday as forecasters predicted Tropical Storm Gaston would make landfall near Charleston on Sunday night..."
+  },
+  {
+    "id": "ag_b4_00064",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Napster Offers Music to Go This service leverages new Windows Media 10 technologies to enable Napster subscribers to download music to portable devices, a technology called Janus."
+  },
+  {
+    "id": "fl_m2_00001",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A bald man in an orange shirt and jeans is vacuuming an office carpet with a carry-along canister vacuum.' 'A man in a yellow shirt vacuums a floor while looking at the camera.' 'One man, cleaning a small office with a portable vacuum cleaner.' 'The janitor is vacuuming the floor to make it ready for the day.' 'A guy vacuuming his room.']"
+  },
+  {
+    "id": "ag_b3_00004",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Afghan Army Dispatched to Calm Violence KABUL, Afghanistan - Government troops intervened in Afghanistan's latest outbreak of deadly fighting between warlords, flying from the capital to the far west on U.S. and NATO airplanes to retake an air base contested in the violence, officials said Sunday..."
+  },
+  {
+    "id": "yl_b2_00142",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "Went here on a Saturday around 3ish and it was pretty busy. Parking was not an issue though which was good. The store itself is super nice and huge. They have tons and tons of stuff in and of course-at a great $1 price tag. The customer service was nice and I like how you can get balloons here unlike other Dollar Tree stores."
+  },
+  {
+    "id": "so_b1_00220",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "| Oh wow, congratulations! Which band is it? | It's a band called \"The Raging republic.\" They're a pretty big name in the rock world. I'm really excited to see them live. | That sounds amazing! I'm sure you'll have a great time. Let me know how it goes afterwards, okay?"
+  },
+  {
+    "id": "sc_s2_00268",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "The plasma membrane forms a barrier between the cytoplasm inside the cell and the environment outside the cell. It protects and supports the cell and also controls everything that enters and leaves the cell. It allows only certain substances to pass through, while keeping others in or out. The ability to allow only certain molecules in or out of the cell is referred to as selective permeability or semipermeability. To understand how the plasma membrane controls what crosses into or out of the cell, you need to know its composition."
+  },
+  {
+    "id": "yl_b2_00156",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I stayed, gambled, and partied at Encore during the Halloween weekend. I must say, this is the best hotel I've ever stayed in. Granted, I've never stayed at a 5-star hotel before, but I feel you cannot ask for more. \\n\\nGambling: The roulette table was so much fun. My friend Jose spilled his drink on the table and nobody even yelled at him or made him feel bad. They just cleaned it up and joked about it. So cool. Also, as a first time customer, they gave me and my friend Carlo $20 to play the slot machines. We ended up winning over $100 collectively from that.\\n\\nPool: European. Nuff said.\\n\\n"
+  },
+  {
+    "id": "rss_b3_0032",
+    "content_type": "ThreatSafety",
+    "source_type": "nyt_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Thousands of Lebanese Try to Head Home After Israel-Lebanon Truce. Hezbollah politicians affirmed a “cautious commitment” to the 10-day cease-fire, which appeared to be holding on its first day. A truce could remove an obstacle in U.S.-Iran peace talks."
+  },
+  {
+    "id": "so_b1_00102",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I'm sorry, but I can't answer that right now. I'm trying to stay focused on my work. | That's perfectly understandable. We all need to stay focused on our work if we want to be productive. | Exactly. So if you don't mind, I'm going to get back to what I was doing. | Of course, go ahead. Let me know if you need anything."
+  },
+  {
+    "id": "mn_s2_00176",
+    "content_type": "Abstract",
+    "source_type": "multinli_government",
+    "language_structure": "conditional_argument",
+    "text": "(Cohen 1999) Although many observers would view this as an extreme step it could reduce costs and allow increased efficiencies."
+  },
+  {
+    "id": "sc_s4_00281",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "How many processes contribute to the emergence of viral diseases? three."
+  },
+  {
+    "id": "ge_s3_00086",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "BREAKING NEWS: The new girl had to shred/chip a 6lb entire chub of Kentucky Gold ham today. Poor girl's arm ached the rest of the day."
+  },
+  {
+    "id": "hs_s1_00198",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Shaving legs] A person is getting their legs waxed on a table. They rub some lotion onto their legs after. they"
+  },
+  {
+    "id": "s5_004",
+    "content_type": "Spatial",
+    "source_type": "installation_instructions",
+    "language_structure": "positional_imperative",
+    "text": "Place the router in the center of the home, elevated off the floor, away from metal objects and walls. Position it at least two meters from microwave ovens and cordless phones."
+  },
+  {
+    "id": "wk_s5_0004",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography_anatomy",
+    "language_structure": "positional_relational",
+    "text": "The Mariana Trench is an oceanic trench located in the western Pacific Ocean, about 200 kilometres (124 mi) east of the Mariana Islands; it is the deepest oceanic trench on Earth. It is crescent-shaped and measures about 2,550 km (1,580 mi) in length and 69 km (43 mi) in width."
+  },
+  {
+    "id": "ag_b3_00009",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "UN launches 210-million-dollar appeal for flood-hit Bangladesh (AFP) AFP - The United Nations launched an appeal here for 210 million dollars to help flood victims facing \"grave\" food shortages after two-thirds of Bangladesh was submerged, destroying crops and killing more than 700 people."
+  },
+  {
+    "id": "wt_m1_s_00376",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "In January 1944 , Edward Maufe was appointed Principal Architect for the UK ."
+  },
+  {
+    "id": "s5_010",
+    "content_type": "Spatial",
+    "source_type": "seating_instructions",
+    "language_structure": "positional_relational",
+    "text": "Seat A1 is in the front row, leftmost position from the audience's perspective. The emergency exits are located at the rear left and rear right of the auditorium."
+  },
+  {
+    "id": "ac_m3_00069",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "370,A crowd applauds with a man speaking briefly in the middle"
+  },
+  {
+    "id": "ge_s3_00018",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "I know, and the unfortunate thing is many of my friends in this area have had somewhat similar experiences with dudes who just are just total creeps."
+  },
+  {
+    "id": "hs_s1_00140",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Preparing pasta] Next an empty metallic pan is shown as someone pours oil and the vegetables into it. They then begin stirring the vegetables with the oil. after this"
+  },
+  {
+    "id": "ge_s3_00101",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "But he's relieving pressure. Just count yourself lucky he doesn't cough when he farts."
+  },
+  {
+    "id": "pm_b4_0110",
+    "content_type": "Novelty",
+    "source_type": "pubmed_abstract",
+    "language_structure": "academic_breakthrough",
+    "text": "Primary malignant melanoma of the cervix (PMMC) is an exceptionally rare and aggressive malignancy with a poor prognosis. Due to its rarity, there are no standardized treatment guidelines. This case report presents two patients with PMMC, contributing to the literature through a novel treatment approach and literature review. Both patients presented with vaginal bleeding: one postmenopausal without obvious cervical pigmentation, the other premenopausal with a brown, friable cervical mass. Histopathology confirmed PMMC in both. The first patient underwent radical surgery without adjuvant therapy and died from recurrence 36 months later. The second patient received radical surgery, adjuvant ch"
+  },
+  {
+    "id": "ag_b3_00008",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Restive Maldives eases curfew after rounding up dissidents (AFP) AFP - A curfew in the capital of the Maldives was eased but parliament sessions were put off indefinitely and emergency rule continued following last week's riots, officials and residents said."
+  },
+  {
+    "id": "tq_s4_00121",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "Who played the sergeant in Carry On Sergeant? William Hartnell."
+  },
+  {
+    "id": "m1_128_002",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia",
+    "language_structure": "neutral_declarative_128tok",
+    "text": "The amygdala is an almond-shaped cluster of neurons located deep within the medial temporal lobe of the brain's cerebrum. It plays a primary role in the processing of memory, decision-making, and emotional responses, particularly fear and aggression. The amygdala receives sensory information from multiple brain areas and is closely linked to the hippocampus, which is involved in memory formation. Damage to the amygdala in humans has been associated with impairment in recognizing fear expressions and making trustworthiness judgments about strangers."
+  },
+  {
+    "id": "ac_m3_00128",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "0,Dirt shuffling followed by gears cranking and a branch snapping then a man talking"
+  },
+  {
+    "id": "wt_m1_s_00391",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "Manila is politically divided into 896 barangays , the smallest unit of local government in the Philippines ."
+  },
+  {
+    "id": "vt_m4_00116",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a discovery channel video about the universe with music"
+  },
+  {
+    "id": "hs_s1_00091",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Powerbocking] We see a white opening screen. We see a man dunk a basketball wearing jump stilts. we"
+  },
+  {
+    "id": "so_b1_00111",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Italia. I'm so glad to see you. | Hi, Rena! I'm doing really well in school thanks to you. My multiplication tables are perfect now! | Oh, I'm glad to hear that, Italia. You were a quick learner. Do you remember all the lessons I taught you? | Yes, I do. They've been really helpful. Thank you so much for teaching me."
+  },
+  {
+    "id": "mn_s2_00209",
+    "content_type": "Abstract",
+    "source_type": "multinli_telephone",
+    "language_structure": "dense_nominal_nested",
+    "text": "because i don't want to my mother was also a domineering type of personality because she had to take over the things that my dad fell short in"
+  },
+  {
+    "id": "mn_s2_00155",
+    "content_type": "Abstract",
+    "source_type": "multinli_travel",
+    "language_structure": "dense_nominal_nested",
+    "text": "To the northwest of the chateau, the Grand Trianon palace, surrounded by pleasantly unpompous gardens, was the home of Louis XIV's mistress, Madame de Maintenon, where the aging king increasingly took refuge."
+  },
+  {
+    "id": "ge_s3_00042",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "I live in australia and even aussies say \"cook the man some eggs\" as a joke to kiwis"
+  },
+  {
+    "id": "ac_m3_00193",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "220,A man talking followed by another man speaking then a group of people laughing and a man speaking a bit in the background"
+  },
+  {
+    "id": "tq_s4_00054",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "\"\"\"It was seven o'clock of a very warm evening in the Seeonee hills when father wolf woke up from his day's rest\"\" is the first line from which 1894 book?\" The Jungle Book."
+  },
+  {
+    "id": "ge_s3_00177",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "It's hard to try to evaluate yourself, but I appreciate you trying."
+  },
+  {
+    "id": "vt_m4_00125",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "two men compete in a game of table tennis by vigorously volleying the ping pong ball over the net"
+  },
+  {
+    "id": "ge_s3_00162",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "someone woke up on the wrong side of the sleeping bag"
+  },
+  {
+    "id": "yl_b2_00100",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "My favorite place to eat in all of LAS VEGAS...! Hands down...\\n\\nReasons:\\nCustomer service is superb. I have been in Vegas for over two years now, visited this place at least over 2 dozen times but have nothing bad to say about it. \\n\\nI love love the Korean Chicken Teriyaki rice bowl..its under four bucks, you get a good amount of rice and chicken. The sauce is different then your normal Teriyaki sauce at other places. I've asked for extra sauce so many time, pretty much with every order...They give without charging an extra penny. \\n\\nI've recently tried their normal teri chicken rice bowl"
+  },
+  {
+    "id": "tq_s4_00196",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "Which word begining with V describes the type of image formed when light is reflected from a plane mirror? VIRTUAL."
+  },
+  {
+    "id": "mn_s2_00030",
+    "content_type": "Abstract",
+    "source_type": "multinli_travel",
+    "language_structure": "dense_nominal_nested",
+    "text": "In Hong Kong you can have a plate, or even a whole dinner service, hand-painted to your own design."
+  },
+  {
+    "id": "ge_s3_00031",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "I find it gross, especially when it starts to cool. Chicken is great but leave it out of my dip and off my pizza."
+  },
+  {
+    "id": "fl_m2_00152",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A profile of a young person with a punk hairstyle and pierced ear and nose in a cowboy shirt.' 'A young person with a Mohawk and a nose piercing in a plaid shirt.' 'The person is posing in a red flannel shirt with a Mohawk.' 'A girl with a nose ring, earring, and Mohawk.' 'A person with spiky hair looks to the left.']"
+  },
+  {
+    "id": "so_b1_00194",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Collier. Thank you so much for agreeing to talk with me about your art. | No problem, Jayon. I'm happy to do it. | So, how did you first get into art? Was there someone or something that influenced you early on? | My mom was an artist and she used to take me to her studio when I was a kid. I would watch her paint and draw and I was just fascinated by it. She would let me experiment with different mediums and techniques and I just fell in love with it. It was a way for me to express myself and connect with the world around me in a very special way."
+  },
+  {
+    "id": "fl_m2_00091",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['Two young children sit apart from a larger group of children in a dirty street outside a building.' 'The school children wore uniforms of white shirts and navy pants or skirts and yellow name tags.' 'A school in a foreign country, with the British flag.' 'A group of children are standing outside a building.' 'Kids outside a third world school.']"
+  },
+  {
+    "id": "fl_m2_00079",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['While looking in the mirror, a man is shaving his beard with a manual razor.' 'A young adult male shaving his face with the razor running down his neck.' 'A man shaves his neck but not his beard.' 'A man carefully shaves his beard.' 'A man shaving neck with razor.']"
+  },
+  {
+    "id": "vt_m4_00063",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a boy is playing minecraft and is looking for his opponent"
+  },
+  {
+    "id": "so_b1_00203",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "This looks amazing! I'm so happy with how it turned out. | It looks great! I love the color. | Yeah, I'm really happy with it too. It was a lot of work, but it was worth it. | I can imagine. It looks like you put a lot of thought into it."
+  },
+  {
+    "id": "ts_s1_00251",
+    "content_type": "Narrative",
+    "source_type": "tinystories",
+    "language_structure": "chronological_causal",
+    "text": "One day, Jane and her daddy were at the park. Jane saw something very special - a big green tree with green powder around it. Jane walked closer to the tree and saw that the powder was made of tiny green pieces. \"What is that Daddy?\" Jane asked. \"That's special powder, Jane,\" her daddy replied. \"Let's gather some of it together and take it home with us.\" So Jane and her daddy started gathering the powder into a bucket. They filled the bucket up with the powder and started walking home. When they got home, Daddy asked Jane what she wanted to do with the green powder. \"Let's make a special cake with it,\" she said. So, Jane and her daddy used the green powder to make a special cake. They cut it"
+  },
+  {
+    "id": "hs_s1_00182",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Assembling bicycle] A person tightens the holds on the handlebars. The man puts grease on the paddles and installs them before airing the tires. we"
+  },
+  {
+    "id": "gt_s1_0029",
+    "content_type": "Narrative",
+    "source_type": "gutenberg_great_expectations",
+    "language_structure": "chronological_causal",
+    "text": "his supplicant off with supreme indifference, and left him dancing on the pavement as if it were red hot. Without further interruption, we reached the front office, where we found the clerk and the man in velveteen with the fur cap. “Here’s Mike,” said the clerk, getting down from his stool, and approaching Mr. Jaggers confidentially. “Oh!” said Mr. Jaggers, turning to the man, who was pulling a lock of hair in the middle of his forehead, like the Bull in Cock Robin pulling at the bell-rope; “your man comes on this afternoon. Well?” “Well, Mas’r Jaggers,” returned Mike, in the voice of a sufferer from a constitutional cold; “arter a deal o’ trouble, I’ve found one, sir, as might do.” “What"
+  },
+  {
+    "id": "ag_b3_00088",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Iraqis Plead With U.S. to Return to City (AP) AP - U.S. troops barred anguished crowds from returning to their homes in the besieged city of Tal Afar on Monday as residents described corpses scattered across orchards and the collapse of essential services such as water and electricity."
+  },
+  {
+    "id": "wt_m1_s_00469",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "The city is a major center for commerce , banking and finance , retailing , transportation , tourism , real estate , new media as well as traditional media , advertising , legal services , accountancy"
+  },
+  {
+    "id": "yl_b2_00130",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "The orange beef alone is good enough to earn this place 5 stars. I thought the teriyaki chicken was a little bland, but as an out of towner, i can already say my first stop off the plane next year will be for some more orange beef. Thank goodness for yelp, because the place itself is very plain, and never would've pegged it as a place that would've knocked my socks off with the first bite."
+  },
+  {
+    "id": "sc_s4_00258",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "What type of waste is likely to explode? explosive waste."
+  },
+  {
+    "id": "s1_005",
+    "content_type": "Narrative",
+    "source_type": "reddit_personal_story",
+    "language_structure": "chronological_causal",
+    "text": "She applied to 47 jobs over six months. Each rejection came as the same form email. Then one Tuesday afternoon her phone rang with an unknown number. She almost didn't answer. But she did."
+  },
+  {
+    "id": "ge_s3_00132",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "People like standing in line drunk for extended periods of time, apparently. I don't know how else you could enjoy that experience except lots of booze."
+  },
+  {
+    "id": "yl_b2_00113",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I love this place and what they do. We adopted our Graycie from them and if we ever get other animals we'll definitely choose HALO!"
+  },
+  {
+    "id": "mn_s2_00123",
+    "content_type": "Abstract",
+    "source_type": "multinli_fiction",
+    "language_structure": "dense_nominal_nested",
+    "text": "I feel that you probably underestimate the danger, and therefore warn you again that I can promise you no protection."
+  },
+  {
+    "id": "hs_s1_00194",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Tai chi] Tai chi combat along with his website and various other website icons are located on the bottom right. the man"
+  },
+  {
+    "id": "yl_b2_00075",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "Any event at PNC Park is a great one! Saturday morning my friend and I ran the PIrates Charities 5K and it was such a great event. This was the first year they did a 5K and they had over 2,500 runners - a definite success! The course started on Federal Street and looped around the North Shore, ending with a run around the inside of the field, and crossing home plate as the finish line. Aside from this event, going to a game, sky blast, or concert here is amazing. The view of the skyline is just beautiful. My friends and I come here all the time during Pirates season for a game. It's definitely"
+  },
+  {
+    "id": "yl_b2_00081",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "Owner Larissa Reis has created the perfect healthy eating establishment. Not only is everything they sell very healthy; it all tastes delicious. And they'll customize any meal to your specific requirements. \\n\\nI love the ahi tuna salad; the salmon bowl with quinoa: and the ahi tune burger on Ezekiel bread with grilled sweet potato strips. I'm getting hungry just thinking of all the great dishes at Protein House!"
+  },
+  {
+    "id": "ac_m3_00134",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "30,A man speaks with distant traffic passing and some nearby rattling"
+  },
+  {
+    "id": "yl_b2_00109",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I've previously used Beauty To Beauty. My daughter (now 8 years old) and I had our hair cut by Leah sometime last year. She did an very good job. It was by appointment , she worked fast with complete attention to detail. We were both very happy with the results. \\n\\nYesterday was our second visit to Beauty to Beauty (I do a pretty bad job of getting haircuts regularly). This time I decided to skip the appointment and do a walk-in. It was no problem at all, my daughter was getting her hair washed within 5 minutes of arriving. Our stylist was Kathy, she was EXCELLENT. She was great with my daugh"
+  },
+  {
+    "id": "wk_s5_0012",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography_anatomy",
+    "language_structure": "positional_relational",
+    "text": "The corpus callosum, also callosal commissure, is a wide, thick nerve tract, consisting of a flat bundle of commissural fibers, beneath the cerebral cortex in the brain. The corpus callosum is only found in placental mammals."
+  },
+  {
+    "id": "vt_m4_00145",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "the man and woman in modern dress sing the song and dance for it and taking selfie photos"
+  },
+  {
+    "id": "yl_b2_00008",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "We came here Sunday for lunch. Wow, what a great time we had. \\nLots of parking in the lot and nice and cool inside,as it was a scorching hot day out there. There was no line even though it was about 1:00pm. We were seated at the perfect booth for two.\\nThey brought water right away, then our drinks while we getting our food.\\nYou just do not know where to start. The selection is just like Vegas Baby. Only $35.00 plus tax for 2. Which is called Sunday Champagne. We did not drink any alcohol, but you can get it if you like. \\nThe food is fantastic. Seafood, meat, chicken, Salmon was excellant!"
+  },
+  {
+    "id": "ac_m3_00107",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "0,Ocean waves crashing as a man talks in the distance and wind heavily blows into a microphone"
+  },
+  {
+    "id": "ax_s2_0018",
+    "content_type": "Abstract",
+    "source_type": "arxiv_abstract",
+    "language_structure": "formal_definition",
+    "text": "Conventional frame-based cameras capture rich contextual information but suffer from limited temporal resolution and motion blur in dynamic scenes. Event cameras offer an alternative visual representation with higher dynamic range free from such limitations. The complementary characteristics of the two modalities make event-frame asymmetric stereo promising for reliable 3D perception under fast motion and challenging illumination. However, the modality gap often leads to marginalization of domain-specific cues essential for cross-modal stereo matching. In this paper, we introduce Bi-CMPStereo, a novel bidirectional cross-modal prompting framework that fully exploits semantic and structural features from both domains for robust matching. Our approach learns finely aligned stereo representat"
+  },
+  {
+    "id": "fl_m2_00047",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['At the Bedford Avenue subway stop stood a smiling and strumming acoustic guitarist wearing jeans and a colorful vest.' 'An African American man playing guitar in the subway.' 'A man plays an acoustic guitar on a subway platform.' 'A man playing the guitar in a subway station.' 'A Black guy smiling while playing a guitar.']"
+  },
+  {
+    "id": "wc_m2_0049",
+    "content_type": "ImageVisual",
+    "source_type": "wikimedia_commons",
+    "language_structure": "sensory_descriptive",
+    "text": "A photograph: 2005080701 Prager Strasse und Pusteblumenbrunnen Nachtaufnahme 2005."
+  },
+  {
+    "id": "wc_m2_0034",
+    "content_type": "ImageVisual",
+    "source_type": "wikimedia_commons",
+    "language_structure": "sensory_descriptive",
+    "text": "A photograph: Macro image of a damselfly showing wing venation.webp."
+  },
+  {
+    "id": "fl_m2_00161",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A man and a woman, both wearing hiking gear, are standing on the edge of a large canyon.' 'Two people take in the scene as they stand together looking out over the canyon.' 'Two travelers at the edge of a cliff overlooking the mountains.' 'Man and woman standing at grand canyon looking out.' 'Two people at cliff side overlooking Grand Canyon.']"
+  },
+  {
+    "id": "ag_b3_00082",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Grenada In Crisis - Friday 10, September-2004 DESPAIR is setting in among the 80 000 homeless Grenadians who, ravaged and traumatised by the damage done to them by Hurricane Ivan, exist each day with no food, no water and no hope."
+  },
+  {
+    "id": "ts_s1_00331",
+    "content_type": "Narrative",
+    "source_type": "tinystories",
+    "language_structure": "chronological_causal",
+    "text": "Once upon a time, in a big forest, there was a tiny mushroom. It was all alone. The sun was very harsh, and the mushroom did not like it. It wanted to find a friend to play with and to help it hide from the sun. One day, a little bunny came hopping by. The mushroom called out, \"Hello, bunny! Will you be my friend?\" The bunny looked at the mushroom and smiled. \"Sure, I will be your friend. Let's play together!\" The bunny and the mushroom played all day, and they were very happy. As they played, the bunny realized that the mushroom needed help to hide from the harsh sun. So, the bunny dug a hole in the ground and put the mushroom inside. Now, the mushroom was safe and cool. The mushroom and th"
+  },
+  {
+    "id": "ge_s3_00007",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "It goes that far back? That was probably hands down the best fight ever. I loved stone cold as a kid"
+  },
+  {
+    "id": "vt_m4_00091",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a basketball player is shooting a basket"
+  },
+  {
+    "id": "ag_b4_00035",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Does Nick Carr matter? Strategybusiness concludes that a controversial new book on the strategic value of information technology is flawed--but correct.\\"
+  },
+  {
+    "id": "sc_s4_00269",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "Jellyfish belong to which phylum? cnidaria."
+  },
+  {
+    "id": "hs_s1_00063",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Putting on makeup] She begins to put eye shadow on her eyelids and rubbing it in. She adds eyelash extensions on her eyes. then"
+  },
+  {
+    "id": "hn_b4_0037",
+    "content_type": "Novelty",
+    "source_type": "hackernews_announcement",
+    "language_structure": "surprise_framing",
+    "text": "Meta targets May 20 for first wave of layoffs; additional cuts later in 2026"
+  },
+  {
+    "id": "ag_b4_00001",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "The Race is On: Second Private Team Sets Launch Date for Human Spaceflight (SPACE.com) SPACE.com - TORONTO, Canada -- A second\\team of rocketeers competing for the #36;10 million Ansari X Prize, a contest for\\privately funded suborbital space flight, has officially announced the first\\launch date for its manned rocket."
+  },
+  {
+    "id": "wk_s5_00311",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A canyon, gorge or chasm, is a deep cleft between escarpments or cliffs resulting from weathering and the erosive activity of a river over geologic time scales. Rivers have a natural tendency to cut through underlying surfaces, eventually wearing away rock layers as sediments are removed downstream. A river bed will gradually reach a baseline elevation, which is the same elevation as the body of water into which the river drains."
+  },
+  {
+    "id": "wk_s5_00307",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A continental divide is a drainage divide on a continent such that the drainage basin on one side of the divide feeds into one ocean or sea, and the basin on the other side either feeds into a different ocean or sea, or else is endorheic, not connected to the open sea. Every continent on Earth except Antarctica has at least one continental drainage divide; islands, even small ones like Killiniq Island on the Labrador Sea in Canada, may also host part of a continental divide or have their own island-spanning divide. The endpoints of a continental divide may be coastlines of gulfs, seas or oceans, the boundary of an endorheic basin, or another continental divide."
+  },
+  {
+    "id": "ge_s3_00084",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "That head pat and hug was the physical equivalent of “oh my sweet summer child.”"
+  },
+  {
+    "id": "ac_m3_00017",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "270,\"Water is trickling, and a man talks\""
+  },
+  {
+    "id": "ac_m3_00164",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "30,A domestic pet is making noises and a baby cries"
+  },
+  {
+    "id": "so_b1_00204",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Dad, I've been doing a lot of thinking lately, and I've come to some conclusions that I wanted to talk to you about. | What kind of conclusions? | About life, and what it means to be alive. | Okay, shoot."
+  },
+  {
+    "id": "sc_s4_00221",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "What is it called when two waves in the same medium pass one another? interference."
+  },
+  {
+    "id": "wk_m1_0010",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia_long_form",
+    "language_structure": "neutral_declarative_512tok",
+    "text": "The International Space Station (ISS) is a space station in low Earth orbit (LEO). It is the product of the International Space Station program and is operated by five partner space agencies: NASA, Roscosmos (Russia), ESA (Europe), JAXA (Japan), and CSA (Canada). It is the first space station built, maintained and crewed through international cooperation and the largest human spacecraft ever constructed. It is an orbital research station, where scientific experiments in microgravity are conducted and the space environment is studied. Since 2 November 2000, it has hosted the longest continuous presence of humans in space. Alongside Tiangong, it is one of the only two currently operational space stations."
+  },
+  {
+    "id": "wk_s5_0008",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography_anatomy",
+    "language_structure": "positional_relational",
+    "text": "Plate tectonics is the scientific theory that Earth's lithosphere comprises a number of large tectonic plates, which have been slowly moving since 3–4 billion years ago. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century."
+  },
+  {
+    "id": "gt_s1_0013",
+    "content_type": "Narrative",
+    "source_type": "gutenberg_moby_dick",
+    "language_structure": "chronological_causal",
+    "text": "and symbolizings, this same hue is made the emblem of many touching, noble things—the innocence of brides, the benignity of age; though among the Red Men of America the giving of the white belt of wampum was the deepest pledge of honor; though in many climes, whiteness typifies the majesty of Justice in the ermine of the Judge, and contributes to the daily state of kings and queens drawn by milk-white steeds; though even in the higher mysteries of the most august religions it has been made the symbol of the divine spotlessness and power; by the Persian fire worshippers, the white forked flame being held the holiest on the altar; and in the Greek mythologies, Great Jove himself being made in"
+  },
+  {
+    "id": "b2_012",
+    "content_type": "Reward",
+    "source_type": "career_announcement",
+    "language_structure": "achievement_outcome",
+    "text": "After 18 months of job hunting, three final-round rejections, and one rescinded offer, I finally signed an offer letter today. I did not give up."
+  },
+  {
+    "id": "ge_s3_00136",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "Lol this fan base has the memory of a goldfish."
+  },
+  {
+    "id": "ac_m3_00043",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "30,A vehicle engine revving as a crowd of people talk"
+  },
+  {
+    "id": "ac_m3_00019",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "310,Birds cackling and young peoples voices"
+  },
+  {
+    "id": "yl_b2_00108",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "This is a very nice place to find any clothing you can never think of from any brand install the pricing is very depend on what you want to buy. \\nYour tourist and you come to town to the right place for you to find the best deal from all the different stores. \\nvery recommended"
+  },
+  {
+    "id": "ac_m3_00188",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "60,A man speaking as an insect buzzes followed by a woman laughing then another man talking"
+  },
+  {
+    "id": "tq_s4_00086",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "In rugby union, the Cook Cup is a challenge cup contested by which two countries? Australia and England."
+  },
+  {
+    "id": "ge_s3_00123",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "That’s [NAME] son’s college tuition money!"
+  },
+  {
+    "id": "so_b1_00223",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Emily, I was born on a cold winter day in New Jersey. | Oh, really? What was it like? | It was freezing! I grew up running around the forests of Pennsylvania. Now I live surrounded by palm trees and the sun in Florida. | That's so cool! I've always wanted to live in a warm climate. What's it like down there?"
+  },
+  {
+    "id": "tq_s4_00146",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "The Bet365 Gold Cup, formerly the Beffred and the Whitbread Gold Cup, is the last major 'race of the National Hunt season. On which course is it run? Sandown."
+  },
+  {
+    "id": "wk_s5_00304",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "In architecture and building engineering, a floor plan is a technical or diagrammatic drawing that illustrates the horizontal relationships of interior spaces or features to one another at one level of a structure. They are typically drawn to-scale and in orthographic projection to represent relationships without distortion. They are usually drawn approximately 4 ft (1.2 m) above the finished floor and indicate the direction of north."
+  },
+  {
+    "id": "fl_m2_00042",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A night street scene with a line of people waiting for something in a dome.' 'People socialize at the center of town during the evening.' 'People in a courtyard plaza are sitting and standing.' 'A large crowd gathers for a night in the city.' 'People standing in a long line.']"
+  },
+  {
+    "id": "fl_m2_00046",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['One man in a brown coat steadying a cart with two boxes of fruit while trying to retrieve a pear that fell on the bumpy pavement made of brick.' 'A person reaches for a fallen item while holding a rolling cart carrying Dole crates.' 'A man pushing a hand-truck of boxes is bending over to pick up a pear.' 'A man transporting produce reaches down to pick up a dropped item.' 'A man is bent over trying to pick up the pear.']"
+  },
+  {
+    "id": "sc_s2_00266",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Figure 14.3 The Tongue The tongue is covered with small bumps, called papillae, which contain taste buds that are sensitive to chemicals in ingested food or drink. Different types of papillae are found in different regions of the tongue. The taste buds contain specialized gustatory receptor cells that respond to chemical stimuli dissolved in the saliva. These receptor cells activate sensory neurons that are part of the facial and glossopharyngeal nerves. LM × 1600. (Micrograph provided by the Regents of University of Michigan Medical School © 2012)."
+  },
+  {
+    "id": "vt_m4_00112",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a close-up of somebody solving a rubik s cube"
+  },
+  {
+    "id": "fl_m2_00061",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A young girl sits on the edge of a stream in pink polka dot pants with no shirt.' 'A young child throwing stones into a shallow stream.' 'A little girl sitting in front of some lake water.' 'A little child skipping rocks in the water.' 'A little girl throwing rocks into a stream.']"
+  },
+  {
+    "id": "ax_s2_0017",
+    "content_type": "Abstract",
+    "source_type": "arxiv_abstract",
+    "language_structure": "formal_definition",
+    "text": "We develop a framework to describe gravitational wave propagation through a stochastic distribution of weak gravitational lenses beyond the geometric optics limit. We model the lens distribution as a static random background field and formulate the problem in the language of quenched disorder, treating the disorder averaged density matrix as the fundamental object from which observables are computed. Using the Schwinger Keldysh formalism, we construct a path-integral representation of the averaged density matrix and derive its explicit form perturbatively for a suitable class of couplings. The result naturally separates into a quadratic exponential term, which governs the suppression of phase sensitive contributions in the averaged description, and a purely oscillatory contribution, which"
+  },
+  {
+    "id": "sc_s4_00001",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "What type of ions do ionic compounds contain? positive and negative."
+  },
+  {
+    "id": "ge_s3_00063",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "I am very happy with the changes. And also very pleasantly surprised the dairy industry didn't manage to make them include more dairy."
+  },
+  {
+    "id": "ax_s2_0027",
+    "content_type": "Abstract",
+    "source_type": "arxiv_abstract",
+    "language_structure": "formal_definition",
+    "text": "Determining whether two graphs are isomorphic is a fundamental problem with practical applications in areas such as molecular chemistry or social network analysis, yet it remains a challenging task, with exact solutions often being computationally expensive. We address this task using persistent homology built on motif-based filtrations of graphs, a method from topological data analysis that summarizes the shape of data by tracking the persistence of structural features along filtrations. Specifically, we use edge-weighting schemes based on the densities of triangles, chordless squares, and chordless pentagons, which have been shown to be effective for detecting network dimensionality. Our cycle-density filtrations distinguish non-isomorphic graphs perfectly or nearly perfectly across four"
+  },
+  {
+    "id": "sc_s4_00294",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "The term science comes from a latin word that means? having knowledge."
+  },
+  {
+    "id": "ag_b4_00148",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Dog Extinctions Show Why Bigger Isn #39;t Better Fossils from extinct dogs show why bigger is not better -- giant meat-eating animals died out because they relied too heavily on hunting other big animals, scientists reported on Thursday."
+  },
+  {
+    "id": "wt_m1_s_00394",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "The original location of the La Cobata head was not a major archaeological site and it is likely that the head was either abandoned at its source or during transport to its intended destination ."
+  },
+  {
+    "id": "wk_s2_0014",
+    "content_type": "Abstract",
+    "source_type": "wikipedia_philosophy_math",
+    "language_structure": "dense_nominal_nested",
+    "text": "Modal logic is a kind of logic used to represent statements about necessity and possibility. In philosophy and related fields it is used as a tool for understanding concepts such as knowledge, obligation, and causation."
+  },
+  {
+    "id": "hs_s1_00058",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Spinning] A camera pans around a set of stairs and leads into people working out in a class. several shots"
+  },
+  {
+    "id": "hs_s1_00106",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Wrapping presents] A woman lays out tissue paper and places a stuffed toy in the center. The woman wraps the toy in the tissue paper and tapes it shut. the woman"
+  },
+  {
+    "id": "hs_s1_00131",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Playing rubik cube] A young man solves a cube puzzle while a man stand on front him."
+  },
+  {
+    "id": "m1_32_004",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "Photosynthesis is the process by which green plants convert sunlight, water, and carbon dioxide into glucose and oxygen using chlorophyll."
+  },
+  {
+    "id": "ag_b3_00120",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Ex-General Has Early Lead Over Megawati in Indonesia JAKARTA (Reuters) - Early returns in Indonesia's presidential elections Monday gave a lead to ex-general Susilo Bambang Yudhoyono, who has vowed firmer leadership to fight terror and boost the economy, over incumbent Megawati Sukarnoputri."
+  },
+  {
+    "id": "fl_m2_00157",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A woman with long hair holds the hand of small girl in one piece blue bathing suit while they run among other children on flooded pavement.' 'Barefoot woman in a blue skirt hold hands with a child while other children play.' 'Young children and parents splashing around a public fountain.' 'A group of people on a hot day playing in a cool fountain.' 'Kids and adults playing in shallow water in a city.']"
+  },
+  {
+    "id": "ac_m3_00142",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "30,A man is giving a speech while the crowd is chanting and clapping in the background"
+  },
+  {
+    "id": "tq_s4_00063",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "\"Whose memoirs, published in 2010, were called \"\"A Journey\"\"?\" Tony Blair."
+  },
+  {
+    "id": "s5_002",
+    "content_type": "Spatial",
+    "source_type": "architectural_description",
+    "language_structure": "positional_relational",
+    "text": "The kitchen is directly north of the living room, separated by a load-bearing wall. The master bedroom is located above the kitchen and shares its east wall with the second bathroom."
+  },
+  {
+    "id": "yl_b2_00166",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I consider myself a regular at this point. At the beginning when the location first opened there were a couple of rough spots. Now however I feel the place is a great addition to the Old Town mix. Great bartenders good diverse crowd from 21 to 80 . This is what a real pub should be like. If you don't like the pasty choices try the pasta salad with chicken. So happy to see no TVs ."
+  },
+  {
+    "id": "wk_s5_00018",
+    "content_type": "Spatial",
+    "source_type": "wiki_physical_geography",
+    "language_structure": "positional_relational",
+    "text": "In physical geography and physical geology, aspect is the compass direction or azimuth that a terrain surface faces."
+  },
+  {
+    "id": "ge_s3_00190",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "Im glad youre going to be a perfect parent who never makes any mistakes. Make sure you write a book!"
+  },
+  {
+    "id": "so_b1_00275",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So you're really serious about looking for a new job? | Absolutely. I've been unhappy at my current job for a while now and I need a change. | I completely understand. It can be really tough when you're not happy with your work situation. Have you been looking around at any other places? | Yeah, I've been doing some research and there are definitely some places that I'm interested in working. But it's hard to know if they would be the right fit without actually applying and interviewing."
+  },
+  {
+    "id": "wk_s5_0006",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography_anatomy",
+    "language_structure": "positional_relational",
+    "text": "The Sahara is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third-largest desert overall, smaller only than the deserts of Antarctica and the northern Arctic."
+  },
+  {
+    "id": "sc_s2_00319",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Sexual reproduction occurs when spores from two parents fuse and form a zygospore."
+  },
+  {
+    "id": "ag_b4_00027",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Atlantis \"Evidence\" Found in Spain, Ireland In 360 B.C. the Greek philosopher Plato described an island he called Atlantis. Now contradicting new evidence claims the fabled city-state was based on a real place."
+  },
+  {
+    "id": "tq_s4_00154",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "What type of whale was Moby Dick? Sperm Whale."
+  },
+  {
+    "id": "rss_b3_0031",
+    "content_type": "ThreatSafety",
+    "source_type": "nyt_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "How Trump Helped Pope Leo Find His Voice. After his election last year, Leo XIV developed a reputation as a mild-mannered mediator. President Trump’s attacks have made him more combative."
+  },
+  {
+    "id": "vt_m4_00102",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a girl describing her morning beauty routine"
+  },
+  {
+    "id": "yl_b2_00147",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I have had some horrible experiences in the past with other dentist. When I came to Harris dental 2 years ago, I had no hope. The Harris family helped me see that there was hope and I could have a beautiful smile again. The staff is so friendly and the doctors are so knowledgeable. I will never see another dentist!!"
+  },
+  {
+    "id": "pm_b4_0090",
+    "content_type": "Novelty",
+    "source_type": "pubmed_abstract",
+    "language_structure": "academic_breakthrough",
+    "text": "Functional brain networks support human cognition, yet how individualized network architecture emerges in early childhood remains poorly understood. Averaging across participants can obscure age-specific organization and person-to-person differences, particularly in slowly developing association cortices. We developed an age-appropriate functional reference that captured common structure across toddlers without averaging away individual variability, enabling estimation of each child's networks from resting-state fMRI. Across cohorts of 8-60-month-old children, we found individualized network organization-including finer-scale subdivisions and emerging language lateralization-well before age"
+  },
+  {
+    "id": "vt_m4_00066",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a group of high schoolers eat some food outsie"
+  },
+  {
+    "id": "fl_m2_00169",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A brunette female is sitting on a blue bench outdoors reading a paper while a bird looks on.' 'Pigeon staring at a woman in black boots sitting on a park bench reading a paper.' 'A seagull watches a woman in a sweater and scarf reading the newspaper.' 'Woman reading a paper, sitting on a blue bench, wearing all black.' 'A woman dressed in black reading the paper while a pigeon watches.']"
+  },
+  {
+    "id": "yl_b2_00194",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "The M Buffet is my new favorite buffet in LV!!\\n\\nIt is a bit far from the strip so we usually eat here on the way home. It gets very BUSY. If you have a group with more than 4 or 5 people better to split up the party or you'll be waiting FOREVER! (Thats what we had to do) Cost is about $30 something\\n\\nAll you can eat CRAB LEGS! There are two different kinds: Steamed or Cold. The steamed ones are bombedy!!! That's all I ate & needed. \\n\\nCan't wait to go back!!"
+  },
+  {
+    "id": "yl_b2_00146",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "Delicious! There's one in LA that we used to go to, and the AZ one is just as good even though we're landlocked here! Must gets are the:\\n -Spicy tuna on crispy rice\\n -Marinated Cod\\n -Baked crab hand roll in soy paper"
+  },
+  {
+    "id": "vt_m4_00064",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "ricky gowree chose to get his phd in aeronatuical engineering at city university in london because he likes the atmosphere and relationship with professors"
+  },
+  {
+    "id": "so_b1_00153",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I wanted to show the people that I am their new leader, and that they should follow my lead. | Why? | Because I want to make sure that they are safe, and that they have someone to look up to. | And you think that you're the best person for the job?"
+  },
+  {
+    "id": "so_b1_00115",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. Thanks for coming to hang out with me today. I know it can be tough making new friends in a new place. | Don't worry about it, Cash. I know how you feel. I moved here from Ohio a few months ago and I was really homesick at first too. But I eventually started to make some friends and now I love living here. | Yeah, I'm starting to like it here too. It's just been tough getting used to being away from all my old friends back home. But it's nice having someone to talk to who understands what I'm going through. | Of course, Cash. We can definitely be friends. So what do you like to do for fun?"
+  },
+  {
+    "id": "ag_b3_00127",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Second Beheading Reported (Los Angeles Times) Los Angeles Times - BAGHDAD #8212; Militants said Tuesday that they had beheaded a second American hostage in as many days and threatened to kill a British captive, increasing pressure on President Bush and British Prime Minister Tony Blair to confront a recent wave of kidnappings of foreigners in the Iraqi capital."
+  },
+  {
+    "id": "fl_m2_00003",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A man jogs down a city street, with a line attached to his back that vanishes out of the left side of the picture; a smiling cyclist rides past.' 'A young man runs with goggles above his eyes and a bungee cord tethered to him as a man on a bicycle with a white helmet laughs.' 'A man wearing a black shirt and goggles is running along the street' 'A man wearing black clothes runs next to a woman on a bicycle.' 'A man is running and a girl is riding a bike.']"
+  },
+  {
+    "id": "ge_s3_00030",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "I was joking about a broader trend I've noticed."
+  },
+  {
+    "id": "sc_s4_00210",
+    "content_type": "Factual",
+    "source_type": "sciq_qa",
+    "language_structure": "declarative_third_person",
+    "text": "What are the two types of fatty acids? saturated and unsaturated."
+  },
+  {
+    "id": "wk_m1_0003",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia_long_form",
+    "language_structure": "neutral_declarative_512tok",
+    "text": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals."
+  },
+  {
+    "id": "hn_b4_0033",
+    "content_type": "Novelty",
+    "source_type": "hackernews_announcement",
+    "language_structure": "surprise_framing",
+    "text": "\"Liberation Day\" at OpenAI as multiple senior executives announce leaving"
+  },
+  {
+    "id": "ax_b4_0002",
+    "content_type": "Novelty",
+    "source_type": "arxiv_breakthrough",
+    "language_structure": "superlative_first_ever",
+    "text": "Recent investigations of turbulent circulation fluctuations have uncovered substantial insights into the statistical organization of flow structures and revealed unexpected geometric features of turbulent intermittency. Of particular interest here is the observation that circulation probability distribution functions admit a superstatistical representation, namely a description based on \"ensembles of Boltzmann-Gibbs ensembles\". A fundamental phenomenological ingredient of this approach, which serves as a natural starting point for modeling, relies on the strong correlation between the dissipat"
+  },
+  {
+    "id": "wt_m1_s_00529",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "The cost to rebuild Rome was immense , requiring funds the state treasury did not have ."
+  },
+  {
+    "id": "tq_s4_00126",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "Which syndrome, a type of delusional jealousy of infidelity of a spouse or partner, is named after a Shakespearian character? Othello Syndrome."
+  },
+  {
+    "id": "yl_b2_00196",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I went to Rochelle's Salon once before and hated the girl who did my hair. After about a year later, I slowly got the courage to give Rochelle's Salon another chance, but only for a blow dry and style. We kept dating like this for a while. They referred me to Abel who did a great job and eventually, the relationship progressed and I now trust him to cut my hair and color it. I love Rochelle's and am now a loyal girlfriend. Abel is great, creative, easy-going, and very accommodating as most my appointments are last minute. In addition, he's great at giving dating advice-NOT, but it's hilarious"
+  },
+  {
+    "id": "ts_s1_00287",
+    "content_type": "Narrative",
+    "source_type": "tinystories",
+    "language_structure": "chronological_causal",
+    "text": "Once upon a time, there was a little white cat named Fluffy. Fluffy loved to play with her best friend, a small boy named Timmy. They played outside in the sun every day. Fluffy liked to chase Timmy, and Timmy liked to run. One day, Timmy learned a new word at school. He wanted to teach Fluffy the word too. Timmy said, \"Fluffy, the word is 'repeat'. Can you say 'repeat'?\" Fluffy looked at Timmy and said, \"Meow.\" Timmy laughed and said, \"No, Fluffy, say 'repeat'.\" Fluffy tried again and said, \"Meow-peat.\" Timmy clapped his hands and said, \"Good job, Fluffy! You said the word!\" Fluffy was very happy. She liked learning new words with Timmy. From that day on, Fluffy and Timmy played a game wher"
+  },
+  {
+    "id": "ag_b4_00076",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "IBM Aims New DB2 at Rivals IBM (Quote, Chart) announced its first major database refresh in almost two years with new features from the company #39;s autonomic computing vault."
+  },
+  {
+    "id": "fl_m2_00139",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['Man with glasses holding boy upside down outside in a stone-filled yard.' 'A man holds a young boy upside down over a puddle of water.' 'Man holding boy upside down in his arms standing on rocks.' 'A man plays with a little boy, holding him upside down.' 'A man holds a boy upside down over a pond.']"
+  },
+  {
+    "id": "wc_m2_0021",
+    "content_type": "ImageVisual",
+    "source_type": "wikimedia_commons",
+    "language_structure": "sensory_descriptive",
+    "text": "A photograph: \"A young Iranian man with long hair\" 07."
+  },
+  {
+    "id": "b1_006",
+    "content_type": "Social",
+    "source_type": "customer_support",
+    "language_structure": "multi_agent_dialogue",
+    "text": "User: this is urgent. Support: I understand this feels urgent. User: no, it IS urgent. Support: I hear that you're frustrated. User: [leaves 1-star review]"
+  },
+  {
+    "id": "yl_b2_00049",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "Best meat in town! The delmonico is a cut you can't possibly go wrong with. They also have great pork products and sausages. Everytime we go in, we immediately put the delmonico on our list along with rib eyes and/or ny strips. Chicken and a brisket are the next things on my list to try from there. \\nThe staff is always friendly and willing to help. If you have questions on cuts, they will fully explain what is best for your recipe intentions. \\nThe place is always clean and never smells like, well, meat. There is absolutely no smell to this place which makes me feel that it is top quality. Go"
+  },
+  {
+    "id": "rss_b4_0055",
+    "content_type": "Novelty",
+    "source_type": "bbc_science",
+    "language_structure": "surprise_framing",
+    "text": "First stop, the Moon. Next stop, Mars? Why Nasa's mission matters. Lunar discoveries and a space race with China is seeing the US invest time and money to get to the Moon - and beyond."
+  },
+  {
+    "id": "wk_m1_0005",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia_long_form",
+    "language_structure": "neutral_declarative_512tok",
+    "text": "A black hole is an astronomical body so compact that its gravity prevents anything, including light, from escaping. Albert Einstein's theory of general relativity, which describes gravitation as the curvature of spacetime, predicts that any sufficiently compact mass will form a black hole. The boundary of no escape is called the event horizon. In general relativity, crossing a black hole's event horizon traps an object inside but produces no locally detectable change. General relativity also predicts that every black hole should have a central singularity, where the curvature of spacetime is infinite."
+  },
+  {
+    "id": "hs_s1_00006",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Getting a haircut] He scrubs in the shampoo and then washes it off. He then combs it and blow dries his hair after styling it with gel. he"
+  },
+  {
+    "id": "wt_m1_s_00320",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "On November 4 , it was confirmed that Lesnar was suffering from mononucleosis and that his bout with Carwin would have to wait a bit longer and the fight for Lesnar 's heavyweight championship was can"
+  },
+  {
+    "id": "tq_s4_00101",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "Neil Kinnock's son Stephen is married to the Prime Minister of which Country? DENMARK."
+  },
+  {
+    "id": "s2_007",
+    "content_type": "Abstract",
+    "source_type": "mathematics",
+    "language_structure": "formal_definition",
+    "text": "In category theory, a functor is a structure-preserving map between categories that assigns to each object and morphism in the source category a corresponding object and morphism in the target category, in a way that preserves identity morphisms and composition."
+  },
+  {
+    "id": "vt_m4_00139",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a family having their dinner together in a dining room"
+  },
+  {
+    "id": "ac_m3_00187",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "250,Wood lightly shuffling as insects buzz while birds chirp in the background"
+  },
+  {
+    "id": "mn_s2_00115",
+    "content_type": "Abstract",
+    "source_type": "multinli_travel",
+    "language_structure": "dense_nominal_nested",
+    "text": "Cave 31 tries to emulate the style of the great Hindu temple on a much smaller scale, but the artists here were working on much harder rock and so abandoned their effort."
+  },
+  {
+    "id": "tq_s4_00034",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "In which mountains does the Loire river rise? Cevennes."
+  },
+  {
+    "id": "ac_m3_00156",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "520,Rain falling as a motor engine runs idle and a man talks"
+  },
+  {
+    "id": "wt_m1_s_00463",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "Nero enjoyed driving a one @-@ horse chariot , singing to the lyre and poetry ."
+  },
+  {
+    "id": "wt_m1_m_00527",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_medium",
+    "language_structure": "neutral_declarative_128tok",
+    "text": "Most of the ironclads of the 1870s and 1880s served into the 1900s ( decade ) . For instance , a handful of US navy monitors laid down in the 1870s saw active service in World War I. Pre @-@ Dreadnought battleships and cruisers of the 1890s saw widespread action in World War I and in some cases through to World War II ."
+  },
+  {
+    "id": "vt_m4_00043",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "the modeling girl wearing black dress and sing the wonderful song and dancing"
+  },
+  {
+    "id": "ac_m3_00035",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "30,Motorboat engine screams as it accelerates"
+  },
+  {
+    "id": "wk_s5_00008",
+    "content_type": "Spatial",
+    "source_type": "wiki_orientation_(geometry)",
+    "language_structure": "positional_relational",
+    "text": "Anisotropic energy is energy that is directionally specific. The word anisotropy means \"directionally dependent\", hence the definition. The most common form of anisotropic energy is magnetocrystalline anisotropy, which is commonly studied in ferromagnets."
+  },
+  {
+    "id": "ac_m3_00110",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "40,Music is playing with machine gun sounds"
+  },
+  {
+    "id": "wt_m1_s_00400",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "Additionally , oxidation of chiral imines and oxidation of imines with chiral peracids may yield enantiopure oxaziridines ."
+  },
+  {
+    "id": "ac_m3_00063",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "30,A vehicle door opening as a crow caws and birds chirp while vehicles drive by in the background"
+  },
+  {
+    "id": "ag_b4_00033",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Stopping spam at the source New antispam technology standards are on the way that promise to hit spammers where it hurts the most--their wallets. At issue is the ability to authenticate the original source of e-mail messages, a major"
+  },
+  {
+    "id": "ge_s3_00095",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "Don't attend. Don't engage. They want validation, don't give it to them."
+  },
+  {
+    "id": "ac_m3_00022",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "80,Water running with a main is speaking"
+  },
+  {
+    "id": "ts_s1_00271",
+    "content_type": "Narrative",
+    "source_type": "tinystories",
+    "language_structure": "chronological_causal",
+    "text": "Once there was a boy named Tom. Tom wanted to see something special, so he went to a high mountain. It was sunny and warm outside so the snow began to melt. Tom found something surprising: a magnet! He was excited and picked it up. Tom looked around and tried to find something with his magnet. He soon noticed that the magnet was attracting some pieces of metal on the ground. He picked them up and put them in his pocket. Tom kept playing with his magnet. Suddenly he heard a noise, it was high and loud! He looked up and saw a beautiful rainbow. He smiled, this was something special!"
+  },
+  {
+    "id": "so_b1_00073",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi Taylin. It's nice to see you on the train today. | Yeah, I was just thinking the same thing about you. It's been a while since we've seen each other. How have you been? | I've been good. I just moved back to the city recently and I'm still getting used to taking the train every day. | Oh, yeah? I actually just moved here too. I'm still getting used to it as well. But it's been really great so far. I love exploring the city and there's always something new to do."
+  },
+  {
+    "id": "s5_012",
+    "content_type": "Spatial",
+    "source_type": "neuroscience",
+    "language_structure": "anatomical_positional",
+    "text": "The neuron's cell body sits in cortical layer III, with its axon projecting downward through layers V and VI into the white matter below."
+  },
+  {
+    "id": "tq_s4_00053",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "What movie starred Michael Jordan? Space Jam."
+  },
+  {
+    "id": "sc_s2_00393",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Metallic Solids Metals are characterized by their ability to reflect light, called luster, their high electrical and thermal conductivity, their high heat capacity, and their malleability and ductility. Every lattice point in a pure metallic element is occupied by an atom of the same metal. The packing efficiency in metallic crystals tends to be high, so the resulting metallic solids are dense, with each atom having as many as 12 nearest neighbors. Bonding in metallic solids is quite different from the bonding in the other kinds of solids we have discussed. Because all the atoms are the same, there can be no ionic bonding, yet metals always contain too few electrons or valence orbitals to form covalent bonds with each of their neighbors. Instead, the valence electrons are delocalized throughout the crystal, providing a strong cohesive force that holds the metal atoms together."
+  },
+  {
+    "id": "so_b1_00239",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "I love music! It's such a big part of my life and it always makes me feel so good. | I know, me too! It's just so amazing how something can be so powerful and moving, you know? | Exactly! It's like, no matter what mood I'm in, music can always make me feel better. | Totally. And it's also great for when you want to get pumped up or motivated for something."
+  },
+  {
+    "id": "fl_m2_00078",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A woman with blond-hair and a cowboy hat, is holding the American Flag while riding a brown horse in an arena.' 'A woman riding a horse in a dirt arena, carrying an American flag.' 'A woman on horseback at a rodeo holds the American flag.' 'A woman rides a horse carrying an American flag.' 'Rodeo contestant on horse flying american flag']"
+  },
+  {
+    "id": "vt_m4_00155",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a celebrity talking her courage to perform"
+  },
+  {
+    "id": "yl_b2_00181",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "We've been going here for my soon to be six year old son since he was two. He's been cursed with bad genetics in his teeth so we've had cleanings, fillings, kids root canal and x rays here. Dr Ramsey and his team are caring and gentle, the wait time is very little as well. They have plenty of toys in the waiting room just in case. \\n\\nTo have your child sedated for dental work is scary but they are a great office and take good care of my son- I wasn't so worried!"
+  },
+  {
+    "id": "sc_s2_00389",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "In some places, the oceanic crust comes up to a continent. The moving crust pushes that continent away from the ridge axis as well. If the moving oceanic crust reaches a deep sea trench, the crust sinks into the mantle. The creation and destruction of oceanic crust is the reason that continents move."
+  },
+  {
+    "id": "yl_b2_00077",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "A city runs through it.\\n\\nLas Vegas grew around this place, originally a game dressing shop. Chuck Frommer has expanded it into the best butcher shop I know of."
+  },
+  {
+    "id": "wk_s5_00301",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "Longitude is a geographic coordinate that specifies the east-west position of a point on the surface of the Earth, or another celestial body. It is an angular measurement, usually expressed in degrees and denoted by the Greek letter lambda (λ). Meridians are imaginary semicircular lines running from pole to pole that connect points with the same longitude."
+  },
+  {
+    "id": "m2_003",
+    "content_type": "ImageVisual",
+    "source_type": "image_caption",
+    "language_structure": "close_up_detail",
+    "text": "Close-up of a human eye: iris a deep hazel with radiating amber flecks, pupil fully dilated, fine blood vessels visible in the white sclera."
+  },
+  {
+    "id": "wk_s5_0003",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography_anatomy",
+    "language_structure": "positional_relational",
+    "text": "The Great Barrier Reef is the world's largest coral reef system, composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres (1,400 mi) over an area of approximately 344,400 square kilometres (133,000 mi2). The reef is located in the Coral Sea, off the coast of Queensland, Australia, separated from the coast by a channel 160 kilometres (100 mi) wide in places and over 61 metres (200 ft) deep."
+  },
+  {
+    "id": "hs_s1_00224",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Hand washing clothes] We see a lady washing a white towel in a sink. The lady lifts the towel up. The lady picks something up off the floor. the lady"
+  },
+  {
+    "id": "ag_b3_00152",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Baghdad Bombings Kill One US Soldier, Wound 13 WASHINGTON, Sept. 30, 2004 -- A series of car bombings in Baghdad today killed one American soldier and wounded 13 others. The bombings also killed at least two Iraqi policemen and reportedly injured scores of other Iraqis."
+  },
+  {
+    "id": "hs_s1_00141",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Preparing pasta] They then begin stirring the vegetables with the oil. After this what other ingredients are added include tomatoes, spices and some type of liquid. everything"
+  },
+  {
+    "id": "mn_s2_00006",
+    "content_type": "Abstract",
+    "source_type": "multinli_travel",
+    "language_structure": "dense_nominal_nested",
+    "text": "Calcutta seems to be the only other production center having any pretensions to artistic creativity at all, but ironically you're actually more likely to see the works of Satyajit Ray or Mrinal Sen shown in Europe or North America than in India itself."
+  },
+  {
+    "id": "yl_b2_00023",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I thought the place was near perfect. Our experience was flawless. The service impeccable. \\n\\nThings i loved about the place: \\nExcellent wine selection. Not your normal everday average wines that most Phoenix/Scottsdale restaurants try to pawn off on us. Well selected and nicely priced. \\n\\nWe started off with the carpacio... it was beautiful. Perfectly sliced. It was like butter in our mouths. Simple, fresh, high quality meat. \\n\\nI had the mussles linguine in a white winegarlic sauce. It was exquisite. Just enough garlic to give it a spice and nothing overpowered the mussles. Again... ingr"
+  },
+  {
+    "id": "ac_m3_00044",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "10,Some rustling followed by a quick powerful hiss"
+  },
+  {
+    "id": "yl_b2_00007",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "wow! such a beautiful place! from the golf course to the bars and outside patio, it's great. We went there for Infusioncon and it was awesome!"
+  },
+  {
+    "id": "yl_b2_00094",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I went to Tableau on the recommendation of two friends who had eaten brunch there the previous day - and who wanted our whole group to go back for lunch before we left Vegas. Vegas has a lot of restaurants (in case you didn't know) so the fact that these two felt strongly about eating at the same spot twice in a three day trip bode well for our meal.\\n\\nAnd holy moly roly poly. I'd eat here every day if I could. First of all, the place is darling. It feels intimate and the decor is vaguely dollhouse, a great spot for a fancy tea party. Or brunch, I suppose. The service - stellar. The presentat"
+  },
+  {
+    "id": "wt_m1_s_00535",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "After the end of the 2009 – 10 season , Brad Stevens and Butler continued to attract considerable attention ."
+  },
+  {
+    "id": "so_b1_00299",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Iris! What are your plans for the weekend? | Not much, just hanging out with friends and family. You? | Oh, I'm going to a party on Saturday night. It should be really fun! | That sounds great! Who's throwing the party?"
+  },
+  {
+    "id": "hs_s1_00210",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Playing congas] A blindfolded man is standing outside with vehicles parked behind him and he's playing a small set of bongos as well as a large set of bongos right next to it. the man"
+  },
+  {
+    "id": "sc_s2_00380",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Biogeography is the study of how and why plants and animals live where they do. It provides more evidence for evolution. Let’s consider the camel family as an example."
+  },
+  {
+    "id": "wt_m1_s_00484",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "Morakot spawned from an area of disturbed weather in the Philippine Sea on July 31 ."
+  },
+  {
+    "id": "wc_m2_0038",
+    "content_type": "ImageVisual",
+    "source_type": "wikimedia_commons",
+    "language_structure": "sensory_descriptive",
+    "text": "A photograph: 'Bainbridge, a century of service' (6841097718)."
+  },
+  {
+    "id": "wt_m1_s_00520",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "The Commission had also been mandated to individually commemorate each soldier who had no known grave , which amounted to 315 @,@ 000 in France and Belgium alone ."
+  },
+  {
+    "id": "so_b1_00099",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Thanks for being here, Gail. It really means a lot to me. | Of course, Madalynn. I'm always here for you. You know that. | I know. But it's just been really tough lately. I feel like I'm fighting a losing battle sometimes. | I know you are, but you're not alone in this fight. We're all here for you and we believe in you. You can beat this, Madalynn. I know you can."
+  },
+  {
+    "id": "rss_b4_0045",
+    "content_type": "Novelty",
+    "source_type": "bbc_world",
+    "language_structure": "surprise_framing",
+    "text": "Japan comes up with new word for days hotter than 40C after blistering summer. The term - kokushobi - translates to \"cruelly hot\", \"brutally hot\" or \"severely hot\", and comes after Japan's hottest summer on record."
+  },
+  {
+    "id": "s5_003",
+    "content_type": "Spatial",
+    "source_type": "astronomy",
+    "language_structure": "positional_relational",
+    "text": "Jupiter is the fifth planet from the Sun, located between the asteroid belt and Saturn at an average distance of 778 million kilometers from the Sun."
+  },
+  {
+    "id": "fl_m2_00096",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A young boy is jumping through water being sprayed up from the ground.' 'A little boy playing in the water.' 'A boy plays in the fountains.' 'A child plays in a fountain.' 'A boy jumping in a fountain.']"
+  },
+  {
+    "id": "ge_s3_00158",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "Fox News devoted 42 seconds on [NAME], wow."
+  },
+  {
+    "id": "ag_b4_00119",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Researchers Study Plastics From Feathers (AP) AP - Researchers at Iowa State University are pecking away at ways of making environmentally friendly plastic. From golf tees to a biodegradable flower pot that can be planted directly in the ground, scientists are studying ways of making plastics from things such as chicken feathers and soy protein."
+  },
+  {
+    "id": "ac_m3_00092",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "40,A man talking followed by a series of belches"
+  },
+  {
+    "id": "vt_m4_00122",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a commander explaining about the game scene"
+  },
+  {
+    "id": "vt_m4_00070",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a girl is about to sing songs from a new album"
+  },
+  {
+    "id": "ag_b3_00038",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Taiwan Rescuers Dig Out 7 Bodies Buried in Landslide TAIPEI (Reuters) - Taiwan rescue workers dug out seven bodies from mud and rock in a mountain village that was hit by a devastating landslide triggered by Typhoon Aere, but eight still remained buried, officials said on Friday."
+  },
+  {
+    "id": "b1_009",
+    "content_type": "Social",
+    "source_type": "reddit_observation",
+    "language_structure": "theory_of_mind",
+    "text": "The apology came three years after the incident. It was specific, remorseful, and asked for nothing. She accepted it. She did not forgive him."
+  },
+  {
+    "id": "pm_b4_0099",
+    "content_type": "Novelty",
+    "source_type": "pubmed_abstract",
+    "language_structure": "academic_breakthrough",
+    "text": "A subset of patients with schizophrenia do not respond sufficiently to conventional antipsychotic treatment and often have a more complex clinical course, including high rates of sleep disturbances, which can contribute to further worsening of symptoms. However, sleep disturbances are often overlooked in clinical psychiatric settings, and non-pharmacological treatment options are not initiated. Cognitive behavioral therapy for insomnia (CBT-I) has been shown to effectively ameliorate sleep disturbances in schizophrenia but is yet to be assessed in treatment-resistant schizophrenia. In the present study, we aim to investigate the efficacy of CBT-I versus standard cognitive behavioral therapy"
+  },
+  {
+    "id": "ag_b3_00085",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Two Manny dads DAVE Norman, the Sydney police constable who rushed to Jakarta to be with his critically injured daughter Manny Musu, underwent a DNA test to prove he is her biological father."
+  },
+  {
+    "id": "ge_s3_00128",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "Wow guns and ignorance. What else is wrong with her?"
+  },
+  {
+    "id": "vt_m4_00104",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a fashion model walking the runway in neutral tone clothing"
+  },
+  {
+    "id": "ag_b4_00138",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "IBM Says Blue Gene Breaks Speed Record (AP) AP - IBM Corp. claimed unofficial bragging rights Tuesday as owner of the world's fastest supercomputer. For three years running, the fastest supercomputer has been NEC's Earth Simulator in Japan."
+  },
+  {
+    "id": "s2_012",
+    "content_type": "Abstract",
+    "source_type": "philosophy",
+    "language_structure": "dialectical_structure",
+    "text": "Hegelian dialectic describes intellectual and historical progress as a process in which a thesis encounters its antithesis, generating a contradiction that is resolved through a synthesis that preserves, negates, and elevates both prior positions."
+  },
+  {
+    "id": "m1_128_004",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia",
+    "language_structure": "neutral_declarative_128tok",
+    "text": "Dark matter is a hypothetical form of matter that does not emit, absorb, or reflect electromagnetic radiation, making it invisible to telescopes across all wavelengths. It is estimated to constitute approximately 27% of the total mass-energy content of the universe. Evidence for its existence comes primarily from gravitational effects on visible matter, the rotation curves of galaxies, gravitational lensing, and large-scale structure formation. Despite decades of research, no direct detection of dark matter particles has been confirmed, and its fundamental nature remains one of the most significant unsolved problems in modern physics."
+  },
+  {
+    "id": "m1_512_003",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia",
+    "language_structure": "neutral_declarative_512tok",
+    "text": "CRISPR-Cas9 is a molecular tool adapted from a natural bacterial immune system that enables precise editing of DNA sequences in living organisms. In bacteria, CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) arrays store fragments of viral DNA as a form of genetic memory, allowing the Cas9 protein to recognize and cut matching sequences in future viral infections. Researchers Jennifer Doudna and Emmanuelle Charpentier, awarded the Nobel Prize in Chemistry in 2020, demonstrated in 2012 that this system could be reprogrammed to cut any target DNA sequence by designing a guide RNA matching the desired target. The implications for medicine, agriculture, and basic research have proven profound. In clinical medicine, CRISPR-based therapies have entered human trials for sickle cell disease, beta-thalassemia, certain cancers, and inherited blindness, with early results showing durable corrections in affected patients. In agriculture, CRISPR has been used to develop disease-resistant crops, remove allergens from foods, and improve yield and nutritional profiles without the regulatory hurdles associated with traditional transgenic GMO approaches. In basic research, CRISPR knockout screens across entire genomes have accelerated the identification of gene functions at a scale previously impossible. The technology raises significant ethical questions regarding germline editing — modifications to embryos that would be heritable — that have prompted international scientific moratoriums and ongoing regulatory debate. The birth of gene-edited twins in China in 2018 by researcher He Jiankui, widely condemned by the scientific community, illustrated the urgency of establishing clear ethical and regulatory frameworks before heritable human genome editing proceeds."
+  },
+  {
+    "id": "osm_s5_0040",
+    "content_type": "Spatial",
+    "source_type": "openstreetmap_nominatim",
+    "language_structure": "positional_relational",
+    "text": "Kilimanjaro is located at Kilimanjaro, Northern Zone, Tanzania. Coordinates: 3.0787°S, 37.4199°E. Country: Tanzania."
+  },
+  {
+    "id": "osm_s5_0038",
+    "content_type": "Spatial",
+    "source_type": "openstreetmap_nominatim",
+    "language_structure": "positional_relational",
+    "text": "Stonehenge is located at Stonehenge, A303, Amesbury, West Amesbury, Wiltshire, England, SP4 7DE, United Kingdom. Coordinates: 51.1788°N, 1.8262°W. Country: United Kingdom."
+  },
+  {
+    "id": "so_b1_00064",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi there! Are you lost? I'm happy to help you out. | Oh, thank you! I'm new to the area and I'm looking for the library. | The library is just a few blocks away. Let me walk with you and show you the way. | Thank you, that would be great!"
+  },
+  {
+    "id": "ag_b3_00068",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Caribbean Braces for Another Hurricane (AP) AP - Islanders scrambled to put up storm shutters and stock up on supplies as the fourth major hurricane of the season churned closer to the Caribbean, packing sustained winds of 105 mph."
+  },
+  {
+    "id": "hs_s1_00069",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Rollerblading] A boy is skating in a parking lot. He does several moves, dancing and talking. the boy"
+  },
+  {
+    "id": "ag_b3_00051",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Mexican columnist murdered A prominent Mexican journalist known for his reports on organised crime is killed on the US border."
+  },
+  {
+    "id": "fl_m2_00119",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['Some women are standing in front of a bus with buildings behind it.' 'Several women stand on a city street with tall buildings.' 'A group of women are standing in front of a bus.' 'Several women wait outside in a city.' 'Women are standing outside']"
+  },
+  {
+    "id": "so_b1_00215",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Sarah. How's it going? | Good, Ebony. I'm just hanging out at home today. What about you? | I'm doing alright. I went to the store earlier and got some things for dinner tonight. I'm just relaxing at home now. | That sounds nice. I wish I could do that more often, but it seems like there's always something that needs to be done around here. Maybe one day I'll have my own place and can relax more often too."
+  },
+  {
+    "id": "osm_s5_0028",
+    "content_type": "Spatial",
+    "source_type": "openstreetmap_nominatim",
+    "language_structure": "positional_relational",
+    "text": "Sahara Desert is located at Sahara, Tazrouk ⵜⴰⵥⵔⵓⴽ تاظروك, Daïra Tazrouk, تمنراست ⵜⴰⵎⴰⵏⵖⴰⵙⴻⵜ, ⵍⵣⵣⴰⵢⴻⵔ الجزائر. Coordinates: 22.2500°N, 9.8000°E. Country: ⵍⵣⵣⴰⵢⴻⵔ الجزائر."
+  },
+  {
+    "id": "ac_m3_00130",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "22,Hissing together with an engine chugging"
+  },
+  {
+    "id": "ge_s3_00071",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "We don't undervalue him, almost any and all experts thing he is just not worth his contract."
+  },
+  {
+    "id": "ag_b3_00021",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Georgian Troops Leave South Ossetia The soldiers withdrew from the heights above the Ossetian of capital of Tskhinvali Thursday, turning the area over to peacekeepers. Georgia says three of its soldiers were killed in earlier fighting, while Ossetian authorities say three civilians died ..."
+  },
+  {
+    "id": "ag_b3_00055",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "French Hostage Transfer Sparks Release Hopes PARIS (Reuters) - Hopes of a swift end to the French hostage crisis rose early Friday, after the Le Figaro newspaper that employs one of the two captives said the men were now being held by Iraqi guerrillas willing to negotiate their release."
+  },
+  {
+    "id": "ag_b4_00030",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Scientists Study the Hudson River (AP) AP - Scientists are plunking a series of high-tech sensors into the Hudson River in an effort to unravel mysteries of the murky waterway."
+  },
+  {
+    "id": "ac_m3_00115",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "80,A young man talking followed by glass tapping and clacking as vehicles drive by and water splashes in the background"
+  },
+  {
+    "id": "yl_b2_00135",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "Few high class restaurants appreciate a group of rowdy mid-20 year old Las Vegasers. But Biscayne handled it with poise and played along. Using a high-class steak joint as a pre-game for the night clubs (ballin! Vegas is so crazy), my buddy and I of course walk in with Miller Lite cans.\\n\\nOur waiter Dave laughed and even brought us frozen mugs to enjoy our brews in. The rest of the meal was amazing. Meat that was just flown in, delicious sides, and taste testing from the kitchen. Our next round of drinks (sadly) was not Miller Lite cans from our hotel room floor, but drinks from the bar and t"
+  },
+  {
+    "id": "so_b1_00290",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Sarah, it's so good to see you! How are you doing? | I'm doing well, thanks for asking. How about you? | I'm doing great. I just got back from my yoga class and I'm feeling really relaxed. | That sounds amazing. I wish I had time to do yoga, but with my job and taking care of my kids, it's just hard to find the time."
+  },
+  {
+    "id": "so_b1_00208",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Oh, John. I'm so sorry. I know how much you wanted kids. | It's okay, Mckinley. I know you did everything you could. | I just wish there was more I could have done. | You did everything you could. Please don't blame yourself."
+  },
+  {
+    "id": "so_b1_00125",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hey, Dad. | Hey there, Skyla. What's up? | Not much. Just happy to be able to do what I want. | That's good. You should always be happy with what you're doing. As long as you're doing what you love, that's all that matters."
+  },
+  {
+    "id": "ts_s1_00306",
+    "content_type": "Narrative",
+    "source_type": "tinystories",
+    "language_structure": "chronological_causal",
+    "text": "Once upon a time, a little girl named Lucy was playing with her chalk. She drew beautiful pictures with it outside her house. Suddenly, her friend Mary came over and asked if she wanted to play. Lucy said yes but Mary thought of something else to do. She wanted to cut her chalk in half. Lucy was not happy about this. She didn't want anyone to mess with her original chalk. But, Mary kept insisting and said, \"C'mon Lucy, let's cut the chalk! It'll be fun!\" Lucy refused but with some convincing from Mary, she agreed to it. So, they got a knife and started cutting the chalk. But, to their surprise, the chalk pieces became smaller and smaller until the chalk disappeared. Lucy felt sad. She knew t"
+  },
+  {
+    "id": "fl_m2_00016",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A crowd of men and women wait to board a train at a train station.' 'A large group of people waiting at a train station.' 'People are standing on a platform to board a train.' 'A group of people are walking toward a subway door.' 'A group of people wait to get on the subway.']"
+  },
+  {
+    "id": "rss_b3_0008",
+    "content_type": "ThreatSafety",
+    "source_type": "bbc_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "'Mums thank me for changing the narrative': How motherhood in rugby has evolved. Lark Atkin-Davies and Abbie Ward - two of four pregnant England Women's Rugby World Cup winners - discuss how motherhood in rugby is changing."
+  },
+  {
+    "id": "ag_b3_00059",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Saddam #39;s top aide al-Douri arrested File photo taken on March 1, 2003 shows Izzat Ibrahim at the Arab Summit in Sharm-el-Sheikh, Egypt. Ibrahim, the second most powerful man of the former Iraqi regime, was captured on Sept."
+  },
+  {
+    "id": "fl_m2_00058",
+    "content_type": "ImageVisual",
+    "source_type": "flickr30k",
+    "language_structure": "sensory_descriptive",
+    "text": "['A young boy jumping and a young girl sitting in an inflatable pool.' 'A boy is jumping on an inflatable ring and a girl is watching him' 'Two young kids are playing in the water on an inflated toy.' 'A teenage boy is jumping on an inflatable slide.' 'A boy jumping on a water jumphouse']"
+  },
+  {
+    "id": "m3_002",
+    "content_type": "AudioText",
+    "source_type": "audio_caption",
+    "language_structure": "spectral_descriptive",
+    "text": "The opening chord of a pipe organ in a cathedral: fundamental at 64 Hz, harmonics stacked to 2 kHz, reverb decay lasting approximately 4 seconds in the stone space."
+  },
+  {
+    "id": "vt_m4_00156",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a child is opening a packet of beads with a pair of scissors and pouring the beads into a container of water"
+  },
+  {
+    "id": "ag_b3_00118",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Tropical Storm Kills at Least 90 in Haiti GONAIVES, Haiti - Tropical Storm Jeanne brought raging floodwaters to Haiti, killing at least 90 people and leaving dozens of families huddled on rooftops as the storm pushed further out into the open seas on Sunday, officials said. Floods tore through the northwestern coastal town of Gonaives and surrounding areas, covering crops and turning roads into rivers..."
+  },
+  {
+    "id": "ag_b4_00100",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Lonely men targeted by cell-phone based relationship HONG KONG - There #39;s a new service for men seeking true love. A software company has created an artificial girlfriend that lonely men can download to a mobile phone."
+  },
+  {
+    "id": "so_b1_00056",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "Hi, Abrianna. I was wondering if I could ask you for some advice on gardening. | Of course, Ricco. What would you like to know? | Well, I've never done it before and I was wondering where to start. | The first thing you need to do is prepare the soil. You can do this by tilling the ground and adding some compost or manure to help the plants grow. Once the soil is ready, you can plant the seeds. Make sure to water them regularly and give them plenty of sunlight so they can thrive."
+  },
+  {
+    "id": "wt_m1_s_00475",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "Following the departure of Ben Foster from Manchester United to Birmingham City , United manager Alex Ferguson declared that Amos would be Manchester United 's third @-@ choice goalkeeper for the 2010"
+  },
+  {
+    "id": "tq_s4_00166",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "What is the US state capital of Alabama? Montgomery."
+  },
+  {
+    "id": "wk_s5_0009",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography_anatomy",
+    "language_structure": "positional_relational",
+    "text": "The retina is the innermost, light-sensitive layer of tissue of the eye of most vertebrates and some molluscs. The optics of the eye create a focused two-dimensional image of the visual world on the retina, which then processes that image within the retina and sends nerve impulses along the optic nerve to the visual cortex to create visual perception."
+  },
+  {
+    "id": "ag_b4_00099",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Nokia, NEC Test New IP Multimedia Subsystem Two high-tech communications players have completed the first phase in a series of tests to show how a next-generation IP data and communications infrastructure works."
+  },
+  {
+    "id": "wt_m1_s_00523",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "The armament of ironclads tended to become concentrated in a small number of powerful guns capable of penetrating the armor of enemy ships at range ; calibre and weight of guns increased markedly to a"
+  },
+  {
+    "id": "rss_b4_0074",
+    "content_type": "Novelty",
+    "source_type": "bbc_tech",
+    "language_structure": "surprise_framing",
+    "text": "Tech Now. Paul Carter checks out the newest phones, gadgets and trends from MWC Barcelona."
+  },
+  {
+    "id": "tq_s4_00011",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "In 2004, Chechen terrorists took schoolchildren hostage resulting in a shoot-out in which hundreds died, in which city was it? Beslan."
+  },
+  {
+    "id": "ax_s2_0020",
+    "content_type": "Abstract",
+    "source_type": "arxiv_abstract",
+    "language_structure": "formal_definition",
+    "text": "A standard approach to generate random pure quantum states relies on sampling from the Haar measure. However, the entanglement properties of such states present a fundamental challenge for their general applicability. Here, we introduce the $σ$-ensembles $\\unicode{x2013}$ a family of random quantum states with only a single control parameter. Crucially, these states are designed such that they can be tuned between volume-law and area-law behavior, which has been a major obstacle thus far. We construct representatives of this ensemble by imposing a probability distribution on the eigenvalues of the successive subsystems, and subsequently reconstructing a compatible global state using the matrix product state (MPS) formalism. Due to their area-law entanglement, our approach circumvents the i"
+  },
+  {
+    "id": "wk_s5_00310",
+    "content_type": "Spatial",
+    "source_type": "wikipedia_geography",
+    "language_structure": "positional_relational",
+    "text": "A valley is an elongated low area often running between hills or mountains and typically containing a river or stream running from one end to the other. Most valleys are formed by erosion of the land surface by rivers or streams over a very long period. Some valleys are formed through erosion by glacial ice."
+  },
+  {
+    "id": "wc_m2_0014",
+    "content_type": "ImageVisual",
+    "source_type": "wikimedia_commons",
+    "language_structure": "sensory_descriptive",
+    "text": "A photograph: 1, nº 91 Tejido Jardín de Venus, 42 X 38, Dibujo Tca Mixta, Canson 80 gr. 2013.JPG."
+  },
+  {
+    "id": "vt_m4_00153",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a chef explaining something to a male and female"
+  },
+  {
+    "id": "ge_s3_00099",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "Not really grinding you down though. The EU is just sticking to the agreed schedule"
+  },
+  {
+    "id": "aud_m3_0011",
+    "content_type": "AudioText",
+    "source_type": "nature_recording",
+    "language_structure": "acoustic_descriptive",
+    "text": "Field recording: thunder storm rain audio. The soundscape is rich with layered frequencies and dynamic range."
+  },
+  {
+    "id": "yl_b2_00080",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "This Target is a great Target. It is always stock and clean. The employees are always nice and it is fun to walk around for a little while when it starts to get hot. Totally am in love with Target."
+  },
+  {
+    "id": "vt_m4_00094",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a band is performing and a man is throwing water at people"
+  },
+  {
+    "id": "vt_m4_00046",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "there is a black suit man in talking in front of a screen"
+  },
+  {
+    "id": "vt_m4_00057",
+    "content_type": "Multimodal",
+    "source_type": "msr_vtt",
+    "language_structure": "simultaneous_av",
+    "text": "a basic animated clip of hockey and table tennis examples"
+  },
+  {
+    "id": "aud_m3_0002",
+    "content_type": "AudioText",
+    "source_type": "nature_recording",
+    "language_structure": "acoustic_descriptive",
+    "text": "Field recording: bird song recording. The soundscape is rich with layered frequencies and dynamic range."
+  },
+  {
+    "id": "ag_b3_00074",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Blast Hits Australian Embassy in Jakarta A large explosion was set off early Thursday outside the Australian Embassy in Jakarta's financial district, killing at least eight people and wounding more than 150, officials said. Police said the blast appeared to have been a suicide attack using a car bomb."
+  },
+  {
+    "id": "tq_s4_00094",
+    "content_type": "Factual",
+    "source_type": "triviaqa_wikipedia",
+    "language_structure": "declarative_third_person",
+    "text": "Which is the first of the four stations on a standard Monopoly Board after passing Go? KING'S CROSS."
+  },
+  {
+    "id": "s5_001",
+    "content_type": "Spatial",
+    "source_type": "navigation_instructions",
+    "language_structure": "directional_relational",
+    "text": "To reach the library from here, head north on Main Street for two blocks, turn left at the traffic light, pass the post office on your right, and the library will be the red brick building at the corner."
+  },
+  {
+    "id": "ag_b3_00110",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Britain doing quot;all we can quot; for hostage in Iraq Prime Minister Tony Blair has his government is doing all in its power to help a kidnapped Briton -- but he has avoided a public response to insurgents threatening to kill the man."
+  },
+  {
+    "id": "ge_s3_00176",
+    "content_type": "Emotional",
+    "source_type": "go_emotions_reddit",
+    "language_structure": "first_person_affective",
+    "text": "Because people that comment on YouTube videos are toxic, filthy heathens."
+  },
+  {
+    "id": "ac_m3_00002",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "0,A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle"
+  },
+  {
+    "id": "sc_s2_00297",
+    "content_type": "Abstract",
+    "source_type": "sciq_support",
+    "language_structure": "formal_definition",
+    "text": "Alkenes are unsaturated hydrocarbons with at least one double bond between carbon atoms."
+  },
+  {
+    "id": "ag_b3_00140",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Hostages plight clouds meeting of Blairs party BRIGHTON, England The annual conference of Prime Minister Tony Blair #39;s Labour Party opened here Monday under the pall of the war in Iraq, as the fate of the British hostage Ken Bigley remained uncertain amid fresh appeals for his release from family"
+  },
+  {
+    "id": "yl_b2_00102",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "Great bar! Feels exactly how a tiki lounge should feel. Came here Valentines day night and it was crowded, I had a seat while my date stood until a seat became available, the 2 bartenders working were busy but still took time to talk about their drinks and recommendations. I ordered a drink in a souvenir cup, I don't remember what it was but the bartender asked what flavors I liked, after she shined the flashlight on the sample cups on the shelf I chose the Wild Watusi cup, and she recommended something with passion fruit/guava flavors in it. These drinks could get dangerous, even though it ta"
+  },
+  {
+    "id": "b1_007",
+    "content_type": "Social",
+    "source_type": "twitter",
+    "language_structure": "implied_subtext",
+    "text": "She said 'we should get coffee sometime' and he made the mistake of taking out his phone and asking when she was free."
+  },
+  {
+    "id": "ts_s1_00274",
+    "content_type": "Narrative",
+    "source_type": "tinystories",
+    "language_structure": "chronological_causal",
+    "text": "Once upon a time, there was a helpful girl named Lily. She loved to read books and spend time with her friends. One day, she found a new book at school. The book was about a kind bear who helped everyone in the forest. Lily read the book to her friends. They all liked the story. They wanted to be like the kind bear in the book. So, they decided to help others too. They helped their teacher clean the classroom. They also helped their friends when they fell down or needed a friend to play with. As they spent more time being helpful, Lily and her friends felt happy. They learned that being kind and helpful to others made them happy too. The moral of the story is to be kind and helpful, just lik"
+  },
+  {
+    "id": "b4_010",
+    "content_type": "Novelty",
+    "source_type": "technology",
+    "language_structure": "superlative_first_ever",
+    "text": "Company announces battery that charges to 80% capacity in under 30 seconds and holds charge for six months. Independent tests confirmed the claims."
+  },
+  {
+    "id": "aud_m3_0010",
+    "content_type": "AudioText",
+    "source_type": "nature_recording",
+    "language_structure": "acoustic_descriptive",
+    "text": "A high-fidelity audio recording of thunder storm rain audio, characterized by its distinctive tonal qualities and spatial presence."
+  },
+  {
+    "id": "wp_m1_s_00009",
+    "content_type": "TextVerbal",
+    "source_type": "wikipedia_random_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "Józefów is a village in the administrative district of Gmina Mińsk Mazowiecki, within Mińsk County, Masovian Voivodeship, in east-central Poland."
+  },
+  {
+    "id": "so_b1_00009",
+    "content_type": "Social",
+    "source_type": "soda_social_dialogue",
+    "language_structure": "multi_agent_dialogue",
+    "text": "So, can you tell me a little bit about the job? | Well, it's a customer service position. You'll be working with our clients, helping them with whatever they need. | I see. And what are the qualifications for this job? | Well, we're looking for someone who is friendly and helpful, and who has experience dealing with customers."
+  },
+  {
+    "id": "pm_b4_0105",
+    "content_type": "Novelty",
+    "source_type": "pubmed_abstract",
+    "language_structure": "academic_breakthrough",
+    "text": "Aberrant androgen receptor (AR) expression is the primary driver of prostate cancer progression. While androgen deprivation therapy and AR antagonists are the cornerstones of AR-signaling suppression, their long-term efficacy is frequently compromised by adverse effects and the emergence of drug resistance. Consequently, there is an urgent need to identify novel therapeutic agents. In this study, we screened a library of 112 nonsteroidal compounds (flavonoids and chalcones derivatives) using an integrative in silico and in vitro approach. Initial molecular docking revealed that compounds"
+  },
+  {
+    "id": "wt_m1_m_00333",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_medium",
+    "language_structure": "neutral_declarative_128tok",
+    "text": "The season began with the formation of Tropical Storm Yanyan on January 15 . After its dissipation five days later , no tropical cyclones of at least tropical storm intensity developed over the next two months . This period of inactivity ended with the formation of Typhoon Kujira in mid @-@ April ; Kujira was one of the longest lived Pacific storms on record and was the first typhoon with 1 @-@ minute sustained winds of at least 240 km / h ( 150 mph ) in April since Typhoon Isa in 1997 ."
+  },
+  {
+    "id": "wc_m2_0029",
+    "content_type": "ImageVisual",
+    "source_type": "wikimedia_commons",
+    "language_structure": "sensory_descriptive",
+    "text": "A photograph: 1953 in Loccum Hanns-Lilje-Stiftung Freundeskreis Landeskirchliches Archiv Hannover 2."
+  },
+  {
+    "id": "wt_m1_s_00481",
+    "content_type": "TextVerbal",
+    "source_type": "wikitext103_short",
+    "language_structure": "neutral_declarative_32tok",
+    "text": "Most headstones are inscribed with a cross , except for those deceased known to be atheist or non @-@ Christian ."
+  },
+  {
+    "id": "hs_s1_00139",
+    "content_type": "Narrative",
+    "source_type": "hellaswag_activity",
+    "language_structure": "chronological_causal",
+    "text": "[Preparing pasta] Someone begins to cut various vegetable with a knife, this includes a green vegetable and onions. next an empty metallic pan"
+  },
+  {
+    "id": "ac_m3_00087",
+    "content_type": "AudioText",
+    "source_type": "audiocaps",
+    "language_structure": "acoustic_descriptive",
+    "text": "140,A man is speaking as paper is crumpling"
+  },
+  {
+    "id": "ag_b3_00105",
+    "content_type": "ThreatSafety",
+    "source_type": "ag_news_world",
+    "language_structure": "short_declarative_present_tense",
+    "text": "Britain awaits results of N.Korea blast fact-finding trip (AFP) AFP - Britain is awaiting the findings from a technical analysis of what a group of diplomats saw at the site of a huge explosion in North Korea last week, Britain's minister for East Asia said."
+  },
+  {
+    "id": "ag_b4_00032",
+    "content_type": "Novelty",
+    "source_type": "ag_news_scitech",
+    "language_structure": "surprise_framing",
+    "text": "Google scores first-day bump of 18 (USATODAY.com) USATODAY.com - Even a big first-day jump in shares of Google (GOOG) couldn't quiet debate over whether the Internet search engine's contentious auction was a hit or a flop."
+  },
+  {
+    "id": "yl_b2_00056",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "I really love Lumberjacks. My husband and I used to go every Monday as a day date. I can't believe it's the same place after reading the reviews. We've never had anything less than exemplary service with incredible food.The portions are huge and the service is fast."
+  },
+  {
+    "id": "yl_b2_00052",
+    "content_type": "Reward",
+    "source_type": "yelp_5star_review",
+    "language_structure": "positive_superlative",
+    "text": "This is an old school barber. No computers, no appt's, just walk ins, cuts and shaves. I've had cuts from Steph, my boy Danny, and ole school Ray. Haven't got one from George though. I don't think the dude has time for me. I do notice they like to get out of there as early as possible (5PM on weekdays), but I guess who doesn't. It's just tough to get in at times even when you walk in at 3PM. I think the place is a work in progress. For example, Steph cut my hair right when she started and it wasn't great. However, I got it cut again from her two weeks ago, and it was damn near perfect! Good jo"
+  }
+]

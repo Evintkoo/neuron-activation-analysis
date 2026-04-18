@@ -1,0 +1,226 @@
+{
+  "Abstract": {
+    "n_sources": 10,
+    "sources": [
+      "arxiv_abstract",
+      "multinli_fiction",
+      "multinli_government",
+      "multinli_slate",
+      "multinli_telephone",
+      "multinli_travel",
+      "philosophy",
+      "pubmed_abstract",
+      "sciq_support",
+      "wikipedia_philosophy_math"
+    ],
+    "source_means": {
+      "arxiv_abstract": -0.0023073913043478262,
+      "multinli_fiction": -0.0027286923076923074,
+      "multinli_government": -0.0026896451612903223,
+      "multinli_slate": -0.003105076923076923,
+      "multinli_telephone": -0.0029860399999999997,
+      "multinli_travel": -0.002632057142857143,
+      "philosophy": -0.0030206,
+      "pubmed_abstract": -0.002181263157894737,
+      "sciq_support": -0.0022584196428571427,
+      "wikipedia_philosophy_math": -0.002734125
+    },
+    "cross_source_sd": 0.00030998415362684586,
+    "within_source_sd_avg": 0.0009062668909421087,
+    "icc_proxy": 0.8952593865952101
+  },
+  "AudioText": {
+    "n_sources": 3,
+    "sources": [
+      "audio_caption",
+      "audiocaps",
+      "nature_recording"
+    ],
+    "source_means": {
+      "audio_caption": -0.0018556,
+      "audiocaps": -0.002270175,
+      "nature_recording": -0.001685125
+    },
+    "cross_source_sd": 0.00024567767020811825,
+    "within_source_sd_avg": 0.0008136653408151673,
+    "icc_proxy": 0.9164497529458294
+  },
+  "Emotional": {
+    "n_sources": 2,
+    "sources": [
+      "go_emotions_reddit",
+      "reddit_personal"
+    ],
+    "source_means": {
+      "go_emotions_reddit": -0.002519545,
+      "reddit_personal": -0.0022321111111111114
+    },
+    "cross_source_sd": 0.00014371694444444442,
+    "within_source_sd_avg": 0.0011120258769155723,
+    "icc_proxy": 0.9835717293313274
+  },
+  "Factual": {
+    "n_sources": 4,
+    "sources": [
+      "encyclopedia",
+      "sciq_qa",
+      "triviaqa_wikipedia",
+      "wikipedia_first_sentence"
+    ],
+    "source_means": {
+      "encyclopedia": -0.0021584545454545454,
+      "sciq_qa": -0.002170877777777778,
+      "triviaqa_wikipedia": -0.0026282914285714284,
+      "wikipedia_first_sentence": -0.0023953478260869566
+    },
+    "cross_source_sd": 0.00019217443773592054,
+    "within_source_sd_avg": 0.0008920359264839536,
+    "icc_proxy": 0.9556469510966793
+  },
+  "ImageVisual": {
+    "n_sources": 3,
+    "sources": [
+      "flickr30k",
+      "image_caption",
+      "wikimedia_commons"
+    ],
+    "source_means": {
+      "flickr30k": -0.00230491,
+      "image_caption": -0.0025553,
+      "wikimedia_commons": -0.0028593921568627447
+    },
+    "cross_source_sd": 0.0002267200070190831,
+    "within_source_sd_avg": 0.0009249895180459029,
+    "icc_proxy": 0.9433280309817363
+  },
+  "Multimodal": {
+    "n_sources": 2,
+    "sources": [
+      "msr_vtt",
+      "wikipedia_documentary"
+    ],
+    "source_means": {
+      "msr_vtt": -0.0027664269005847953,
+      "wikipedia_documentary": -0.002934833333333333
+    },
+    "cross_source_sd": 8.42032163742689e-05,
+    "within_source_sd_avg": 0.000861220401232722,
+    "icc_proxy": 0.9905311703257671
+  },
+  "Narrative": {
+    "n_sources": 3,
+    "sources": [
+      "hellaswag_activity",
+      "reddit_personal_story",
+      "tinystories"
+    ],
+    "source_means": {
+      "hellaswag_activity": -0.0026472677595628415,
+      "reddit_personal_story": -0.0024793333333333334,
+      "tinystories": -0.0036438607594936707
+    },
+    "cross_source_sd": 0.0005139740271543975,
+    "within_source_sd_avg": 0.0007328810222891076,
+    "icc_proxy": 0.6703178822434546
+  },
+  "Novelty": {
+    "n_sources": 9,
+    "sources": [
+      "ag_news_scitech",
+      "arxiv_breakthrough",
+      "bbc_health",
+      "bbc_science",
+      "bbc_world",
+      "hackernews_announcement",
+      "nyt_science",
+      "nyt_world",
+      "pubmed_abstract"
+    ],
+    "source_means": {
+      "ag_news_scitech": -0.0024423691275167786,
+      "arxiv_breakthrough": -0.0021519,
+      "bbc_health": -0.0022696153846153847,
+      "bbc_science": -0.00231825,
+      "bbc_world": -0.002137142857142857,
+      "hackernews_announcement": -0.0023268947368421055,
+      "nyt_science": -0.002286833333333333,
+      "nyt_world": -0.0022916666666666667,
+      "pubmed_abstract": -0.00229348
+    },
+    "cross_source_sd": 8.64842069456588e-05,
+    "within_source_sd_avg": 0.0008557026909265567,
+    "icc_proxy": 0.9898885479662012
+  },
+  "Social": {
+    "n_sources": 2,
+    "sources": [
+      "reddit_observation",
+      "soda_social_dialogue"
+    ],
+    "source_means": {
+      "reddit_observation": -0.0030553999999999998,
+      "soda_social_dialogue": -0.0023196505190311418
+    },
+    "cross_source_sd": 0.000367874740484429,
+    "within_source_sd_avg": 0.0008000426154009853,
+    "icc_proxy": 0.8254685991616151
+  },
+  "Spatial": {
+    "n_sources": 4,
+    "sources": [
+      "openstreetmap_nominatim",
+      "wiki_orientation_(geometry)",
+      "wikipedia_geography",
+      "wikipedia_geography_anatomy"
+    ],
+    "source_means": {
+      "openstreetmap_nominatim": -0.0032967499999999998,
+      "wiki_orientation_(geometry)": -0.002487142857142857,
+      "wikipedia_geography": -0.002791125,
+      "wikipedia_geography_anatomy": -0.0021267
+    },
+    "cross_source_sd": 0.00042894653993509434,
+    "within_source_sd_avg": 0.0007042527670124141,
+    "icc_proxy": 0.7294062239760948
+  },
+  "TextVerbal": {
+    "n_sources": 5,
+    "sources": [
+      "wikipedia",
+      "wikipedia_long_form",
+      "wikipedia_random_short",
+      "wikitext103_medium",
+      "wikitext103_short"
+    ],
+    "source_means": {
+      "wikipedia": -0.0020384166666666667,
+      "wikipedia_long_form": -0.0023160833333333336,
+      "wikipedia_random_short": -0.00295525,
+      "wikitext103_medium": -0.002273857142857143,
+      "wikitext103_short": -0.002188939024390244
+    },
+    "cross_source_sd": 0.0003150234223087621,
+    "within_source_sd_avg": 0.0007384836165956808,
+    "icc_proxy": 0.8460441513672287
+  },
+  "ThreatSafety": {
+    "n_sources": 5,
+    "sources": [
+      "ag_news_world",
+      "bbc_health",
+      "bbc_world",
+      "nyt_science",
+      "nyt_world"
+    ],
+    "source_means": {
+      "ag_news_world": -0.0022133181818181817,
+      "bbc_health": -0.002009875,
+      "bbc_world": -0.0023048333333333336,
+      "nyt_science": -0.0023209999999999997,
+      "nyt_world": -0.0020982
+    },
+    "cross_source_sd": 0.00011980162705832441,
+    "within_source_sd_avg": 0.0006751278542642012,
+    "icc_proxy": 0.9694727261320887
+  }
+}

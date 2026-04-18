@@ -1,0 +1,51 @@
+{
+  "es": {
+    "name": "Spanish",
+    "n": 2,
+    "global_mean": -0.00554398795,
+    "global_sd": 0.0005319414500000001,
+    "language_rel": 0.188524645
+  },
+  "fr": {
+    "name": "French",
+    "n": 2,
+    "global_mean": -0.00625101375,
+    "global_sd": 0.00046131074999999997,
+    "language_rel": 0.20030839
+  },
+  "de": {
+    "name": "German",
+    "n": 2,
+    "global_mean": 0.00029665015000000013,
+    "global_sd": 0.00704744115,
+    "language_rel": 0.021776080000000003
+  },
+  "it": {
+    "name": "Italian",
+    "n": 2,
+    "global_mean": -0.0062906635,
+    "global_sd": 0.0014292951999999998,
+    "language_rel": 0.161726375
+  },
+  "pt": {
+    "name": "Portuguese",
+    "n": 2,
+    "global_mean": -0.00652220915,
+    "global_sd": 8.756555000000036e-05,
+    "language_rel": 0.187817925
+  },
+  "ja": {
+    "name": "Japanese",
+    "n": 2,
+    "global_mean": -0.007272268849999999,
+    "global_sd": 0.00027586815000000013,
+    "language_rel": 0.19543448
+  },
+  "zh": {
+    "name": "Mandarin",
+    "n": 2,
+    "global_mean": -0.0022715629000000003,
+    "global_sd": 0.0047110031,
+    "language_rel": 0.0471215925
+  }
+}

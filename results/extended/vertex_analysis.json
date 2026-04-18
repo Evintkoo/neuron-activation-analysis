@@ -1,0 +1,723 @@
+{
+  "n_vertices": 20484,
+  "n_stimuli": 3008,
+  "anova": {
+    "F_min": 1.4409040389851786,
+    "F_max": 71.04612452732846,
+    "F_mean": 12.993460510004455,
+    "F_p99": 33.250855674536204,
+    "n_significant_p001": 20437
+  },
+  "top_100_vertices": [
+    {
+      "vertex": 3101,
+      "F": 71.04612452732846,
+      "region": "visual"
+    },
+    {
+      "vertex": 4183,
+      "F": 65.64902053118257,
+      "region": "auditory"
+    },
+    {
+      "vertex": 15787,
+      "F": 55.40693686835094,
+      "region": "motor"
+    },
+    {
+      "vertex": 11586,
+      "F": 54.509449802324326,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 4679,
+      "F": 54.138028121761174,
+      "region": "auditory"
+    },
+    {
+      "vertex": 6038,
+      "F": 53.98506729825905,
+      "region": "auditory"
+    },
+    {
+      "vertex": 14820,
+      "F": 53.469373053792864,
+      "region": "motor"
+    },
+    {
+      "vertex": 13952,
+      "F": 52.879754839474195,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 10794,
+      "F": 52.713292130693496,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 3380,
+      "F": 50.71926814083173,
+      "region": "visual"
+    },
+    {
+      "vertex": 20100,
+      "F": 50.542055131241575,
+      "region": "parietal"
+    },
+    {
+      "vertex": 12494,
+      "F": 50.050284500987104,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 17457,
+      "F": 48.945656986266044,
+      "region": "parietal"
+    },
+    {
+      "vertex": 8889,
+      "F": 48.34335241989946,
+      "region": "language"
+    },
+    {
+      "vertex": 3020,
+      "F": 47.92964556527436,
+      "region": "visual"
+    },
+    {
+      "vertex": 13739,
+      "F": 47.02988746329963,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 1448,
+      "F": 46.864014368594546,
+      "region": "visual"
+    },
+    {
+      "vertex": 5389,
+      "F": 45.988082741568384,
+      "region": "auditory"
+    },
+    {
+      "vertex": 8394,
+      "F": 45.712140040114804,
+      "region": "language"
+    },
+    {
+      "vertex": 7010,
+      "F": 45.49791814633685,
+      "region": "language"
+    },
+    {
+      "vertex": 18964,
+      "F": 45.329370006977044,
+      "region": "parietal"
+    },
+    {
+      "vertex": 1037,
+      "F": 44.98249281725937,
+      "region": "visual"
+    },
+    {
+      "vertex": 12093,
+      "F": 44.717453037649555,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 3033,
+      "F": 44.046332094020066,
+      "region": "visual"
+    },
+    {
+      "vertex": 13223,
+      "F": 44.0120481368135,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 8735,
+      "F": 43.85991665466131,
+      "region": "language"
+    },
+    {
+      "vertex": 14735,
+      "F": 43.264028561893106,
+      "region": "motor"
+    },
+    {
+      "vertex": 4678,
+      "F": 43.01852567064132,
+      "region": "auditory"
+    },
+    {
+      "vertex": 20401,
+      "F": 42.95803025266928,
+      "region": "parietal"
+    },
+    {
+      "vertex": 7519,
+      "F": 42.70879011645134,
+      "region": "language"
+    },
+    {
+      "vertex": 18353,
+      "F": 42.64534569478548,
+      "region": "parietal"
+    },
+    {
+      "vertex": 1059,
+      "F": 42.46033692886447,
+      "region": "visual"
+    },
+    {
+      "vertex": 13134,
+      "F": 42.329292114548615,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 7457,
+      "F": 42.28116875451275,
+      "region": "language"
+    },
+    {
+      "vertex": 7223,
+      "F": 42.20102215770884,
+      "region": "language"
+    },
+    {
+      "vertex": 1031,
+      "F": 41.99814288326115,
+      "region": "visual"
+    },
+    {
+      "vertex": 5283,
+      "F": 41.972158591168416,
+      "region": "auditory"
+    },
+    {
+      "vertex": 18929,
+      "F": 41.78933409628372,
+      "region": "parietal"
+    },
+    {
+      "vertex": 15116,
+      "F": 41.68091486030871,
+      "region": "motor"
+    },
+    {
+      "vertex": 4008,
+      "F": 41.61633718402475,
+      "region": "auditory"
+    },
+    {
+      "vertex": 3470,
+      "F": 41.49617732500841,
+      "region": "visual"
+    },
+    {
+      "vertex": 245,
+      "F": 41.211812484293624,
+      "region": "visual"
+    },
+    {
+      "vertex": 6550,
+      "F": 41.07463319083973,
+      "region": "auditory"
+    },
+    {
+      "vertex": 7861,
+      "F": 41.024795867759174,
+      "region": "language"
+    },
+    {
+      "vertex": 16026,
+      "F": 40.29603872809221,
+      "region": "motor"
+    },
+    {
+      "vertex": 8733,
+      "F": 39.95863648813247,
+      "region": "language"
+    },
+    {
+      "vertex": 3584,
+      "F": 39.930006957800785,
+      "region": "visual"
+    },
+    {
+      "vertex": 4869,
+      "F": 39.90229373223748,
+      "region": "auditory"
+    },
+    {
+      "vertex": 18360,
+      "F": 39.83116339904378,
+      "region": "parietal"
+    },
+    {
+      "vertex": 1332,
+      "F": 39.77374787534782,
+      "region": "visual"
+    },
+    {
+      "vertex": 2101,
+      "F": 39.756653658923135,
+      "region": "visual"
+    },
+    {
+      "vertex": 14713,
+      "F": 39.710931022758245,
+      "region": "motor"
+    },
+    {
+      "vertex": 3001,
+      "F": 39.68766238976213,
+      "region": "visual"
+    },
+    {
+      "vertex": 8150,
+      "F": 39.63011965481723,
+      "region": "language"
+    },
+    {
+      "vertex": 15172,
+      "F": 39.62049869108978,
+      "region": "motor"
+    },
+    {
+      "vertex": 13618,
+      "F": 39.44067859993164,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 18559,
+      "F": 39.33790886814432,
+      "region": "parietal"
+    },
+    {
+      "vertex": 11874,
+      "F": 39.25759749786809,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 8103,
+      "F": 39.23163908916888,
+      "region": "language"
+    },
+    {
+      "vertex": 19156,
+      "F": 39.12519900713872,
+      "region": "parietal"
+    },
+    {
+      "vertex": 1768,
+      "F": 38.955860025421096,
+      "region": "visual"
+    },
+    {
+      "vertex": 6173,
+      "F": 38.782835174629234,
+      "region": "auditory"
+    },
+    {
+      "vertex": 2626,
+      "F": 38.76002525341139,
+      "region": "visual"
+    },
+    {
+      "vertex": 7351,
+      "F": 38.74413674542296,
+      "region": "language"
+    },
+    {
+      "vertex": 7171,
+      "F": 38.74373051961437,
+      "region": "language"
+    },
+    {
+      "vertex": 161,
+      "F": 38.7427251184833,
+      "region": "visual"
+    },
+    {
+      "vertex": 9980,
+      "F": 38.63333566848108,
+      "region": "language"
+    },
+    {
+      "vertex": 10957,
+      "F": 38.59676907749254,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 11265,
+      "F": 38.57205452961387,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 1341,
+      "F": 38.54702175634523,
+      "region": "visual"
+    },
+    {
+      "vertex": 4539,
+      "F": 38.52624259901168,
+      "region": "auditory"
+    },
+    {
+      "vertex": 1840,
+      "F": 38.39727153625348,
+      "region": "visual"
+    },
+    {
+      "vertex": 16866,
+      "F": 38.24600056838893,
+      "region": "motor"
+    },
+    {
+      "vertex": 2817,
+      "F": 38.15932188998128,
+      "region": "visual"
+    },
+    {
+      "vertex": 19744,
+      "F": 38.12286786536284,
+      "region": "parietal"
+    },
+    {
+      "vertex": 7016,
+      "F": 37.79735726822723,
+      "region": "language"
+    },
+    {
+      "vertex": 3353,
+      "F": 37.790791614109395,
+      "region": "visual"
+    },
+    {
+      "vertex": 18169,
+      "F": 37.78398549380727,
+      "region": "parietal"
+    },
+    {
+      "vertex": 7265,
+      "F": 37.57337522882965,
+      "region": "language"
+    },
+    {
+      "vertex": 8734,
+      "F": 37.555311825583615,
+      "region": "language"
+    },
+    {
+      "vertex": 3988,
+      "F": 37.49640722864621,
+      "region": "auditory"
+    },
+    {
+      "vertex": 5726,
+      "F": 37.49106499400175,
+      "region": "auditory"
+    },
+    {
+      "vertex": 4511,
+      "F": 37.45131355038404,
+      "region": "auditory"
+    },
+    {
+      "vertex": 4745,
+      "F": 37.38272974665489,
+      "region": "auditory"
+    },
+    {
+      "vertex": 7098,
+      "F": 37.362059887840445,
+      "region": "language"
+    },
+    {
+      "vertex": 9043,
+      "F": 37.30081070047865,
+      "region": "language"
+    },
+    {
+      "vertex": 17028,
+      "F": 37.262821689227124,
+      "region": "motor"
+    },
+    {
+      "vertex": 4591,
+      "F": 37.1544936679029,
+      "region": "auditory"
+    },
+    {
+      "vertex": 7822,
+      "F": 37.08540363978973,
+      "region": "language"
+    },
+    {
+      "vertex": 1451,
+      "F": 37.059705262872605,
+      "region": "visual"
+    },
+    {
+      "vertex": 11289,
+      "F": 36.998575342102804,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 19135,
+      "F": 36.886464499936444,
+      "region": "parietal"
+    },
+    {
+      "vertex": 15460,
+      "F": 36.88534526074311,
+      "region": "motor"
+    },
+    {
+      "vertex": 369,
+      "F": 36.792547886517454,
+      "region": "visual"
+    },
+    {
+      "vertex": 2334,
+      "F": 36.770169798279454,
+      "region": "visual"
+    },
+    {
+      "vertex": 13270,
+      "F": 36.742473285714425,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 715,
+      "F": 36.7220716325505,
+      "region": "visual"
+    },
+    {
+      "vertex": 10923,
+      "F": 36.71850616172652,
+      "region": "prefrontal"
+    },
+    {
+      "vertex": 18565,
+      "F": 36.675389755662685,
+      "region": "parietal"
+    },
+    {
+      "vertex": 17748,
+      "F": 36.65959252363303,
+      "region": "parietal"
+    }
+  ],
+  "top_region_distribution": {
+    "visual": 25,
+    "auditory": 16,
+    "motor": 10,
+    "prefrontal": 15,
+    "parietal": 14,
+    "language": 20
+  },
+  "vertex_clusters": {
+    "cluster_0": {
+      "size": 3709,
+      "region_breakdown": {
+        "visual": 627,
+        "auditory": 593,
+        "language": 711,
+        "prefrontal": 602,
+        "motor": 565,
+        "parietal": 611
+      },
+      "top_3_content_types": [
+        [
+          "ThreatSafety",
+          0.0029135968930542543
+        ],
+        [
+          "AudioText",
+          0.002849000775646286
+        ],
+        [
+          "TextVerbal",
+          0.0027629491933810393
+        ]
+      ]
+    },
+    "cluster_1": {
+      "size": 2742,
+      "region_breakdown": {
+        "visual": 453,
+        "auditory": 411,
+        "language": 465,
+        "prefrontal": 503,
+        "motor": 473,
+        "parietal": 437
+      },
+      "top_3_content_types": [
+        [
+          "TextVerbal",
+          -0.017887556495418042
+        ],
+        [
+          "AudioText",
+          -0.017968168372816843
+        ],
+        [
+          "Social",
+          -0.017996978775525422
+        ]
+      ]
+    },
+    "cluster_2": {
+      "size": 1711,
+      "region_breakdown": {
+        "visual": 317,
+        "auditory": 297,
+        "language": 331,
+        "prefrontal": 264,
+        "motor": 247,
+        "parietal": 255
+      },
+      "top_3_content_types": [
+        [
+          "ThreatSafety",
+          0.01774747796685444
+        ],
+        [
+          "Novelty",
+          0.017535867851525805
+        ],
+        [
+          "AudioText",
+          0.017524709494502518
+        ]
+      ]
+    },
+    "cluster_3": {
+      "size": 3734,
+      "region_breakdown": {
+        "visual": 645,
+        "auditory": 557,
+        "language": 661,
+        "prefrontal": 650,
+        "motor": 580,
+        "parietal": 641
+      },
+      "top_3_content_types": [
+        [
+          "TextVerbal",
+          -0.010317216586769545
+        ],
+        [
+          "AudioText",
+          -0.010362114659029179
+        ],
+        [
+          "Social",
+          -0.010389628248956667
+        ]
+      ]
+    },
+    "cluster_4": {
+      "size": 705,
+      "region_breakdown": {
+        "visual": 141,
+        "auditory": 121,
+        "language": 145,
+        "prefrontal": 102,
+        "motor": 94,
+        "parietal": 102
+      },
+      "top_3_content_types": [
+        [
+          "ThreatSafety",
+          0.02920464593520824
+        ],
+        [
+          "Novelty",
+          0.029047133049643632
+        ],
+        [
+          "AudioText",
+          0.028878850244144175
+        ]
+      ]
+    },
+    "cluster_5": {
+      "size": 1089,
+      "region_breakdown": {
+        "visual": 196,
+        "auditory": 170,
+        "language": 187,
+        "prefrontal": 195,
+        "motor": 175,
+        "parietal": 166
+      },
+      "top_3_content_types": [
+        [
+          "TextVerbal",
+          -0.027866717699925433
+        ],
+        [
+          "Emotional",
+          -0.02794638543780568
+        ],
+        [
+          "Social",
+          -0.02800581968048223
+        ]
+      ]
+    },
+    "cluster_6": {
+      "size": 2771,
+      "region_breakdown": {
+        "visual": 489,
+        "auditory": 449,
+        "language": 507,
+        "prefrontal": 489,
+        "motor": 424,
+        "parietal": 413
+      },
+      "top_3_content_types": [
+        [
+          "ThreatSafety",
+          0.009770513209707576
+        ],
+        [
+          "AudioText",
+          0.009667409048188856
+        ],
+        [
+          "Novelty",
+          0.009554565781495527
+        ]
+      ]
+    },
+    "cluster_7": {
+      "size": 4023,
+      "region_breakdown": {
+        "visual": 732,
+        "auditory": 602,
+        "language": 693,
+        "prefrontal": 695,
+        "motor": 642,
+        "parietal": 659
+      },
+      "top_3_content_types": [
+        [
+          "AudioText",
+          -0.0036306725874584713
+        ],
+        [
+          "ThreatSafety",
+          -0.00364922689058249
+        ],
+        [
+          "TextVerbal",
+          -0.0036658337364444994
+        ]
+      ]
+    }
+  }
+}

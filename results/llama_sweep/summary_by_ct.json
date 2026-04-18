@@ -1,0 +1,80 @@
+{
+  "ThreatSafety": {
+    "n": 2,
+    "global_mean": -0.00834671125,
+    "global_sd": 0.0006268322500000002,
+    "language_rel": 0.18444219
+  },
+  "Multimodal": {
+    "n": 2,
+    "global_mean": -0.009678319,
+    "global_sd": 0.0011012920000000002,
+    "language_rel": 0.1460220275
+  },
+  "ImageVisual": {
+    "n": 2,
+    "global_mean": -0.00396198615,
+    "global_sd": 9.999915000000019e-05,
+    "language_rel": 0.158473625
+  },
+  "Factual": {
+    "n": 2,
+    "global_mean": -0.00804698075,
+    "global_sd": 0.0006847142499999998,
+    "language_rel": 0.17134422500000002
+  },
+  "TextVerbal": {
+    "n": 2,
+    "global_mean": -0.00543955705,
+    "global_sd": 0.00208724675,
+    "language_rel": 0.15548066
+  },
+  "Emotional": {
+    "n": 2,
+    "global_mean": 0.0006794292000000001,
+    "global_sd": 0.007046167799999999,
+    "language_rel": -0.03333288499999999
+  },
+  "Reward": {
+    "n": 2,
+    "global_mean": -0.00584685245,
+    "global_sd": 0.00117785015,
+    "language_rel": 0.13100591
+  },
+  "Social": {
+    "n": 2,
+    "global_mean": -0.009012517500000001,
+    "global_sd": 0.0009171824999999996,
+    "language_rel": 0.1362226325
+  },
+  "Narrative": {
+    "n": 2,
+    "global_mean": -0.00755163375,
+    "global_sd": 0.0007315012500000002,
+    "language_rel": 0.070808369
+  },
+  "Novelty": {
+    "n": 2,
+    "global_mean": -0.009444341,
+    "global_sd": 0.0010900800000000002,
+    "language_rel": 0.16669955
+  },
+  "Spatial": {
+    "n": 2,
+    "global_mean": -0.0043756114999999995,
+    "global_sd": 0.0013289865,
+    "language_rel": 0.124489905
+  },
+  "AudioText": {
+    "n": 2,
+    "global_mean": -0.00214822575,
+    "global_sd": 0.007787526750000001,
+    "language_rel": -0.0056428599999999995
+  },
+  "Abstract": {
+    "n": 2,
+    "global_mean": -0.0063655451500000005,
+    "global_sd": 0.00066160315,
+    "language_rel": 0.09930196050000001
+  }
+}
