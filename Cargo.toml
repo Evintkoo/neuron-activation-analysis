@@ -1,3 +1,3 @@
 [workspace]
-members = ["experiments", "analysis", "runner", "viz/builder", "experiments/sweep"]
+members = ["experiments", "analysis", "runner", "viz/builder", "experiments/sweep", "experiments/mock_server"]
 resolver = "2"
