@@ -183,7 +183,7 @@ fn main() {
     println!("Checking tribe-server at {base_url}...");
     if !check_health(base_url) {
         eprintln!("ERROR: tribe-server is not running at {base_url}.");
-        eprintln!("Start it with: cd ../tribe-playground && cargo run --release -p tribe-server");
+        eprintln!("Start it with: cd tribe-playground && cargo run --release -p tribe-server");
         std::process::exit(1);
     }
     println!("Server online.");

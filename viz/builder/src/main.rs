@@ -37,7 +37,7 @@ fn main() {
         println!("  brain.obj already present");
     } else {
         let gz_candidates = [
-            PathBuf::from("../tribe-playground/brain.obj.gz"),
+            PathBuf::from("tribe-playground/brain.obj.gz"),
             assets_dir.join("brain.obj.gz"),
         ];
         let found = gz_candidates.iter().find(|p| p.exists());

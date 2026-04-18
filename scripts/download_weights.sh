@@ -2,7 +2,7 @@
 # Download TRIBE v2 model weights via the tribe-server download endpoints.
 # tribe-server must be running at localhost:8081 before running this script.
 # best.safetensors (FmriEncoder) is NOT downloaded via the API — it requires
-# running: cd ../tribe-playground && python3 convert_ckpt.py
+# running: cd tribe-playground && python3 convert_ckpt.py
 
 set -euo pipefail
 
@@ -11,7 +11,7 @@ BASE="http://localhost:8081"
 check_server() {
     curl -sf "$BASE/health" > /dev/null || {
         echo "ERROR: tribe-server not running at $BASE"
-        echo "Start it with: cd ../tribe-playground && cargo run --release -p tribe-server"
+        echo "Start it with: cd tribe-playground && cargo run --release -p tribe-server"
         exit 1
     }
 }
@@ -45,7 +45,7 @@ check_server
 
 echo "=== Step 1: Convert checkpoint to best.safetensors ==="
 echo "Run manually if not already done:"
-echo "  cd ../tribe-playground && python3 convert_ckpt.py"
+echo "  cd tribe-playground && python3 convert_ckpt.py"
 echo ""
 
 echo "=== Step 2: Download LLaMA text encoder (~6GB) ==="
