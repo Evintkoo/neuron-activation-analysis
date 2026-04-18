@@ -1,0 +1,3 @@
+[submodule "tribe-playground"]
+	path = tribe-playground
+	url = https://github.com/Evintkoo/tribe-playground
