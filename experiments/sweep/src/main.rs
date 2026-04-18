@@ -19,6 +19,7 @@ fn load_corpus(path: &str) -> Vec<Stimulus> {
 
 #[derive(Debug, Deserialize, Clone)]
 struct RegionStat {
+    #[allow(dead_code)]
     mean: f32,
     rel_activation: f32,
 }

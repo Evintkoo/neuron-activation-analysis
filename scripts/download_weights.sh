@@ -18,11 +18,11 @@ check_server() {
 
 start_download() {
     local model="$1"
-    echo "Starting download: $model"
+    echo "Starting download: $model" >&2
     local job_id
     job_id=$(curl -sf -X POST "$BASE/api/download/$model" | python3 -c "import sys,json; print(json.load(sys.stdin)['job_id'])")
-    echo "  Job ID: $job_id"
-    echo "  Poll: curl $BASE/api/jobs/$job_id"
+    echo "  Job ID: $job_id" >&2
+    echo "  Poll: curl $BASE/api/jobs/$job_id" >&2
     echo "$job_id"
 }
 
