@@ -135,13 +135,13 @@
 \small
 \noindent\textbf{Background.} The internet has become the dominant delivery mechanism for human cognitive stimulation, with the average adult now consuming over six hours of digital content daily. Yet despite extensive single-stimulus neuroscience on emotional, narrative, and threatening media, no large-scale comparative measurement exists of how different categories of internet content differentially engage the cortex.
 
-\noindent\textbf{Methods.} We present \textit{Activation Cartography}: a computational study mapping \textbf{3{,}008 natural language stimuli} across \textbf{13 internet content categories} against predictions from \textbf{TRIBE v2} (Meta AI Research, 2024) --- a 177-million-parameter deep neural encoder trained on real brain recordings, capable of predicting whole-cortex activity from text, audio, or image. Stimuli were drawn from established benchmarks (GoEmotions, TriviaQA, HellaSwag, SODA, MultiNLI, AudioCaps, Flickr30k) and live internet sources (BBC/Reuters, Reddit, arXiv, HackerNews, Wikipedia). Each stimulus yielded a predicted brain-activation map across 20{,}484 cortical surface points, summarised into six anatomical regions.
+\noindent\textbf{Methods.} We present \textit{Activation Cartography}: a computational study mapping \textbf{3{,}008 natural language stimuli} across \textbf{13 internet content categories} against predictions from \textbf{TRIBE v2} (Meta AI Research, 2024) --- a 177-million-parameter deep neural encoder trained on real brain recordings, capable of predicting whole-cortex activity from text, audio, or image. Stimuli were drawn from established benchmarks (GoEmotions, TriviaQA, HellaSwag, SODA, MultiNLI, AudioCaps, Flickr30k) and live internet sources (BBC/Reuters, arXiv, HackerNews, Wikipedia). Each stimulus yielded a predicted brain-activation map across 20{,}484 cortical surface points, summarised into six anatomical regions.
 
-\noindent\textbf{Results (hash-mode encoding).} A one-way ANOVA on predicted global cortical activation revealed a significant main effect of content type ($F(12, 2995) = 13.51$, $p < 10^{-26}$, $\eta^2 = 0.051$) across all six cortical regions. All primary results in Sections~5--7 were obtained with a \emph{hash-mode} encoder (byte fingerprints, not semantic content; see Section~\ref{sec:caveat}). Under hash encoding, \textbf{ThreatSafety} ranked highest and \textbf{Narrative} lowest (Cohen's $d = -0.82$). A follow-up semantic sweep ($N=390$, LLaMA-3.2-3B encoding) shows a $4\times$ wider activation spread with \textbf{Social}, \textbf{Abstract}, and \textbf{Spatial} leading --- a substantially different ordering (rank correlation $r=0.09$, $p=0.78$). The semantic ANOVA does not yet reach significance at $N=30$/CT and requires higher-powered replication. A dominant cortical gradient (PC1\,$= 96.9\%$ variance) contrasts sensory-language against executive-motor cortex across all categories.
+\noindent\textbf{Results (hash-mode encoding).} A one-way ANOVA on predicted global cortical activation revealed a significant main effect of content type ($F(12, 2995) = 13.51$, $p < 10^{-26}$, $\eta^2 = 0.051$) across all six cortical regions. All primary results in Sections~5--7 were obtained with a \emph{hash-mode} encoder (byte fingerprints, not semantic content; see Section~\ref{sec:caveat}). Under hash encoding, \textbf{ThreatSafety} ranked highest and \textbf{Narrative} lowest (Cohen's $d = -0.82$). A follow-up semantic sweep ($N=390$, LLaMA-3.2-3B encoding) shows a $4\times$ wider activation spread with \textbf{AudioText}, \textbf{ImageVisual}, and \textbf{Emotional} leading --- a substantially different ordering from hash mode (rank correlation $r=0.09$, $p=0.78$). The semantic ANOVA does not yet reach significance at $N=30$/CT and requires higher-powered replication. A dominant cortical gradient (PC1\,$= 96.9\%$ variance) contrasts sensory-language against executive-motor cortex across all categories.
 
 \noindent\textbf{Theory evaluation (proxy tests).} Four neuroscientific frameworks (DCT, GWT, FEP, IIT) were assessed against predicted activation patterns using static mean activation as a proxy. These are directional tests only: GWT ignition is temporal and bistable (not captured by means); IIT's $\Phi$ is graph-theoretic (not derivable from regional averages); FEP prediction error is inherently dynamic. With this caveat, GWT's prediction that threatening content drives broad activation was best supported; FEP was weakly supported; DCT and IIT received mixed evidence.
 
-\noindent\textbf{Implications.} The internet is not a neutral delivery mechanism: different content types engage different brain circuits with measurable, statistically significant differences in predicted intensity. Under hash-mode encoding, threatening content ranks highest --- consistent with neural salience theories. Under semantic encoding, Social and Abstract content lead instead. Whether threatening content ultimately proves the strongest neural driver requires a fully powered semantic replication ($N \geq 150$/CT); the pipeline and pre-registered hypotheses to accomplish this are released with the project.
+\noindent\textbf{Implications.} The internet is not a neutral delivery mechanism: different content types engage different brain circuits with measurable, statistically significant differences in predicted intensity. Under hash-mode encoding, threatening content ranks highest --- consistent with neural salience theories. Under semantic encoding, AudioText, ImageVisual, and Emotional content lead instead. Whether threatening content ultimately proves the strongest neural driver requires a fully powered semantic replication ($N \geq 150$/CT); the pipeline and pre-registered hypotheses to accomplish this are released with the project.
 \end{abstract}
 
 \vspace{0.4em}
@@ -160,7 +160,7 @@ What happens in the brain when we scroll? Recent estimates indicate that the ave
 
 The neuroscience of media consumption has historically been constrained by the cost and throughput of fMRI scanning. Individual studies typically use tens to a few hundred stimuli per participant, producing detailed but narrow snapshots of single content types in isolation: threatening images activate the amygdala (LeDoux, 1994; \"{O}hman, 2005); social scenarios engage the temporoparietal junction (Saxe \& Kanwisher, 2003); narrative text recruits a broad language network (Wehbe et al., 2014; Huth et al., 2016); reward-anticipation content engages the ventral striatum (Knutson et al., 2001). What has been missing is a \textbf{unified, comparative measurement} across the full range of content types people actually encounter --- the kind of cartography that lets us ask not ``does X activate region Y?'' but \textit{``among all the content our brains consume daily, which category engages the most cortex, and where?''}
 
-This question is now newly tractable. The recent generation of deep cortical encoders --- in particular Meta AI's TRIBE v2 (2024), a 177-million-parameter transformer trained on real fMRI surface recordings --- can predict whole-cortex BOLD response to any text, audio, or image stimulus with substantially better-than-chance accuracy on held-out human data. An important caveat applies immediately: TRIBE v2 was trained on laboratory fMRI paradigms --- participants viewing static images, short video clips, and spoken passages under controlled conditions, as typified by the Natural Scenes Dataset (Allen et al., 2022) --- not on internet content. Applying it to Reddit posts, news headlines, or arXiv abstracts is an out-of-distribution extrapolation whose limits we acknowledge explicitly throughout and revisit in the Limitations section. Within those limits, treating TRIBE v2 as a controlled neurological proxy enables a class of studies otherwise impossible: thousands of stimuli, exhaustive content-category sweeps, and empirical comparisons between competing neuroscientific theories.
+This question is now newly tractable. The recent generation of deep cortical encoders --- in particular Meta AI's TRIBE v2 (2024), a 177-million-parameter transformer trained on real fMRI surface recordings --- can predict whole-cortex BOLD response to any text, audio, or image stimulus with substantially better-than-chance accuracy on held-out human data. An important caveat applies immediately: TRIBE v2 was trained on laboratory fMRI paradigms --- participants viewing static images, short video clips, and spoken passages under controlled conditions, as typified by the Natural Scenes Dataset (Allen et al., 2022) --- not on internet content. Applying it to news headlines or arXiv abstracts is an out-of-distribution extrapolation whose limits we acknowledge explicitly throughout and revisit in the Limitations section. Within those limits, treating TRIBE v2 as a controlled neurological proxy enables a class of studies otherwise impossible: thousands of stimuli, exhaustive content-category sweeps, and empirical comparisons between competing neuroscientific theories.
 
 \paragraph{Why this matters.} Three motivations frame the present study.
 
@@ -198,7 +198,7 @@ Brain encoding models learn to predict neural responses from stimulus representa
 
 We treat TRIBE v2's output as a \textbf{proxy for human neural responses} to the same stimuli. This is an explicit modelling assumption: TRIBE v2's predictions were trained to match real fMRI recordings, but they are model predictions, not ground-truth measurements. All conclusions in this paper concern \textit{predicted} cortical activation.
 
-A second assumption is \textbf{out-of-distribution generalisation}. TRIBE v2 was trained on laboratory stimuli --- controlled images, spoken passages, and short video clips typical of paradigms such as the Natural Scenes Dataset (Allen et al., 2022) --- not on internet text. The extent to which its predictions on Reddit posts, news headlines, or scientific abstracts reflect genuine neural processing, rather than extrapolation beyond the training distribution, cannot be directly tested here and constitutes an important open empirical question. We apply the model to internet content as a first approximation, with this limitation acknowledged.
+A second assumption is \textbf{out-of-distribution generalisation}. TRIBE v2 was trained on laboratory stimuli --- controlled images, spoken passages, and short video clips typical of paradigms such as the Natural Scenes Dataset (Allen et al., 2022) --- not on internet text. The extent to which its predictions on news headlines or scientific abstracts reflect genuine neural processing, rather than extrapolation beyond the training distribution, cannot be directly tested here and constitutes an important open empirical question. We apply the model to internet content as a first approximation, with this limitation acknowledged.
 
 \subsection{Neuroscientific Theories and Their Predictions}
 
@@ -260,14 +260,14 @@ We compiled 3{,}008 text stimuli across all 13 categories (Table~\ref{tab:corpus
 Narrative      & 300 & HellaSwag (Zellers et al., 2019); TinyStories (Eldan \& Li, 2023) \\
 Factual        & 300 & TriviaQA (Joshi et al., 2017); SciQ (Welbl et al., 2017) \\
 Abstract       & 300 & MultiNLI (Williams et al., 2018); SciQ; arXiv abstracts \\
-Social         & 300 & SODA (Kim et al., 2022); DailyDialog \\
-ImageVisual    & 263 & Flickr30k (Young et al., 2014); COCO captions \\
+Social         & 300 & SODA (Kim et al., 2022); DailyDialog (Li et al., 2017) \\
+ImageVisual    & 263 & Flickr30k (Young et al., 2014); COCO captions (Lin et al., 2014) \\
 Novelty        & 257 & AG News Sci/Tech (Zhang et al., 2015); arXiv; HackerNews \\
 ThreatSafety   & 225 & AG News World; BBC/Reuters RSS feeds \\
 AudioText      & 224 & AudioCaps (Kim et al., 2019); BBC science feeds \\
 Emotional      & 212 & GoEmotions (Demszky et al., 2020); Yelp reviews \\
 Reward         & 212 & Yelp 5-star reviews (Zhang et al., 2015) \\
-Multimodal     & 189 & ActivityNet Captions; MSR-VTT; Wikipedia documentaries \\
+Multimodal     & 189 & ActivityNet Captions (Krishna et al., 2017); MSR-VTT (Xu et al., 2016); Wikipedia documentaries \\
 TextVerbal     & 138 & WikiText-103 (Merity et al., 2017) \\
 Spatial        &  88 & Wikipedia geography categories; curated descriptions \\
 \midrule
@@ -643,7 +643,7 @@ High values (${\to}1$) indicate that variation across sources is small relative 
 \begin{table}[ht]
 \centering
 \small
-\caption{\textbf{Cross-source robustness of content-category effects.} ICC-style proxy computed across the independent sources contributing to each category. Values $> 0.95$ indicate excellent reproducibility; $> 0.75$ indicates good reproducibility (Cicchetti, 1994). The mean ICC is 0.89 across 12 categories; only Narrative falls below the ``good'' threshold.}
+\caption{\textbf{Cross-source robustness of content-category effects.} ICC-style proxy computed across the independent sources contributing to each category. Values $> 0.95$ indicate excellent reproducibility; $> 0.75$ indicates good reproducibility (Cicchetti, 1994). The mean ICC is 0.89 across 12 categories; only Narrative falls below the ``good'' threshold. \textit{Note: Reward is excluded because it draws from a single source (Yelp reviews only), making cross-source ICC undefined.}}
 \label{tab:icc}
 \begin{tabularx}{\linewidth}{Xrr}
 \toprule
@@ -676,7 +676,7 @@ Narrative              & 3  & \textit{0.670} \\
 
 Two implications follow. First, the mean ICC of 0.89 across 12 categories provides direct quantitative evidence that the content-type effects reported in this paper are not artefacts of any one dataset.
 
-Second, the one category that fails this test --- Narrative (ICC $= 0.67$) --- is precisely the category whose anomalously low ranking we flagged in Section~7.2. This convergence is informative: Narrative behaves heterogeneously \textit{both} across sources \textit{and} within our category boundary. HellaSwag activity completions, TinyStories passages, and Reddit personal stories do not appear to form a single coherent neural construct. Future work on Narrative content should treat its sub-types separately.
+Second, the one category that fails this test --- Narrative (ICC $= 0.67$) --- is precisely the category whose anomalously low ranking we flagged in Section~7.2. This convergence is informative: Narrative behaves heterogeneously \textit{both} across sources \textit{and} within our category boundary. HellaSwag activity completions and TinyStories passages do not appear to form a single coherent neural construct. Future work on Narrative content should treat its sub-types separately.
 
 \subsection{Pairwise Effect Sizes: Full Cohen's d Matrix}\label{sec:cohens}
 
@@ -711,25 +711,25 @@ The most consequential limitation of the principal results (Sections~5--7) is th
 \begin{table}[ht]
 \centering
 \small
-\caption{\textbf{Per-category predicted global activation: hash vs.\ LLaMA-3.2-3B semantic encoding (full sweep).} Hash means are from the full 3{,}008-stimulus sweep; semantic means are from $N=30$/CT ($N=390$ total). Sorted by semantic mean (most-negative first, i.e.\ highest predicted activation). The top three under semantic encoding (Social, Abstract, Spatial) share only one category with the hash top three (Narrative, Multimodal, Spatial); see text and Figure~\ref{fig:semantic}.}
+\caption{\textbf{Per-category predicted global activation: hash vs.\ LLaMA-3.2-3B semantic encoding (full sweep).} Hash means are from the full 3{,}008-stimulus sweep; semantic means are from $N=30$/CT ($N=390$ total). Sorted by semantic mean, highest first (rank~1 $=$ least negative $=$ strongest predicted activation, consistent with Table~\ref{tab:descriptive}). The top three under semantic encoding (AudioText, ImageVisual, Emotional) share one category with the hash top three (ThreatSafety, AudioText, TextVerbal); see text and Figure~\ref{fig:semantic}.}
 \label{tab:semantic}
 \begin{tabularx}{\linewidth}{Xrrrrr}
 \toprule
 \textbf{Content type} & \textbf{Hash $N$} & \textbf{Hash mean} & \textbf{Sem.\ mean} & \textbf{Sem.\ rank} & \textbf{Hash rank} \\
 \midrule
-Social         & 300 & $-0.00234$ & $-0.00654$ &  1 & 10 \\
-Abstract       & 300 & $-0.00253$ & $-0.00643$ &  2 &  5 \\
-Spatial        &  88 & $-0.00275$ & $-0.00629$ &  3 &  3 \\
-Novelty        & 257 & $-0.00238$ & $-0.00583$ &  4 &  9 \\
-Reward         & 212 & $-0.00260$ & $-0.00561$ &  5 &  4 \\
-ThreatSafety   & 225 & $-0.00220$ & $-0.00511$ &  6 & 13 \\
+AudioText      & 224 & $-0.00222$ & $-0.00375$ &  1 &  2 \\
+ImageVisual    & 263 & $-0.00242$ & $-0.00412$ &  2 &  6 \\
+Emotional      & 212 & $-0.00251$ & $-0.00423$ &  3 &  8 \\
+Multimodal     & 189 & $-0.00277$ & $-0.00431$ &  4 & 12 \\
+Narrative      & 300 & $-0.00290$ & $-0.00461$ &  5 & 13 \\
+TextVerbal     & 138 & $-0.00226$ & $-0.00471$ &  6 &  3 \\
 Factual        & 300 & $-0.00245$ & $-0.00473$ &  7 &  7 \\
-TextVerbal     & 138 & $-0.00226$ & $-0.00471$ &  8 & 11 \\
-Narrative      & 300 & $-0.00290$ & $-0.00461$ &  9 &  1 \\
-Multimodal     & 189 & $-0.00277$ & $-0.00431$ & 10 &  2 \\
-Emotional      & 212 & $-0.00251$ & $-0.00423$ & 11 &  6 \\
-ImageVisual    & 263 & $-0.00242$ & $-0.00412$ & 12 &  8 \\
-AudioText      & 224 & $-0.00222$ & $-0.00375$ & 13 & 12 \\
+ThreatSafety   & 225 & $-0.00220$ & $-0.00511$ &  8 &  1 \\
+Reward         & 212 & $-0.00260$ & $-0.00561$ &  9 & 10 \\
+Novelty        & 257 & $-0.00238$ & $-0.00583$ & 10 &  5 \\
+Spatial        &  88 & $-0.00275$ & $-0.00629$ & 11 & 11 \\
+Abstract       & 300 & $-0.00253$ & $-0.00643$ & 12 &  9 \\
+Social         & 300 & $-0.00234$ & $-0.00654$ & 13 &  4 \\
 \midrule
 \textbf{Spread (max $-$ min)} & & $0.00070$ & $0.00279$ & & \\
 \bottomrule
@@ -739,13 +739,13 @@ AudioText      & 224 & $-0.00222$ & $-0.00375$ & 13 & 12 \\
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{figures/fig14_hash_vs_semantic.png}
-\caption{\textbf{Hash vs.\ semantic encoding (full sweep, $N=30$/CT).} (a) Per-CT global activation under hash encoding ($N{=}88$--$300$/CT, blue) and LLaMA-3.2-3B semantic encoding ($N=30$/CT, red); error bars are $\pm 1$~SE. Categories ordered by semantic mean. (b) Activation spread across the 13 categories: semantic encoding produces a 4.0$\times$ wider spread than hash encoding. The rank-correlation between the two orderings is essentially zero (Pearson $r = 0.09$, $p = 0.78$; Spearman $\rho = 0.06$, $p = 0.86$).}
+\caption{\textbf{Hash vs.\ semantic encoding (full sweep, $N=30$/CT).} (a) Per-CT global activation under hash encoding ($N{=}88$--$300$/CT, blue) and LLaMA-3.2-3B semantic encoding ($N=30$/CT, red); error bars are $\pm 1$~SE. Categories ordered by semantic mean, highest first (rank~1 = least negative, consistent with Table~\ref{tab:semantic}). (b) Activation spread across the 13 categories: semantic encoding produces a 4.0$\times$ wider spread than hash encoding. The rank-correlation between the two orderings is essentially zero (Pearson $r = 0.09$, $p = 0.78$; Spearman $\rho = 0.06$, $p = 0.86$).}
 \label{fig:semantic}
 \end{figure}
 
 Three observations stand out. First, the ANOVA under semantic encoding does not reach significance at $N=30$/CT ($F(12, 377) = 1.549$, $p = 0.104$) --- but the \textit{spread} of activation across categories is $0.00279$, which is $4.0\times$ wider than the hash-mode spread ($0.00070$). This is the expected direction: proper semantic encoding amplifies the discriminative signal. The ANOVA simply needs more data; the hash-mode result required roughly 230 stimuli per category on average to reach $\eta^2 = 0.051$, so the current $N=30$/CT is under-powered by design.
 
-Second, the category ranking does \textit{not} carry over from hash to semantic encoding (Pearson $r = 0.09$, $p = 0.78$; Spearman $\rho = 0.06$, $p = 0.86$). The shifts are substantial: \textbf{Narrative drops from rank~1 (hash) to rank~9 (semantic)}, consistent with its hash-mode dominance being an encoding artefact; \textbf{Social rises from rank~10 to rank~1} and \textbf{Abstract from rank~5 to rank~2}. \textbf{ThreatSafety moves from rank~13 under hash to rank~6 under semantic encoding} --- a large upward shift, though it no longer claims the singular top position reported in Section~7.3. The one category whose rank barely changes is \textbf{Spatial} (rank~3 under both), suggesting its activation reflects genuine stimulus content rather than encoding artefact.
+Second, the category ranking does \textit{not} carry over from hash to semantic encoding (Pearson $r = 0.09$, $p = 0.78$; Spearman $\rho = 0.06$, $p = 0.86$). The shifts are substantial: \textbf{Narrative rises from last place (rank~13, hash) to rank~5 (semantic)} --- the largest single-category gain in the table, consistent with narrative text finally receiving proper semantic processing under LLaMA encoding rather than a byte-level fingerprint. \textbf{ThreatSafety drops from rank~1 (hash) to rank~8 (semantic)}, suggesting that hash-mode threat dominance was partly an artefact of the short, capitalised byte patterns typical of news headlines rather than genuine threat-content processing. \textbf{AudioText, ImageVisual, and Emotional} rise to the top three under semantic encoding, while \textbf{Social and Abstract} --- both content-rich and semantically dense --- fall to the bottom (ranks~13 and~12). The one category whose rank is stable is \textbf{Spatial} (rank~11 under both hash and semantic encoding), suggesting that spatial descriptions carry a consistent cortical signature regardless of encoding mode.
 
 Third, no category flips sign at $N=30$: all 13 content types show negative (suppressive) mean activation under semantic encoding, in contrast to the preliminary $N=2$/CT result where Emotional showed a spurious positive mean ($+0.00068$). This is consistent with the sign-flip in the preliminary being a noise artefact.
 
@@ -756,7 +756,7 @@ The takeaway is nuanced. The hash-mode results establish that content-category e
 To assess whether the semantic-mode category ranking is an artefact of TRIBE v2's specific configuration, we conducted two robustness checks. \textbf{Scope note:} these are \emph{not} cross-model triangulation in the strict sense, which would require running an independent cortical encoder on the same stimuli. Check (A) is an internal robustness test across TRIBE v2's temporal integration windows --- a hyperparameter sweep on the same model weights. Check (B) is an external text-similarity comparison to assess whether TRIBE's representational geometry reduces to surface linguistic patterns. Both checks address specific failure modes of the semantic-mode ranking; neither substitutes for independent-encoder validation (see Limitation~2, Section~9.1).
 
 \paragraph{A. TRIBE seq\_len robustness.}
-We re-ran the full 390-stimulus corpus through TRIBE at $\text{seq\_len} \in \{4, 8, 16\}$ (the context window over which the temporal transformer integrates features). The resulting per-CT mean activation rankings are essentially identical across all three settings (Table~\ref{tab:crossmodel}; Figure~\ref{fig:crossmodel}, panel a): the Spearman rank-correlation between all pairs is $\rho \geq 0.956$ (all $p < 0.001$). The top-3 categories are Social, Abstract, Spatial under seq\_len=8 and seq\_len=16; at seq\_len=4, Abstract and Social swap positions (both ranks 1--2) while Spatial remains third. \textbf{The content-type ordering is therefore not a temporal-integration artefact.}
+We re-ran the full 390-stimulus corpus through TRIBE at $\text{seq\_len} \in \{4, 8, 16\}$ (the context window over which the temporal transformer integrates features). The resulting per-CT mean activation rankings are essentially identical across all three settings (Table~\ref{tab:crossmodel}; Figure~\ref{fig:crossmodel}, panel a): the Spearman rank-correlation between all pairs is $\rho \geq 0.956$ (all $p < 0.001$). The top-3 categories are \textbf{AudioText, ImageVisual, and Emotional} across all three seq\_len values; at seq\_len=4, Emotional places second and ImageVisual third, while at seq\_len=8 and seq\_len=16, ImageVisual places second and Emotional third. AudioText ranks first under all three settings, and Social and Abstract are consistently at the bottom (ranks~12--13). \textbf{The content-type ordering is therefore not a temporal-integration artefact.}
 
 \begin{table}[ht]
 \centering
@@ -787,7 +787,7 @@ The LSA--TRIBE RDM correlation is near-zero and non-significant (Pearson $r = 0.
 \label{fig:crossmodel}
 \end{figure}
 
-Taken together, the two checks support the conclusion that the Social $>$ Abstract $>$ Spatial semantic-mode ordering reflects something specific about TRIBE v2's brain-activation predictions rather than an artefact of temporal windowing or text similarity. What remains open is whether this ordering is an artefact of the TRIBE v2 model family specifically (which would be resolved by replicating with BrainBERT or the Huth et al.\ semantic atlas) or a genuine property of the brain. We treat it as a provisional finding with this caveat noted explicitly.
+Taken together, the two checks support the conclusion that the AudioText\,$>$\,ImageVisual\,$>$\,Emotional semantic-mode ordering reflects something specific about TRIBE v2's brain-activation predictions rather than an artefact of temporal windowing or text similarity. What remains open is whether this ordering is an artefact of the TRIBE v2 model family specifically (which would be resolved by replicating with BrainBERT or the Huth et al.\ semantic atlas) or a genuine property of the brain. We treat it as a provisional finding with this caveat noted explicitly.
 
 \subsection{Summary of Extension Findings}
 
@@ -801,7 +801,7 @@ The six extensions paint a coherent picture.
 
 (iv) \textbf{Multilingual results} (Section~\ref{sec:multi}, $N=14$): preliminarily consistent with cross-language stability, but critically under-powered.
 
-(v) \textbf{Semantic encoding full sweep} (Section~\ref{sec:semantic}, $N=390$, 30/CT): the activation spread is $4.0\times$ wider under proper encoding; the ANOVA does not yet reach significance ($F(12,377)=1.549$, $p=0.104$); Social, Abstract, and Spatial lead the semantic-mode ranking.
+(v) \textbf{Semantic encoding full sweep} (Section~\ref{sec:semantic}, $N=390$, 30/CT): the activation spread is $4.0\times$ wider under proper encoding; the ANOVA does not yet reach significance ($F(12,377)=1.549$, $p=0.104$); AudioText, ImageVisual, and Emotional lead the semantic-mode ranking.
 
 (vi) \textbf{TRIBE v2 robustness checks} (Section~\ref{sec:crossmodel}): the semantic-mode ranking is stable across temporal integration windows ($\rho \geq 0.956$) and is not explained by surface text similarity (Mantel $r = 0.055$, $p = 0.340$). These checks rule out two specific artefact hypotheses but do not constitute independent cross-encoder validation.
 
@@ -815,7 +815,7 @@ We document the principal limitations explicitly and propose corresponding futur
 
 \subsection{Methodological Limitations}
 
-\paragraph{1. Hash-based text encoding (addressed).} As discussed in Section~\ref{sec:caveat}, the principal results (Sections~5--7) were obtained with TRIBE v2's hash encoder rather than the full LLaMA-3.2-3B encoder. The full semantic replication (Section~\ref{sec:semantic}, $N=390$) has now been completed: the discriminative spread is $4\times$ wider under semantic encoding, but the per-CT ANOVA does not yet reach significance at $N=30$/CT. The specific category-level ranking under semantic encoding (Social, Abstract, Spatial as top-3) should be treated as a provisional update pending higher-$N$ replication.
+\paragraph{1. Hash-based text encoding (addressed).} As discussed in Section~\ref{sec:caveat}, the principal results (Sections~5--7) were obtained with TRIBE v2's hash encoder rather than the full LLaMA-3.2-3B encoder. The full semantic replication (Section~\ref{sec:semantic}, $N=390$) has now been completed: the discriminative spread is $4\times$ wider under semantic encoding, but the per-CT ANOVA does not yet reach significance at $N=30$/CT. The specific category-level ranking under semantic encoding (AudioText, ImageVisual, Emotional as top-3) should be treated as a provisional update pending higher-$N$ replication.
 
 \paragraph{2. Single-model dependence (partially addressed).} All cortical predictions derive from a single encoder (TRIBE v2). The robustness checks (Section~\ref{sec:crossmodel}) established that TRIBE v2's predicted activation geometry is stable across temporal integration windows and does not reduce to text surface similarity. However, these are robustness checks within TRIBE v2, not independent-model validation. Replication with independent cortical encoders --- e.g., the BrainBERT family (Wang et al., 2023), MindEye2 visual decoders (Scotti et al., 2024), or hand-engineered semantic models (Huth et al., 2016) --- is still required to establish that observed patterns are properties of the brain rather than artefacts of TRIBE v2's specific architecture.
 
@@ -847,7 +847,7 @@ The six extensions originally proposed have made differential progress in this r
 
 \begin{enumerate}[leftmargin=1.4em,itemsep=3pt,topsep=2pt]
 \item \textbf{Semantic replication} (\textit{completed --- full $N=30$/CT sweep, ANOVA $p=0.104$}): The full stratified sweep ($N=30$/CT, $N=390$ total) under LLaMA-3.2-3B encoding is reported in Section~\ref{sec:semantic}. The activation spread is $4.0\times$ wider than hash mode; the ANOVA does not reach significance at this sample size, and the hash-mode and semantic-mode rankings are essentially uncorrelated.
-\item \textbf{TRIBE v2 robustness checks} (\textit{partially addressed --- seq\_len robustness $+$ LSA proxy completed; independent cortical encoder pending}): Internal seq\_len robustness (Section~\ref{sec:crossmodel}) confirms the semantic-mode ordering is not a temporal-integration artefact (Spearman $\rho \geq 0.956$ across seq\_len $\in \{4, 8, 16\}$). The LSA text-similarity proxy confirms TRIBE's representational geometry is essentially independent of text surface similarity (Mantel $r = 0.055$, $p = 0.340$). \textbf{Remaining}: application of the same corpus to independent cortical encoders (BrainBERT family; Huth et al., 2016 semantic atlas) to determine whether the Social $>$ Abstract $>$ Spatial ordering is a TRIBE v2 property or a brain property.
+\item \textbf{TRIBE v2 robustness checks} (\textit{partially addressed --- seq\_len robustness $+$ LSA proxy completed; independent cortical encoder pending}): Internal seq\_len robustness (Section~\ref{sec:crossmodel}) confirms the semantic-mode ordering is not a temporal-integration artefact (Spearman $\rho \geq 0.956$ across seq\_len $\in \{4, 8, 16\}$). The LSA text-similarity proxy confirms TRIBE's representational geometry is essentially independent of text surface similarity (Mantel $r = 0.055$, $p = 0.340$). \textbf{Remaining}: application of the same corpus to independent cortical encoders (BrainBERT family; Huth et al., 2016 semantic atlas) to determine whether the AudioText\,$>$\,ImageVisual\,$>$\,Emotional ordering is a TRIBE v2 property or a brain property.
 \item \textbf{Vertex-level analysis} (\textit{completed}): Reported in Section~\ref{sec:vertex}. The six-region aggregation was found to underestimate discriminative power by $\sim 5\times$, and the top-100 most discriminating vertices distribute across all six anatomical regions.
 \item \textbf{Temporal dynamics} (\textit{harness ready, sweep deferred}): The sweep harness has been extended to capture TRIBE v2's full 16-timestep output, and the analysis pipeline is in place. We deferred the temporal sweep to the same revision as the full semantic sweep so that both can be run with semantic LLaMA encoding in a single batch — running it now under hash encoding would risk contamination from the same artefact identified in Section~\ref{sec:semantic}.
 \item \textbf{Cross-cultural and multilingual replication} (\textit{partially completed}): A small semantic-encoded multilingual sweep is reported in Section~\ref{sec:multi} ($N=14$ across seven languages); the cross-language ANOVA was preliminarily non-significant. The full 138-stimulus corpus is released with the project (\path{results/extended/multilingual_corpus.json}); completing it requires the same throughput as the semantic sweep above.
@@ -869,9 +869,9 @@ Under \emph{hash-mode} encoding, \textbf{ThreatSafety content} consistently prod
 \begin{quotebox}
 \textbf{Update from the full semantic-mode replication and robustness checks.}
 
-The complete LLaMA-3.2-3B sweep (Section~\ref{sec:semantic}) shows a $4.0\times$ wider activation spread under proper semantic encoding, but the rank-ordering of categories is essentially uncorrelated with the hash-mode results ($r=0.09$, $p=0.78$). Under semantic encoding, the top three most-activating categories are \textbf{Social}, \textbf{Abstract}, and \textbf{Spatial}; \textbf{ThreatSafety} ranks sixth and \textbf{Narrative} ninth. The per-category ANOVA does not reach significance at $N=30$/CT ($F(12,377)=1.549$, $p=0.104$) --- a larger dataset is needed.
+The complete LLaMA-3.2-3B sweep (Section~\ref{sec:semantic}) shows a $4.0\times$ wider activation spread under proper semantic encoding, but the rank-ordering of categories is essentially uncorrelated with the hash-mode results ($r=0.09$, $p=0.78$). Under semantic encoding, the top three most-activating categories are \textbf{AudioText}, \textbf{ImageVisual}, and \textbf{Emotional}; \textbf{ThreatSafety} drops to rank~8 and \textbf{Narrative} rises to rank~5. The per-category ANOVA does not reach significance at $N=30$/CT ($F(12,377)=1.549$, $p=0.104$) --- a larger dataset is needed.
 
-The robustness checks (Section~\ref{sec:crossmodel}) confirm that this Social\,$>$\,Abstract\,$>$\,Spatial ordering is stable across temporal integration windows ($\rho \geq 0.956$) and is not explained by text surface similarity (Mantel $r=0.055$, $p=0.340$).
+The robustness checks (Section~\ref{sec:crossmodel}) confirm that this AudioText\,$>$\,ImageVisual\,$>$\,Emotional ordering is stable across temporal integration windows ($\rho \geq 0.956$) and is not explained by text surface similarity (Mantel $r=0.055$, $p=0.340$).
 
 We treat the hash-mode results as a baseline establishing \textit{that} category effects exist. The specific identity of the most-activating categories under semantic encoding requires higher-powered replication and validation with independent cortical encoders.
 \end{quotebox}
@@ -924,6 +924,8 @@ Joshi, M., Choi, E., Weld, D. S., \& Zettlemoyer, L. (2017). TriviaQA: A large s
 
 Kahneman, D. (2011). \textit{Thinking, Fast and Slow}. Farrar, Straus and Giroux.
 
+Krishna, R., Hata, K., Ren, F., Fei-Fei, L., \& Niebles, J. C. (2017). Dense-captioning events in videos. \textit{Proceedings of the IEEE International Conference on Computer Vision (ICCV)}, 706--715.
+
 Knutson, B., Adams, C. M., Fong, G. W., \& Hommer, D. (2001). Anticipation of increasing monetary reward selectively recruits nucleus accumbens. \textit{Journal of Neuroscience, 21}(16), RC159.
 
 Hasson, U., Malach, R., \& Heeger, D. J. (2010). Reliability of cortical activity during natural stimulation. \textit{Trends in Cognitive Sciences, 14}(1), 40--48.
@@ -935,6 +937,12 @@ Kim, D., et al. (2019). AudioCaps: Generating captions for audios in the wild. \
 Kim, H., et al. (2022). SODA: Million-scale dialogue distillation with social commonsense contextualization. \textit{arXiv:2212.10465}.
 
 LeDoux, J. E. (1994). Emotion, memory and the brain. \textit{Scientific American, 270}(6), 50--57.
+
+Li, Y., Su, H., Shen, X., Li, W., Cao, Z., \& Niu, S. (2017). DailyDialog: A manually labelled multi-turn dialogue dataset. \textit{Proceedings of the Eighth International Joint Conference on Natural Language Processing (IJCNLP)}, 986--995.
+
+Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Doll\'{a}r, P., \& Zitnick, C. L. (2014). Microsoft COCO: Common objects in context. \textit{Proceedings of the European Conference on Computer Vision (ECCV)}, 740--755.
+
+Meta AI Research. (2024). TRIBE v2: A multimodal deep cortical encoder for predicting whole-brain fMRI responses. \textit{Unpublished manuscript}.
 
 Merity, S., Xiong, C., Bradbury, J., \& Socher, R. (2017). Pointer sentinel mixture models. \textit{Proceedings of ICLR 2017}.
 
@@ -971,6 +979,8 @@ Wehbe, L., Murphy, B., Talukdar, P., Fyshe, A., Ramdas, A., \& Mitchell, T. (201
 Williams, A., Nangia, N., \& Bowman, S. R. (2018). A broad-coverage challenge corpus for sentence understanding through inference. \textit{Proceedings of NAACL 2018}.
 
 Welbl, J., Liu, N. F., \& Gardner, M. (2017). Crowdsourcing multiple choice science questions. \textit{Proceedings of EMNLP 2017 Workshop}.
+
+Xu, J., Mei, T., Yao, T., \& Rui, Y. (2016). MSR-VTT: A large video description dataset for bridging video and language. \textit{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 5288--5296.
 
 Young, P., Lai, A., Hodosh, M., \& Hockenmaier, J. (2014). From image descriptions to visual denotations. \textit{Transactions of the ACL, 2}, 67--78.
 

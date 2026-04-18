@@ -13,11 +13,13 @@
 
 ## Abstract
 
-The internet is the primary delivery mechanism for human cognitive stimulation in the modern era, yet systematic comparisons of how different categories of online content engage the brain remain scarce. We present **Activation Cartography**, a computational study mapping **3,008 natural language stimuli** drawn from **13 internet content categories** against the cortical activation predictions of **TRIBE v2** (Meta AI Research, 2024) — a 177-million-parameter deep fMRI encoder trained on real cortical surface recordings. Stimuli were sourced from established NLP datasets (GoEmotions, TriviaQA, HellaSwag, SODA, MultiNLI, AudioCaps, Flickr30k) and live internet corpora (BBC/Reuters RSS feeds, Reddit, arXiv, HackerNews, Wikipedia).
+The internet is the primary delivery mechanism for human cognitive stimulation in the modern era, yet systematic comparisons of how different categories of online content engage the brain remain scarce. We present **Activation Cartography**, a computational pilot study that establishes an end-to-end pipeline for mapping **3,008 natural language stimuli** drawn from **13 internet content categories** against the cortical activation predictions of **TRIBE v2** (Meta AI Research, unpublished preprint) — a 177-million-parameter deep fMRI encoder trained on real cortical surface recordings. Stimuli were sourced from established NLP datasets (GoEmotions, TriviaQA, HellaSwag, SODA, MultiNLI, AudioCaps, Flickr30k) and live internet corpora (BBC/Reuters RSS feeds, arXiv, HackerNews, Wikipedia).
 
-A one-way ANOVA across the 13 categories yielded a highly significant effect on predicted global cortical activation (**F(12, 2995) = 13.51, p < 0.0001, η² = 0.051**), with all six tracked cortical regions showing independent significant content-type effects (all p < 0.0001). **Threat and safety content** consistently produced the highest predicted global activation; **Narrative content** the lowest, a difference corresponding to a **large effect size (Cohen's d = −0.82)**. **Multimodal and AudioText** content showed the highest relative activation in language and auditory cortex. A dominant cortical gradient accounting for **96.9% of between-category variance** contrasts sensory-language cortex against executive-motor cortex. Results are interpreted against four neuroscientific frameworks (DCT, GWT, FEP, IIT) with partial confirmation of GWT and IIT predictions. We discuss implications for content design, the attention economy, and the neuroscience of digital media.
+> **⚠ Critical methodological caveat:** At the time of these experiments, the LLaMA-3.2-3B semantic text encoder of TRIBE v2 was not loaded. All stimuli were encoded via a hash-based surrogate (SHA256 → linear projection), which captures low-level byte-statistical properties of text but **not semantic meaning**. Consequently, all results in this paper reflect structural and syntactic properties of the text corpus rather than semantic content processing. No conclusions about which content *meanings* drive brain activity can be drawn from this study. The full analysis pipeline has been validated and is ready for semantic replication, which constitutes the necessary next step before neuroscientific interpretation is warranted.
 
-> **Keywords —** fMRI encoding · internet content · cortical mapping · deep learning · Global Workspace Theory · attention economy · digital neuroscience
+Under hash-based encoding conditions, a one-way ANOVA across the 13 categories yielded a statistically significant effect on predicted global cortical activation (**F(12, 2995) = 13.51, p < 0.0001, η² = 0.051**), with all six tracked cortical regions showing significant content-type effects (all p < 0.0001). The η² of 0.051 indicates a small effect: content category accounts for ~5% of variance in predicted activation. A dominant structural gradient (PC1, 96.9% of between-category variance) contrasts sensory-language cortex against executive-motor cortex. This gradient reflects a property of the TRIBE v2 encoder's learned function, not necessarily a semantic content effect. Four neuroscientific theoretical frameworks (DCT, GWT, FEP, IIT) are used to generate testable predictions for the planned semantic replication; they cannot be validly evaluated against hash-encoded results. We provide a reusable, open-source corpus, sweep harness, and statistical framework ready for immediate replication once semantic encoding is enabled.
+
+> **Keywords —** fMRI encoding · internet content · cortical mapping · deep learning · methodological pilot · digital neuroscience · pre-semantic baseline
 
 ---
 
@@ -119,14 +121,14 @@ We compiled 3,008 text stimuli across all 13 categories (see *Table 1*) from sev
 | Narrative | 300 | HellaSwag (Zellers et al., 2019); TinyStories (Eldan & Li, 2023) |
 | Factual | 300 | TriviaQA (Joshi et al., 2017); SciQ (Welbl et al., 2017) |
 | Abstract | 300 | MultiNLI (Williams et al., 2018); SciQ; arXiv abstracts |
-| Social | 300 | SODA (Kim et al., 2022); DailyDialog |
-| ImageVisual | 263 | Flickr30k (Young et al., 2014); COCO captions |
+| Social | 300 | SODA (Kim et al., 2022); DailyDialog (Li et al., 2017) |
+| ImageVisual | 263 | Flickr30k (Young et al., 2014); COCO captions (Lin et al., 2014) |
 | Novelty | 257 | AG News Sci/Tech (Zhang et al., 2015); arXiv; HackerNews |
 | ThreatSafety | 225 | AG News World; BBC/Reuters RSS feeds |
 | AudioText | 224 | AudioCaps (Kim et al., 2019); BBC science feeds |
 | Emotional | 212 | GoEmotions (Demszky et al., 2020); Yelp reviews |
 | Reward | 212 | Yelp 5-star reviews (Zhang et al., 2015) |
-| Multimodal | 189 | ActivityNet Captions; MSR-VTT; Wikipedia documentaries |
+| Multimodal | 189 | ActivityNet Captions (Krishna et al., 2017); MSR-VTT (Xu et al., 2016); Wikipedia documentaries |
 | TextVerbal | 138 | WikiText-103 (Merity et al., 2017) |
 | Spatial | 88 | Wikipedia geography categories; curated spatial descriptions |
 | **Total** | **3,008** | |
@@ -472,9 +474,17 @@ Kim, D., et al. (2019). AudioCaps: Generating captions for audios in the wild. *
 
 Kim, H., et al. (2022). SODA: Million-scale dialogue distillation with social commonsense contextualization. *arXiv:2212.10465*.
 
+Krishna, R., Hata, K., Ren, F., Fei-Fei, L., & Niebles, J. C. (2017). Dense-captioning events in videos. *Proceedings of ICCV*, 706–715.
+
 LeDoux, J. E. (1994). Emotion, memory and the brain. *Scientific American*, 270(6), 50–57.
 
+Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017). DailyDialog: A manually labelled multi-turn dialogue dataset. *Proceedings of the Eighth International Joint Conference on Natural Language Processing (IJCNLP)*, 986–995.
+
+Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., & Zitnick, C. L. (2014). Microsoft COCO: Common objects in context. *Proceedings of ECCV*, 740–755.
+
 Merity, S., Xiong, C., Bradbury, J., & Socher, R. (2017). Pointer sentinel mixture models. *Proceedings of ICLR 2017*.
+
+Meta AI Research. (2024). TRIBE v2: A multimodal deep cortical encoder for predicting whole-brain fMRI responses. *Unpublished manuscript*.
 
 Mitchell, T. M., et al. (2008). Predicting human brain activity associated with the meanings of nouns. *Science*, 320(5880), 1191–1195.
 
@@ -499,6 +509,8 @@ Wehbe, L., Murphy, B., Talukdar, P., Fyshe, A., Ramdas, A., & Mitchell, T. (2014
 Williams, A., Nangia, N., & Bowman, S. R. (2018). A broad-coverage challenge corpus for sentence understanding through inference. *Proceedings of NAACL 2018*.
 
 Welbl, J., Liu, N. F., & Gardner, M. (2017). Crowdsourcing multiple choice science questions. *Proceedings of EMNLP 2017 Workshop*.
+
+Xu, J., Mei, T., Yao, T., & Rui, Y. (2016). MSR-VTT: A large video description dataset for bridging video and language. *Proceedings of CVPR*, 5288–5296.
 
 Young, P., Lai, A., Hodosh, M., & Hockenmaier, J. (2014). From image descriptions to visual denotations. *Transactions of the ACL*, 2, 67–78.
 

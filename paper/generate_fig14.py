@@ -15,11 +15,11 @@ plt.rcParams.update({"font.family":"serif","font.size":10,"savefig.dpi":200,
                      "savefig.bbox":"tight","savefig.facecolor":"white",
                      "axes.spines.top":False,"axes.spines.right":False})
 
-# Sorted by full semantic mean (most activated first) for final figure
+# Sorted by full semantic mean, highest first (rank 1 = least negative = most activating)
 CT_ORDER = [
-    "Social","Abstract","Spatial","Novelty","Reward",
-    "ThreatSafety","Factual","TextVerbal","Narrative","Multimodal",
-    "Emotional","ImageVisual","AudioText",
+    "AudioText","ImageVisual","Emotional","Multimodal","Narrative",
+    "TextVerbal","Factual","ThreatSafety","Reward","Novelty",
+    "Spatial","Abstract","Social",
 ]
 
 # Load hash-mode 3008-stim sweep
