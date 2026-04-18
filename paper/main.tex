@@ -1,11 +1,17 @@
 \documentclass[11pt,letterpaper]{article}
 
-% ── Packages ────────────────────────────────────────────────────────────────
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
+% ── Core (XeLaTeX; fontspec supersedes inputenc/fontenc/lmodern) ─────────────
+\usepackage{fontspec}
 \usepackage{microtype}
-\usepackage[margin=1in,top=0.9in,bottom=1in]{geometry}
+\usepackage[margin=1in,top=0.9in,bottom=1in,headheight=15pt]{geometry}
+\usepackage{setspace}
+
+% ── Fonts ────────────────────────────────────────────────────────────────────
+\setmainfont{Palatino}[Ligatures=TeX]
+\setsansfont{Helvetica Neue}[Scale=MatchLowercase, Ligatures=TeX]
+\setmonofont{Menlo}[Scale=MatchLowercase]
+
+% ── Graphics & tables ────────────────────────────────────────────────────────
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -14,63 +20,89 @@
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{ragged2e}
-\usepackage[hidelinks,colorlinks=true,linkcolor=brown,citecolor=brown,urlcolor=brown]{hyperref}
+\usepackage{placeins}    % \FloatBarrier
+
+% ── Math ─────────────────────────────────────────────────────────────────────
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% ── Color, links, layout ─────────────────────────────────────────────────────
 \usepackage{xcolor}
+\usepackage[hidelinks,colorlinks=true,linkcolor=accent,citecolor=accent,urlcolor=accent]{hyperref}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{abstract}
 \usepackage{authblk}
-\usepackage{textcomp}
-\usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{tcolorbox}
-\usepackage{fontspec}
+\usepackage{url}
 
 % ── Colors ──────────────────────────────────────────────────────────────────
-\definecolor{accent}{HTML}{8B1D20}
-\definecolor{rule}{HTML}{D8D8D8}
-\definecolor{quotebg}{HTML}{FAFAF6}
-\definecolor{codebg}{HTML}{F4F4F6}
+\definecolor{accent}{HTML}{7B1818}      % deep maroon — primary accent
+\definecolor{accentlight}{HTML}{C0392B} % lighter maroon for section numbers
+\definecolor{rule}{HTML}{BEBEBE}        % mid-gray rule line
+\definecolor{quotebg}{HTML}{FAF8F5}     % warm off-white background
+\definecolor{codebg}{HTML}{F3F3F5}      % code block background
 
 % ── Fonts (use system-installed serif) ──────────────────────────────────────
 % Note: lmodern is loaded; xelatex/lualatex would let us use Charter etc.
 
 % ── Section formatting ──────────────────────────────────────────────────────
-\titleformat{\section}{\sffamily\bfseries\large\color{black}}{\thesection.}{0.6em}{}[\vspace{-0.3em}\color{rule}\hrule]
-\titleformat{\subsection}{\sffamily\bfseries\normalsize\color{black!80}}{\thesubsection}{0.6em}{}
-\titleformat{\subsubsection}{\sffamily\bfseries\small\color{black!70}}{\thesubsubsection}{0.6em}{}
-\titlespacing*{\section}{0pt}{1.4em}{0.6em}
-\titlespacing*{\subsection}{0pt}{1.0em}{0.4em}
+\titleformat{\section}
+  {\sffamily\bfseries\large\color{black}}
+  {\textcolor{accentlight}{\thesection.}}{0.6em}{}
+  [\vspace{1pt}\textcolor{rule}{\hrule height 0.8pt}\vspace{2pt}]
+\titleformat{\subsection}
+  {\sffamily\bfseries\normalsize\color{black!85}}
+  {\textcolor{accentlight}{\thesubsection}}{0.6em}{}
+\titleformat{\subsubsection}
+  {\sffamily\bfseries\small\color{black!75}}
+  {\thesubsubsection}{0.6em}{}
+\titleformat{\paragraph}[runin]
+  {\normalfont\normalsize\bfseries\color{black!80}}
+  {}{0pt}{}[.\enspace]
+\titlespacing*{\section}{0pt}{1.6em}{0.7em}
+\titlespacing*{\subsection}{0pt}{1.1em}{0.45em}
+\titlespacing*{\paragraph}{0pt}{0.6em}{0pt}
 
 % ── Caption styling ─────────────────────────────────────────────────────────
-\captionsetup{font=small, labelfont={sf,bf}, labelsep=period, justification=justified, singlelinecheck=false}
+\captionsetup{font=small, labelfont={sf,bf,color=accent}, labelsep=period,
+              justification=justified, singlelinecheck=false, skip=6pt}
 
 % ── Header / footer ─────────────────────────────────────────────────────────
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\textit{Activation Cartography of Internet Content}}
-\fancyhead[R]{\small\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[L]{\small\sffamily\textit{Activation Cartography of Internet Content}}
+\fancyhead[R]{\small\sffamily\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\headrule}{\color{rule}\hrule width\headwidth height\headrulewidth}
 
 % ── Custom blockquote box ───────────────────────────────────────────────────
+\tcbuselibrary{skins}
 \newtcolorbox{quotebox}{
+  enhanced,
   colback=quotebg,
   colframe=accent,
   boxrule=0pt,
-  leftrule=2pt,
-  arc=1pt,
+  leftrule=3pt,
+  rightrule=0pt,
+  toprule=0pt,
+  bottomrule=0pt,
+  arc=2pt,
   left=10pt,
   right=10pt,
   top=8pt,
   bottom=8pt,
   before skip=10pt,
   after skip=10pt,
+  shadow={1pt}{-1pt}{0pt}{black!8},
 }
 
-% ── Justified body ──────────────────────────────────────────────────────────
+% ── Justified body & spacing ────────────────────────────────────────────────
 \justifying
+\setstretch{1.04}
+\setlength{\parskip}{3pt plus 1pt}
+\setlength{\emergencystretch}{3em}  % allow TeX extra stretch to avoid overfull hboxes
 
 % ── Custom column types for tables ──────────────────────────────────────────
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
@@ -78,22 +110,23 @@
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
 
 % ── Title block ─────────────────────────────────────────────────────────────
-\title{
-  \vspace{-1.2em}
-  \sffamily\bfseries\Large What Does the Internet Do to the Brain?\\[0.4em]
-  \mdseries\large\itshape\rmfamily Mapping Cortical Activation Fingerprints Across Digital Content Modalities Using a Deep fMRI Encoder
-  \vspace{-0.8em}
+\title{%
+  \vspace{-1.0em}
+  {\sffamily\bfseries\LARGE What Does the Internet Do to the Brain?}\\[0.5em]
+  {\large\itshape Mapping Cortical Activation Fingerprints Across Digital Content Modalities\\[0.15em]
+   Using a Deep fMRI Encoder}%
+  \vspace{-0.6em}
 }
 \author[1]{Evintkoo}
-\affil[1]{\small Independent Research \\ \texttt{evint.koo@gmail.com}}
-\date{April 2026}
+\affil[1]{\small Independent Research \\ \href{mailto:evint.koo@gmail.com}{\texttt{evint.koo@gmail.com}}}
+\date{\small April 2026}
 
 \begin{document}
 
 \maketitle
-\thispagestyle{empty}
+\thispagestyle{fancy}
 
-\vspace{-1.5em}
+\vspace{-0.8em}
 
 % ═══════════════════════════════════════════════════════════════════════════
 % ABSTRACT
@@ -111,12 +144,12 @@
 \noindent\textbf{Implications.} The internet is not a neutral delivery mechanism: different content formats engage different cortical circuits with measurable, statistically significant differences in intensity. The structural primacy of ThreatSafety content suggests an unintended neurological selection pressure within engagement-optimised platforms.
 \end{abstract}
 
-\vspace{0.5em}
+\vspace{0.4em}
 \noindent\textbf{Keywords:} fMRI encoding $\cdot$ internet content $\cdot$ cortical mapping $\cdot$ deep learning $\cdot$ Global Workspace Theory $\cdot$ attention economy $\cdot$ digital neuroscience
 
-\vspace{1.5em}
-\hrule height 0.5pt
-\vspace{1em}
+\vspace{1.2em}
+{\color{rule}\hrule height 0.8pt}
+\vspace{0.8em}
 
 % ═══════════════════════════════════════════════════════════════════════════
 % INTRODUCTION
@@ -139,11 +172,11 @@ This question is now newly tractable. The recent generation of deep cortical enc
 
 \paragraph{Contributions.}
 \begin{enumerate}[leftmargin=1.4em,itemsep=2pt,topsep=2pt]
-\item A reproducible taxonomy of 13 internet content categories grounded in dual cognitive-behavioural axes (modality $\times$ semantic/social relevance), with a balanced 3{,}008-stimulus corpus assembled from seven independent sources.
+\item A reproducible taxonomy of 13 internet content categories grounded in dual cognitive-be\-havioural axes (modality $\times$ semantic/social relevance), with a balanced 3{,}008-stimulus corpus assembled from seven independent sources.
 \item The first large-scale comparative activation mapping of internet content categories using a deep cortical encoder, demonstrating significant content-category effects across all six tracked cortical regions.
 \item Empirical tests of four major neuroscientific theories (GWT, FEP, DCT, IIT) against predicted activation patterns, with a structured prediction-by-prediction scorecard.
 \item A reusable open-source pipeline --- corpus, sweep harness, statistical analysis, figure generation --- and pre-registered hypotheses for full-semantic replication.
-\item Identification of a dominant cortical gradient (PC1 $= 96.9\%$ variance) contrasting sensory-language activation against executive-motor activation, providing a principled axis for situating future content-type studies.
+\item Identification of a dominant cortical gradient (PC1\,$= 96.9\%$\,variance) contrasting sen\-sory-language activation against executive-motor activation, providing a principled axis for future content-type studies.
 \end{enumerate}
 
 \section{Related Work}
@@ -201,13 +234,15 @@ We define 13 content categories spanning two dimensions:
 % ═══════════════════════════════════════════════════════════════════════════
 % METHODOLOGY
 % ═══════════════════════════════════════════════════════════════════════════
+\FloatBarrier
+\clearpage
 \section{Methodology}
 
 \subsection{Stimulus Corpus}
 
 We compiled 3{,}008 text stimuli across all 13 categories (Table~\ref{tab:corpus}) from seven independent sources, drawing on established NLP benchmarks and live internet APIs.
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \small
 \caption{Corpus composition by content type and source.}
@@ -241,7 +276,7 @@ All stimuli were pre-processed to remove HTML, normalise whitespace, and truncat
 
 Each stimulus was submitted to the TRIBE v2 server (\texttt{POST /api/predict}, \texttt{seq\_len=16}) running on Apple Metal (MacBook Pro, M-series GPU). At the time of these experiments, the LLaMA-3.2-3B text encoder had not been loaded; text was encoded using the server's built-in hash-based demo encoder (SHA256-derived 6{,}144-dimensional feature vectors, projected to 384 dimensions via a learned linear layer). This is a critical methodological caveat addressed fully in Section~\ref{sec:caveat}.
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \small
 \caption{Cortical region definitions used by TRIBE v2.}
@@ -277,6 +312,8 @@ All analyses were implemented in Python using \texttt{numpy}, \texttt{scipy}, \t
 % ═══════════════════════════════════════════════════════════════════════════
 % RESULTS
 % ═══════════════════════════════════════════════════════════════════════════
+\FloatBarrier
+\clearpage
 \section{Results}
 
 \subsection{Overall ANOVA: Content Type Predicts Global Activation}
@@ -285,7 +322,7 @@ A one-way ANOVA on predicted global cortical activation revealed a highly signif
 
 All six cortical regions showed significant content-type effects in independent ANOVAs (Table~\ref{tab:regional-anova}; Figure~\ref{fig:regional-anova}).
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \small
 \caption{Per-region ANOVA results.}
@@ -308,14 +345,14 @@ Parietal   &  7.07 & $<$ 0.0001 & 0.028 \\
 
 Figure~\ref{fig:global-ranking} and Table~\ref{tab:descriptive} present descriptive statistics for all 13 content types, ranked by predicted global cortical activation.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/fig1_global_activation_ranking.png}
 \caption{Predicted global cortical activation per content category. Bars show bootstrap 95\% confidence intervals. ThreatSafety (red) ranks highest; Narrative (peach) lowest. Vertical dotted line indicates the grand mean. Cohen's $d$ between top and bottom $= 0.82$ (large effect).}
 \label{fig:global-ranking}
 \end{figure}
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \small
 \caption{Descriptive statistics for predicted global activation by content type.}
@@ -347,27 +384,27 @@ Figure~\ref{fig:global-ranking} and Table~\ref{tab:descriptive} present descript
 
 Figure~\ref{fig:heatmap} visualises the full regional $\times$ content-type matrix; Figure~\ref{fig:regional-anova} breaks down each region's ranking independently.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/fig2_region_heatmap.png}
 \caption{Mean relative activation per cortical region per content category. Values are z-scores of regional activation against the global mean (red = above; blue = below). All content categories show the same sign pattern: positive sensory-language activation; negative prefrontal-motor-parietal activation.}
 \label{fig:heatmap}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/fig4_regional_anova.png}
 \caption{Mean relative activation per cortical region by content category, with per-region ANOVA F-statistics and p-values. All six regions show significant content-type effects.}
 \label{fig:regional-anova}
 \end{figure}
 
-\textbf{Key observations.} The Language region is highest for Multimodal ($+0.056$) and AudioText ($+0.050$). Prefrontal cortex is highest \textit{relative} for Emotional content, lowest for Multimodal/AudioText --- consistent with emotional content engaging top-down regulatory circuits. All regions show positive signs for Visual/Auditory/Language and negative for Prefrontal/Motor/Parietal across all content types.
+\textbf{Key observations.} The Language region is highest for Multimodal ($+0.056$) and AudioText ($+0.050$). Prefrontal cortex is highest \textit{relative} for Emotional content, lowest for Multi\-modal and AudioText --- consistent with emotional content engaging top-down regulatory circuits. All regions show positive signs for the sensory/language cortex and negative signs for prefrontal, motor, and parietal cortex across all content types.
 
 \subsection{Pairwise Effect Sizes}
 
 Table~\ref{tab:pairwise} and Figure~\ref{fig:effect-sizes} show the largest Cohen's $d$ values across the 78 pairwise content-type comparisons. All listed pairs exceed the Bonferroni-corrected $\alpha = 0.000641$.
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \small
 \caption{Top 10 pairwise effect sizes (Cohen's $d$) on global activation.}
@@ -390,7 +427,7 @@ Narrative vs Novelty      & $-0.60$ & medium \\
 \end{tabular}
 \end{table}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=0.85\textwidth]{figures/fig5_effect_sizes.png}
 \caption{Top 20 pairwise Cohen's $d$ values for predicted global activation. Red dots indicate large effects ($|d| > 0.8$); orange medium ($|d| > 0.5$); blue small. Narrative content is the most consistently low-activating category.}
@@ -401,7 +438,7 @@ Narrative vs Novelty      & $-0.60$ & medium \\
 
 Pearson correlations between each regional relative activation score and global mean activation reveal a consistent moderate structure (Table~\ref{tab:correlations}). All correlations significant at $p < 0.0001$.
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \small
 \caption{Pearson correlations between regional activation and global mean.}
@@ -426,7 +463,7 @@ This structural pattern --- sensory/language regions \textit{negatively} correla
 
 PCA on the $13 \times 6$ matrix of mean regional activation profiles revealed extreme concentration in the first principal component.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/fig3_pca.png}
 \caption{Principal component analysis of regional activation profiles. \textbf{(a)} Each content category positioned in PC1 $\times$ PC2 space (PC1 = sensory-executive axis, 96.9\% of variance). \textbf{(b)} PC1 loadings by cortical region: positive for Prefrontal/Motor (executive); negative for Language/Auditory/Visual (sensory).}
@@ -439,7 +476,7 @@ PCA on the $13 \times 6$ matrix of mean regional activation profiles revealed ex
 
 Three matched pairs isolate the contribution of language structure independent of content (Figure~\ref{fig:contrastive}).
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/fig6_contrastive_pairs.png}
 \caption{Contrastive pair analysis. Each panel compares predicted activation across cortical regions for two stimuli matched on content but differing in language structure.}
@@ -456,7 +493,7 @@ Three matched pairs isolate the contribution of language structure independent o
 
 Coefficient of variation (CV $=$ SD $/$ $|\mathrm{mean}|$) quantifies internal consistency of activation across stimuli within a content type.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=0.85\textwidth]{figures/fig8_stability.png}
 \caption{Within-category activation stability. Bubble size proportional to N stimuli per category. Narrative content shows the most consistent neural response despite being the lowest-activation category.}
@@ -468,11 +505,13 @@ Most stable: Narrative (CV $= 0.30$), Multimodal ($0.32$), Spatial ($0.32$), Rew
 % ═══════════════════════════════════════════════════════════════════════════
 % THEORY EVALUATION
 % ═══════════════════════════════════════════════════════════════════════════
+\FloatBarrier
+\clearpage
 \section{Theory Evaluation}
 
 We evaluate each of the four theoretical frameworks against the observed activation patterns. Figure~\ref{fig:scorecard} summarises the prediction-by-prediction scorecard.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/fig7_theory_scorecard.png}
 \caption{Theory prediction scorecard. Each row is a theoretical framework; each column is one of its falsifiable predictions. Green $=$ confirmed; yellow $=$ partially confirmed; red $=$ not confirmed.}
@@ -494,6 +533,8 @@ We evaluate each of the four theoretical frameworks against the observed activat
 % ═══════════════════════════════════════════════════════════════════════════
 % DISCUSSION
 % ═══════════════════════════════════════════════════════════════════════════
+\FloatBarrier
+\clearpage
 \section{Discussion}
 
 \subsection{Critical Limitation: Hash-Based Text Encoding}\label{sec:caveat}
@@ -508,7 +549,7 @@ The most important caveat of this study is that all text stimuli were encoded us
 \textbf{What this does not invalidate:}
 (1) The TRIBE v2 FmriEncoder's learned weights --- the 177M parameter model received real (though semantically uninformative) input features and produced real cortical predictions.
 (2) The statistical finding that content categories differ in predicted activation is real --- different texts produce different byte distributions, different projected feature vectors, and therefore different cortical predictions.
-(3) The cortical gradient (PC1 = sensory-language vs. prefrontal-motor) is a property of the FmriEncoder's learned function, not the input encoder.
+(3) The cortical gradient (PC1\,=\,sensory-language vs.\ prefrontal-motor) is a property of the FmriEncoder's learned function, not the input encoder.
 \end{quotebox}
 
 \subsection{The Unexpected Underperformance of Narrative Content}
@@ -546,6 +587,8 @@ A potential concern is that activation differences across content categories mig
 % ═══════════════════════════════════════════════════════════════════════════
 % EXTENSIONS AND REPLICATIONS
 % ═══════════════════════════════════════════════════════════════════════════
+\FloatBarrier
+\clearpage
 \section{Extensions and Replications}\label{sec:extensions}
 
 To strengthen the robustness of the principal findings and to address several limitations identified above before they could undermine interpretation, we conducted three pre-registered extension analyses on the same 3{,}008-stimulus corpus: (i) per-vertex ANOVA across all 20{,}484 cortical vertices, (ii) cross-source intraclass correlation (ICC) for every content category sourced from $\geq 2$ independent datasets, and (iii) the full $13 \times 13$ pairwise Cohen's~$d$ matrix to make every contrast directly inspectable. Two additional extensions --- a 250-stimulus multilingual corpus across 10 languages, and a temporal-trajectory sweep --- were prepared but could not be executed in this revision because the inference server was offline at the time of writing; their corpora and harnesses are released with the project for the next iteration (see Section~\ref{sec:futurework}).
@@ -628,7 +671,7 @@ Two implications. First, the mean cross-source ICC of 0.89 across 12 categories 
 
 \subsection{Pairwise Effect Sizes: Full Cohen's d Matrix}\label{sec:cohens}
 
-For completeness, we release the full $13 \times 13$ pairwise Cohen's~$d$ matrix on global activation (Figure~\ref{fig:cohens}). This makes every category-pair contrast directly inspectable rather than relying on the curated four shown in Figure~\ref{fig:effects}.
+For completeness, we release the full $13 \times 13$ pairwise Cohen's~$d$ matrix on global activation (Figure~\ref{fig:cohens}). This makes every category-pair contrast directly inspectable rather than relying on the curated top-10 shown in Figure~\ref{fig:effect-sizes}.
 
 \begin{figure}[ht]
 \centering
@@ -650,7 +693,7 @@ To begin testing whether the content-type effects are language-invariant, we exe
 \label{fig:multi}
 \end{figure}
 
-A one-way ANOVA across the seven languages on global predicted activation was non-significant ($F(6,7) = 0.726$, $p = 0.644$). Six of seven languages produced means within $-0.0072$ to $-0.0049$; German and Mandarin were outliers, each driven by a single positive sample. We resist any cross-linguistic claim from $N=2$/language. The relevant inference is procedural: the multilingual harness is correct, semantic LLaMA encoding works for non-English Wikipedia text, and the cross-language predicted-activation distribution is not visibly bimodal or pathological — but a definitive test requires at least an order of magnitude more samples per language and is now bottlenecked solely by inference throughput.
+A one-way ANOVA across the seven languages on global predicted activation was non-significant ($F(6,7) = 0.726$, $p = 0.644$). Six of seven languages produced means within $-0.0072$ to $-0.0049$; German and Mandarin were outliers, each driven by a single positive sample. We resist any cross-linguistic claim from $N\!=\!2$/language. The relevant inference is procedural: the multilingual harness is correct, semantic LLaMA encoding works for non-English Wikipedia text, and the cross-language predicted-activation distribution is not visibly bimodal or pathological --- but a definitive test requires at least an order of magnitude more samples per language and is now bottlenecked solely by inference throughput.
 
 \subsection{Semantic Encoding Replication (Full, $N=390$)}\label{sec:semantic}
 
@@ -743,6 +786,8 @@ The six extensions paint a coherent picture. (i) Vertex-level analysis (Section~
 
 The first three findings reinforce rather than overturn the original analysis. Findings (v) and (vi) together establish that: content-category effects are real and larger under semantic encoding; the specific ranking changes from hash mode but is internally consistent across encoder configurations; and the ranking captures something beyond text similarity. The outstanding question --- whether the semantic-mode ordering is a TRIBE v2 property or a brain property --- requires cross-model replication with an independent cortical encoder, which we pre-register as the next iteration's primary task. We have updated the conclusion (Section~10) to reflect this.
 
+\FloatBarrier
+\clearpage
 \section{Limitations and Future Work}
 
 We document the principal limitations of this study explicitly and propose corresponding extensions.
@@ -776,14 +821,16 @@ The six extensions originally proposed have made differential progress in this r
 \item \textbf{Cross-model triangulation} (\textit{partially addressed --- TRIBE seq\_len robustness $+$ LSA proxy completed; independent cortical encoder pending}): Internal seq\_len robustness (Section~\ref{sec:crossmodel}) confirms the semantic-mode ordering is not a temporal-integration artefact (Spearman $\rho \geq 0.956$ across seq\_len $\in \{4, 8, 16\}$). The LSA text-similarity proxy confirms TRIBE's representational geometry is essentially independent of text surface similarity (Mantel $r = 0.055$, $p = 0.340$). \textbf{Remaining}: application of the same corpus to independent cortical encoders (BrainBERT family; Huth et al., 2016 semantic atlas) to determine whether the Social $>$ Abstract $>$ Spatial ordering is a TRIBE v2 property or a brain property.
 \item \textbf{Vertex-level analysis} (\textit{completed}): Reported in Section~\ref{sec:vertex}. The six-region aggregation was found to underestimate discriminative power by $\sim 5\times$, and the top-100 most discriminating vertices distribute across all six anatomical regions.
 \item \textbf{Temporal dynamics} (\textit{harness ready, sweep deferred}): The sweep harness has been extended to capture TRIBE v2's full 16-timestep output, and the analysis pipeline is in place. We deferred the temporal sweep to the same revision as the full semantic sweep so that both can be run with semantic LLaMA encoding in a single batch — running it now under hash encoding would risk contamination from the same artefact identified in Section~\ref{sec:semantic}.
-\item \textbf{Cross-cultural and multilingual replication} (\textit{partially completed}): A small semantic-encoded multilingual sweep is reported in Section~\ref{sec:multi} ($N=14$ across seven languages); the cross-language ANOVA was preliminarily non-significant. The full 138-stimulus corpus is released with the project (\texttt{results/extended/multilingual\_corpus.json}); completing it requires the same throughput scaling as the semantic sweep above.
+\item \textbf{Cross-cultural and multilingual replication} (\textit{partially completed}): A small semantic-encoded multilingual sweep is reported in Section~\ref{sec:multi} ($N=14$ across seven languages); the cross-language ANOVA was preliminarily non-significant. The full 138-stimulus corpus is released with the project (\path{results/extended/multilingual_corpus.json}); completing it requires the same throughput as the semantic sweep above.
 \end{enumerate}
 
-In addition, this revision introduced two new robustness analyses --- cross-source ICC (Section~\ref{sec:robust}) and the full $13\times13$ Cohen's~$d$ matrix (Section~\ref{sec:cohens}) --- both of which support rather than undermine the hash-mode principal findings; completed the full semantic sweep (Section~\ref{sec:semantic}), which confirms a wider discriminative signal under proper encoding while showing the specific category rankings shift substantially from the hash-mode baseline; and completed a partial cross-model triangulation (Section~\ref{sec:crossmodel}) establishing internal robustness of the semantic ordering and independence from text similarity.
+In addition, this revision introduced two new robustness analyses --- cross-source ICC (Section~\ref{sec:robust}) and the full $13\times13$ Cohen's~$d$ matrix (Section~\ref{sec:cohens}) --- both of which support rather than undermine the hash-mode principal findings; completed the full semantic sweep (Section~\ref{sec:semantic}), which confirms a wider discriminative signal under proper encoding while showing the specific category rankings shift substantially from the hash-mode baseline; and completed a partial cross-model triangulation (Section~\ref{sec:crossmodel}) establishing internal robustness and independence from text similarity.
 
 % ═══════════════════════════════════════════════════════════════════════════
 % CONCLUSION
 % ═══════════════════════════════════════════════════════════════════════════
+\FloatBarrier
+\clearpage
 \section{Conclusion}
 
 We present the first large-scale computational comparison of predicted cortical activation across 13 categories of internet content, using the TRIBE v2 deep fMRI encoder and a corpus of 3{,}008 stimuli drawn from validated research datasets and live internet sources. A statistically robust effect of content category on predicted whole-brain activation was observed ($F(12, 2995) = 13.51$, $p < 0.0001$, $\eta^2 = 0.051$), with all six cortical regions showing independent significant effects.
@@ -791,7 +838,7 @@ We present the first large-scale computational comparison of predicted cortical 
 Under \emph{hash-mode} encoding, \textbf{ThreatSafety content} consistently produced the highest predicted cortical activation and \textbf{Narrative content} the lowest. \textbf{Multimodal} and \textbf{AudioText} content showed the highest relative language-region activation, while \textbf{Emotional} content showed the highest relative prefrontal engagement. A dominant cortical gradient (PC1, 96.9\% variance) contrasting sensory-language activation against executive-motor activation provides a principled axis for situating content types in neural space.
 
 \begin{quotebox}
-\textbf{Update from full semantic-mode replication + cross-model triangulation.} The complete LLaMA-3.2-3B sweep (Section~\ref{sec:semantic}) shows a 4.0$\times$ wider activation spread under semantic encoding and a rank-correlation with the hash-mode ordering that is essentially zero ($r=0.09$, $p=0.78$). Under semantic encoding the top-three most-activating categories are \textbf{Social}, \textbf{Abstract}, and \textbf{Spatial}; \textbf{ThreatSafety} ranks sixth and \textbf{Narrative} ninth. The content-type ANOVA does not reach significance at $N=30$/CT ($F(12,377)=1.549$, $p=0.104$), indicating that a definitive test under semantic encoding requires substantially larger per-category samples. Cross-model triangulation (Section~\ref{sec:crossmodel}) confirms that the Social $>$ Abstract $>$ Spatial ordering is stable across temporal integration windows (Spearman $\rho \geq 0.956$) and cannot be explained by text surface similarity (Mantel $r=0.055$, $p=0.340$). We treat the hash-mode results as a methodological baseline establishing \textit{that} category effects exist; the specific identity of the most-activating categories requires higher-powered semantic-mode replication and independent-encoder validation.
+\textbf{Update from full semantic-mode replication + cross-model triangulation.} The complete LLaMA-3.2-3B sweep (Section~\ref{sec:semantic}) shows a $4.0\times$ wider activation spread under semantic encoding and a rank-correlation with the hash-mode ordering that is essentially zero ($r=0.09$, $p=0.78$). Under semantic encoding the top-three most-activating categories are \textbf{Social}, \textbf{Abstract}, and \textbf{Spatial}; \textbf{ThreatSafety} ranks sixth and \textbf{Narrative} ninth. The per-category ANOVA does not reach significance at $N=30$/CT ($F(12,377)=1.549$, $p=0.104$), indicating that a definitive test requires substantially larger per-category samples. Cross-model triangulation (Section~\ref{sec:crossmodel}) confirms that the Social $>$ Abstract $>$ Spatial ordering is stable across temporal integration windows (Spearman $\rho \geq 0.956$) and cannot be explained by text surface similarity (Mantel $r=0.055$, $p=0.340$). We treat the hash-mode results as a baseline establishing \textit{that} category effects exist; the specific identity of the most-activating categories requires higher-powered semantic replication and independent-encoder validation.
 \end{quotebox}
 
 The broader implication is this: \textbf{the internet is not a neutral delivery mechanism}. Different content formats engage different cortical circuits with different intensities. Understanding this differential engagement --- at the level of predictive neural models rather than self-report --- is a precondition for evidence-based digital content policy, platform design, and public health interventions around media consumption.
@@ -799,6 +846,8 @@ The broader implication is this: \textbf{the internet is not a neutral delivery 
 % ═══════════════════════════════════════════════════════════════════════════
 % REFERENCES
 % ═══════════════════════════════════════════════════════════════════════════
+\FloatBarrier
+\clearpage
 \section*{References}
 \addcontentsline{toc}{section}{References}
 
