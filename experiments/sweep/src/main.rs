@@ -171,7 +171,79 @@ fn write_heatmap_json(heatmap: &HeatmapData, path: &str) {
     fs::write(path, json).unwrap_or_else(|e| panic!("Failed to write heatmap to {path}: {e}"));
 }
 
-fn main() {}
+fn main() {
+    let base_url = "http://localhost:8081";
+    let corpus_path = "experiments/corpus/stimuli.json";
+    let results_dir = "results";
+
+    fs::create_dir_all(results_dir)
+        .unwrap_or_else(|e| panic!("Cannot create results/: {e}"));
+
+    println!("Checking tribe-server at {base_url}...");
+    if !check_health(base_url) {
+        eprintln!("ERROR: tribe-server is not running at {base_url}.");
+        eprintln!("Start it with: cd ../tribe-playground && cargo run --release -p tribe-server");
+        std::process::exit(1);
+    }
+    println!("Server online.");
+
+    let stimuli = load_corpus(corpus_path);
+    println!("Loaded {} stimuli from {corpus_path}", stimuli.len());
+
+    let mut records: Vec<SweepRecord> = Vec::with_capacity(stimuli.len());
+    let mut errors = 0usize;
+
+    for (i, stimulus) in stimuli.iter().enumerate() {
+        match predict_one(base_url, &stimulus.text) {
+            Ok(resp) => {
+                let rec = make_record(stimulus, &resp);
+                println!(
+                    "[{:>3}/{}] {} | global_mean={:.4} lang_rel={:.3} demo={}",
+                    i + 1, stimuli.len(), rec.id,
+                    rec.global_mean, rec.language_rel, rec.demo_mode
+                );
+                records.push(rec);
+            }
+            Err(e) => {
+                eprintln!("[{:>3}/{}] ERROR {}: {}", i + 1, stimuli.len(), stimulus.id, e);
+                errors += 1;
+            }
+        }
+    }
+
+    if records.is_empty() {
+        eprintln!("No successful predictions. Aborting.");
+        std::process::exit(1);
+    }
+
+    println!("\nWriting results ({} records, {} errors)...", records.len(), errors);
+
+    let ranked = rank_results(&records);
+    write_ranked_csv(&ranked, &format!("{results_dir}/sweep_ranked.csv"));
+    println!("  results/sweep_ranked.csv");
+
+    write_raw_json(&records, &format!("{results_dir}/sweep_results.json"));
+    println!("  results/sweep_results.json");
+
+    let heatmap = build_heatmap(&records);
+    write_heatmap_json(&heatmap, &format!("{results_dir}/region_heatmap.json"));
+    println!("  results/region_heatmap.json");
+
+    println!("\n=== TOP 10 BY GLOBAL ACTIVATION ===");
+    println!("{:<5} {:<20} {:<40} {}", "Rank", "ContentType", "ID", "GlobalMean");
+    for (i, r) in ranked.iter().take(10).enumerate() {
+        println!("{:<5} {:<20} {:<40} {:.4}", i + 1, r.content_type, r.id, r.global_mean);
+    }
+
+    let demo_count = records.iter().filter(|r| r.demo_mode).count();
+    if demo_count > 0 {
+        println!(
+            "\n⚠  {}/{} results are in demo mode — re-run after loading real weights for semantically valid results.",
+            demo_count, records.len()
+        );
+        println!("   Run: bash scripts/download_weights.sh");
+    }
+}
 
 #[cfg(test)]
 mod tests {
