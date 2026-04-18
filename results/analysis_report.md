@@ -1,45 +1,45 @@
 # Activation Sweep: Statistical Analysis Report
 
-> **Mode:** Demo (keyword-aware SHA256 mock — re-run with real weights for semantic validity)
+> **Mode:** FmriEncoder: real (facebook/tribev2, 177M params) | Text encoding: demo (hash-based, LLaMA not yet loaded)
 > **Stimuli:** 162 | **Content types:** 13 | **Regions:** 6
 
 ## 1. Descriptive Statistics by Content Type (Global Mean Activation)
 
 | Content Type | N | Mean | SD | SE | 95% CI | Min | Max |
 |---|---|---|---|---|---|---|---|
-| ImageVisual | 12 | +0.00269 | 0.00565 | 0.00163 | [-0.00044, +0.00591] | -0.00426 | +0.01512 |
-| Abstract | 12 | +0.00171 | 0.00429 | 0.00124 | [-0.00074, +0.00422] | -0.00452 | +0.00883 |
-| Novelty | 12 | +0.00132 | 0.00350 | 0.00101 | [-0.00078, +0.00329] | -0.00513 | +0.00868 |
-| ThreatSafety | 14 | +0.00102 | 0.00565 | 0.00151 | [-0.00205, +0.00377] | -0.01062 | +0.00882 |
-| Narrative | 14 | +0.00031 | 0.00490 | 0.00131 | [-0.00221, +0.00274] | -0.00806 | +0.00806 |
-| Reward | 12 | -0.00009 | 0.00476 | 0.00138 | [-0.00305, +0.00248] | -0.01041 | +0.00623 |
-| Factual | 14 | -0.00016 | 0.00458 | 0.00122 | [-0.00245, +0.00213] | -0.00729 | +0.00988 |
-| TextVerbal | 12 | -0.00026 | 0.00670 | 0.00193 | [-0.00408, +0.00358] | -0.01045 | +0.01548 |
-| AudioText | 12 | -0.00046 | 0.00599 | 0.00173 | [-0.00402, +0.00273] | -0.01067 | +0.00936 |
-| Multimodal | 12 | -0.00062 | 0.00505 | 0.00146 | [-0.00353, +0.00217] | -0.00849 | +0.00796 |
-| Social | 12 | -0.00102 | 0.00426 | 0.00123 | [-0.00344, +0.00138] | -0.00646 | +0.00709 |
-| Spatial | 12 | -0.00147 | 0.00580 | 0.00167 | [-0.00506, +0.00173] | -0.01337 | +0.00954 |
-| Emotional | 12 | -0.00176 | 0.00468 | 0.00135 | [-0.00471, +0.00075] | -0.01288 | +0.00469 |
+| TextVerbal | 12 | -0.00204 | 0.00066 | 0.00019 | [-0.00243, -0.00167] | -0.00316 | -0.00112 |
+| Factual | 14 | -0.00204 | 0.00085 | 0.00023 | [-0.00248, -0.00162] | -0.00389 | -0.00080 |
+| AudioText | 12 | -0.00206 | 0.00069 | 0.00020 | [-0.00247, -0.00168] | -0.00314 | -0.00101 |
+| ThreatSafety | 14 | -0.00215 | 0.00079 | 0.00021 | [-0.00256, -0.00178] | -0.00422 | -0.00105 |
+| Novelty | 12 | -0.00218 | 0.00079 | 0.00023 | [-0.00264, -0.00175] | -0.00346 | -0.00089 |
+| Emotional | 12 | -0.00229 | 0.00101 | 0.00029 | [-0.00292, -0.00175] | -0.00470 | -0.00076 |
+| Reward | 12 | -0.00241 | 0.00059 | 0.00017 | [-0.00278, -0.00210] | -0.00365 | -0.00143 |
+| Abstract | 12 | -0.00248 | 0.00107 | 0.00031 | [-0.00314, -0.00192] | -0.00484 | -0.00109 |
+| ImageVisual | 12 | -0.00251 | 0.00094 | 0.00027 | [-0.00308, -0.00199] | -0.00436 | -0.00114 |
+| Narrative | 14 | -0.00254 | 0.00074 | 0.00020 | [-0.00291, -0.00217] | -0.00402 | -0.00129 |
+| Multimodal | 12 | -0.00275 | 0.00049 | 0.00014 | [-0.00304, -0.00247] | -0.00360 | -0.00176 |
+| Spatial | 12 | -0.00290 | 0.00116 | 0.00033 | [-0.00362, -0.00229] | -0.00537 | -0.00152 |
+| Social | 12 | -0.00298 | 0.00091 | 0.00026 | [-0.00352, -0.00246] | -0.00434 | -0.00149 |
 
 ## 2. One-Way ANOVA: Global Mean ~ Content Type
 
 | Statistic | Value |
 |---|---|
-| F (12, 149) | 0.7032 |
-| p-value | 0.746590 |
-| η² (effect size) | 0.0536 |
+| F (12, 149) | 1.6716 |
+| p-value | 0.078476 |
+| η² (effect size) | 0.1186 |
 | Result | ❌ not significant at α=0.05 |
 
 ### 2.1 Per-Region ANOVA Results
 
 | Region | F | p-value | η² | Significant? |
 |---|---|---|---|---|
-| Visual | 0.6692 | 0.778788 | 0.0511 | ❌ |
-| Auditory | 0.8046 | 0.645287 | 0.0609 | ❌ |
-| Language | 0.9721 | 0.478097 | 0.0726 | ❌ |
-| Prefrontal | 0.6324 | 0.812069 | 0.0485 | ❌ |
-| Motor | 1.2039 | 0.285416 | 0.0884 | ❌ |
-| Parietal | 0.7250 | 0.725303 | 0.0552 | ❌ |
+| Visual | 1.8730 | 0.041968 | 0.1311 | ✅ |
+| Auditory | 1.9932 | 0.028481 | 0.1383 | ✅ |
+| Language | 1.8340 | 0.047491 | 0.1287 | ✅ |
+| Prefrontal | 2.0173 | 0.026331 | 0.1398 | ✅ |
+| Motor | 1.8339 | 0.047504 | 0.1287 | ✅ |
+| Parietal | 1.8104 | 0.051161 | 0.1272 | ❌ |
 
 ## 3. Post-Hoc Pairwise Effect Sizes (Cohen's d, Top 10 Pairs)
 
@@ -47,16 +47,16 @@ Cohen's d interpretation: |d| < 0.2 negligible, 0.2–0.5 small, 0.5–0.8 mediu
 
 | Pair | Cohen's d | Magnitude |
 |---|---|---|
-| Emotional vs ImageVisual | -0.8571 | large |
-| Abstract vs Emotional | +0.7732 | medium |
-| Emotional vs Novelty | -0.7432 | medium |
-| ImageVisual vs Social | +0.7420 | medium |
-| ImageVisual vs Spatial | +0.7271 | medium |
-| Abstract vs Social | +0.6403 | medium |
-| Abstract vs Spatial | +0.6248 | medium |
-| ImageVisual vs Multimodal | +0.6184 | medium |
-| Novelty vs Social | +0.5996 | medium |
-| Novelty vs Spatial | +0.5820 | medium |
+| Multimodal vs TextVerbal | -1.2264 | large |
+| Social vs TextVerbal | -1.1910 | large |
+| AudioText vs Multimodal | +1.1500 | large |
+| AudioText vs Social | +1.1432 | large |
+| Factual vs Social | +1.0719 | large |
+| Factual vs Multimodal | +0.9973 | large |
+| Social vs ThreatSafety | -0.9874 | large |
+| Novelty vs Social | +0.9420 | large |
+| Spatial vs TextVerbal | -0.9183 | large |
+| Multimodal vs ThreatSafety | -0.8985 | large |
 
 > Bonferroni-corrected α for 78 pairs: 0.000641
 
@@ -64,77 +64,77 @@ Cohen's d interpretation: |d| < 0.2 negligible, 0.2–0.5 small, 0.5–0.8 mediu
 
 | Content Type | Visual | Auditory | Language | Prefrontal | Motor | Parietal |
 |---|---|---|---|---|---|---|
-| ImageVisual | -0.0027 | -0.0047 | -0.0048 | -0.0005 | +0.0072 | +0.0065 |
-| Abstract | +0.0000 | +0.0013 | +0.0037 | -0.0042 | -0.0038 | +0.0027 |
-| Novelty | +0.0038 | -0.0024 | -0.0000 | -0.0017 | +0.0074 | -0.0071 |
-| ThreatSafety | +0.0019 | +0.0031 | -0.0037 | +0.0020 | -0.0033 | +0.0001 |
-| Narrative | -0.0039 | +0.0086 | +0.0003 | +0.0025 | -0.0064 | -0.0010 |
-| Reward | +0.0042 | +0.0035 | -0.0006 | -0.0047 | -0.0036 | +0.0012 |
-| Factual | +0.0017 | -0.0045 | -0.0010 | +0.0066 | -0.0030 | -0.0005 |
-| TextVerbal | -0.0063 | -0.0029 | +0.0002 | +0.0026 | -0.0004 | +0.0071 |
-| AudioText | +0.0012 | -0.0000 | +0.0022 | +0.0002 | -0.0002 | -0.0038 |
-| Multimodal | -0.0050 | -0.0001 | +0.0000 | +0.0032 | +0.0006 | +0.0017 |
-| Social | -0.0031 | +0.0079 | -0.0027 | -0.0010 | -0.0026 | +0.0025 |
-| Spatial | +0.0012 | -0.0031 | +0.0055 | -0.0005 | -0.0011 | -0.0028 |
-| Emotional | +0.0006 | +0.0042 | -0.0111 | -0.0017 | +0.0087 | +0.0011 |
+| TextVerbal | +0.0222 | +0.0393 | +0.0357 | -0.0380 | -0.0396 | -0.0237 |
+| Factual | +0.0191 | +0.0350 | +0.0322 | -0.0328 | -0.0345 | -0.0227 |
+| AudioText | +0.0204 | +0.0337 | +0.0388 | -0.0358 | -0.0400 | -0.0216 |
+| ThreatSafety | +0.0263 | +0.0392 | +0.0406 | -0.0409 | -0.0419 | -0.0283 |
+| Novelty | +0.0199 | +0.0343 | +0.0361 | -0.0356 | -0.0356 | -0.0233 |
+| Emotional | +0.0135 | +0.0290 | +0.0295 | -0.0266 | -0.0343 | -0.0144 |
+| Reward | +0.0218 | +0.0366 | +0.0398 | -0.0385 | -0.0412 | -0.0234 |
+| Abstract | +0.0403 | +0.0580 | +0.0592 | -0.0623 | -0.0626 | -0.0399 |
+| ImageVisual | +0.0250 | +0.0383 | +0.0444 | -0.0438 | -0.0448 | -0.0244 |
+| Narrative | +0.0290 | +0.0446 | +0.0504 | -0.0513 | -0.0496 | -0.0290 |
+| Multimodal | +0.0224 | +0.0354 | +0.0382 | -0.0389 | -0.0396 | -0.0220 |
+| Spatial | +0.0265 | +0.0415 | +0.0437 | -0.0483 | -0.0449 | -0.0236 |
+| Social | +0.0345 | +0.0485 | +0.0515 | -0.0553 | -0.0535 | -0.0321 |
 
 ## 5. Pearson Correlations: Region Activation vs Global Mean
 
 | Region | r | p-value | Interpretation |
 |---|---|---|---|
-| Visual | +0.1654 | 0.033904 | weak ✅ |
-| Auditory | +0.0475 | 0.547539 | weak ❌ |
-| Language | +0.0010 | 0.989868 | weak ❌ |
-| Prefrontal | -0.1668 | 0.032326 | weak ✅ |
-| Motor | -0.0415 | 0.599268 | weak ❌ |
-| Parietal | -0.0185 | 0.814950 | weak ❌ |
+| Visual | -0.5143 | 0.000000 | moderate ✅ |
+| Auditory | -0.4746 | 0.000000 | moderate ✅ |
+| Language | -0.5250 | 0.000000 | moderate ✅ |
+| Prefrontal | +0.5369 | 0.000000 | moderate ✅ |
+| Motor | +0.5350 | 0.000000 | moderate ✅ |
+| Parietal | +0.4107 | 0.000000 | moderate ✅ |
 
 ## 6. Content-Type Ranking by Region (Highest → Lowest Relative Activation)
 
-**Visual:** Reward > Novelty > ThreatSafety > Factual > AudioText > Spatial > Emotional > Abstract > ImageVisual > Social > Narrative > Multimodal > TextVerbal
-**Auditory:** Narrative > Social > Emotional > Reward > ThreatSafety > Abstract > AudioText > Multimodal > Novelty > TextVerbal > Spatial > Factual > ImageVisual
-**Language:** Spatial > Abstract > AudioText > Narrative > TextVerbal > Multimodal > Novelty > Reward > Factual > Social > ThreatSafety > ImageVisual > Emotional
-**Prefrontal:** Factual > Multimodal > TextVerbal > Narrative > ThreatSafety > AudioText > ImageVisual > Spatial > Social > Emotional > Novelty > Abstract > Reward
-**Motor:** Emotional > Novelty > ImageVisual > Multimodal > AudioText > TextVerbal > Spatial > Social > Factual > ThreatSafety > Reward > Abstract > Narrative
-**Parietal:** TextVerbal > ImageVisual > Abstract > Social > Multimodal > Reward > Emotional > ThreatSafety > Factual > Narrative > Spatial > AudioText > Novelty
+**Visual:** Abstract > Social > Narrative > Spatial > ThreatSafety > ImageVisual > Multimodal > TextVerbal > Reward > AudioText > Novelty > Factual > Emotional
+**Auditory:** Abstract > Social > Narrative > Spatial > TextVerbal > ThreatSafety > ImageVisual > Reward > Multimodal > Factual > Novelty > AudioText > Emotional
+**Language:** Abstract > Social > Narrative > ImageVisual > Spatial > ThreatSafety > Reward > AudioText > Multimodal > Novelty > TextVerbal > Factual > Emotional
+**Prefrontal:** Emotional > Factual > Novelty > AudioText > TextVerbal > Reward > Multimodal > ThreatSafety > ImageVisual > Spatial > Narrative > Social > Abstract
+**Motor:** Emotional > Factual > Novelty > Multimodal > TextVerbal > AudioText > Reward > ThreatSafety > ImageVisual > Spatial > Narrative > Social > Abstract
+**Parietal:** Emotional > AudioText > Multimodal > Factual > Novelty > Reward > Spatial > TextVerbal > ImageVisual > ThreatSafety > Narrative > Social > Abstract
 
 ## 7. PCA of 6-Region Activation Profiles
 
-PC1 explains **34.5%** of variance | PC2 explains **26.5%** | Combined: **61.0%**
+PC1 explains **96.8%** of variance | PC2 explains **1.8%** | Combined: **98.6%**
 
 **PC1 loadings** (which regions drive the first axis):
-  - Visual: +0.0544
-  - Auditory: -0.3342
-  - Language: -0.4705
-  - Prefrontal: -0.0647
-  - Motor: +0.8086
-  - Parietal: +0.0771
+  - Visual: -0.3648
+  - Auditory: -0.3869
+  - Language: -0.4295
+  - Prefrontal: +0.5132
+  - Motor: +0.4203
+  - Parietal: +0.3044
 
 **PC2 loadings:**
-  - Visual: -0.3910
-  - Auditory: +0.5623
-  - Language: -0.5041
-  - Prefrontal: +0.0098
-  - Motor: -0.0834
-  - Parietal: +0.5195
+  - Visual: +0.2115
+  - Auditory: +0.4068
+  - Language: -0.4429
+  - Prefrontal: +0.2757
+  - Motor: +0.2559
+  - Parietal: -0.6724
 
 **Content-type positions in PC1×PC2 space:**
 
 | Content Type | PC1 | PC2 |
 |---|---|---|
-| Abstract | -0.0049 | -0.0009 |
-| AudioText | -0.0016 | -0.0050 |
-| Emotional | +0.0109 | +0.0061 |
-| Factual | -0.0009 | -0.0041 |
-| ImageVisual | +0.0099 | +0.0022 |
-| Multimodal | +0.0000 | +0.0013 |
-| Narrative | -0.0088 | +0.0048 |
-| Novelty | +0.0065 | -0.0086 |
-| Reward | -0.0033 | -0.0000 |
-| Social | -0.0035 | +0.0071 |
-| Spatial | -0.0027 | -0.0077 |
-| TextVerbal | +0.0005 | +0.0030 |
-| ThreatSafety | -0.0022 | +0.0018 |
+| Abstract | -0.0433 | +0.0023 |
+| AudioText | +0.0107 | -0.0019 |
+| Emotional | +0.0284 | -0.0020 |
+| Factual | +0.0170 | +0.0042 |
+| ImageVisual | -0.0021 | -0.0031 |
+| Multimodal | +0.0081 | -0.0010 |
+| Narrative | -0.0159 | -0.0025 |
+| Novelty | +0.0132 | +0.0017 |
+| Reward | +0.0062 | -0.0008 |
+| Social | -0.0245 | -0.0003 |
+| Spatial | -0.0057 | -0.0030 |
+| TextVerbal | +0.0076 | +0.0030 |
+| ThreatSafety | +0.0002 | +0.0034 |
 
 ## 8. Contrastive Pair Analysis
 
@@ -144,37 +144,37 @@ Matched pairs: same content topic, different language structure. Delta = A − B
 
 | Metric | Stimulus A | Stimulus B | Δ (A−B) |
 |---|---|---|---|
-| global_mean | -0.00251 | +0.00465 | -0.00716 |
-| Visual rel | +0.01530 | -0.00656 | +0.02186 |
-| Auditory rel | +0.00898 | -0.01227 | +0.02124 |
-| Language rel | -0.03446 | +0.02228 | -0.05674 |
-| Prefrontal rel | +0.03129 | -0.01955 | +0.05084 |
-| Motor rel | -0.02406 | -0.00202 | -0.02204 |
-| Parietal rel | +0.00340 | +0.01685 | -0.01345 |
+| global_mean | -0.00199 | -0.00422 | +0.00223 |
+| Visual rel | +0.03579 | +0.00965 | +0.02614 |
+| Auditory rel | +0.04295 | +0.01781 | +0.02514 |
+| Language rel | +0.05812 | +0.02668 | +0.03143 |
+| Prefrontal rel | -0.05569 | -0.02394 | -0.03176 |
+| Motor rel | -0.05068 | -0.02512 | -0.02556 |
+| Parietal rel | -0.03782 | -0.00800 | -0.02982 |
 
 ### Narrative: chronological vs bullet-point
 
 | Metric | Stimulus A | Stimulus B | Δ (A−B) |
 |---|---|---|---|
-| global_mean | -0.00627 | +0.00182 | -0.00809 |
-| Visual rel | -0.00434 | -0.00342 | -0.00092 |
-| Auditory rel | +0.00258 | +0.01102 | -0.00844 |
-| Language rel | +0.01597 | -0.00146 | +0.01744 |
-| Prefrontal rel | -0.01657 | +0.00315 | -0.01972 |
-| Motor rel | +0.00700 | +0.00615 | +0.00085 |
-| Parietal rel | -0.00491 | -0.01469 | +0.00978 |
+| global_mean | -0.00199 | -0.00252 | +0.00052 |
+| Visual rel | +0.01346 | +0.01424 | -0.00078 |
+| Auditory rel | +0.03124 | +0.02547 | +0.00577 |
+| Language rel | +0.03296 | +0.02855 | +0.00441 |
+| Prefrontal rel | -0.03378 | -0.02714 | -0.00664 |
+| Motor rel | -0.02996 | -0.02913 | -0.00084 |
+| Parietal rel | -0.01713 | -0.01529 | -0.00185 |
 
 ### Factual: active vs passive voice
 
 | Metric | Stimulus A | Stimulus B | Δ (A−B) |
 |---|---|---|---|
-| global_mean | +0.00495 | +0.00102 | +0.00393 |
-| Visual rel | -0.00178 | -0.00584 | +0.00406 |
-| Auditory rel | -0.00062 | -0.01962 | +0.01899 |
-| Language rel | -0.01759 | +0.00693 | -0.02453 |
-| Prefrontal rel | -0.00327 | +0.00858 | -0.01184 |
-| Motor rel | +0.00576 | +0.00596 | -0.00020 |
-| Parietal rel | +0.02024 | +0.00275 | +0.01749 |
+| global_mean | -0.00095 | -0.00286 | +0.00191 |
+| Visual rel | -0.00304 | +0.03809 | -0.04114 |
+| Auditory rel | +0.01308 | +0.05709 | -0.04401 |
+| Language rel | +0.00969 | +0.05380 | -0.04411 |
+| Prefrontal rel | -0.00291 | -0.06156 | +0.05865 |
+| Motor rel | -0.01208 | -0.05719 | +0.04511 |
+| Parietal rel | -0.00545 | -0.03667 | +0.03122 |
 
 ## 9. Extreme Stimuli
 
@@ -182,21 +182,21 @@ Matched pairs: same content topic, different language structure. Delta = A − B
 
 | Rank | ID | Content Type | Global Mean |
 |---|---|---|---|
-| 1 | m1_512_001 | TextVerbal | +0.01548 |
-| 2 | m2_002 | ImageVisual | +0.01512 |
-| 3 | s4_011 | Factual | +0.00988 |
-| 4 | m2_010 | ImageVisual | +0.00971 |
-| 5 | s5_005 | Spatial | +0.00954 |
+| 1 | s3_010 | Emotional | -0.00076 |
+| 2 | s4_009 | Factual | -0.00080 |
+| 3 | s3_002 | Emotional | -0.00087 |
+| 4 | b4_008 | Novelty | -0.00089 |
+| 5 | s4_cp_active | Factual | -0.00095 |
 
 ### Bottom 5 Lowest Global Activation
 
 | Rank | ID | Content Type | Global Mean |
 |---|---|---|---|
-| 1 | s5_004 | Spatial | -0.01337 |
-| 2 | s3_009 | Emotional | -0.01288 |
-| 3 | m3_009 | AudioText | -0.01067 |
-| 4 | b3_011 | ThreatSafety | -0.01062 |
-| 5 | m1_512_003 | TextVerbal | -0.01045 |
+| 1 | s5_006 | Spatial | -0.00537 |
+| 2 | s2_006 | Abstract | -0.00484 |
+| 3 | s3_008 | Emotional | -0.00470 |
+| 4 | m2_001 | ImageVisual | -0.00436 |
+| 5 | b1_008 | Social | -0.00434 |
 
 ## 10. Within-Type Activation Stability (Coefficient of Variation)
 
@@ -204,36 +204,36 @@ Lower CV = more consistent activation within a content type.
 
 | Content Type | Mean | SD | CV |
 |---|---|---|---|
-| ImageVisual | +0.00269 | 0.00565 | 2.10 |
-| Abstract | +0.00171 | 0.00429 | 2.50 |
-| Novelty | +0.00132 | 0.00350 | 2.66 |
-| Emotional | -0.00176 | 0.00468 | 2.66 |
-| Spatial | -0.00147 | 0.00580 | 3.94 |
-| Social | -0.00102 | 0.00426 | 4.17 |
-| ThreatSafety | +0.00102 | 0.00565 | 5.53 |
-| Multimodal | -0.00062 | 0.00505 | 8.10 |
-| AudioText | -0.00046 | 0.00599 | 13.15 |
-| Narrative | +0.00031 | 0.00490 | 15.74 |
-| TextVerbal | -0.00026 | 0.00670 | 25.61 |
-| Factual | -0.00016 | 0.00458 | 28.15 |
-| Reward | -0.00009 | 0.00476 | 52.75 |
+| Multimodal | -0.00275 | 0.00049 | 0.18 |
+| Reward | -0.00241 | 0.00059 | 0.25 |
+| Narrative | -0.00254 | 0.00074 | 0.29 |
+| Social | -0.00298 | 0.00091 | 0.31 |
+| TextVerbal | -0.00204 | 0.00066 | 0.32 |
+| AudioText | -0.00206 | 0.00069 | 0.34 |
+| Novelty | -0.00218 | 0.00079 | 0.36 |
+| ThreatSafety | -0.00215 | 0.00079 | 0.37 |
+| ImageVisual | -0.00251 | 0.00094 | 0.38 |
+| Spatial | -0.00290 | 0.00116 | 0.40 |
+| Factual | -0.00204 | 0.00085 | 0.42 |
+| Abstract | -0.00248 | 0.00107 | 0.43 |
+| Emotional | -0.00229 | 0.00101 | 0.44 |
 
 ## 11. Theory-Relative Interpretation (Demo Mode)
 
 ⚠️ All results are from keyword-aware SHA256 mock activations. The following interpretations
 are structural/methodological — semantic validity requires real FmriEncoder weights.
 
-**Global mean ranking (top 3):** ImageVisual, Abstract, Novelty
+**Global mean ranking (top 3):** TextVerbal, Factual, AudioText
   - GWT/FEP predict: ThreatSafety, Novelty in top 3
-  - Observed: ✅ confirmed (demo mode)
+  - Observed: ❌ not confirmed (demo mode)
 
-**Prefrontal activation ranking (top 3):** Factual, Multimodal, TextVerbal
+**Prefrontal activation ranking (top 3):** Emotional, Factual, Novelty
   - GWT predicts: ThreatSafety highest ignition (broadest activation)
   - Observed: ❌ not confirmed (demo mode)
 
-**Language region ranking (top 3):** Spatial, Abstract, AudioText
+**Language region ranking (top 3):** Abstract, Social, Narrative
   - IIT/DCT predict: Narrative, Social highest language integration
-  - Observed: ❌ not confirmed (demo mode)
+  - Observed: ✅ confirmed (demo mode)
 
 ---
 

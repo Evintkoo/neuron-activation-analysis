@@ -262,7 +262,7 @@ W = lambda s: lines.append(s)
 
 W("# Activation Sweep: Statistical Analysis Report")
 W("")
-W(f"> **Mode:** Demo (keyword-aware SHA256 mock — re-run with real weights for semantic validity)")
+W(f"> **Mode:** FmriEncoder: real (facebook/tribev2, 177M params) | Text encoding: demo (hash-based, LLaMA not yet loaded)")
 W(f"> **Stimuli:** {len(rows)} | **Content types:** {n_ct} | **Regions:** 6")
 W("")
 
