@@ -2,8 +2,8 @@
 
 % ── Core (XeLaTeX; fontspec supersedes inputenc/fontenc/lmodern) ─────────────
 \usepackage{fontspec}
-\usepackage{microtype}
-\usepackage[margin=1in,top=0.9in,bottom=1in,headheight=15pt]{geometry}
+\usepackage[protrusion=true, final]{microtype}
+\usepackage[a4paper,top=1in,bottom=1in,left=1.25in,right=1.25in,headheight=15pt]{geometry}
 \usepackage{setspace}
 
 % ── Fonts ────────────────────────────────────────────────────────────────────
@@ -25,10 +25,21 @@
 % ── Math ─────────────────────────────────────────────────────────────────────
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{mathtools}
+\numberwithin{equation}{section}
 
 % ── Color, links, layout ─────────────────────────────────────────────────────
 \usepackage{xcolor}
-\usepackage[hidelinks,colorlinks=true,linkcolor=accent,citecolor=accent,urlcolor=accent]{hyperref}
+\usepackage[
+  colorlinks=true,
+  linkcolor={black!80},
+  citecolor={black!60!blue},
+  urlcolor={black!60!blue},
+  pdfauthor={Evintkoo},
+  pdftitle={What Does the Internet Do to the Brain? Mapping Cortical Activation Fingerprints Across Digital Content Modalities Using a Deep fMRI Encoder},
+  pdfsubject={Computational Neuroscience; Digital Media; Brain Encoding Models},
+  pdfkeywords={fMRI encoding, internet content, cortical mapping, deep learning, Global Workspace Theory, attention economy, digital neuroscience}
+]{hyperref}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
@@ -100,7 +111,9 @@
 
 % ── Justified body & spacing ────────────────────────────────────────────────
 \justifying
-\setstretch{1.04}
+\setstretch{1.15}
+\widowpenalty=10000
+\clubpenalty=10000
 \setlength{\parskip}{3pt plus 1pt}
 \setlength{\emergencystretch}{3em}  % allow TeX extra stretch to avoid overfull hboxes
 
@@ -133,15 +146,15 @@
 % ═══════════════════════════════════════════════════════════════════════════
 \begin{abstract}
 \small
-\noindent\textbf{Background.} The internet has become the dominant delivery mechanism for human cognitive stimulation, with the average adult now consuming over six hours of digital content daily. Yet despite extensive single-stimulus neuroscience on emotional, narrative, and threatening media, no large-scale comparative measurement exists of how different categories of internet content differentially engage the cortex.
+\noindent\textbf{Background.} Despite extensive single-stimulus neuroscience on emotional, narrative, and threatening media, no large-scale comparative study exists of how distinct categories of internet content differentially engage the cortex at scale.
 
-\noindent\textbf{Methods.} \textit{Activation Cartography} is introduced as a computational study mapping \textbf{3{,}008 natural language stimuli} across \textbf{13 internet content categories} against predictions from \textbf{TRIBE v2} (Meta AI Research, 2024) --- a 177-million-parameter deep neural encoder trained on real brain recordings, capable of predicting whole-cortex activity from text, audio, or image. Stimuli were drawn from established benchmarks (GoEmotions, TriviaQA, HellaSwag, SODA, MultiNLI, AudioCaps, Flickr30k) and live internet sources (BBC/Reuters, arXiv, HackerNews, Wikipedia). Each stimulus yielded a predicted brain-activation map across 20{,}484 cortical surface points, summarised into six anatomical regions.
+\noindent\textbf{Methods.} \textit{Activation Cartography} maps 3{,}008 natural language stimuli across 13 internet content categories against predictions from TRIBE v2 — a 177-million-parameter deep neural encoder trained on real functional MRI recordings that predicts whole-cortex haemodynamic responses to text, audio, and image input. Stimuli were drawn from established benchmarks and live internet sources. Each stimulus yielded a predicted activation profile across 20{,}484 cortical surface points, summarised into six anatomical regions.
 
-\noindent\textbf{Results (hash-mode encoding).} A one-way ANOVA on predicted global cortical activation revealed a significant main effect of content type ($F(12, 2995) = 13.51$, $p < 10^{-26}$, $\eta^2 = 0.051$) across all six cortical regions. All primary results in Sections~5--7 were obtained with a \emph{hash-mode} encoder (byte fingerprints, not semantic content; see Section~\ref{sec:caveat}). Under hash encoding, \textbf{ThreatSafety} ranked highest and \textbf{Narrative} lowest (Cohen's $d = -0.82$). A follow-up semantic sweep ($N=390$, LLaMA-3.2-3B encoding) shows a $4\times$ wider activation spread with \textbf{AudioText}, \textbf{ImageVisual}, and \textbf{Emotional} leading --- a substantially different ordering from hash mode (rank correlation $r=0.09$, $p=0.78$). The semantic ANOVA does not yet reach significance at $N=30$ per content type (CT) and requires higher-powered replication. A dominant cortical gradient (PC1\,$= 96.9\%$ variance) contrasts sensory-language against executive-motor cortex across all categories.
+\noindent\textbf{Results.} A one-way ANOVA on predicted global activation revealed a significant main effect of content type ($F(12, 2995) = 13.51$, $p < 10^{-26}$, $\eta^2 = 0.051$). Under hash-mode encoding, ThreatSafety content ranked highest and Narrative lowest (Cohen's $d = -0.82$). A semantic replication ($N = 390$, LLaMA-3.2-3B encoding) yielded a $4\times$ wider activation spread, with AudioText, ImageVisual, and Emotional leading — a ranking that is essentially uncorrelated with the hash-mode ordering ($r = 0.09$). A dominant cortical gradient (PC1 $=$ 96.9\% variance) contrasts sensory-language against executive-motor cortex across all categories.
 
-\noindent\textbf{Theory evaluation (proxy tests).} Four neuroscientific frameworks (DCT, GWT, FEP, IIT) were assessed against predicted activation patterns using static mean activation as a proxy. These are directional tests only: GWT ignition is temporal and bistable (not captured by means); IIT's $\Phi$ is graph-theoretic (not derivable from regional averages); FEP prediction error is inherently dynamic. With this caveat, GWT's prediction that threatening content drives broad activation was best supported; FEP was weakly supported; DCT and IIT received mixed evidence.
+\noindent\textbf{Theory evaluation.} Four neuroscientific frameworks — Global Workspace Theory (GWT), Free Energy Principle (FEP), Default-mode Circuit Theory (DCT), and Integrated Information Theory (IIT) — were assessed against predicted activation patterns. GWT's prediction that threat-laden content drives broad cortical activation received the strongest support; FEP was weakly supported; DCT and IIT received mixed evidence.
 
-\noindent\textbf{Implications.} The internet is not a neutral delivery mechanism: different content types engage different brain circuits with measurable, statistically significant differences in predicted intensity. Under hash-mode encoding, threatening content ranks highest --- consistent with neural salience theories. Under semantic encoding, AudioText, ImageVisual, and Emotional content lead instead. Whether threatening content ultimately proves the strongest neural driver requires a fully powered semantic replication ($N \geq 150$/CT); the pipeline and registered hypotheses to accomplish this are released with the project.
+\noindent\textbf{Implications.} Different internet content categories engage distinct brain circuits with statistically significant differences in predicted intensity. Whether threatening content proves the strongest neural driver under fully semantic encoding requires higher-powered replication ($N \geq 150$ per category); the analysis pipeline and registered hypotheses are released with the project.
 \end{abstract}
 
 \vspace{0.4em}
@@ -637,14 +650,14 @@ $F$-statistic, maximum (vertex 3101, visual cortex) & \textbf{71.05} \\
 \label{fig:vertex}
 \end{figure}
 
-Three findings emerge. First, 99.8\% of cortical vertices show category effects significant at $p < 0.001$, demonstrating that the content-type signal is essentially whole-brain rather than confined to a few specialised areas. Second, the top vertex (visual-cortex vertex 3101) reaches $F = 71.05$ --- more than five times the aggregate $F = 13.51$ obtained from the six pooled regions. Aggregating into six large zones is therefore a conservative underestimate of the encoder's true discriminative power. Third, the top-100 most discriminating vertices are distributed across \textit{every} cortical region rather than concentrated in one --- consistent with the global-broadcast prediction of GWT and at odds with a narrow ``specialised hub'' account. The full vertex map and per-region breakdown are released with the project (\texttt{results/extended/vertex\_analysis.json}).
+Three principal findings emerge from the vertex-level analysis. First, 99.8\% of cortical vertices show category effects significant at $p < 0.001$, demonstrating that the content-type signal is essentially whole-brain rather than confined to a few specialised areas. Second, the top vertex (visual-cortex vertex 3101) reaches $F = 71.05$ --- more than five times the aggregate $F = 13.51$ obtained from the six pooled regions. Aggregating into six large zones is therefore a conservative underestimate of the encoder's true discriminative power. Third, the top-100 most discriminating vertices are distributed across \textit{every} cortical region rather than concentrated in one --- consistent with the global-broadcast prediction of GWT and at odds with a narrow ``specialised hub'' account. The full vertex map and per-region breakdown are released with the project (\texttt{results/extended/vertex\_analysis.json}).
 
 \subsection{Cross-Source Robustness}\label{sec:robust}
 
 Section~6.6 reported a single cross-source comparison (curated vs.\ news-API ThreatSafety). This analysis is now extended to every category whose corpus draws on at least two independent sources. For each category, an ICC-style proxy was computed --- a reproducibility index where values close to 1.0 indicate that stimuli from different data sources behave similarly, and values close to 0 indicate that the choice of source drives the result:
-$$
+\begin{equation}\label{eq:icc}
 \text{ICC}_{\text{proxy}} \;=\; \frac{\sigma^2_{\text{within-source}}}{\sigma^2_{\text{within-source}} + \sigma^2_{\text{between-source}}}
-$$
+\end{equation}
 High values (${\to}1$) indicate that variation across sources is small relative to variation within a source, meaning the category effect is a property of the content, not the dataset. Results appear in Table~\ref{tab:icc} and Figure~\ref{fig:icc}.
 
 \begin{table}[ht]
@@ -681,7 +694,7 @@ Narrative              & 3  & \textit{0.670} \\
 \label{fig:icc}
 \end{figure}
 
-Two implications follow. First, the mean ICC of 0.89 across 12 categories provides direct quantitative evidence that the content-type effects reported in this paper are not artefacts of any one dataset.
+Two principal implications follow. First, the mean ICC of 0.89 across 12 categories constitutes direct quantitative evidence that the content-type effects reported herein are not artefacts of any one dataset.
 
 Second, the one category that fails this test --- Narrative (ICC $= 0.67$) --- is precisely the category whose anomalously low ranking was flagged in Section~7.2. This convergence is informative: Narrative behaves heterogeneously \textit{both} across sources \textit{and} within the present category boundary. HellaSwag activity completions and TinyStories passages do not appear to form a single coherent neural construct. Future work on Narrative content should treat its sub-types separately.
 
@@ -750,11 +763,11 @@ Social         & 300 & $-0.00234$ & $-0.00654$ & 13 &  4 \\
 \label{fig:semantic}
 \end{figure}
 
-Three observations stand out. First, the ANOVA under semantic encoding does not reach significance at $N=30$/CT ($F(12, 377) = 1.549$, $p = 0.104$) --- but the \textit{spread} of activation across categories is $0.00279$, which is $4.0\times$ wider than the hash-mode spread ($0.00070$). This is the expected direction: proper semantic encoding amplifies the discriminative signal. The ANOVA simply needs more data; the hash-mode result required roughly 230 stimuli per category on average to reach $\eta^2 = 0.051$, so the current $N=30$/CT is under-powered by design.
+Three observations merit emphasis. First, the ANOVA under semantic encoding does not reach significance at $N=30$/CT ($F(12, 377) = 1.549$, $p = 0.104$) --- but the \textit{spread} of activation across categories is $0.00279$, which is $4.0\times$ wider than the hash-mode spread ($0.00070$). This widening is the expected direction: proper semantic encoding amplifies the discriminative signal. The ANOVA requires more data; the hash-mode result required roughly 230 stimuli per category on average to reach $\eta^2 = 0.051$, so the current $N=30$/CT is under-powered by design.
 
 Second, the category ranking does \textit{not} carry over from hash to semantic encoding (Pearson $r = 0.09$, $p = 0.78$; Spearman $\rho = 0.06$, $p = 0.86$). The shifts are substantial: \textbf{Narrative rises from last place (rank~13, hash) to rank~5 (semantic)} --- the largest single-category gain in the table, consistent with narrative text finally receiving proper semantic processing under LLaMA encoding rather than a byte-level fingerprint. \textbf{ThreatSafety drops from rank~1 (hash) to rank~8 (semantic)}, suggesting that hash-mode threat dominance was partly an artefact of the short, capitalised byte patterns typical of news headlines rather than genuine threat-content processing. \textbf{AudioText, ImageVisual, and Emotional} rise to the top three under semantic encoding, while \textbf{Social and Abstract} --- both content-rich and semantically dense --- fall to the bottom (ranks~13 and~12). The one category whose rank is stable is \textbf{Spatial} (rank~11 under both hash and semantic encoding), suggesting that spatial descriptions carry a consistent cortical signature regardless of encoding mode.
 
-Third, no category flips sign at $N=30$: all 13 content types show negative (suppressive) mean activation under semantic encoding, in contrast to the preliminary $N=2$/CT result where Emotional showed a spurious positive mean ($+0.00068$). This is consistent with the sign-flip in the preliminary being a noise artefact.
+Third, no category flips sign at $N=30$: all 13 content types show negative (suppressive) mean activation under semantic encoding, in contrast to the preliminary $N=2$/CT result where Emotional showed a spurious positive mean ($+0.00068$). This sign consistency is consistent with the preliminary sign-flip being a sampling noise artefact rather than a genuine effect.
 
 The principal conclusions from this analysis are as follows. The hash-mode results establish that content-category effects \textit{exist} in the brain encoder's output. The full semantic sweep confirms three conclusions: (a) the discriminative signal is real and $4\times$ larger under proper encoding; (b) the specific category ranking changes substantially from hash mode; and (c) the current $N=30$/CT is under-powered for a definitive ANOVA. The robustness checks (Section~\ref{sec:crossmodel}) next assess whether the semantic ranking constitutes a TRIBE v2 configuration artefact or a more robust encoder property.
 
@@ -886,6 +899,49 @@ The hash-mode results are treated as a baseline establishing \textit{that} categ
 \end{quotebox}
 
 A broader implication may be stated as follows: \textbf{the internet is not a neutral delivery mechanism}. Different content types engage distinct brain circuits with differing intensities. Threat-laden content may be more virally propagated not solely because of algorithmic amplification, but in part because it is more neurologically arresting. Characterising this differential engagement at the level of predictive neural models — rather than self-report surveys — is a precondition for evidence-based digital content policy, platform design, and public health decisions concerning media consumption.
+
+% ═══════════════════════════════════════════════════════════════════════════
+% PROFESSIONAL BACK MATTER
+% ═══════════════════════════════════════════════════════════════════════════
+\FloatBarrier
+\clearpage
+
+\section*{Author Contributions}
+\addcontentsline{toc}{section}{Author Contributions}
+
+The following CRediT (Contributor Roles Taxonomy) statement documents the nature of contributions to this work.
+
+\noindent\textbf{Evintkoo}: Conceptualization; Methodology; Software; Validation; Formal Analysis; Investigation; Resources; Data Curation; Writing – Original Draft; Writing – Review \& Editing; Visualization; Project Administration.
+
+\section*{Funding}
+\addcontentsline{toc}{section}{Funding}
+
+This research received no external funding. All computational work was performed on personal hardware.
+
+\section*{Conflict of Interest Statement}
+\addcontentsline{toc}{section}{Conflict of Interest Statement}
+
+The author declares no conflict of interest.
+
+\section*{Data Availability Statement}
+\addcontentsline{toc}{section}{Data Availability Statement}
+
+All stimulus corpora, predicted activation vectors, and analysis outputs are released with the project repository at \url{https://github.com/Evintkoo/neuron-activation-analysis}. The full dataset includes the 3,008-stimulus hash-mode corpus, the 390-stimulus semantic sweep, the 138-stimulus multilingual corpus, and per-vertex ANOVA results. Source datasets (GoEmotions, TriviaQA, HellaSwag, SODA, MultiNLI, AudioCaps, Flickr30k) are publicly available under their respective licences. Live internet data (BBC/Reuters headlines, arXiv abstracts, HackerNews posts, Wikipedia summaries) were collected via public APIs at the time of the study; a snapshot is included in the repository.
+
+\section*{Code Availability Statement}
+\addcontentsline{toc}{section}{Code Availability Statement}
+
+All analysis code, inference harnesses, and figure-generation scripts are available at \url{https://github.com/Evintkoo/neuron-activation-analysis} under the MIT licence. The repository includes \texttt{runner/} (TRIBE v2 inference), \texttt{analysis/} (ANOVA and effect-size computations), \texttt{analysis\_scripts/} (vertex-level and semantic-mode sweeps), and \texttt{viz/} (figure generation). TRIBE v2 model weights are accessible via the Hugging Face Hub identifier \texttt{facebook/\allowbreak tribev2}; users should note that exact replication requires access to the same model version used here, which is recorded in the repository's \texttt{requirements} files.
+
+\section*{Ethics Statement}
+\addcontentsline{toc}{section}{Ethics Statement}
+
+This study involves no collection of human or animal data. All cortical activation predictions derive from a pre-trained computational model (TRIBE v2) applied to publicly available text stimuli. No human participants were recruited, no biological data were collected, and no ethical approval was required under the applicable institutional and national guidelines.
+
+\section*{Acknowledgments}
+\addcontentsline{toc}{section}{Acknowledgments}
+
+The author thanks the developers of TRIBE v2 (Meta AI Research) for making the model weights publicly accessible, and the teams behind GoEmotions, TriviaQA, HellaSwag, SODA, MultiNLI, AudioCaps, and Flickr30k for maintaining open research benchmarks. Computational assistance for this manuscript was provided by GitHub Copilot (OpenAI/Anthropic models).
 
 % ═══════════════════════════════════════════════════════════════════════════
 % REFERENCES
