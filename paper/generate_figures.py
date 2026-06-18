@@ -426,7 +426,7 @@ im = ax.imshow(scores, cmap=cmap_theory, vmin=0, vmax=1, aspect="auto")
 for i in range(len(theories)):
     for j in range(len(predictions)):
         val = scores[i,j]
-        label = "✅ Yes" if val == 1.0 else "🔶 Partial" if val == 0.5 else "❌ No"
+        label = "[+] Yes" if val == 1.0 else "[~] Partial" if val == 0.5 else "[-] No"
         color = "white" if val < 0.3 else "black"
         ax.text(j, i, label, ha="center", va="center", fontsize=8.5, color=color)
 

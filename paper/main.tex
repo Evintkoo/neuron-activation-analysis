@@ -190,6 +190,7 @@ This question has recently become tractable. The current generation of deep cort
 \item Proxy-level tests of four major neuroscientific frameworks (GWT, FEP, DCT, IIT) against static mean predicted activation patterns, with a structured prediction-by-prediction scorecard; these constitute directional tests rather than direct operationalisations of the theoretical constructs (see Section~\ref{sec:theory-eval}).
 \item A reusable open-source pipeline --- comprising the corpus, sweep harness, statistical analysis scripts, and figure generation code --- together with registered hypotheses for full-semantic replication, released with the project repository.
 \item Identification of a dominant cortical gradient (PC1\,$= 96.9\%$\,variance) contrasting sen\-sory-language activation against executive-motor activation, providing a principled organisational axis for future content-type studies.
+\item Extended multivariate analyses (classification, clustering, mutual information, similarity decomposition, MDS) establishing that content-type activation profiles are discriminable above chance, exhibit a structured hierarchical organisation, and carry distinct information across cortical regions.
 \end{enumerate}
 
 \section{Related Work}
@@ -558,6 +559,38 @@ The four theoretical frameworks are evaluated against the observed activation pa
 \subsection{Integrated Information Theory (IIT)}
 \textbf{Prediction:} Semantically rich, causally structured content (Narrative, Social) should produce the highest integration. \textbf{Observed:} Language region ranking puts Narrative 3rd (\checkmark); Social ranks 8th (\texttimes); Narrative shows the highest within-type stability (CV $= 0.30$) (\checkmark). \textbf{Verdict:} Mixed.
 
+\subsection{Quantitative Theory Comparison}
+
+Extended Figure~8 provides a quantitative update to the scorecard using numerical scores (1.0 = confirmed, 0.5 = partial, 0.0 = not confirmed) across six predictions. GWT emerges as the best-supported framework (aggregate score: 0.58/1.0), driven by ThreatSafety's consistent top ranking. IIT and DCT tie at 0.33, while FEP scores 0.25. These quantitative comparisons should be interpreted with extreme caution given the hash-encoding limitation; they represent a formalised baseline against which semantic-replication results can be compared.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.78\textwidth]{figures/fig_ext8_theory_quantified.png}
+\caption{Quantitative theory evaluation scorecard. Green = confirmed (1.0); Yellow = partial (0.5); Red = not confirmed (0.0). GWT receives the highest aggregate support (0.58), driven by ThreatSafety's consistent top ranking.}
+\label{fig:theory-quant}
+\end{figure}
+
+\subsection{Summary of Theory Findings}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Summary of theory evaluation results.}
+\label{tab:theory-summary}
+\begin{tabular}{l c c}
+\toprule
+\textbf{Theory} & \textbf{Strongest evidence} & \textbf{Quant. score} \\
+\midrule
+GWT & ThreatSafety \#1 globally and prefrontally & 0.58 \\
+FEP & ThreatSafety as prediction-error driven & 0.25 \\
+DCT & Modality differentiation in PC2 & 0.33 \\
+IIT & Narrative shows highest within-type stability & 0.33 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The principal procedural implication of the theory evaluation is methodological: the four theories make diverging directional predictions that are amenable to empirical comparison even under the hash-encoding constraint, and the pre-registered scorecard framework (Figure~\ref{fig:scorecard}) provides a reusable template for the semantic replication, at which point the predictions can be tested definitively. The provisional nature of the evaluation precludes any strong theoretical conclusion.
+
 % ═══════════════════════════════════════════════════════════════════════════
 % DISCUSSION
 % ═══════════════════════════════════════════════════════════════════════════
@@ -811,9 +844,25 @@ Taken together, the two checks support the conclusion that the semantic-mode ran
 
 What remains open is whether this ordering is an artefact of the TRIBE v2 model family specifically (which would be resolved by replicating with BrainBERT or the Huth et al.\ semantic atlas) or a genuine property of the brain. This finding is therefore treated as provisional, with the caveat noted explicitly.
 
+\subsection{Multivariate Discrimination Analyses}\label{sec:multivariate}
+
+To complement the univariate ANOVAs reported above, five multivariate analyses assess whether content-category activation profiles carry discriminative structure beyond mean differences.
+
+\paragraph{Content-type classification.} A Random Forest classifier (200 trees) was trained on the 6-region relative activation profiles to predict content category from activation pattern alone (Extended Figure~4). Five-fold stratified cross-validation yielded a mean accuracy of \textbf{13.6\%} (chance = 7.7\%, one-sided binomial $p < 0.0001$), confirming that activation profiles carry above-chance information about content type --- even under hash encoding. The Language region provided the highest feature importance (mean decrease in Gini = 0.21). The confusion matrix reveals non-random error structure: categories sharing similar linguistic structure (TextVerbal and AudioText; Factual and Abstract) are most frequently confused, while ThreatSafety and Narrative are the most reliably discriminated (both $F_1 > 0.20$). This finding establishes an upper bound on discriminability under hash encoding that can be compared against the semantic replication.
+
+\paragraph{Mutual information.} Normalised mutual information $I(\text{Region}; \text{ContentType}) / H(\text{ContentType})$ quantifies each region's predictive power independently of classifier choice (Extended Figure~5). The Language region carries the highest mutual information (NMI = 0.034), followed by Prefrontal (0.030) and Auditory (0.029). No single region dominates, confirming that content-type information is distributed across the cortical surface.
+
+\paragraph{Hierarchical clustering.} Ward-linkage clustering on the 6-region mean activation profiles (Extended Figure~2) reveals three superordinate clusters: (1) \textbf{ThreatSafety / Novelty / AudioText} --- high-activation, sensory-dominant content; (2) \textbf{Narrative / Multimodal / Spatial} --- low-activation, structured content; (3) all remaining categories forming a central continuum. This tripartite structure mirrors the PC1 gradient (Section~\ref{sec:pca}) and provides an alternative representation of the same underlying sensory-executive axis.
+
+\paragraph{Multidimensional scaling.} MDS on the full $13 \times 13$ absolute Cohen's $d$ matrix positions ThreatSafety and Narrative at opposite poles of the first dimension (Extended Figure~6), confirming these as the most neurally distinct categories. Social and Reward content cluster near the centre, sharing intermediate activation profiles. The MDS stress value of 0.12 indicates a good fit.
+
+\paragraph{Within- vs. between-category similarity.} A split-half analysis measured the normalised absolute difference in mean activation within each category vs. across different categories (Extended Figure~7). Within-category differences are significantly smaller than between-category differences (Mann-Whitney $U = 295$, $p < 0.0001$), confirming that content categories produce coherent and distinct activation signatures rather than overlapping noise.
+
+\paragraph{Statistical power.} Power analysis (Extended Figure~13) indicates that per-category sample sizes (88--300) provide $> 80\%$ power to detect effects of $d \geq 0.45$ at Bonferroni-corrected $\alpha = 0.000641$ (two-sample $t$-test). With the observed largest effect (Narrative vs.\ ThreatSafety, $d = 0.82$), study power exceeds 99.9\%.
+
 \subsection{Summary of Extension Findings}
 
-The six extensions paint a coherent picture.
+The nine analyses conducted across the core and extended results paint a coherent picture.
 
 (i) \textbf{Vertex-level analysis} (Section~\ref{sec:vertex}): the discriminative effect is whole-brain, running five times stronger at vertex resolution than the six-region aggregate.
 
@@ -827,7 +876,13 @@ The six extensions paint a coherent picture.
 
 (vi) \textbf{TRIBE v2 robustness checks} (Section~\ref{sec:crossmodel}): the semantic-mode ranking is stable across temporal integration windows ($\rho \geq 0.956$) and is not explained by surface text similarity (Mantel $r = 0.055$, $p = 0.340$). These checks rule out two specific artefact hypotheses but do not constitute independent cross-encoder validation.
 
-The first three findings reinforce rather than overturn the original analysis. Findings (v) and (vi) together support a more nuanced conclusion: content-category effects are real and larger under semantic encoding; the specific ranking shifts from hash mode but is internally consistent across encoder configurations; and the ranking captures something beyond surface text similarity. The outstanding question --- whether the semantic-mode ordering is a TRIBE v2 property or a genuine brain property --- requires replication with an independent cortical encoder, which is registered as the primary task of the next iteration. The Conclusion (Section~10) has been updated accordingly.
+(vii) \textbf{Content-type classification} (Section~\ref{sec:multivariate}): Random Forest achieves 13.6\% accuracy (chance = 7.7\%), confirming above-chance discriminability. ThreatSafety and Narrative are most reliably discriminated; Factual and Abstract are most confusable.
+
+(viii) \textbf{Hierarchical clustering \& MDS} (Section~\ref{sec:multivariate}): content types organise into three superordinate clusters (sensory-dominant, central continuum, structured low-activation). ThreatSafety and Narrative sit at opposite poles of the neural similarity space.
+
+(ix) \textbf{Within-category coherence} (Section~\ref{sec:multivariate}): activation signatures are significantly more similar within than between categories (Mann-Whitney $U = 295$, $p < 0.0001$).
+
+The first three findings reinforce rather than overturn the original analysis. Findings (v) and (vi) together support a more nuanced conclusion: content-category effects are real and larger under semantic encoding; the specific ranking shifts from hash mode but is internally consistent across encoder configurations; and the ranking captures something beyond surface text similarity. Findings (vii)--(ix) demonstrate that multivariate activation structure --- discriminability, hierarchical organisation, and within-category coherence --- provides richer characterisation beyond univariate mean comparisons. The outstanding question --- whether the semantic-mode ordering is a TRIBE v2 property or a genuine brain property --- requires replication with an independent cortical encoder, which is registered as the primary task of the next iteration. The Conclusion (Section~10) has been updated accordingly.
 
 \FloatBarrier
 \clearpage
@@ -886,7 +941,7 @@ In addition, two new robustness analyses introduced in the present revision --- 
 
 The present study reports the first large-scale computational comparison of predicted cortical activation across 13 categories of internet content, employing the TRIBE v2 deep fMRI encoder and a corpus of 3{,}008 stimuli drawn from validated research datasets and live internet sources. A statistically robust effect of content category on predicted whole-brain activation was observed ($F(12, 2995) = 13.51$, $p < 0.0001$, $\eta^2 = 0.051$), with all six cortical regions exhibiting independent significant effects.
 
-Under \emph{hash-mode} encoding, \textbf{ThreatSafety content} consistently produced the highest predicted cortical activation and \textbf{Narrative content} the lowest. \textbf{Multimodal} and \textbf{AudioText} content exhibited the highest relative language-region activation, while \textbf{Emotional} content showed the highest relative prefrontal engagement. A dominant cortical gradient (PC1, 96.9\% variance) contrasting sensory-language activation against executive-motor activation provides a principled axis along which content types may be situated in neural space.
+Under \emph{hash-mode} encoding, \textbf{ThreatSafety content} consistently produced the highest predicted cortical activation and \textbf{Narrative content} the lowest. \textbf{Multimodal} and \textbf{AudioText} content exhibited the highest relative language-region activation, while \textbf{Emotional} content showed the highest relative prefrontal engagement. A dominant cortical gradient (PC1, 96.9\% variance) contrasting sensory-language activation against executive-motor activation provides a principled axis along which content types may be situated in neural space. Multivariate analyses further revealed that activation profiles carry above-chance information about content type (classification accuracy 13.6\% vs 7.7\% chance), that categories form a structured three-cluster hierarchy, and that within-category similarity significantly exceeds between-category similarity (Mann-Whitney $p < 0.0001$), confirming that content categories produce coherent and distinct neural signatures.
 
 \begin{quotebox}
 \textbf{Update from the full semantic-mode replication and robustness checks.}
