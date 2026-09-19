@@ -1,5 +1,5 @@
 {
-  "status": "done",
+  "status": "testing",
   "nodes": {
     "13-content-categories": {
       "status": "done"
@@ -11,7 +11,7 @@
       "status": "done"
     },
     "semantic-mode-replication": {
-      "status": "done"
+      "status": "testing"
     },
     "whole-cortex-prediction": {
       "status": "done"
