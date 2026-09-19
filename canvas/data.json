@@ -1,47 +1,77 @@
 {
   "status": "testing",
+  "title": "Activation Cartography",
+  "description": "Maps predicted cortical activation for <inode id=\"3008-stimuli\">3,008 text stimuli</inode> across 13 internet content categories using TRIBE v2, finding a <inode id=\"one-way-anova\">statistically significant category effect</inode> best explained by <inode id=\"global-workspace-theory\">Global Workspace Theory</inode>.",
   "nodes": {
     "13-content-categories": {
-      "status": "done"
+      "status": "done",
+      "title": "13 Content Categories",
+      "description": "Stimuli were sorted into categories such as ThreatSafety, News, Social, Scientific, Narrative, Emotional, AudioText, ImageVisual, Educational, Persuasive, Humour, Instructional, and Commerce."
     },
     "3008-stimuli": {
-      "status": "done"
+      "status": "done",
+      "title": "3,008 Stimuli",
+      "description": "Short 1-3 sentence natural language passages drawn from established NLP benchmarks and live internet sources, distributed across the 13 categories."
     },
     "hash-mode-encoding": {
-      "status": "done"
+      "status": "done",
+      "title": "Hash-mode Encoding",
+      "description": "Fast, token-level encoding used as the primary analysis, under which ThreatSafety content ranked highest and Narrative lowest (Cohen's d = -0.82)."
     },
     "semantic-mode-replication": {
-      "status": "testing"
+      "status": "testing",
+      "title": "Semantic-mode Replication",
+      "description": "A secondary encoding using LLaMA-3.2-3B embeddings on an N = 390 sample, producing a 4x wider activation spread led by AudioText, ImageVisual, and Emotional content."
     },
     "whole-cortex-prediction": {
-      "status": "done"
+      "status": "done",
+      "title": "Whole-cortex Prediction",
+      "description": "Each stimulus yields a predicted haemodynamic response across 20,484 cortical surface points, summarised into six anatomical regions for comparison."
     },
     "one-way-anova": {
-      "status": "done"
+      "status": "done",
+      "title": "One-way ANOVA",
+      "description": "Tested whether predicted global activation differed by content category, returning a significant main effect: F(12, 2995) = 13.51, p < 10\u207b\u00b2\u2076, \u03b7\u00b2 = 0.051."
     },
     "dominant-cortical-gradient": {
-      "status": "done"
+      "status": "done",
+      "title": "Dominant Cortical Gradient (PCA)",
+      "description": "A single principal component contrasting sensory-language cortex against executive-motor cortex explained 96.9% of between-category variance, consistent across encoding modes."
     },
     "effect-size-comparison": {
-      "status": "done"
+      "status": "done",
+      "title": "Effect Size Comparison",
+      "description": "Cohen's d = -0.82 between the highest-ranked (ThreatSafety) and lowest-ranked (Narrative) categories <inode id=\"hash-mode-encoding\">under hash-mode encoding</inode>."
     },
     "vertex-level-analysis": {
-      "status": "done"
+      "status": "done",
+      "title": "Vertex-level Analysis",
+      "description": "Independent <inode id=\"one-way-anova\">per-vertex ANOVAs</inode> run across all 20,484 points showed the discriminative effect is whole-brain, with 99.8% of vertices significant at p < 0.001 and a top vertex F = 71.05."
     },
     "cross-source-reproducibility": {
-      "status": "done"
+      "status": "done",
+      "title": "Cross-source Reproducibility",
+      "description": "An ICC-style index computed across categories sourced from two or more datasets gave a mean ICC of 0.89, with 10 of 12 categories in the good-to-excellent range."
     },
     "encoding-stability-tests": {
-      "status": "done"
+      "status": "done",
+      "title": "Encoding Stability Tests",
+      "description": "The seq_len sweep (\u03c1 \u2265 0.956 across window sizes) and an LSA Mantel test (r = 0.055) showed <inode id=\"semantic-mode-replication\">the semantic-mode ranking</inode> is stable and not driven by surface text similarity."
     },
     "global-workspace-theory": {
-      "status": "done"
+      "status": "done",
+      "title": "Global Workspace Theory",
+      "description": "Received the strongest support (scorecard 0.58): ThreatSafety's top ranking and <inode id=\"dominant-cortical-gradient\">the single dominant 96.9% variance gradient</inode> both match GWT's prediction of broad cortical ignition from threat content."
     },
     "free-energy-principle": {
-      "status": "done"
+      "status": "done",
+      "title": "Free Energy Principle",
+      "description": "Received weak support (scorecard 0.25): high-surprise categories like ThreatSafety and News ranked highly, but correlation with uncertainty proxies was weak (r \u2248 0.3)."
     },
     "default-mode-circuit-theory-iit": {
-      "status": "done"
+      "status": "done",
+      "title": "Default-mode Circuit Theory & IIT",
+      "description": "Both tied at a scorecard of 0.33 with mixed evidence \u2014 Narrative's default-mode prediction flipped between encoding modes, and IIT's integrated information (\u03a6) had no reliable proxy in text stimuli."
     }
   }
 }
