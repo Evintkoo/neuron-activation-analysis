@@ -1,3 +1,47 @@
 {
-  "status": "done"
+  "status": "done",
+  "nodes": {
+    "13-content-categories": {
+      "status": "done"
+    },
+    "3008-stimuli": {
+      "status": "done"
+    },
+    "hash-mode-encoding": {
+      "status": "done"
+    },
+    "semantic-mode-replication": {
+      "status": "done"
+    },
+    "whole-cortex-prediction": {
+      "status": "done"
+    },
+    "one-way-anova": {
+      "status": "done"
+    },
+    "dominant-cortical-gradient": {
+      "status": "done"
+    },
+    "effect-size-comparison": {
+      "status": "done"
+    },
+    "vertex-level-analysis": {
+      "status": "done"
+    },
+    "cross-source-reproducibility": {
+      "status": "done"
+    },
+    "encoding-stability-tests": {
+      "status": "done"
+    },
+    "global-workspace-theory": {
+      "status": "done"
+    },
+    "free-energy-principle": {
+      "status": "done"
+    },
+    "default-mode-circuit-theory-iit": {
+      "status": "done"
+    }
+  }
 }
